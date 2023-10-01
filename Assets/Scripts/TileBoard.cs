@@ -19,6 +19,7 @@ public class TileBoard : MonoBehaviour
 
     private void Start()
     {
+        //tiles = new List<Tile>(16);
         CreateTile();
         CreateTile();
     }
