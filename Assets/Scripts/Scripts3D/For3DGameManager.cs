@@ -1,9 +1,9 @@
 using System.Collections;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class For3DGameManager : MonoBehaviour
 {
-    public TileBoard board;
+    public For3DTileBoard board;
     //public CanvasGroup gameOver;
 
     private void Start()
