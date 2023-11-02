@@ -45,25 +45,32 @@ public class For3DTileBoard : MonoBehaviour
 
     private void Update()
     {
-        if (!waiting)
+        try
         {
-            if (Input.GetKeyDown(KeyCode.DownArrow))
+            BoardState testState = (BoardState)StateManager.Instance.currentState;
+
+            if (!waiting)
             {
-                MoveTiles(Vector2Int.up, 0, 1, 1, 1);
+                if (Input.GetKeyDown(KeyCode.DownArrow))
+                {
+                    MoveTiles(Vector2Int.up, 0, 1, 1, 1);
+                }
+                else if (Input.GetKeyDown(KeyCode.UpArrow))
+                {
+                    MoveTiles(Vector2Int.down, 0, 1, grid.height - 2, -1);
+                }
+                else if (Input.GetKeyDown(KeyCode.LeftArrow))
+                {
+                    MoveTiles(Vector2Int.left, 1, 1, 0, 1);
+                }
+                else if (Input.GetKeyDown(KeyCode.RightArrow))
+                {
+                    MoveTiles(Vector2Int.right, grid.width - 2, -1, 0, 1);
+                }
             }
-            else if (Input.GetKeyDown(KeyCode.UpArrow))
-            {
-                MoveTiles(Vector2Int.down, 0, 1, grid.height - 2, -1);
-            }
-            else if (Input.GetKeyDown(KeyCode.LeftArrow))
-            {
-                MoveTiles(Vector2Int.left, 1, 1, 0, 1);
-            }
-            else if (Input.GetKeyDown(KeyCode.RightArrow))
-            {
-                MoveTiles(Vector2Int.right, grid.width - 2, -1, 0, 1);
-            }
+
         }
+        catch { }
     }
 
     private void MoveTiles(Vector2Int direction, int startX, int incrementX, int startY, int incrementY)
