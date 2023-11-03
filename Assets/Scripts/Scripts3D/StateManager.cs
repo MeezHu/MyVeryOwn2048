@@ -12,6 +12,8 @@ public class StateManager : MonoBehaviour
 
     public static StateManager Instance { get { return _instance; } }
 
+    public bool canSwitch;
+
 
     private void Awake()
     {
@@ -37,13 +39,18 @@ public class StateManager : MonoBehaviour
     {
         RunStateMachine();
 
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E) && canSwitch)
         {
             FpsState.isInBoard = !FpsState.isInBoard;
             BoardState.canMove = !BoardState.canMove;
         }
 
     }
+
+    public void ChangeCanSwitch(bool newState){
+        canSwitch = newState;
+    }
+
 
     private void RunStateMachine()
     {
