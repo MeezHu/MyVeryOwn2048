@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4727,6 +4727,7 @@ GameObject:
   - component: {fileID: 992867170}
   - component: {fileID: 992867172}
   - component: {fileID: 992867169}
+  - component: {fileID: 992867173}
   m_Layer: 0
   m_Name: Board
   m_TagString: Untagged
@@ -4841,6 +4842,34 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 42cf575e6f4ef464a830efa49ea470fe, type: 2}
   - {fileID: 11400000, guid: 0d4d1827ea31f4b42a9c86aa0b56ced0, type: 2}
   - {fileID: 11400000, guid: d2c532e67792bc54baf8f8071e7a548d, type: 2}
+--- !u!114 &992867173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992867167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4b9ac58091e6b249b987932e12623e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: f023254a1a0e05043bcfba3169075886, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 992867167}
+        m_TargetAssemblyTypeName: For3DTileBoard, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1016977538
 GameObject:
   m_ObjectHideFlags: 0
@@ -6463,6 +6492,7 @@ GameObject:
   - component: {fileID: 1482297513}
   - component: {fileID: 1482297512}
   - component: {fileID: 1482297514}
+  - component: {fileID: 1482297515}
   m_Layer: 0
   m_Name: BoardRange
   m_TagString: Untagged
@@ -6505,7 +6535,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1482297511}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3229bdea3adffe7449b44c7a3d3b45f9, type: 3}
   m_Name: 
@@ -6532,6 +6562,34 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: StateManager, Assembly-CSharp
         m_MethodName: ChangeCanSwitch
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1482297515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482297511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4b9ac58091e6b249b987932e12623e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: d9cf5b7edcd875948a7fdd69152ba8f1, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1277878464}
+        m_TargetAssemblyTypeName: StateManager, Assembly-CSharp
+        m_MethodName: RunStateMachine
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

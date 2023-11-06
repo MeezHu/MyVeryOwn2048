@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TileBoard : MonoBehaviour
 {
-    public GameManager gameManager;
+    public GameManager gameManager; // AH
     public Tile tilePrefab;
 
     public TileState[] tileStates;
@@ -22,7 +22,7 @@ public class TileBoard : MonoBehaviour
 
     public void ClearBoard()
     {
-        foreach (var cell in grid.cells){
+        foreach (TileCell cell in grid.cells){
             cell.tile = null;
         }
 

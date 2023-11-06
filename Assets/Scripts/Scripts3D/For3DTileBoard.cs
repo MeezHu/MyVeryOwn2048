@@ -20,6 +20,13 @@ public class For3DTileBoard : MonoBehaviour
         tiles = new List<For3DTile>(16);
     }
 
+    public void PlayMoveTiles()
+    {
+        //MoveTiles(Vec);
+    }
+
+
+
     public void ClearBoard()
     {
         foreach (var cell in grid.cells)
@@ -53,7 +60,9 @@ public class For3DTileBoard : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.DownArrow))
                 {
-                    MoveTiles(Vector2Int.up, 0, 1, 1, 1);
+                    downInteraction();
+                    
+                    //MoveTiles(Vector2Int.up, 0, 1, 1, 1);
                 }
                 else if (Input.GetKeyDown(KeyCode.UpArrow))
                 {
@@ -72,9 +81,20 @@ public class For3DTileBoard : MonoBehaviour
         }
         catch { }
     }
+    
+    private void downInteraction()
+    {
+        MoveTiles(Vector2Int.up, 0, 1, 1, 1);
+
+        Debug.Log("en bas");
+
+        //fct de vfx
+    }
 
     private void MoveTiles(Vector2Int direction, int startX, int incrementX, int startY, int incrementY)
     {
+        Vector2 _direction = direction;
+
         bool changed = false;
         for (int x = startX; x >= 0 && x < grid.width; x += incrementX)
         {
@@ -93,6 +113,19 @@ public class For3DTileBoard : MonoBehaviour
         {
             StartCoroutine(WaitForChanges());
         }
+
+
+        
+        if(direction == Vector2.left)
+        {
+            Debug.Log("bouge à gauche");
+        }
+        else if (direction == Vector2.right)
+        {
+            Debug.Log("bouge dans une autre direction");
+        }
+
+        
 
     }
 

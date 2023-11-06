@@ -52,7 +52,7 @@ public class StateManager : MonoBehaviour
     }
 
 
-    private void RunStateMachine()
+    public void RunStateMachine()
     {
         State nextState = currentState?.RunCurrentState();
 
