@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CamMovement : MonoBehaviour
 {
@@ -68,12 +69,8 @@ public class CamMovement : MonoBehaviour
             MoveStart();
         }
     }
-
-
-    // public void StartPanel()
-    // {
-    //     cam.SetTrigger("");
-    // }
+    
+    //================================CAM ANIMATION==============================================
     
     public void MoveStartPanel()
     {
@@ -126,4 +123,10 @@ public class CamMovement : MonoBehaviour
 
         yield return null;
     }
+    
+    // public void PU_Go2048scene()
+    // {
+    //     Debug.Log("Start");
+    //     //SceneManager.LoadSceneAsync(1);
+    // }
 }
