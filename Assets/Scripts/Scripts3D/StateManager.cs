@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -35,6 +36,15 @@ public class StateManager : MonoBehaviour
 
     public State currentState;
 
+    public bool canPovBoard;
+    public bool canPovFps;
+
+    private void Start()
+    {
+        canPovBoard = true;
+        canPovFps = false;
+    }
+
     void Update()
     {
         RunStateMachine();
@@ -43,6 +53,18 @@ public class StateManager : MonoBehaviour
         {
             FpsState.isInBoard = !FpsState.isInBoard;
             BoardState.canMove = !BoardState.canMove;
+
+            if (canPovBoard)
+            {
+                StartCoroutine(CoroutineBoardView());
+                Debug.Log("Board View");
+            }
+
+            if (canPovFps)
+            {
+                StartCoroutine(CoroutineFpsView());
+                Debug.Log("Fps View");
+            }
         }
 
     }
@@ -65,5 +87,35 @@ public class StateManager : MonoBehaviour
     private void SwitchToCurrentState(State nextState)
     {
         currentState = nextState;
+    }
+    
+    public void BoardView()
+    {
+        DotweenManager.Instance.MoveCamToBoard();
+        canPovBoard = false;
+        //canPovFps = true;
+    }
+    
+    public void FpsView()
+    {
+        DotweenManager.Instance.MoveCamToPlayer();
+        canPovFps = false;
+        //canPovBoard = true;
+    }
+
+    public IEnumerator CoroutineBoardView()
+    {
+        BoardView();
+
+        yield return new WaitForSeconds(0.2f);
+        canPovFps = true;
+    }
+    
+    public IEnumerator CoroutineFpsView()
+    {
+        FpsView();
+
+        yield return new WaitForSeconds(0.2f);
+        canPovBoard = true;
     }
 }

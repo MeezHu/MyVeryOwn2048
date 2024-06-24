@@ -9,6 +9,8 @@ public class PlayerMovement : MonoBehaviour
 
     public float speed = 12f;
 
+    public bool canMove;
+
     // Update is called once per frame
     void Update()
     {
