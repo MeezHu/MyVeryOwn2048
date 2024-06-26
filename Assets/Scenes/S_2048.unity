@@ -1016,8 +1016,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 126366687}
   m_LocalRotation: {x: 0.70710677, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 39.3, z: 40.01}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.36136, y: 40.041, z: 39.962}
+  m_LocalScale: {x: 1.0305895, y: 1.0305895, z: 1.0305895}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2078015729}
@@ -1773,8 +1773,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 229185081}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: -3.69, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.43583, y: -3.7473, z: -0.89283}
+  m_LocalScale: {x: 1.0369903, y: 1.0369903, z: 1.0369903}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 174328541}
@@ -2909,7 +2909,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 341883038}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.434, y: 0, z: 1.722}
+  m_LocalPosition: {x: -1.434, y: 0, z: 1.705}
   m_LocalScale: {x: 1, y: 6.45, z: 3.4}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7432,7 +7432,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 986729851}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.434, y: 0, z: -1.722}
+  m_LocalPosition: {x: -1.434, y: 0, z: -1.705}
   m_LocalScale: {x: 1, y: 6.45, z: 3.4}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8628,8 +8628,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1169622860}
   m_LocalRotation: {x: -0.70710677, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: -9.330001, z: 8.459999}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.43452, y: -10.22, z: 8.5171}
+  m_LocalScale: {x: 1.0367656, y: 1.0367656, z: 1.0367656}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1584875507}
@@ -9098,8 +9098,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1255779605}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 31.22, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.36137, y: 31.172, z: -0.74025}
+  m_LocalScale: {x: 1.0305895, y: 1.0305895, z: 1.0305895}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 787822575}
@@ -9195,6 +9195,7 @@ MonoBehaviour:
   currentState: {fileID: 1299175366}
   canPovBoard: 0
   canPovFps: 0
+  controlGears: {fileID: 1964468035}
 --- !u!1 &1298347919
 GameObject:
   m_ObjectHideFlags: 0
@@ -9383,15 +9384,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1311520619}
-  m_LocalRotation: {x: -0, y: -0, z: 0.70710677, w: 0.7071068}
-  m_LocalPosition: {x: -12.035388, y: 14.49, z: 23.57}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.000000014901161, w: 1}
+  m_LocalPosition: {x: -0.931, y: 1.177, z: -0.009}
+  m_LocalScale: {x: 0.016826179, y: 0.016826179, z: 0.016826179}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1964468034}
   m_Father: {fileID: 0}
   m_RootOrder: 17
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1323776227
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12848,6 +12849,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1964468034}
   - component: {fileID: 1964468033}
+  - component: {fileID: 1964468035}
   m_Layer: 0
   m_Name: EveryGears
   m_TagString: Untagged
@@ -12894,6 +12896,20 @@ Transform:
   m_Father: {fileID: 1311520620}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1964468035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964468032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627f28976f9a1c14aa0c8d1091e7c262, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gearAnimator: {fileID: 1964468033}
+  canRotateGears: 0
 --- !u!1001 &1974207532
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -79,7 +79,7 @@ public class For3DTile : MonoBehaviour
     private IEnumerator Animate(Vector3 to, bool merging)
     {
         float elapsed = 0f;
-        float duration = 0.1f;
+        float duration = 0.2f;
 
         Vector3 from = transform.position;
 

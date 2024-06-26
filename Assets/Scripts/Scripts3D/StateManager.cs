@@ -39,6 +39,8 @@ public class StateManager : MonoBehaviour
     public bool canPovBoard;
     public bool canPovFps;
 
+    public ControlGears controlGears;
+
     private void Start()
     {
         canPovBoard = true;
@@ -58,12 +60,14 @@ public class StateManager : MonoBehaviour
             {
                 StartCoroutine(CoroutineBoardView());
                 Debug.Log("Board View");
+                controlGears.canRotateGears = true;
             }
 
             if (canPovFps)
             {
                 StartCoroutine(CoroutineFpsView());
                 Debug.Log("Fps View");
+                controlGears.canRotateGears = false;
             }
         }
 
