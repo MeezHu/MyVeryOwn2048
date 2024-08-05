@@ -15,4 +15,9 @@ public class ScriptTest : MonoBehaviour
     {
         
     }
+
+    public void Caca()
+    {
+        Debug.Log("caca");
+    }
 }
