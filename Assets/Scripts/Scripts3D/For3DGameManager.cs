@@ -25,6 +25,8 @@ public class For3DGameManager : MonoBehaviour
     public void GameOver()
     {
         board.enabled = false;
+
+        Debug.Log("gameOver");
         //gameOver.interactable = true;
 
         //StartCoroutine(Fade(gameOver, 1f, 1f));

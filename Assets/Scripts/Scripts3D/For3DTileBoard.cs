@@ -206,10 +206,10 @@ public class For3DTileBoard : MonoBehaviour
             CreateTile();
         }
 
-        //if (CheckForGameOver())
-        //{
-        //    gameManager.GameOver();
-        //}
+        if (CheckForGameOver())
+        {
+            gameManager.GameOver();
+        }
     }
 
     private bool CheckForGameOver()
