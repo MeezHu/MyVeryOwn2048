@@ -47,6 +47,7 @@ public class For3DTileBoard : MonoBehaviour
         For3DTile tile = Instantiate(tilePrefab, grid.transform);
         tile.SetState(tileStates[0], 2);
         tile.Spawn(grid.GetRandomEmptyCell());
+        //tile.GetInfos(tileStates[0], grid.GetExactCell());
         tiles.Add(tile);
     }
 
@@ -86,7 +87,7 @@ public class For3DTileBoard : MonoBehaviour
     {
         MoveTiles(Vector2Int.up, 0, 1, 1, 1);
 
-        Debug.Log("en bas");
+        //Debug.Log("en bas");
 
         //fct de vfx
     }
@@ -118,11 +119,11 @@ public class For3DTileBoard : MonoBehaviour
         
         if(direction == Vector2.left)
         {
-            Debug.Log("bouge à gauche");
+            //Debug.Log("bouge à gauche");
         }
         else if (direction == Vector2.right)
         {
-            Debug.Log("bouge dans une autre direction");
+            //Debug.Log("bouge dans une autre direction");
         }
 
         
@@ -173,6 +174,12 @@ public class For3DTileBoard : MonoBehaviour
         int number = b.number * 2;
 
         b.SetState(tileStates[index], number);
+
+        if (tileStates[1] && number == 4)
+        {
+            Debug.Log("Merging a 4");
+            //detects if a specific number has been merged
+        }
     }
 
     private int IndexOf(For3DTileState state)

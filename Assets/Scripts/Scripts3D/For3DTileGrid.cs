@@ -53,6 +53,31 @@ public class For3DTileGrid : MonoBehaviour
         return GetCell(coordinates);
     }
 
+    public For3DTileCell GetExactCell()
+    {
+        int index = Random.Range(0, cells.Length);
+        int startingIndex = index;
+
+        while (cells[index].empty)
+        {
+            index++;
+
+            if (index >= cells.Length)
+            {
+                index = 0;
+            }
+
+            if (index == startingIndex)
+            {
+                return null;
+            }
+        }
+
+        return cells[index];
+
+        //ca marche pas :(
+    }
+
     public For3DTileCell GetRandomEmptyCell()
     {
         int index = Random.Range(0, cells.Length);
