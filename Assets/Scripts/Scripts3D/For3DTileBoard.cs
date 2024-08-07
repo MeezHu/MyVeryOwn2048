@@ -175,11 +175,11 @@ public class For3DTileBoard : MonoBehaviour
 
         b.SetState(tileStates[index], number);
 
-        if (tileStates[1] && number == 4)
-        {
-            Debug.Log("Merging a 4");
-            //detects if a specific number has been merged
-        }
+        //if (tileStates[1] && number == 4)
+        //{
+        //    Debug.Log("Merging a 4");
+        //}
+        //detects if a specific number has been merged
     }
 
     private int IndexOf(For3DTileState state)

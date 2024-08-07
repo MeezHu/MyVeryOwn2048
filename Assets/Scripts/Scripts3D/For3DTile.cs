@@ -17,18 +17,34 @@ public class For3DTile : MonoBehaviour
 
     private Renderer renderer;
 
+    public string matName;
+
+    public TileIdentifier tileIdentifier;
+
     //private TextMeshProUGUI text;
 
     private void Awake()
     {
         renderer = GetComponent<Renderer>();
+        tileIdentifier = GetComponent<TileIdentifier>();
+        //Debug.Log("mon materiau est " + renderer.material.name.ToString());
     }
+
+    //private void Start()
+    //{
+    //    Debug.Log("mon materiau est " + renderer.material.name.ToString());
+    //}
+
+    //private void Update()
+    //{
+    //    Debug.Log("mon materiau est " + renderer.material.name);
+    //}
 
     public void SetState(For3DTileState state, int number)
     {
         this.state = state;
         this.number = number;
-        string matName;
+        //string matName;
         
 
         renderer.material = state.material;
@@ -36,10 +52,13 @@ public class For3DTile : MonoBehaviour
 
         matName = state.material.name;
 
-        if (matName == "M_2")
-        {
-            Debug.Log("Tuile = " + matName + " appeared");
-        }
+        
+        StartCoroutine(CoroutineCheckIdentity());
+
+        //if (matName == "M_2")
+        //{
+        //    Debug.Log("Tuile = " + matName + " appeared in " + gameObject.transform.position);
+        //}
 
         //background.color = state.backgroundColor;
         //text.color = state.textColor;
@@ -102,7 +121,7 @@ public class For3DTile : MonoBehaviour
         this.cell = null;
         cell.tile.locked = true;
 
-        Debug.Log("Merging at " + cell.transform.position);
+        //Debug.Log("Merging at " + cell.transform.position);
 
         StartCoroutine(Animate(cell.transform.position, true));
 
@@ -128,6 +147,19 @@ public class For3DTile : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    private IEnumerator CoroutineCheckIdentity()
+    {
+        yield return new WaitForSeconds(0.1f);
+
+        tileIdentifier.CheckIdentity();
+
+
+        //if (matName == "M_2")
+        //{
+        //    Debug.Log("Tuile = " + matName + " appeared in " + gameObject.transform.position);
+        //}
     }
 
 }
