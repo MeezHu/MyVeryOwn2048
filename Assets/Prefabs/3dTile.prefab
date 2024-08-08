@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8042847408491151811}
   - component: {fileID: 7726431248263546928}
   - component: {fileID: 7924917037584469995}
+  - component: {fileID: -459274433567788100}
   m_Layer: 0
   m_Name: 3dTile
   m_TagString: Untagged
@@ -97,6 +98,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbc6c151d5d5bf640ba614625694dc73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  matName: 
+  tileIdentifier: {fileID: 0}
 --- !u!114 &7924917037584469995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109,3 +112,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af3fe4745b9814419f8c189d13e4b7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  for3DTile: {fileID: 0}
+  vfxFeedback: {fileID: 0}
+  animationFeedback: {fileID: 0}
+  soundFeedback: {fileID: 0}
+--- !u!114 &-459274433567788100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8402893829411627030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 267d25732536f3b40adab02f1890af49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileIdentifier: {fileID: 0}

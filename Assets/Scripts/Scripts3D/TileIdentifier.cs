@@ -2,16 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Script lecteur des tiles apparaissantes
+//En communication avec les trois scripts de feedback (vfx / animation / sons) et for3DTile (celui qui setState les tiles)
+
 public class TileIdentifier : MonoBehaviour
 {
-    private Renderer renderer;
+    //private new Renderer renderer;
 
     public For3DTile for3DTile;
+    public vfxFeedback vfxFeedback;
+    public AnimationFeedback animationFeedback;
+    public SoundFeedback soundFeedback;
 
     private void Awake()
     {
         //renderer = GetComponent<Renderer>();
         for3DTile = GetComponent<For3DTile>();
+        vfxFeedback = GetComponent<vfxFeedback>();
     }
 
     // Start is called before the first frame update
@@ -35,6 +42,7 @@ public class TileIdentifier : MonoBehaviour
                 break;
             case "M_4":
                 Debug.Log("Tuile = " + for3DTile.matName + " appeared in " + gameObject.transform.position);
+                vfxFeedback.VfxTest();
                 break;
             case "M_8":
                 Debug.Log("Tuile = " + for3DTile.matName + " appeared in " + gameObject.transform.position);

@@ -15,7 +15,7 @@ public class For3DTile : MonoBehaviour
 
     public Vector3 pos { get; private set; }
 
-    private Renderer renderer;
+    private new Renderer renderer;
 
     public string matName;
 
