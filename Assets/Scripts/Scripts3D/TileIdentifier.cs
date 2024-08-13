@@ -42,34 +42,43 @@ public class TileIdentifier : MonoBehaviour
                 break;
             case "M_4":
                 Debug.Log("Tuile = " + for3DTile.matName + " appeared in " + gameObject.transform.position);
-                vfxFeedback.VfxTest();
+                vfxFeedback.VfxDefaultFusion();
                 break;
             case "M_8":
                 Debug.Log("Tuile = " + for3DTile.matName + " appeared in " + gameObject.transform.position);
+                vfxFeedback.VfxDefaultFusion();
                 break;
             case "M_16":
                 Debug.Log("Tuile = " + for3DTile.matName + " appeared in " + gameObject.transform.position);
+                vfxFeedback.Vfx16Fusion();
                 break;
             case "M_32":
                 Debug.Log("Tuile = " + for3DTile.matName + " appeared in " + gameObject.transform.position);
+                vfxFeedback.VfxDefaultFusion();
                 break;
             case "M_64":
                 Debug.Log("Tuile = " + for3DTile.matName + " appeared in " + gameObject.transform.position);
+                vfxFeedback.Vfx64Fusion();
                 break;
             case "M_128":
                 Debug.Log("Tuile = " + for3DTile.matName + " appeared in " + gameObject.transform.position);
+                vfxFeedback.VfxDefaultFusion();
                 break;
             case "M_256":
                 Debug.Log("Tuile = " + for3DTile.matName + " appeared in " + gameObject.transform.position);
+                vfxFeedback.Vfx256Fusion();
                 break;
             case "M_512":
                 Debug.Log("Tuile = " + for3DTile.matName + " appeared in " + gameObject.transform.position);
+                vfxFeedback.Vfx512Fusion();
                 break;
             case "M_1024":
                 Debug.Log("Tuile = " + for3DTile.matName + " appeared in " + gameObject.transform.position);
+                vfxFeedback.Vfx1024Fusion();
                 break;
             case "M_2048":
                 Debug.Log("Tuile = " + for3DTile.matName + " appeared in " + gameObject.transform.position);
+                vfxFeedback.Vfx2048Fusion();
                 break;
 
 

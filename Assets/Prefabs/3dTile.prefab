@@ -28,14 +28,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8402893829411627030}
-  m_LocalRotation: {x: -0.7071068, y: -0.00000009057703, z: -0.70710677, w: 0.000000006283484}
+  m_LocalRotation: {x: 0.7071068, y: 0.0000004109317, z: 0.70710677, w: 0.00000041093176}
   m_LocalPosition: {x: 3.4231195, y: 0.49, z: -0.74140555}
   m_LocalScale: {x: 20, y: 10.714199, z: 20}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -180, y: -90, z: 0}
+  m_LocalEulerAnglesHint: {x: 180, y: -90, z: 0}
 --- !u!33 &5222231987805861129
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -129,3 +129,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileIdentifier: {fileID: 0}
+  vfx_fusionDefault: {fileID: 8146152436424646183, guid: 5337550e29b83354995bb0a85dc40ee2,
+    type: 3}
+  vfx_fusionSpecial: {fileID: 916943485256891867, guid: ac2cc841b6f63f4468e8678033949ed9,
+    type: 3}
+  vfx_fusion16: {fileID: 3365237547916566075, guid: b0938903dd64d9a4c86e6f85f4786f06,
+    type: 3}
+  vfx_fusion64: {fileID: 3914579503101139709, guid: eeeb38e7b54393b4989af241ea65aa3f,
+    type: 3}
+  vfx_fusion256: {fileID: 5785645445308974369, guid: 18db7d82d7c04fd4e86316dcf3c29ecf,
+    type: 3}
+  vfx_fusion512: {fileID: 1296231236262479678, guid: 90e02061dfc993a4aa385ba4ef5c1399,
+    type: 3}
+  vfx_fusion1024: {fileID: 6253904999062372921, guid: 2a6763b024ca4a84a903ade45e723871,
+    type: 3}
+  vfx_fusion2048: {fileID: 9119983013032170821, guid: 9777b4babb0ced54a9df7424ca0df0a8,
+    type: 3}
+  OrientationTemoin: {fileID: 5220909908781300786, guid: d3b90e567ec27f64abb25e42e1a7eb78,
+    type: 3}
+  can16: 0
+  can64: 0
+  can256: 0
+  can512: 0
+  can1024: 0
+  can2048: 0
+  correcPos: {x: 0, y: 0, z: 0}
+  vfx_fusionDefaultRotation: {x: 0, y: 0, z: 0, w: 0}

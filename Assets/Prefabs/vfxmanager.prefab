@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8089531457656042393
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8089531457656042391}
+  - component: {fileID: 8089531457656042392}
+  m_Layer: 0
+  m_Name: vfxmanager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8089531457656042391
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8089531457656042393}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.926, y: 1.5739999, z: 0.030999996}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8089531457656042392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8089531457656042393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 267d25732536f3b40adab02f1890af49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileIdentifier: {fileID: 7924917037584469995, guid: 0e73bb635038c204da806c52575aae4a,
+    type: 3}
+  vfx_fusionDefault: {fileID: 8146152436424646183, guid: 5337550e29b83354995bb0a85dc40ee2,
+    type: 3}
+  vfx_fusionSpecial: {fileID: 916943485256891867, guid: ac2cc841b6f63f4468e8678033949ed9,
+    type: 3}
+  vfx_fusion16: {fileID: 3365237547916566075, guid: b0938903dd64d9a4c86e6f85f4786f06,
+    type: 3}
+  vfx_fusion64: {fileID: 3914579503101139709, guid: eeeb38e7b54393b4989af241ea65aa3f,
+    type: 3}
+  vfx_fusion256: {fileID: 5785645445308974369, guid: 18db7d82d7c04fd4e86316dcf3c29ecf,
+    type: 3}
+  vfx_fusion512: {fileID: 1296231236262479678, guid: 90e02061dfc993a4aa385ba4ef5c1399,
+    type: 3}
+  vfx_fusion1024: {fileID: 6253904999062372921, guid: 2a6763b024ca4a84a903ade45e723871,
+    type: 3}
+  vfx_fusion2048: {fileID: 9119983013032170821, guid: 9777b4babb0ced54a9df7424ca0df0a8,
+    type: 3}
+  OrientationTemoin: {fileID: 0}
+  can16: 0
+  can64: 0
+  can256: 0
+  can512: 0
+  can1024: 0
+  can2048: 0
+  correcPos: {x: 0, y: 0, z: 0}
+  vfx_fusionDefaultRotation: {x: 0, y: 0, z: 0, w: 0}
