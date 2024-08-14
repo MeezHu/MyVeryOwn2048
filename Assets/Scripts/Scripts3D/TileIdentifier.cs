@@ -13,6 +13,7 @@ public class TileIdentifier : MonoBehaviour
     public vfxFeedback vfxFeedback;
     public AnimationFeedback animationFeedback;
     public SoundFeedback soundFeedback;
+    //public LightsFeedback lightsFeedback;
 
     private void Awake()
     {
@@ -66,6 +67,10 @@ public class TileIdentifier : MonoBehaviour
                 break;
             case "M_256":
                 Debug.Log("Tuile = " + for3DTile.matName + " appeared in " + gameObject.transform.position);
+                if (UniqueEventsManager.Instance != null && UniqueEventsManager.Instance.canStartFlicker)
+                {
+                    UniqueEventsManager.Instance.StartFlickeringLight();
+                }
                 vfxFeedback.Vfx256Fusion();
                 break;
             case "M_512":
@@ -74,6 +79,10 @@ public class TileIdentifier : MonoBehaviour
                 break;
             case "M_1024":
                 Debug.Log("Tuile = " + for3DTile.matName + " appeared in " + gameObject.transform.position);
+                if (UniqueEventsManager.Instance != null && UniqueEventsManager.Instance.canBecomeRed)
+                {
+                    UniqueEventsManager.Instance.BecomeRed();
+                }
                 vfxFeedback.Vfx1024Fusion();
                 break;
             case "M_2048":

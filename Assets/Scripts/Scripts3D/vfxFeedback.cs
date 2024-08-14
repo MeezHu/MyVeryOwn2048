@@ -8,6 +8,7 @@ using UnityEngine;
 public class vfxFeedback : MonoBehaviour
 {
     public TileIdentifier tileIdentifier;
+    //public GameObject[] flickerControlList;
 
     public GameObject vfx_fusionDefault;
     public GameObject vfx_fusionSpecial;
@@ -45,7 +46,10 @@ public class vfxFeedback : MonoBehaviour
         //can512 = true;
         //can1024 = true;
         //can2048 = true;
+
     }
+
+    
 
     public void VfxDefaultFusion()
     {

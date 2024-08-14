@@ -129,6 +129,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileIdentifier: {fileID: 0}
+  flickerControlList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   vfx_fusionDefault: {fileID: 8146152436424646183, guid: 5337550e29b83354995bb0a85dc40ee2,
     type: 3}
   vfx_fusionSpecial: {fileID: 916943485256891867, guid: ac2cc841b6f63f4468e8678033949ed9,
@@ -147,11 +152,5 @@ MonoBehaviour:
     type: 3}
   OrientationTemoin: {fileID: 5220909908781300786, guid: d3b90e567ec27f64abb25e42e1a7eb78,
     type: 3}
-  can16: 0
-  can64: 0
-  can256: 0
-  can512: 0
-  can1024: 0
-  can2048: 0
   correcPos: {x: 0, y: 0, z: 0}
   vfx_fusionDefaultRotation: {x: 0, y: 0, z: 0, w: 0}
