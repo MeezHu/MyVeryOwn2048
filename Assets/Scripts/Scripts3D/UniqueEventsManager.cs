@@ -32,6 +32,7 @@ public class UniqueEventsManager : MonoBehaviour
     public bool canStartFlicker = true;
     public bool canBecomeRed = true;
 
+    
     public GameObject landLight1;
     public GameObject landLight2;
     public GameObject landLight3;
@@ -41,6 +42,7 @@ public class UniqueEventsManager : MonoBehaviour
     public GameObject doorLight3;
     public GameObject doorLight4;
     public GameObject gvYellow;
+    public GameObject reflecProb;
 
     public GameObject landLightR1;
     public GameObject landLightR2;
@@ -51,6 +53,17 @@ public class UniqueEventsManager : MonoBehaviour
     public GameObject doorLightR3;
     public GameObject doorLightR4;
     public GameObject gvRed;
+
+    public GameObject[] vfxSteamEnviro;
+    public GameObject vfxFinal1;
+    public GameObject vfxFinal2;
+    public float vfxDelay = 2;
+
+    public StateManager stateManager;
+    public ControlGears controlGears;
+    public GameObject triggerBoxRange;
+
+
 
     [ContextMenu("BecomeRed()")]
     public void BecomeRed()
@@ -79,6 +92,33 @@ public class UniqueEventsManager : MonoBehaviour
         //}
     }
 
+    [ContextMenu("GameOverEvent")]
+    public void GameOverEvent()
+    {
+        StartCoroutine(CoroutineGameOverEvent());
+        triggerBoxRange.SetActive(false);
+        stateManager.canSwitch = false;
+        controlGears.canRotateGears = false;
+        FpsState.isInBoard = !FpsState.isInBoard;
+        BoardState.canMove = !BoardState.canMove;
+        StartCoroutine(stateManager.CoroutineFpsView());
+        //stateManager.canPovBoard = false;
+    }
+
+    IEnumerator CoroutineGameOverEvent()
+    {
+        foreach(GameObject vfx in vfxSteamEnviro)
+        {
+            yield return new WaitForSeconds(vfxDelay);
+            vfx.gameObject.SetActive(true);
+            vfxDelay = vfxDelay - 0.2f;
+        }
+
+        yield return new WaitForSeconds(0.5f);
+        vfxFinal1.SetActive(true);
+        vfxFinal2.SetActive(true);
+    }
+
     IEnumerator CoroutineTurningRed()
     {
         yield return new WaitForSeconds(1);
@@ -91,6 +131,7 @@ public class UniqueEventsManager : MonoBehaviour
         doorLight3.SetActive(false);
         doorLight4.SetActive(false);
         gvYellow.SetActive(false);
+        reflecProb.SetActive(false);
 
         doorLightR1.SetActive(true);
         doorLightR2.SetActive(true);
@@ -104,6 +145,7 @@ public class UniqueEventsManager : MonoBehaviour
         landLightR3.SetActive(true);
         landLightR4.SetActive(true);
         doorLightR4.SetActive(true);
+        reflecProb.SetActive(true);
     }
 
     void Start()
@@ -113,6 +155,9 @@ public class UniqueEventsManager : MonoBehaviour
 
     void Update()
     {
-        
+        if (vfxDelay < 0.3f)
+        {
+            vfxDelay = 0.3f;
+        }
     }
 }
