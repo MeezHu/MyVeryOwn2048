@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1157618425	Play_ANIMAL_WILD_Camel_D__Grunt__Groan__Roar__Gargle_x10_wav_07			\Default Work Unit\Play_ANIMAL_WILD_Camel_D__Grunt__Groan__Roar__Gargle_x10_wav_07	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1029205145	ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10_wav 07	C:\Users\game3\Documents\GitHub\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10.wav 07_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10_wav 07		117620
+

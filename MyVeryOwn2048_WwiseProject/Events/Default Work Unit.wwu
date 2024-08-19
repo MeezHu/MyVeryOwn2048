@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B054226F-43EC-49D9-A244-71B6A58E6080}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{B054226F-43EC-49D9-A244-71B6A58E6080}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_ANIMAL_WILD_Camel_D__Grunt__Groan__Roar__Gargle_x10_wav_07" ID="{9D6FBF7F-28C8-4158-BE75-BAE4EE70C499}">
+					<ChildrenList>
+						<Action Name="" ID="{5EA8471E-CFEC-4560-B195-9B71FC427963}" ShortID="290678201">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10_wav 07" ID="{BE296AFE-FDF5-45EF-961E-6A65B4BDA5C0}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

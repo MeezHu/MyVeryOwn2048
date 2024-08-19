@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0efe8e53a09e47b48a5098551e9f4a47, type: 3}
+  m_Name: 9D6FBF7F-28C8-4158-BE75-BAE4EE70C499
+  m_EditorClassIdentifier: 
+  objectName: Play_ANIMAL_WILD_Camel_D__Grunt__Groan__Roar__Gargle_x10_wav_07
+  id: 1157618425
+  guid: 9D6FBF7F-28C8-4158-BE75-BAE4EE70C499

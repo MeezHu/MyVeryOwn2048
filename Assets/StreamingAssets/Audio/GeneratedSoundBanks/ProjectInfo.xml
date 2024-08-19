@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="MyVeryOwn2048_WwiseProject" GUID="{6ECF3241-35E0-4D54-BE0F-C5A801F951E9}" Generator="2023.1.6.8555"/>
+	<CacheRoot>../../../../MyVeryOwn2048_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{292E8EEB-AC3C-4915-8460-6369D34F824C}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../MyVeryOwn2048_WwiseProject/GeneratedSoundBanks/Mac"/>
+		<Platform Name="Windows" GUID="{55CF768F-D78F-458D-AFD5-A61E657CC97B}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../MyVeryOwn2048_WwiseProject/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{62E97500-033A-49CF-A7E0-6CF2CD9526E4}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{D67BC448-9251-2FA7-F875-7148305AF4EA}</FileHash>
+</ProjectInfo>

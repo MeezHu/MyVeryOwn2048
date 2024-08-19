@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10_wav 07" ID="{BE296AFE-FDF5-45EF-961E-6A65B4BDA5C0}" ShortID="562449573">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10_wav 07" ID="{AEE47D78-BC77-440E-9051-2EC9BB7C5685}">
+							<Language>SFX</Language>
+							<AudioFile>ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10.wav 07.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1029205145"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10_wav 07" ID="{AEE47D78-BC77-440E-9051-2EC9BB7C5685}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

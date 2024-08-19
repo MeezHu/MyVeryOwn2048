@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E70E3852-D022-4A2E-A6DD-06277EF97AE3}" SchemaVersion="119">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{E70E3852-D022-4A2E-A6DD-06277EF97AE3}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{85B1FECB-1377-4CEB-88A1-CC4EB8BD8322}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_ANIMAL_WILD_Camel_D__Grunt__Groan__Roar__Gargle_x10_wav_07" ID="{9D6FBF7F-28C8-4158-BE75-BAE4EE70C499}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
