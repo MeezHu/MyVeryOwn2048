@@ -14,6 +14,14 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_ANIMAL_WILD_CAMEL_D__GRUNT__GROAN__ROAR__GARGLE_X10_WAV_07 = 1157618425U;
+        static const AkUniqueID PLAY_BUZZING_HIGH = 2092580658U;
+        static const AkUniqueID PLAY_BUZZING_LOW = 1550183220U;
+        static const AkUniqueID PLAY_GHOSTLY_PRESENCE__ANGELIC__VOCAL__LAYER__CREEPY__HORROR_4 = 2799706224U;
+        static const AkUniqueID PLAY_LFE_RUMBLE_3 = 1583694757U;
+        static const AkUniqueID STOP_BUZZING_HIGH = 595744404U;
+        static const AkUniqueID STOP_BUZZING_LOW = 1923114070U;
+        static const AkUniqueID STOP_GHOSTLY_PRESENCE__ANGELIC__VOCAL__LAYER__CREEPY__HORROR_4 = 3843945942U;
+        static const AkUniqueID STOP_LFE_RUMBLE_3 = 2733305787U;
     } // namespace EVENTS
 
     namespace BANKS

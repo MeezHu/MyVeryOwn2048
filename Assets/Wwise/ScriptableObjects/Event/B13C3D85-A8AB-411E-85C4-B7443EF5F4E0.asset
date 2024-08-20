@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0efe8e53a09e47b48a5098551e9f4a47, type: 3}
+  m_Name: B13C3D85-A8AB-411E-85C4-B7443EF5F4E0
+  m_EditorClassIdentifier: 
+  objectName: Stop_Ghostly_Presence__Angelic__Vocal__Layer__Creepy__Horror_4
+  id: 3843945942
+  guid: B13C3D85-A8AB-411E-85C4-B7443EF5F4E0

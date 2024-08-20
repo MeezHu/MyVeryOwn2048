@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 52380ee722d02e4aa6dd06277ef97ae3
     GuidInternal: 
-    m_lastTime: -8584775249680135122
+    m_lastTime: -8584774421551299101
     List:
     - name: Main
       guid: cbfeb1857713eb4c88a1cc4eb8bd8322
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 6f2254b0ec43d949a24471b6a58e6080
     GuidInternal: 
-    m_lastTime: -8584775251235163516
+    m_lastTime: -8584774421720579602
     List:
     - name: Play_ANIMAL_WILD_Camel_D__Grunt__Groan__Roar__Gargle_x10_wav_07
       guid: 7fbf6f9dc8285841be75bae4ee70c499
@@ -113,6 +113,142 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.2242084
       minDuration: 1.2242084
+    - name: Play_Buzzing_High
+      guid: 124522ae1c11094998177a4fd2d4d514
+      id: 2092580658
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_Buzzing_High
+        ObjectType: 3
+        guid: 124522ae1c11094998177a4fd2d4d514
+      Path: Events\Default Work Unit\Play_Buzzing_High
+      maxAttenuation: 10
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Buzzing_Low
+      guid: 281331a18ff76548a9695cbb771e5ff4
+      id: 1550183220
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_Buzzing_Low
+        ObjectType: 3
+        guid: 281331a18ff76548a9695cbb771e5ff4
+      Path: Events\Default Work Unit\Play_Buzzing_Low
+      maxAttenuation: 10
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Ghostly_Presence__Angelic__Vocal__Layer__Creepy__Horror_4
+      guid: 60af91a49f43da40ad37d60bcad5b819
+      id: 2799706224
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_Ghostly_Presence__Angelic__Vocal__Layer__Creepy__Horror_4
+        ObjectType: 3
+        guid: 60af91a49f43da40ad37d60bcad5b819
+      Path: Events\Default Work Unit\Play_Ghostly_Presence__Angelic__Vocal__Layer__Creepy__Horror_4
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_LFE_Rumble_3
+      guid: 54bb92bb3418fd449dfce6edb19bb0c8
+      id: 1583694757
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_LFE_Rumble_3
+        ObjectType: 3
+        guid: 54bb92bb3418fd449dfce6edb19bb0c8
+      Path: Events\Default Work Unit\Play_LFE_Rumble_3
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_Buzzing_High
+      guid: ea30fca593e94c4dbbb715bb3b4e7548
+      id: 595744404
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Stop_Buzzing_High
+        ObjectType: 3
+        guid: ea30fca593e94c4dbbb715bb3b4e7548
+      Path: Events\Default Work Unit\Stop_Buzzing_High
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Buzzing_Low
+      guid: 66bfe0542b7a71469f48004a3a6fa38b
+      id: 1923114070
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Stop_Buzzing_Low
+        ObjectType: 3
+        guid: 66bfe0542b7a71469f48004a3a6fa38b
+      Path: Events\Default Work Unit\Stop_Buzzing_Low
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Ghostly_Presence__Angelic__Vocal__Layer__Creepy__Horror_4
+      guid: 853d3cb1aba81e4185c4b7443ef5f4e0
+      id: 3843945942
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Stop_Ghostly_Presence__Angelic__Vocal__Layer__Creepy__Horror_4
+        ObjectType: 3
+        guid: 853d3cb1aba81e4185c4b7443ef5f4e0
+      Path: Events\Default Work Unit\Stop_Ghostly_Presence__Angelic__Vocal__Layer__Creepy__Horror_4
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_LFE_Rumble_3
+      guid: ae039842711d774f9ee4a6ff8f7c54bd
+      id: 2733305787
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Stop_LFE_Rumble_3
+        ObjectType: 3
+        guid: ae039842711d774f9ee4a6ff8f7c54bd
+      Path: Events\Default Work Unit\Stop_LFE_Rumble_3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -170,7 +306,7 @@ MonoBehaviour:
     m_lastTime: -8584775304965171560
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0a0000000b0000004d0100004e0100005b0200005c020000
+  ExpandedWaapiItemIds: 0500000006000000070000000a0000000b0000000c0000000d0000009b0000009c00000003010000040100004d0100004e01000087010000880100005b0200005c020000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

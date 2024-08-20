@@ -5,7 +5,15 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{85B1FECB-1377-4CEB-88A1-CC4EB8BD8322}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_Ghostly_Presence__Angelic__Vocal__Layer__Creepy__Horror_4" ID="{A491AF60-439F-40DA-AD37-D60BCAD5B819}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Ghostly_Presence__Angelic__Vocal__Layer__Creepy__Horror_4" ID="{B13C3D85-A8AB-411E-85C4-B7443EF5F4E0}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_ANIMAL_WILD_Camel_D__Grunt__Groan__Roar__Gargle_x10_wav_07" ID="{9D6FBF7F-28C8-4158-BE75-BAE4EE70C499}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_LFE_Rumble_3" ID="{BB92BB54-1834-44FD-9DFC-E6EDB19BB0C8}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Buzzing_Low" ID="{54E0BF66-7A2B-4671-9F48-004A3A6FA38B}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Buzzing_Low" ID="{A1311328-F78F-4865-A969-5CBB771E5FF4}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Buzzing_High" ID="{AE224512-111C-4909-9817-7A4FD2D4D514}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Buzzing_High" ID="{A5FC30EA-E993-4D4C-BBB7-15BB3B4E7548}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_LFE_Rumble_3" ID="{429803AE-1D71-4F77-9EE4-A6FF8F7C54BD}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

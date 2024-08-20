@@ -42,7 +42,8 @@ public class UniqueEventsManager : MonoBehaviour
     public GameObject doorLight3;
     public GameObject doorLight4;
     public GameObject gvYellow;
-    public GameObject reflecProb;
+    public GameObject Ambiance1;
+    public GameObject reflecProb1;
 
     public GameObject landLightR1;
     public GameObject landLightR2;
@@ -53,6 +54,8 @@ public class UniqueEventsManager : MonoBehaviour
     public GameObject doorLightR3;
     public GameObject doorLightR4;
     public GameObject gvRed;
+    public GameObject Ambiance2;
+    public GameObject reflecProb2;
 
     public GameObject[] vfxSteamEnviro;
     public GameObject vfxFinal1;
@@ -131,7 +134,8 @@ public class UniqueEventsManager : MonoBehaviour
         doorLight3.SetActive(false);
         doorLight4.SetActive(false);
         gvYellow.SetActive(false);
-        reflecProb.SetActive(false);
+        reflecProb1.SetActive(false);
+        Ambiance1.SetActive(false);
 
         doorLightR1.SetActive(true);
         doorLightR2.SetActive(true);
@@ -139,13 +143,14 @@ public class UniqueEventsManager : MonoBehaviour
         doorLightR4.SetActive(true);
         gvRed.SetActive(true);
 
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(4);
         landLightR1.SetActive(true);
         landLightR2.SetActive(true);
         landLightR3.SetActive(true);
         landLightR4.SetActive(true);
         doorLightR4.SetActive(true);
-        reflecProb.SetActive(true);
+        reflecProb2.SetActive(true);
+        Ambiance2.SetActive(true);
     }
 
     void Start()

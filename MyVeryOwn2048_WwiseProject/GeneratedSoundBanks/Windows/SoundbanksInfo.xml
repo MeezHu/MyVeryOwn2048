@@ -22,10 +22,22 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{7B6BBE5D-0E0E-4507-7545-C6A73A8E2EB4}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{EF806C86-395E-4C57-3199-4889C0A69D4C}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="523999565" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ghostly Presence, Angelic, Vocal, Layer, Creepy, Horror 4.wav</ShortName>
+					<CachePath>SFX/Ghostly Presence, Angelic, Vocal, Layer, Creepy, Horror 4_DB4214AD.wem</CachePath>
+				</File>
+				<File Id="538155986" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LFE Rumble 3.wav</ShortName>
+					<CachePath>SFX/LFE Rumble 3_12683A22.wem</CachePath>
+				</File>
+				<File Id="565729331" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>NOISE EMF Radiation, Constant Hum, LCD TV Screen Off.wav</ShortName>
+					<CachePath>SFX/NOISE EMF Radiation, Constant Hum, LCD TV Screen Off_FD65B6D8.wem</CachePath>
+				</File>
 				<File Id="1029205145" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10.wav 07.wav</ShortName>
 					<CachePath>SFX/ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10.wav 07_818F3B66.wem</CachePath>
@@ -37,8 +49,32 @@
 						<MediaRef Id="1029205145"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2092580658" Name="Play_Buzzing_High" MaxAttenuation="10" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="565729331"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1550183220" Name="Play_Buzzing_Low" MaxAttenuation="10" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="565729331"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2799706224" Name="Play_Ghostly_Presence__Angelic__Vocal__Layer__Creepy__Horror_4" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="523999565"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1583694757" Name="Play_LFE_Rumble_3" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="538155986"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="595744404" Name="Stop_Buzzing_High" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1923114070" Name="Stop_Buzzing_Low" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3843945942" Name="Stop_Ghostly_Presence__Angelic__Vocal__Layer__Creepy__Horror_4" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2733305787" Name="Stop_LFE_Rumble_3" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A1DEAA46-3AA2-9BBD-3171-6B2E2418CDB8}</FileHash>
+	<FileHash>{1CF6FEFC-D6DC-5F24-8F69-F74679C38442}</FileHash>
 </SoundBanksInfo>

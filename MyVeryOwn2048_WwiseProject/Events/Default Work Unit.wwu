@@ -14,6 +14,106 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Buzzing_High" ID="{AE224512-111C-4909-9817-7A4FD2D4D514}">
+					<ChildrenList>
+						<Action Name="" ID="{D57AD9D6-8331-423D-8402-4CC82A2CA77F}" ShortID="651870997">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Buzzing High" ID="{2595284C-1312-4E5E-A702-A36B1468811A}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Buzzing_High" ID="{A5FC30EA-E993-4D4C-BBB7-15BB3B4E7548}">
+					<ChildrenList>
+						<Action Name="" ID="{332FC79C-653A-48FE-89EF-19022B0004F9}" ShortID="526619714">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Buzzing High" ID="{2595284C-1312-4E5E-A702-A36B1468811A}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_LFE_Rumble_3" ID="{BB92BB54-1834-44FD-9DFC-E6EDB19BB0C8}">
+					<ChildrenList>
+						<Action Name="" ID="{DE411F16-5C10-4A93-B9FC-9A36D54E322A}" ShortID="822450139">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LFE Rumble 3" ID="{F5FCC76E-1695-4283-B0BF-497F5B668FB4}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_LFE_Rumble_3" ID="{429803AE-1D71-4F77-9EE4-A6FF8F7C54BD}">
+					<ChildrenList>
+						<Action Name="" ID="{58ACA340-EBF1-4176-A29C-9170449D8935}" ShortID="615088976">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LFE Rumble 3" ID="{F5FCC76E-1695-4283-B0BF-497F5B668FB4}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ghostly_Presence__Angelic__Vocal__Layer__Creepy__Horror_4" ID="{A491AF60-439F-40DA-AD37-D60BCAD5B819}">
+					<ChildrenList>
+						<Action Name="" ID="{EA19F840-C1DE-4D79-B7BC-15FA28C4E6E1}" ShortID="292803840">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ghostly Presence, Angelic, Vocal, Layer, Creepy, Horror 4" ID="{74D22B73-5EE5-4257-9FED-9C9A43C0DF52}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Ghostly_Presence__Angelic__Vocal__Layer__Creepy__Horror_4" ID="{B13C3D85-A8AB-411E-85C4-B7443EF5F4E0}">
+					<ChildrenList>
+						<Action Name="" ID="{F686D953-45B4-40C9-9A1F-2259B65F3DFE}" ShortID="298908086">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ghostly Presence, Angelic, Vocal, Layer, Creepy, Horror 4" ID="{74D22B73-5EE5-4257-9FED-9C9A43C0DF52}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Buzzing_Low" ID="{A1311328-F78F-4865-A969-5CBB771E5FF4}">
+					<ChildrenList>
+						<Action Name="" ID="{7422C3EE-C32E-4B35-94E4-4E537F091D7E}" ShortID="910139213">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Buzzing Low" ID="{BDAAE3ED-D824-4028-8DC2-200FE9817C76}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Buzzing_Low" ID="{54E0BF66-7A2B-4671-9F48-004A3A6FA38B}">
+					<ChildrenList>
+						<Action Name="" ID="{A416DD55-B17B-4CAB-BBCB-BCE517274C10}" ShortID="226051341">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Buzzing Low" ID="{BDAAE3ED-D824-4028-8DC2-200FE9817C76}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
