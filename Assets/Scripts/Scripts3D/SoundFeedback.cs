@@ -9,6 +9,8 @@ public class SoundFeedback : MonoBehaviour
 {
     public TileIdentifier tileIdentifier;
 
+    public GameObject RandomSteamBlastSpecial;
+
     private void Awake()
     {
         tileIdentifier = GetComponent<TileIdentifier>();
@@ -17,6 +19,13 @@ public class SoundFeedback : MonoBehaviour
     void Start()
     {
 
+    }
+
+    public void SfxSpecialFusion()
+    {
+        Instantiate(RandomSteamBlastSpecial, tileIdentifier.gameObject.transform.position, gameObject.transform.rotation);
+        //RandomSteamBlastSpecial.SetActive(true);
+        //RandomSteamBlastSpecial.SetActive(false);
     }
 
     public void SoundTest()

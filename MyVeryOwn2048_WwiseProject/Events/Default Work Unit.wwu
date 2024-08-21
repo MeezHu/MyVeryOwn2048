@@ -114,6 +114,72 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_LightsOn" ID="{ACE30491-16A9-4832-9748-53C9D103C662}">
+					<ChildrenList>
+						<Action Name="" ID="{B308174D-17C8-4177-BD31-1F6347A858F4}" ShortID="801530290">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LightsOn" ID="{35E89DA7-E3F4-45A8-909C-D30B01F6FE55}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_LightsOn_Red" ID="{69F7B5D3-9933-4A74-BE67-3B79DB2430D1}">
+					<ChildrenList>
+						<Action Name="" ID="{E39D6CB6-7F61-4CCD-808E-C3161CCA10CA}" ShortID="67315420">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LightsOn Red" ID="{2692CB86-F2E4-4D65-A25B-4EB94B7F3F1E}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GearSpin" ID="{70842225-8BE7-4B57-AD4E-33FD2403D751}">
+					<ChildrenList>
+						<Action Name="" ID="{D1E0F5FA-2D82-4183-8E1D-76E4AAC47E03}" ShortID="24727984">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GearSpin" ID="{B060FFA1-7BCA-4C32-8934-8D1A816B1593}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_RandomGearSpins" ID="{0422FD22-7878-44D6-82E7-FDD1F13970F9}">
+					<ChildrenList>
+						<Action Name="" ID="{CAF95ADB-147F-4C39-A013-D732D8B963C7}" ShortID="928099233">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RandomGearSpins" ID="{D047AD68-97E4-41AB-9B67-2B2ED7449AD3}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_RandomSteamBlast" ID="{EF9CD770-338A-4979-B17C-98CB8B8C7313}">
+					<ChildrenList>
+						<Action Name="" ID="{E8785343-D7DA-49D5-8A7C-E1BC82967053}" ShortID="425001447">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RandomSteamBlast" ID="{3FFFAC4D-FB1D-46F6-98F4-E8ECBD4A415C}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_RandomSteamBlastSpecial" ID="{811111CB-F9F5-49DF-ABC6-00A2DC357770}">
+					<ChildrenList>
+						<Action Name="" ID="{3A0CC843-683A-4BA2-9DF1-ACC5D1D163B8}" ShortID="835659583">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RandomSteamBlastSpecial" ID="{B9AE7F96-317F-4F95-AEC2-BC71C8AB4453}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

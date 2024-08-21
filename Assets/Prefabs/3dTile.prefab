@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7726431248263546928}
   - component: {fileID: 7924917037584469995}
   - component: {fileID: -459274433567788100}
+  - component: {fileID: 5308298219772254854}
   m_Layer: 0
   m_Name: 3dTile
   m_TagString: Untagged
@@ -129,11 +130,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tileIdentifier: {fileID: 0}
-  flickerControlList:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   vfx_fusionDefault: {fileID: 8146152436424646183, guid: 5337550e29b83354995bb0a85dc40ee2,
     type: 3}
   vfx_fusionSpecial: {fileID: 916943485256891867, guid: ac2cc841b6f63f4468e8678033949ed9,
@@ -154,3 +150,18 @@ MonoBehaviour:
     type: 3}
   correcPos: {x: 0, y: 0, z: 0}
   vfx_fusionDefaultRotation: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &5308298219772254854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8402893829411627030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6557283ae8e125a41a1a5a441bcd2ed2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileIdentifier: {fileID: 0}
+  RandomSteamBlastSpecial: {fileID: 9129715789531324216, guid: 814e6350d368fa940bbeb7fe84a5d5d7,
+    type: 3}

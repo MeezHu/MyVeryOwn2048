@@ -20,6 +20,7 @@ public class TileIdentifier : MonoBehaviour
         //renderer = GetComponent<Renderer>();
         for3DTile = GetComponent<For3DTile>();
         vfxFeedback = GetComponent<vfxFeedback>();
+        soundFeedback = GetComponent<SoundFeedback>();
     }
 
     // Start is called before the first frame update
@@ -52,6 +53,8 @@ public class TileIdentifier : MonoBehaviour
             case "M_16":
                 Debug.Log("Tuile = " + for3DTile.matName + " appeared in " + gameObject.transform.position);
                 vfxFeedback.Vfx16Fusion();
+                //soundFeedback.RandomSteamBlastSpecial.transform.position = gameObject.transform.position;
+                soundFeedback.SfxSpecialFusion();
                 break;
             case "M_32":
                 Debug.Log("Tuile = " + for3DTile.matName + " appeared in " + gameObject.transform.position);
@@ -60,6 +63,7 @@ public class TileIdentifier : MonoBehaviour
             case "M_64":
                 Debug.Log("Tuile = " + for3DTile.matName + " appeared in " + gameObject.transform.position);
                 vfxFeedback.Vfx64Fusion();
+                soundFeedback.SfxSpecialFusion();
                 break;
             case "M_128":
                 Debug.Log("Tuile = " + for3DTile.matName + " appeared in " + gameObject.transform.position);
@@ -72,10 +76,12 @@ public class TileIdentifier : MonoBehaviour
                     UniqueEventsManager.Instance.StartFlickeringLight();
                 }
                 vfxFeedback.Vfx256Fusion();
+                soundFeedback.SfxSpecialFusion();
                 break;
             case "M_512":
                 Debug.Log("Tuile = " + for3DTile.matName + " appeared in " + gameObject.transform.position);
                 vfxFeedback.Vfx512Fusion();
+                soundFeedback.SfxSpecialFusion();
                 break;
             case "M_1024":
                 Debug.Log("Tuile = " + for3DTile.matName + " appeared in " + gameObject.transform.position);
@@ -84,10 +90,12 @@ public class TileIdentifier : MonoBehaviour
                     UniqueEventsManager.Instance.BecomeRed();
                 }
                 vfxFeedback.Vfx1024Fusion();
+                soundFeedback.SfxSpecialFusion();
                 break;
             case "M_2048":
                 Debug.Log("Tuile = " + for3DTile.matName + " appeared in " + gameObject.transform.position);
                 vfxFeedback.Vfx2048Fusion();
+                soundFeedback.SfxSpecialFusion();
                 break;
 
 

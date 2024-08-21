@@ -13,6 +13,7 @@ public class TriggerLights : MonoBehaviour
     public GameObject Landlight7;
     public GameObject Landlight8;
     public GameObject reflecProb;
+    public GameObject LightsOn;
 
 
     private void OnTriggerEnter(Collider other)
@@ -29,6 +30,7 @@ public class TriggerLights : MonoBehaviour
             Landlight7.SetActive(true);
             Landlight8.SetActive(true);
             reflecProb.SetActive(true);
+            LightsOn.SetActive(true);
 
             gameObject.SetActive(false);
         }

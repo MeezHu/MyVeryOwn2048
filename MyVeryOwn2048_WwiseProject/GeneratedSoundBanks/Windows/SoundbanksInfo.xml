@@ -22,21 +22,37 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{EF806C86-395E-4C57-3199-4889C0A69D4C}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{077B7266-62CB-9AD3-D671-33728269978E}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="249526286" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ratchet Clicking, Spin Once To Slow, Spin Twice To Slow, Spin Intermittent.wav</ShortName>
+					<CachePath>SFX/Ratchet Clicking, Spin Once To Slow, Spin Twice To Slow, Spin Intermittent_EA87FE49.wem</CachePath>
+				</File>
+				<File Id="309407029" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>W_a_P_Cinematic_Whoosh_Hit_8.wav</ShortName>
+					<CachePath>SFX/W_a_P_Cinematic_Whoosh_Hit_8_26DDEB4B.wem</CachePath>
+				</File>
+				<File Id="381261979" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Steam Release Sound Effect.wav</ShortName>
+					<CachePath>SFX/Steam Release Sound Effect_E71C6606.wem</CachePath>
+				</File>
 				<File Id="523999565" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ghostly Presence, Angelic, Vocal, Layer, Creepy, Horror 4.wav</ShortName>
-					<CachePath>SFX/Ghostly Presence, Angelic, Vocal, Layer, Creepy, Horror 4_DB4214AD.wem</CachePath>
+					<CachePath>SFX/Ghostly Presence, Angelic, Vocal, Layer, Creepy, Horror 4_0CEBED97.wem</CachePath>
 				</File>
 				<File Id="538155986" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LFE Rumble 3.wav</ShortName>
-					<CachePath>SFX/LFE Rumble 3_12683A22.wem</CachePath>
+					<CachePath>SFX/LFE Rumble 3_6B2DB308.wem</CachePath>
 				</File>
 				<File Id="565729331" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>NOISE EMF Radiation, Constant Hum, LCD TV Screen Off.wav</ShortName>
-					<CachePath>SFX/NOISE EMF Radiation, Constant Hum, LCD TV Screen Off_FD65B6D8.wem</CachePath>
+					<CachePath>SFX/NOISE EMF Radiation, Constant Hum, LCD TV Screen Off_22F29E06.wem</CachePath>
+				</File>
+				<File Id="978887015" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Steam Release Sound Effect.wav</ShortName>
+					<CachePath>SFX/Steam Release Sound Effect_F42B3D1B.wem</CachePath>
 				</File>
 				<File Id="1029205145" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10.wav 07.wav</ShortName>
@@ -59,6 +75,11 @@
 						<MediaRef Id="565729331"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1269174159" Name="Play_GearSpin" DurationType="OneShot" DurationMin="1.0873737" DurationMax="1.0873737">
+					<MediaRefs>
+						<MediaRef Id="249526286"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2799706224" Name="Play_Ghostly_Presence__Angelic__Vocal__Layer__Creepy__Horror_4" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="523999565"/>
@@ -69,6 +90,31 @@
 						<MediaRef Id="538155986"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="275295778" Name="Play_LightsOn" DurationType="OneShot" DurationMin="1.7953105" DurationMax="1.7953105">
+					<MediaRefs>
+						<MediaRef Id="309407029"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1144204686" Name="Play_LightsOn_Red" DurationType="OneShot" DurationMin="2.2619495" DurationMax="2.2619495">
+					<MediaRefs>
+						<MediaRef Id="309407029"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2485678993" Name="Play_RandomGearSpins" DurationType="OneShot" DurationMin="1.0263442" DurationMax="1.2205358">
+					<MediaRefs>
+						<MediaRef Id="249526286"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1028622269" Name="Play_RandomSteamBlast" DurationType="OneShot" DurationMin="0.30040708" DurationMax="0.35724625">
+					<MediaRefs>
+						<MediaRef Id="381261979"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3770773282" Name="Play_RandomSteamBlastSpecial" DurationType="OneShot" DurationMin="2.2710655" DurationMax="2.5491846">
+					<MediaRefs>
+						<MediaRef Id="978887015"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="595744404" Name="Stop_Buzzing_High" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1923114070" Name="Stop_Buzzing_Low" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3843945942" Name="Stop_Ghostly_Presence__Angelic__Vocal__Layer__Creepy__Horror_4" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -76,5 +122,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1CF6FEFC-D6DC-5F24-8F69-F74679C38442}</FileHash>
+	<FileHash>{48406EF6-80BD-4790-A323-5CF416286393}</FileHash>
 </SoundBanksInfo>

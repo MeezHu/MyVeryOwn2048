@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 9119983013032170816}
   - component: {fileID: 9119983013032170823}
   - component: {fileID: 9119983013032170822}
+  - component: {fileID: -9138505491479708419}
   m_Layer: 0
   m_Name: VFX_Fusion2048
   m_TagString: Untagged
@@ -4897,3 +4898,15 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &-9138505491479708419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9119983013032170821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72610907f9d16649bb0a950c520aec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

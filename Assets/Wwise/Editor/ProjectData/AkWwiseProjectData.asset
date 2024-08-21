@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 52380ee722d02e4aa6dd06277ef97ae3
     GuidInternal: 
-    m_lastTime: -8584774421551299101
+    m_lastTime: -8584773614798354561
     List:
     - name: Main
       guid: cbfeb1857713eb4c88a1cc4eb8bd8322
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 6f2254b0ec43d949a24471b6a58e6080
     GuidInternal: 
-    m_lastTime: -8584774421720579602
+    m_lastTime: -8584773614852037533
     List:
     - name: Play_ANIMAL_WILD_Camel_D__Grunt__Groan__Roar__Gargle_x10_wav_07
       guid: 7fbf6f9dc8285841be75bae4ee70c499
@@ -147,6 +147,23 @@ MonoBehaviour:
       maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
+    - name: Play_GearSpin
+      guid: 25228470e78b574bad4e33fd2403d751
+      id: 1269174159
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_GearSpin
+        ObjectType: 3
+        guid: 25228470e78b574bad4e33fd2403d751
+      Path: Events\Default Work Unit\Play_GearSpin
+      maxAttenuation: 0
+      maxDuration: 1.0873737
+      minDuration: 1.0873737
     - name: Play_Ghostly_Presence__Angelic__Vocal__Layer__Creepy__Horror_4
       guid: 60af91a49f43da40ad37d60bcad5b819
       id: 2799706224
@@ -181,6 +198,91 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_LightsOn
+      guid: 9104e3aca9163248974853c9d103c662
+      id: 275295778
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_LightsOn
+        ObjectType: 3
+        guid: 9104e3aca9163248974853c9d103c662
+      Path: Events\Default Work Unit\Play_LightsOn
+      maxAttenuation: 0
+      maxDuration: 1.7953105
+      minDuration: 1.7953105
+    - name: Play_LightsOn_Red
+      guid: d3b5f7693399744abe673b79db2430d1
+      id: 1144204686
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_LightsOn_Red
+        ObjectType: 3
+        guid: d3b5f7693399744abe673b79db2430d1
+      Path: Events\Default Work Unit\Play_LightsOn_Red
+      maxAttenuation: 0
+      maxDuration: 2.2619495
+      minDuration: 2.2619495
+    - name: Play_RandomGearSpins
+      guid: 22fd22047878d64482e7fdd1f13970f9
+      id: 2485678993
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_RandomGearSpins
+        ObjectType: 3
+        guid: 22fd22047878d64482e7fdd1f13970f9
+      Path: Events\Default Work Unit\Play_RandomGearSpins
+      maxAttenuation: 0
+      maxDuration: 1.2205358
+      minDuration: 1.0263442
+    - name: Play_RandomSteamBlast
+      guid: 70d79cef8a337949b17c98cb8b8c7313
+      id: 1028622269
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_RandomSteamBlast
+        ObjectType: 3
+        guid: 70d79cef8a337949b17c98cb8b8c7313
+      Path: Events\Default Work Unit\Play_RandomSteamBlast
+      maxAttenuation: 0
+      maxDuration: 0.35724625
+      minDuration: 0.30040708
+    - name: Play_RandomSteamBlastSpecial
+      guid: cb111181f5f9df49abc600a2dc357770
+      id: 3770773282
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_RandomSteamBlastSpecial
+        ObjectType: 3
+        guid: cb111181f5f9df49abc600a2dc357770
+      Path: Events\Default Work Unit\Play_RandomSteamBlastSpecial
+      maxAttenuation: 0
+      maxDuration: 2.5491846
+      minDuration: 2.2710655
     - name: Stop_Buzzing_High
       guid: ea30fca593e94c4dbbb715bb3b4e7548
       id: 595744404
@@ -306,7 +408,7 @@ MonoBehaviour:
     m_lastTime: -8584775304965171560
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000070000000a0000000b0000000c0000000d0000009b0000009c00000003010000040100004d0100004e01000087010000880100005b0200005c020000
+  ExpandedWaapiItemIds: 0500000006000000070000000a0000000b0000000c0000000d0000009b0000009c000000030100000401000021010000220100004d0100004e01000074010000750100008701000088010000a0010000a10100005b0200005c020000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

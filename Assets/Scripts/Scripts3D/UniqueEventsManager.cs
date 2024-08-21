@@ -55,6 +55,7 @@ public class UniqueEventsManager : MonoBehaviour
     public GameObject doorLightR4;
     public GameObject gvRed;
     public GameObject Ambiance2;
+    public GameObject LightsOnRed;
     public GameObject reflecProb2;
 
     public GameObject[] vfxSteamEnviro;
@@ -149,6 +150,7 @@ public class UniqueEventsManager : MonoBehaviour
         landLightR3.SetActive(true);
         landLightR4.SetActive(true);
         doorLightR4.SetActive(true);
+        LightsOnRed.SetActive(true);
         reflecProb2.SetActive(true);
         Ambiance2.SetActive(true);
     }

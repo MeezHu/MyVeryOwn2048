@@ -67,6 +67,7 @@
 					<ChildrenList>
 						<AudioFileSource Name="NOISE EMF Radiation, Constant Hum, LCD TV Screen Off" ID="{B99B6F05-9DE9-4AAD-9E15-4192CDCB6E50}">
 							<PropertyList>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
 								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 								<Property Name="TrimBegin" Type="Real64" Value="0.860843112244898"/>
 								<Property Name="TrimEnd" Type="Real64" Value="67.2892366071429"/>
@@ -215,6 +216,477 @@
 						<ActiveSource Name="NOISE EMF Radiation, Constant Hum, LCD TV Screen Off" ID="{B9066367-B14B-4CB8-8562-719309341869}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="LightsOn" ID="{35E89DA7-E3F4-45A8-909C-D30B01F6FE55}" ShortID="631489854">
+					<PropertyList>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>30</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>200</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-20</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="W_a_P_Cinematic_Whoosh_Hit_8" ID="{F8173487-01C9-4EB5-AAF2-CD8FCF93C399}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.01"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.544725738396626"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="3.02280663465736"/>
+								<Property Name="TrimEnd" Type="Real64" Value="5.03797468354431"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>W_a_P_Cinematic_Whoosh_Hit_8.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="309407029"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="W_a_P_Cinematic_Whoosh_Hit_8" ID="{F8173487-01C9-4EB5-AAF2-CD8FCF93C399}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="LightsOn Red" ID="{2692CB86-F2E4-4D65-A25B-4EB94B7F3F1E}" ShortID="51477450">
+					<PropertyList>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>20</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-200</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-16</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="W_a_P_Cinematic_Whoosh_Hit_8" ID="{7C5A03B5-900A-4A63-A57F-C2A159875842}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.01"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.544725738396626"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="3.02280663465736"/>
+								<Property Name="TrimEnd" Type="Real64" Value="5.03797468354431"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>W_a_P_Cinematic_Whoosh_Hit_8.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="309407029"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="W_a_P_Cinematic_Whoosh_Hit_8" ID="{7C5A03B5-900A-4A63-A57F-C2A159875842}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="RandomGearSpins" ID="{D047AD68-97E4-41AB-9B67-2B2ED7449AD3}" ShortID="507807294">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{8269AC8E-2130-4D66-A683-FD1759E67309}">
+										<PropertyList>
+											<Property Name="Max" Type="Real64" Value="100"/>
+											<Property Name="Min" Type="Real64" Value="-100"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{B4B62962-E348-4255-A084-00984EB682CD}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="GearSpin" ID="{B060FFA1-7BCA-4C32-8934-8D1A816B1593}" ShortID="722450098">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>400</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-25</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ratchet Clicking, Spin Once To Slow, Spin Twice To Slow, Spin Intermittent" ID="{7E1FFAAF-EBFB-4748-B84C-C1EFB82A23C1}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="13.9936235056259"/>
+										<Property Name="TrimEnd" Type="Real64" Value="15.3636286040788"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Ratchet Clicking, Spin Once To Slow, Spin Twice To Slow, Spin Intermittent.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="249526286"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Ratchet Clicking, Spin Once To Slow, Spin Twice To Slow, Spin Intermittent" ID="{7E1FFAAF-EBFB-4748-B84C-C1EFB82A23C1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="GearSpin_01" ID="{DF6377C5-77FC-4B93-9E39-2D99FF2512A2}" ShortID="654881200">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>350</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-25</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ratchet Clicking, Spin Once To Slow, Spin Twice To Slow, Spin Intermittent" ID="{3B2C03D0-C967-4522-AF60-E9FF14F797A7}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="13.9936235056259"/>
+										<Property Name="TrimEnd" Type="Real64" Value="15.3636286040788"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Ratchet Clicking, Spin Once To Slow, Spin Twice To Slow, Spin Intermittent.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="249526286"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Ratchet Clicking, Spin Once To Slow, Spin Twice To Slow, Spin Intermittent" ID="{3B2C03D0-C967-4522-AF60-E9FF14F797A7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="GearSpin_02" ID="{6F8028B8-2A76-4118-B397-5580D5718A68}" ShortID="410572990">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>450</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-25</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ratchet Clicking, Spin Once To Slow, Spin Twice To Slow, Spin Intermittent" ID="{C73E8F14-3B7A-44BB-8398-D3EB426811A9}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="13.9936235056259"/>
+										<Property Name="TrimEnd" Type="Real64" Value="15.3636286040788"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Ratchet Clicking, Spin Once To Slow, Spin Twice To Slow, Spin Intermittent.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="249526286"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Ratchet Clicking, Spin Once To Slow, Spin Twice To Slow, Spin Intermittent" ID="{C73E8F14-3B7A-44BB-8398-D3EB426811A9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="GearSpin_03" ID="{DBABAD8E-9DBA-421C-AA9C-37B9D78EE326}" ShortID="853884601">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>200</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-25</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ratchet Clicking, Spin Once To Slow, Spin Twice To Slow, Spin Intermittent" ID="{08B52AA1-59B0-44B5-B665-D9B09988A44F}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="13.9936235056259"/>
+										<Property Name="TrimEnd" Type="Real64" Value="15.3636286040788"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Ratchet Clicking, Spin Once To Slow, Spin Twice To Slow, Spin Intermittent.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="249526286"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Ratchet Clicking, Spin Once To Slow, Spin Twice To Slow, Spin Intermittent" ID="{08B52AA1-59B0-44B5-B665-D9B09988A44F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="GearSpin_04" ID="{D11DD701-C64C-4ABE-A513-1F0F9215BB0F}" ShortID="374285288">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>500</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-25</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ratchet Clicking, Spin Once To Slow, Spin Twice To Slow, Spin Intermittent" ID="{DEFB1CA2-B7C1-49A2-900F-A821ABBC326F}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="13.9936235056259"/>
+										<Property Name="TrimEnd" Type="Real64" Value="15.3636286040788"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Ratchet Clicking, Spin Once To Slow, Spin Twice To Slow, Spin Intermittent.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="249526286"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Ratchet Clicking, Spin Once To Slow, Spin Twice To Slow, Spin Intermittent" ID="{DEFB1CA2-B7C1-49A2-900F-A821ABBC326F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="RandomSteamBlast" ID="{3FFFAC4D-FB1D-46F6-98F4-E8ECBD4A415C}" ShortID="734589915">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{2753663A-A8C1-4FBF-951C-33D5B8940A65}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="200"/>
+											<Property Name="Min" Type="Real64" Value="-100"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Steam Release Sound Effect" ID="{5EA38DAA-37A4-4896-B389-6435E8119FF6}" ShortID="81624072">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>66</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-25</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Steam Release Sound Effect" ID="{C4E29E54-E497-4BB9-B622-48D6CD482A5D}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.174940209511434"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.669574008693961"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.00676955264056"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Steam Release Sound Effect.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="381261979"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Steam Release Sound Effect" ID="{C4E29E54-E497-4BB9-B622-48D6CD482A5D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="RandomSteamBlastSpecial" ID="{B9AE7F96-317F-4F95-AEC2-BC71C8AB4453}" ShortID="758728371">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{D1F3A05A-2032-4709-B56B-8F9DF3036D27}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="100"/>
+											<Property Name="Min" Type="Real64" Value="-100"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Steam Release Sound Effect" ID="{2A578EA0-9753-456C-B0DD-60C005A05DF5}" ShortID="463537063">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-200</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-20</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Steam Release Sound Effect" ID="{CF0CD426-EA59-4B00-B51F-93FEF2D0CFD7}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="1.69713723647037"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.669574008693961"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.81317425235448"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Steam Release Sound Effect.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="978887015"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Steam Release Sound Effect" ID="{CF0CD426-EA59-4B00-B51F-93FEF2D0CFD7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

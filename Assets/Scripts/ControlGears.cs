@@ -2,6 +2,7 @@ using JetBrains.Annotations;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.VFX;
 
@@ -41,6 +42,15 @@ public class ControlGears : MonoBehaviour
     public GameObject bottom3;
     public GameObject bottom4;
 
+    public GameObject gearSpinLeft;
+    public GameObject gearSpinUp;
+    public GameObject gearSpinRight;
+    public GameObject gearSpinDown;
+    public GameObject steamBlastLeft;
+    public GameObject steamBlastUp;
+    public GameObject steamBlastRight;
+    public GameObject steamBlastDown;
+
     private void Start()
     {
         canRotateGears = false;
@@ -53,6 +63,7 @@ public class ControlGears : MonoBehaviour
             rightVfxIndex = UnityEngine.Random.Range(0, 4);
             //Debug.Log(leftVfxIndex);
             gearAnimator.Play("spinLeft", 0, 0);
+            StartCoroutine(GearSpinLeft());
             // gearAnimator.SetTrigger("spinLeft");
 
             if (rightVfxIndex == 0)
@@ -85,6 +96,7 @@ public class ControlGears : MonoBehaviour
         {
             bottomVfxIndex = UnityEngine.Random.Range(0, 4);
             gearAnimator.Play("spinUp", 0, 0);
+            StartCoroutine(GearSpinUp());
             //gearAnimator.SetTrigger("spinUp");
 
             if (bottomVfxIndex == 0)
@@ -117,6 +129,7 @@ public class ControlGears : MonoBehaviour
         {
             leftVfxIndex = UnityEngine.Random.Range(0, 7);
             gearAnimator.Play("spinRight", 0, 0);
+            StartCoroutine(GearSpinRight());
             //gearAnimator.SetTrigger("spinRight");
 
             if (leftVfxIndex == 0)
@@ -164,6 +177,7 @@ public class ControlGears : MonoBehaviour
         {
             topVfxIndex = UnityEngine.Random.Range(0, 3);
             gearAnimator.Play("spinDown", 0, 0);
+            StartCoroutine(GearSpinDown());
             //gearAnimator.SetTrigger("spinDown");
 
             if (topVfxIndex == 0)
@@ -188,6 +202,42 @@ public class ControlGears : MonoBehaviour
         }
 
         
+    }
+
+    public IEnumerator GearSpinLeft()
+    {
+        gearSpinLeft.SetActive(true);
+        steamBlastLeft.SetActive(true);
+        gearSpinLeft.SetActive(false);
+        steamBlastLeft.SetActive(false);
+        yield return null;
+    }
+
+    public IEnumerator GearSpinUp()
+    {
+        gearSpinUp.SetActive(true);
+        steamBlastUp.SetActive(true);
+        gearSpinUp.SetActive(false);
+        steamBlastUp.SetActive(false);
+        yield return null;
+    }
+
+    public IEnumerator GearSpinRight()
+    {
+        gearSpinRight.SetActive(true);
+        steamBlastRight.SetActive(true);
+        gearSpinRight.SetActive(false);
+        steamBlastRight.SetActive(false);
+        yield return null;
+    }
+
+    public IEnumerator GearSpinDown()
+    {
+        gearSpinDown.SetActive(true);
+        steamBlastDown.SetActive(true);
+        gearSpinDown.SetActive(false);
+        steamBlastDown.SetActive(false);
+        yield return null;
     }
 
     public IEnumerator CoroutineLeft0()
