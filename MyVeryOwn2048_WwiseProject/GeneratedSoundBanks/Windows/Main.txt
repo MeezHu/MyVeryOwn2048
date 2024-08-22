@@ -1,27 +1,38 @@
 Event	ID	Name			Wwise Object Path	Notes
 	275295778	Play_LightsOn			\Default Work Unit\Play_LightsOn	
+	550428601	Play_GameOverRiser			\Default Work Unit\Play_GameOverRiser	
 	595744404	Stop_Buzzing_High			\Default Work Unit\Stop_Buzzing_High	
 	1028622269	Play_RandomSteamBlast			\Default Work Unit\Play_RandomSteamBlast	
 	1144204686	Play_LightsOn_Red			\Default Work Unit\Play_LightsOn_Red	
 	1157618425	Play_ANIMAL_WILD_Camel_D__Grunt__Groan__Roar__Gargle_x10_wav_07			\Default Work Unit\Play_ANIMAL_WILD_Camel_D__Grunt__Groan__Roar__Gargle_x10_wav_07	
+	1256843611	Stop_PlumberySound			\Default Work Unit\Stop_PlumberySound	
 	1269174159	Play_GearSpin			\Default Work Unit\Play_GearSpin	
 	1550183220	Play_Buzzing_Low			\Default Work Unit\Play_Buzzing_Low	
 	1583694757	Play_LFE_Rumble_3			\Default Work Unit\Play_LFE_Rumble_3	
 	1923114070	Stop_Buzzing_Low			\Default Work Unit\Stop_Buzzing_Low	
 	2092580658	Play_Buzzing_High			\Default Work Unit\Play_Buzzing_High	
+	2154670781	Play_PlumberySound			\Default Work Unit\Play_PlumberySound	
 	2485678993	Play_RandomGearSpins			\Default Work Unit\Play_RandomGearSpins	
 	2733305787	Stop_LFE_Rumble_3			\Default Work Unit\Stop_LFE_Rumble_3	
 	2799706224	Play_Ghostly_Presence__Angelic__Vocal__Layer__Creepy__Horror_4			\Default Work Unit\Play_Ghostly_Presence__Angelic__Vocal__Layer__Creepy__Horror_4	
+	3504215907	Play_Random_Steamloops			\Default Work Unit\Play_Random_Steamloops	
+	3634355598	Play_GameOverEndSound			\Default Work Unit\Play_GameOverEndSound	
 	3770773282	Play_RandomSteamBlastSpecial			\Default Work Unit\Play_RandomSteamBlastSpecial	
 	3843945942	Stop_Ghostly_Presence__Angelic__Vocal__Layer__Creepy__Horror_4			\Default Work Unit\Stop_Ghostly_Presence__Angelic__Vocal__Layer__Creepy__Horror_4	
+	3907246208	Play_RandomClong			\Default Work Unit\Play_RandomClong	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	249526286	GearSpin_03	C:\Users\game3\Documents\GitHub\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\Ratchet Clicking, Spin Once To Slow, Spin Twice To Slow, Spin Intermittent_EA87FE49.wem		\Actor-Mixer Hierarchy\Default Work Unit\RandomGearSpins\GearSpin_03		131616
-	309407029	LightsOn Red	C:\Users\game3\Documents\GitHub\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\W_a_P_Cinematic_Whoosh_Hit_8_26DDEB4B.wem		\Actor-Mixer Hierarchy\Default Work Unit\LightsOn Red		387008
-	381261979	Steam Release Sound Effect	C:\Users\game3\Documents\GitHub\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\Steam Release Sound Effect_E71C6606.wem		\Actor-Mixer Hierarchy\Default Work Unit\RandomSteamBlast\Steam Release Sound Effect		59580
+	142810674	steamloopend	C:\Users\game3\Documents\GitHub\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\steamloopend_73D8B93D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Random Steamloops\steamloopend		132444
+	185242006	Exterior Metal Door Gate Bolt Latch 7	C:\Users\game3\Documents\GitHub\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\Exterior Metal Door Gate Bolt Latch 7_06E2D20A.wem		\Actor-Mixer Hierarchy\Default Work Unit\RandomClong\Exterior Metal Door Gate Bolt Latch 7		275308
+	249526286	GearSpin_03	C:\Users\game3\Documents\GitHub\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\Ratchet Clicking, Spin Once To Slow, Spin Twice To Slow, Spin Intermittent_33081072.wem		\Actor-Mixer Hierarchy\Default Work Unit\RandomGearSpins\GearSpin_03		131616
+	309407029	LightsOn Red	C:\Users\game3\Documents\GitHub\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\W_a_P_Cinematic_Whoosh_Hit_8_256877DA.wem		\Actor-Mixer Hierarchy\Default Work Unit\LightsOn Red		387008
+	381261979	Steam Release Sound Effect	C:\Users\game3\Documents\GitHub\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\Steam Release Sound Effect_DBB583A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\RandomSteamBlast\Steam Release Sound Effect		59580
+	442366620	PlumberySound	C:\Users\game3\Documents\GitHub\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\424462__nicstage__heaterpipecontact_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlumberySound		9747780
 	523999565	Ghostly Presence, Angelic, Vocal, Layer, Creepy, Horror 4	C:\Users\game3\Documents\GitHub\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\Ghostly Presence, Angelic, Vocal, Layer, Creepy, Horror 4_0CEBED97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ghostly Presence, Angelic, Vocal, Layer, Creepy, Horror 4		10869060
 	538155986	LFE Rumble 3	C:\Users\game3\Documents\GitHub\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\LFE Rumble 3_6B2DB308.wem		\Actor-Mixer Hierarchy\Default Work Unit\LFE Rumble 3		3943492
 	565729331	Buzzing High	C:\Users\game3\Documents\GitHub\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\NOISE EMF Radiation, Constant Hum, LCD TV Screen Off_22F29E06.wem		\Actor-Mixer Hierarchy\Default Work Unit\Buzzing High		12754348
-	978887015	Steam Release Sound Effect	C:\Users\game3\Documents\GitHub\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\Steam Release Sound Effect_F42B3D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\RandomSteamBlastSpecial\Steam Release Sound Effect		378228
+	672664792	GameOverEndSound	C:\Users\game3\Documents\GitHub\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\342224__newagesoup__electronic-noise-filtered-glitch-wall-of-sound03_AE3E7523.wem		\Actor-Mixer Hierarchy\Default Work Unit\GameOverEndSound		1948096
+	786619384	GameOverRiser	C:\Users\game3\Documents\GitHub\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\719846__vekon__riser_06_140bpm_478F6888.wem		\Actor-Mixer Hierarchy\Default Work Unit\GameOverRiser		1345236
+	978887015	Steam Release Sound Effect	C:\Users\game3\Documents\GitHub\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\Steam Release Sound Effect_CADEBBB5.wem		\Actor-Mixer Hierarchy\Default Work Unit\RandomSteamBlastSpecial\Steam Release Sound Effect		378228
 	1029205145	ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10_wav 07	C:\Users\game3\Documents\GitHub\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10.wav 07_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10_wav 07		117620
 

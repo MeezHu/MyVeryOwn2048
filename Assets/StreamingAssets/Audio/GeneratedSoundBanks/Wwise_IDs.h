@@ -16,11 +16,16 @@ namespace AK
         static const AkUniqueID PLAY_ANIMAL_WILD_CAMEL_D__GRUNT__GROAN__ROAR__GARGLE_X10_WAV_07 = 1157618425U;
         static const AkUniqueID PLAY_BUZZING_HIGH = 2092580658U;
         static const AkUniqueID PLAY_BUZZING_LOW = 1550183220U;
+        static const AkUniqueID PLAY_GAMEOVERENDSOUND = 3634355598U;
+        static const AkUniqueID PLAY_GAMEOVERRISER = 550428601U;
         static const AkUniqueID PLAY_GEARSPIN = 1269174159U;
         static const AkUniqueID PLAY_GHOSTLY_PRESENCE__ANGELIC__VOCAL__LAYER__CREEPY__HORROR_4 = 2799706224U;
         static const AkUniqueID PLAY_LFE_RUMBLE_3 = 1583694757U;
         static const AkUniqueID PLAY_LIGHTSON = 275295778U;
         static const AkUniqueID PLAY_LIGHTSON_RED = 1144204686U;
+        static const AkUniqueID PLAY_PLUMBERYSOUND = 2154670781U;
+        static const AkUniqueID PLAY_RANDOM_STEAMLOOPS = 3504215907U;
+        static const AkUniqueID PLAY_RANDOMCLONG = 3907246208U;
         static const AkUniqueID PLAY_RANDOMGEARSPINS = 2485678993U;
         static const AkUniqueID PLAY_RANDOMSTEAMBLAST = 1028622269U;
         static const AkUniqueID PLAY_RANDOMSTEAMBLASTSPECIAL = 3770773282U;
@@ -28,6 +33,7 @@ namespace AK
         static const AkUniqueID STOP_BUZZING_LOW = 1923114070U;
         static const AkUniqueID STOP_GHOSTLY_PRESENCE__ANGELIC__VOCAL__LAYER__CREEPY__HORROR_4 = 3843945942U;
         static const AkUniqueID STOP_LFE_RUMBLE_3 = 2733305787U;
+        static const AkUniqueID STOP_PLUMBERYSOUND = 1256843611U;
     } // namespace EVENTS
 
     namespace BANKS

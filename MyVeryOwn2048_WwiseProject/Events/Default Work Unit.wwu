@@ -180,6 +180,75 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Random_Steamloops" ID="{B84B5C86-F4E5-4A12-8F51-8934177918D7}">
+					<ChildrenList>
+						<Action Name="" ID="{8490A3E8-075C-4006-8A30-F2953EDB3410}" ShortID="1012106015">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Random Steamloops" ID="{7F49912D-9064-432D-A944-B6E0074D9AE9}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GameOverEndSound" ID="{01BF7325-02DD-4C2C-8B8B-64D8DAB3B9CE}">
+					<ChildrenList>
+						<Action Name="" ID="{2C2D32D2-EA70-4631-A856-EFCC14667A6E}" ShortID="488817686">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GameOverEndSound" ID="{73200159-DA93-4ED8-85B9-C792CE87561F}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GameOverRiser" ID="{45EC0C13-D38D-4C0A-9026-90066BC1BFB2}">
+					<ChildrenList>
+						<Action Name="" ID="{AEAC9356-CA49-43DB-8B0E-F32F70C6A057}" ShortID="827807492">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GameOverRiser" ID="{5389EF94-DE38-4035-87A4-52F0065C7528}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_RandomClong" ID="{7F577A82-5C01-4BCE-8B7F-D4CCA67AC63D}">
+					<ChildrenList>
+						<Action Name="" ID="{1E73E6EE-AA6B-4BE0-8ECB-91D047AC2269}" ShortID="986280324">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RandomClong" ID="{06748BF1-540A-44FE-814C-421DF3A54E8E}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_PlumberySound" ID="{C0727069-132B-48A6-B0B7-766C3503D119}">
+					<ChildrenList>
+						<Action Name="" ID="{5617FB29-1BE1-4A0B-A898-0A378C037747}" ShortID="183999895">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PlumberySound" ID="{CCF9AA7C-08B8-4ABF-B4BE-B8F448FF1B97}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_PlumberySound" ID="{E3B1B97E-5752-4AC4-B877-A1645E34A5BE}">
+					<ChildrenList>
+						<Action Name="" ID="{10D4BCC4-CC32-4BCE-9770-7B75CFE24181}" ShortID="170314088">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PlumberySound" ID="{CCF9AA7C-08B8-4ABF-B4BE-B8F448FF1B97}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

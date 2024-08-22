@@ -67,6 +67,9 @@ public class UniqueEventsManager : MonoBehaviour
     public ControlGears controlGears;
     public GameObject triggerBoxRange;
 
+    public GameObject gameOverSound;
+    public GameObject gameOverRiser;
+
 
 
     [ContextMenu("BecomeRed()")]
@@ -100,6 +103,8 @@ public class UniqueEventsManager : MonoBehaviour
     public void GameOverEvent()
     {
         StartCoroutine(CoroutineGameOverEvent());
+        StartCoroutine(CoroutineGameOverSound());
+        StartCoroutine(CoroutineGameOverRiser());
         triggerBoxRange.SetActive(false);
         stateManager.canSwitch = false;
         controlGears.canRotateGears = false;
@@ -107,6 +112,18 @@ public class UniqueEventsManager : MonoBehaviour
         BoardState.canMove = !BoardState.canMove;
         StartCoroutine(stateManager.CoroutineFpsView());
         //stateManager.canPovBoard = false;
+    }
+
+    IEnumerator CoroutineGameOverRiser()
+    {
+        yield return new WaitForSeconds(3f);
+        gameOverRiser.SetActive(true);
+    }
+
+    IEnumerator CoroutineGameOverSound()
+    {
+        yield return new WaitForSeconds(5f);
+        gameOverSound.SetActive(true);
     }
 
     IEnumerator CoroutineGameOverEvent()

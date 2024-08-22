@@ -13,11 +13,17 @@
 						<ObjectRef Name="Stop_Buzzing_Low" ID="{54E0BF66-7A2B-4671-9F48-004A3A6FA38B}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_LightsOn" ID="{ACE30491-16A9-4832-9748-53C9D103C662}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Buzzing_Low" ID="{A1311328-F78F-4865-A969-5CBB771E5FF4}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_PlumberySound" ID="{C0727069-132B-48A6-B0B7-766C3503D119}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Buzzing_High" ID="{AE224512-111C-4909-9817-7A4FD2D4D514}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_RandomSteamBlast" ID="{EF9CD770-338A-4979-B17C-98CB8B8C7313}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Random_Steamloops" ID="{B84B5C86-F4E5-4A12-8F51-8934177918D7}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_LightsOn_Red" ID="{69F7B5D3-9933-4A74-BE67-3B79DB2430D1}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_PlumberySound" ID="{E3B1B97E-5752-4AC4-B877-A1645E34A5BE}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GearSpin" ID="{70842225-8BE7-4B57-AD4E-33FD2403D751}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_RandomClong" ID="{7F577A82-5C01-4BCE-8B7F-D4CCA67AC63D}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GameOverRiser" ID="{45EC0C13-D38D-4C0A-9026-90066BC1BFB2}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Buzzing_High" ID="{A5FC30EA-E993-4D4C-BBB7-15BB3B4E7548}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GameOverEndSound" ID="{73200159-DA93-4ED8-85B9-C792CE87561F}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_LFE_Rumble_3" ID="{429803AE-1D71-4F77-9EE4-A6FF8F7C54BD}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="RandomSteamBlastSpecial" ID="{B9AE7F96-317F-4F95-AEC2-BC71C8AB4453}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

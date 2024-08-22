@@ -22,21 +22,33 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{077B7266-62CB-9AD3-D671-33728269978E}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{DF91FAA8-938A-BF40-ED5E-B5A9F8227490}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="142810674" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>steamloopend.wav</ShortName>
+					<CachePath>SFX/steamloopend_73D8B93D.wem</CachePath>
+				</File>
+				<File Id="185242006" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Exterior Metal Door Gate Bolt Latch 7.wav</ShortName>
+					<CachePath>SFX/Exterior Metal Door Gate Bolt Latch 7_06E2D20A.wem</CachePath>
+				</File>
 				<File Id="249526286" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ratchet Clicking, Spin Once To Slow, Spin Twice To Slow, Spin Intermittent.wav</ShortName>
-					<CachePath>SFX/Ratchet Clicking, Spin Once To Slow, Spin Twice To Slow, Spin Intermittent_EA87FE49.wem</CachePath>
+					<CachePath>SFX/Ratchet Clicking, Spin Once To Slow, Spin Twice To Slow, Spin Intermittent_33081072.wem</CachePath>
 				</File>
 				<File Id="309407029" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>W_a_P_Cinematic_Whoosh_Hit_8.wav</ShortName>
-					<CachePath>SFX/W_a_P_Cinematic_Whoosh_Hit_8_26DDEB4B.wem</CachePath>
+					<CachePath>SFX/W_a_P_Cinematic_Whoosh_Hit_8_256877DA.wem</CachePath>
 				</File>
 				<File Id="381261979" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Steam Release Sound Effect.wav</ShortName>
-					<CachePath>SFX/Steam Release Sound Effect_E71C6606.wem</CachePath>
+					<CachePath>SFX/Steam Release Sound Effect_DBB583A7.wem</CachePath>
+				</File>
+				<File Id="442366620" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>424462__nicstage__heaterpipecontact.wav</ShortName>
+					<CachePath>SFX/424462__nicstage__heaterpipecontact_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="523999565" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ghostly Presence, Angelic, Vocal, Layer, Creepy, Horror 4.wav</ShortName>
@@ -50,9 +62,17 @@
 					<ShortName>NOISE EMF Radiation, Constant Hum, LCD TV Screen Off.wav</ShortName>
 					<CachePath>SFX/NOISE EMF Radiation, Constant Hum, LCD TV Screen Off_22F29E06.wem</CachePath>
 				</File>
+				<File Id="672664792" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>342224__newagesoup__electronic-noise-filtered-glitch-wall-of-sound03.wav</ShortName>
+					<CachePath>SFX/342224__newagesoup__electronic-noise-filtered-glitch-wall-of-sound03_AE3E7523.wem</CachePath>
+				</File>
+				<File Id="786619384" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>719846__vekon__riser_06_140bpm.wav</ShortName>
+					<CachePath>SFX/719846__vekon__riser_06_140bpm_478F6888.wem</CachePath>
+				</File>
 				<File Id="978887015" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Steam Release Sound Effect.wav</ShortName>
-					<CachePath>SFX/Steam Release Sound Effect_F42B3D1B.wem</CachePath>
+					<CachePath>SFX/Steam Release Sound Effect_CADEBBB5.wem</CachePath>
 				</File>
 				<File Id="1029205145" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10.wav 07.wav</ShortName>
@@ -73,6 +93,16 @@
 				<Event Id="1550183220" Name="Play_Buzzing_Low" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="565729331"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3634355598" Name="Play_GameOverEndSound" DurationType="OneShot" DurationMin="10.145819" DurationMax="10.145819">
+					<MediaRefs>
+						<MediaRef Id="672664792"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="550428601" Name="Play_GameOverRiser" DurationType="OneShot" DurationMin="12.104752" DurationMax="12.104752">
+					<MediaRefs>
+						<MediaRef Id="786619384"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1269174159" Name="Play_GearSpin" DurationType="OneShot" DurationMin="1.0873737" DurationMax="1.0873737">
@@ -100,6 +130,21 @@
 						<MediaRef Id="309407029"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2154670781" Name="Play_PlumberySound" MaxAttenuation="4" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="442366620"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3504215907" Name="Play_Random_Steamloops" MaxAttenuation="15" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="142810674"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3907246208" Name="Play_RandomClong" MaxAttenuation="12" DurationType="OneShot" DurationMin="1.3529552" DurationMax="1.8059788">
+					<MediaRefs>
+						<MediaRef Id="185242006"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2485678993" Name="Play_RandomGearSpins" DurationType="OneShot" DurationMin="1.0263442" DurationMax="1.2205358">
 					<MediaRefs>
 						<MediaRef Id="249526286"/>
@@ -119,8 +164,9 @@
 				<Event Id="1923114070" Name="Stop_Buzzing_Low" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3843945942" Name="Stop_Ghostly_Presence__Angelic__Vocal__Layer__Creepy__Horror_4" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2733305787" Name="Stop_LFE_Rumble_3" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1256843611" Name="Stop_PlumberySound" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{48406EF6-80BD-4790-A323-5CF416286393}</FileHash>
+	<FileHash>{6F983F53-45B8-69BE-A679-F6A19740106E}</FileHash>
 </SoundBanksInfo>
