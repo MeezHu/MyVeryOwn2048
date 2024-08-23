@@ -11,6 +11,8 @@ public class SoundFeedback : MonoBehaviour
 
     public GameObject RandomSteamBlastSpecial;
 
+    public GameObject StepSound;
+
     private void Awake()
     {
         tileIdentifier = GetComponent<TileIdentifier>();
@@ -35,6 +37,6 @@ public class SoundFeedback : MonoBehaviour
 
     void Update()
     {
-
+        
     }
 }

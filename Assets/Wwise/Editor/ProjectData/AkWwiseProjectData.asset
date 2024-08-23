@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 52380ee722d02e4aa6dd06277ef97ae3
     GuidInternal: 
-    m_lastTime: -8584772761851861777
+    m_lastTime: -8584771878019858539
     List:
     - name: Main
       guid: cbfeb1857713eb4c88a1cc4eb8bd8322
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 6f2254b0ec43d949a24471b6a58e6080
     GuidInternal: 
-    m_lastTime: -8584772692098743749
+    m_lastTime: -8584771878482275151
     List:
     - name: Play_ANIMAL_WILD_Camel_D__Grunt__Groan__Roar__Gargle_x10_wav_07
       guid: 7fbf6f9dc8285841be75bae4ee70c499
@@ -147,6 +147,74 @@ MonoBehaviour:
       maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
+    - name: Play_FallSound1
+      guid: 7e3c96036d108f42a6f19da52101a3bd
+      id: 1125683571
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_FallSound1
+        ObjectType: 3
+        guid: 7e3c96036d108f42a6f19da52101a3bd
+      Path: Events\Default Work Unit\Play_FallSound1
+      maxAttenuation: 0
+      maxDuration: 1.1584221
+      minDuration: 1.1584221
+    - name: Play_FallSound2
+      guid: 02b08942be41194fac6a7b04a7add00c
+      id: 1125683568
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_FallSound2
+        ObjectType: 3
+        guid: 02b08942be41194fac6a7b04a7add00c
+      Path: Events\Default Work Unit\Play_FallSound2
+      maxAttenuation: 0
+      maxDuration: 1.081854
+      minDuration: 1.081854
+    - name: Play_FallSound3
+      guid: 0ee0a76d2bddc640a77d60fbd8146a15
+      id: 1125683569
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_FallSound3
+        ObjectType: 3
+        guid: 0ee0a76d2bddc640a77d60fbd8146a15
+      Path: Events\Default Work Unit\Play_FallSound3
+      maxAttenuation: 0
+      maxDuration: 0.47287607
+      minDuration: 0.47287607
+    - name: Play_FallSound4
+      guid: 4666d725db408c45b1867dec12c1523a
+      id: 1125683574
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_FallSound4
+        ObjectType: 3
+        guid: 4666d725db408c45b1867dec12c1523a
+      Path: Events\Default Work Unit\Play_FallSound4
+      maxAttenuation: 0
+      maxDuration: 2.3567169
+      minDuration: 2.3567169
     - name: Play_GameOverEndSound
       guid: 2573bf01dd022c4c8b8b64d8dab3b9ce
       id: 3634355598
@@ -317,6 +385,40 @@ MonoBehaviour:
       maxAttenuation: 12
       maxDuration: 1.8059788
       minDuration: 1.3529552
+    - name: Play_RandomDoorNoiseHard
+      guid: a53167cf380f1e4880c64be490733a08
+      id: 2301217512
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_RandomDoorNoiseHard
+        ObjectType: 3
+        guid: a53167cf380f1e4880c64be490733a08
+      Path: Events\Default Work Unit\Play_RandomDoorNoiseHard
+      maxAttenuation: 20
+      maxDuration: 11.9991045
+      minDuration: 2.7498853
+    - name: Play_RandomDoorNoiseSoft
+      guid: 54a27a3635d5c344bd9484a7e7160808
+      id: 976348315
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_RandomDoorNoiseSoft
+        ObjectType: 3
+        guid: 54a27a3635d5c344bd9484a7e7160808
+      Path: Events\Default Work Unit\Play_RandomDoorNoiseSoft
+      maxAttenuation: 20
+      maxDuration: 8.32
+      minDuration: 1.2314988
     - name: Play_RandomGearSpins
       guid: 22fd22047878d64482e7fdd1f13970f9
       id: 2485678993
@@ -368,6 +470,74 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 2.5491846
       minDuration: 2.2710655
+    - name: Play_Step1
+      guid: 578b7513fbb16a4f8f9c0e1afa3d569b
+      id: 2600469397
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_Step1
+        ObjectType: 3
+        guid: 578b7513fbb16a4f8f9c0e1afa3d569b
+      Path: Events\Default Work Unit\Play_Step1
+      maxAttenuation: 0
+      maxDuration: 0.33497736
+      minDuration: 0.33497736
+    - name: Play_Step2
+      guid: 018d2e5140887c4c90727e028fc83604
+      id: 2600469398
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_Step2
+        ObjectType: 3
+        guid: 018d2e5140887c4c90727e028fc83604
+      Path: Events\Default Work Unit\Play_Step2
+      maxAttenuation: 0
+      maxDuration: 0.31932423
+      minDuration: 0.31932423
+    - name: Play_Step3
+      guid: 23c126824dd13e4c94087837cb10d99b
+      id: 2600469399
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_Step3
+        ObjectType: 3
+        guid: 23c126824dd13e4c94087837cb10d99b
+      Path: Events\Default Work Unit\Play_Step3
+      maxAttenuation: 0
+      maxDuration: 0.33810797
+      minDuration: 0.33810797
+    - name: Play_WindFall
+      guid: 46bccf7b3e25584c9fa234bc8cc00308
+      id: 774940991
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_WindFall
+        ObjectType: 3
+        guid: 46bccf7b3e25584c9fa234bc8cc00308
+      Path: Events\Default Work Unit\Play_WindFall
+      maxAttenuation: 0
+      maxDuration: 5.5529647
+      minDuration: 5.5529647
     - name: Stop_Buzzing_High
       guid: ea30fca593e94c4dbbb715bb3b4e7548
       id: 595744404
@@ -510,7 +680,7 @@ MonoBehaviour:
     m_lastTime: -8584775304965171560
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000500000006000000070000000a0000000b0000000c0000000d0000009b0000009c000000e7000000e8000000f7000000f8000000ff00000000010000010100000301000004010000180100001901000021010000220100004d0100004e0100007401000075010000830100008401000087010000880100008f01000090010000a0010000a10100005b0200005c020000
+  ExpandedWaapiItemIds: 010000000500000006000000070000000a0000000b0000000c0000000d0000009b0000009c000000c0000000c1000000e7000000e8000000f7000000f8000000ff000000000100000101000003010000040100000601000007010000180100001901000021010000220100004d0100004e010000740100007501000083010000840100008501000087010000880100008f01000090010000a0010000a10100005b0200005c020000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

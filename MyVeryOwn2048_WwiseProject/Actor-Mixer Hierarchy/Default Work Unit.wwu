@@ -979,6 +979,668 @@
 						<ActiveSource Name="424462__nicstage__heaterpipecontact" ID="{8EC100F1-2B2A-4398-A555-C92312ACC743}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<RandomSequenceContainer Name="RandomDoorNoiseSoft" ID="{C5A2FFCD-8498-43FE-8197-57A42649E9CA}" ShortID="768079086">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{A4DDB706-73EC-45A6-9037-BF91E7316CB1}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-1200"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="DoorNoisesAttenuation" ID="{CF255327-6A8A-4CE1-8861-7174BB6A37FA}" WorkUnitID="{597EC3F1-044B-4676-80BD-5B9B578810C0}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="DoorNoiseSoft1" ID="{22ACDDC9-167C-4F3F-AAC0-A92B8B7FEFDE}" ShortID="663582716">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>25</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ResonantRustyDoor_impact_soft_01" ID="{779B403F-6E6D-4899-9DA0-058FD91F2FAE}">
+									<Language>SFX</Language>
+									<AudioFile>ResonantRustyDoor_impact_soft_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="703197173"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ResonantRustyDoor_impact_soft_01" ID="{779B403F-6E6D-4899-9DA0-058FD91F2FAE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="DoorNoiseSoft2" ID="{EC1DE061-BBF1-4543-A9D9-924A978225F2}" ShortID="507961142">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>30</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ResonantRustyDoor_impact_hard_11" ID="{5F62ED36-16E4-40C2-BA90-1AC8D53B7943}">
+									<Language>SFX</Language>
+									<AudioFile>ResonantRustyDoor_impact_hard_11.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="659181723"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ResonantRustyDoor_impact_hard_11" ID="{5F62ED36-16E4-40C2-BA90-1AC8D53B7943}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="DoorNoiseSoft3" ID="{EA1FEEE2-4F7A-451E-92E1-B0F185FC655D}" ShortID="192103171">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>35</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-2000</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Scratching knife on metallic jagged surface 02" ID="{5192E868-D4D2-4BCB-966B-6EA92CCAC26F}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.170573977352527"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.387897859609082"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.64439058110955"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.03228844071863"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Scratching knife on metallic jagged surface 02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="259901580"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{4DFB33C7-9F0D-4763-95E5-334AB2718E81}" ShortID="119039425">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="New_RoomVerb" ID="{8F4832BF-A673-404A-B867-3457B6B303CC}" WorkUnitID="{6825680C-465D-49A0-9BFD-C5DAD96CAF9B}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="Scratching knife on metallic jagged surface 02" ID="{5192E868-D4D2-4BCB-966B-6EA92CCAC26F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="DoorNoiseSoft4" ID="{EFE877C7-FE17-4BB2-ABAC-73FECCD5259D}" ShortID="36745301">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>30</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ResonantRustyDoor_scrape_short_05" ID="{72DF60DF-5B6F-4E1A-8DD1-05BFB032E892}">
+									<Language>SFX</Language>
+									<AudioFile>ResonantRustyDoor_scrape_short_05.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="280919856"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ResonantRustyDoor_scrape_short_05" ID="{72DF60DF-5B6F-4E1A-8DD1-05BFB032E892}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="RandomDoorNoiseHard" ID="{F9E91452-B391-49A2-890F-B5B0F226F8CB}" ShortID="579698930">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{06F04ED3-CB8B-4F30-8E41-1180B4E849A2}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-1200"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="DoorNoisesAttenuation" ID="{CF255327-6A8A-4CE1-8861-7174BB6A37FA}" WorkUnitID="{597EC3F1-044B-4676-80BD-5B9B578810C0}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="DoorNoiseHard4" ID="{0F818735-3693-463F-B127-00B57258B473}" ShortID="992245709">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>25</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Bluezone_BC0258_cinematic_metal_anvil_impact_005" ID="{3C9431EE-CBA4-4456-B935-A5788D9462EF}">
+									<Language>SFX</Language>
+									<AudioFile>Bluezone_BC0258_cinematic_metal_anvil_impact_005.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="573373979"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Bluezone_BC0258_cinematic_metal_anvil_impact_005" ID="{3C9431EE-CBA4-4456-B935-A5788D9462EF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="DoorNoiseHard3" ID="{561D948D-CD45-4C6E-AE5F-B60AEC976FDD}" ShortID="334210909">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Bluezone_BC0258_cinematic_metal_impact_050" ID="{4C1FEA22-CEA7-491C-983C-040B2A823A79}">
+									<Language>SFX</Language>
+									<AudioFile>Bluezone_BC0258_cinematic_metal_impact_050.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="817617945"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Bluezone_BC0258_cinematic_metal_impact_050" ID="{4C1FEA22-CEA7-491C-983C-040B2A823A79}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="DoorNoiseHard2" ID="{2D76EA54-6BA4-4540-A631-52C315AC4931}" ShortID="505602723">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Bluezone_BC0258_cinematic_metal_impact_052" ID="{360F0A0E-8B01-4E6E-8295-CA6FDF14C7CF}">
+									<Language>SFX</Language>
+									<AudioFile>Bluezone_BC0258_cinematic_metal_impact_052.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="952715998"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Bluezone_BC0258_cinematic_metal_impact_052" ID="{360F0A0E-8B01-4E6E-8295-CA6FDF14C7CF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="DoorNoiseHard1" ID="{2CC9A84F-8B72-4B14-8961-41B3CCA9B445}" ShortID="854391835">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>30</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Bluezone_BC0258_cinematic_metal_impact_069" ID="{CAB3587F-EE9A-4119-8ECF-108C13941600}">
+									<Language>SFX</Language>
+									<AudioFile>Bluezone_BC0258_cinematic_metal_impact_069.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="637078363"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Bluezone_BC0258_cinematic_metal_impact_069" ID="{CAB3587F-EE9A-4119-8ECF-108C13941600}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="FallSound1" ID="{7961BF56-CECB-4878-B1DA-9FF39E47EBE6}" ShortID="536203528">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>35</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-400</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-15</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="273327__arnaud-coutancier__fall-3-on-floor-cushion" ID="{6299C718-5B2E-4F4A-87E5-E67D7C31F38D}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.433848410150577"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.919440208667737"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>273327__arnaud-coutancier__fall-3-on-floor-cushion.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="573959933"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="273327__arnaud-coutancier__fall-3-on-floor-cushion" ID="{6299C718-5B2E-4F4A-87E5-E67D7C31F38D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="FallSound2" ID="{2D22EBF1-5E84-44D6-9DC9-26C201CBB73A}" ShortID="192936231">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>40</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>20</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="656366__straynerd__falling-on-mattress-owi" ID="{2D9C555E-2244-493B-BC50-954750B86869}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="1.08185393258427"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.08185393258427"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>656366__straynerd__falling-on-mattress-owi.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="575146921"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="656366__straynerd__falling-on-mattress-owi" ID="{2D9C555E-2244-493B-BC50-954750B86869}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="FallSound3" ID="{F572D845-1331-458A-AA38-012981DD2D73}" ShortID="68216342">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-800</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="656010__jacko4526__falling-human-bodies" ID="{F1A922FA-D96F-47C0-B687-0B1AD15DF33E}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.94339887640449"/>
+								<Property Name="TrimEnd" Type="Real64" Value="2.24129213483146"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>656010__jacko4526__falling-human-bodies.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="313551885"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{BCBFCE06-96F6-48A1-B1C3-BBECD6A54820}" ShortID="156621101">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+												<ObjectRef Name="New_RoomVerb_01" ID="{37B76717-983D-440E-AEDE-9D46BBF98E44}" WorkUnitID="{6825680C-465D-49A0-9BFD-C5DAD96CAF9B}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="656010__jacko4526__falling-human-bodies" ID="{F1A922FA-D96F-47C0-B687-0B1AD15DF33E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="FallSound4" ID="{B8C33DDF-01FE-48B5-8E44-DD7615D0811E}" ShortID="120827811">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>25</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-300</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="575310__taure__fall" ID="{C28AFFBE-7399-42E8-AEDB-D85AB9FDC5B6}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.849323549644577"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="22.5247683061989"/>
+								<Property Name="TrimEnd" Type="Real64" Value="24.5065232553696"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>575310__taure__fall.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="734380864"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="575310__taure__fall" ID="{C28AFFBE-7399-42E8-AEDB-D85AB9FDC5B6}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="WindFall" ID="{100FA3CE-7235-4960-9CEC-F1F987F7BC8E}" ShortID="219055015">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="138968__huggy13ear__wind-4" ID="{491C11A0-C392-49A5-8D0F-72FA651A3A17}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="5.11093785828938"/>
+								<Property Name="FadeInShape" Type="int16" Value="9"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="2.95605595047008"/>
+								<Property Name="TrimEnd" Type="Real64" Value="8.50902086677367"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>138968__huggy13ear__wind-4.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="531780833"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="138968__huggy13ear__wind-4" ID="{491C11A0-C392-49A5-8D0F-72FA651A3A17}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Step2" ID="{1B56B95F-92F8-4EE0-92C5-0D9722DCCA9D}" ShortID="948520810">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-300</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="702399__ienba__generic-footsteps" ID="{CC76984B-A018-46B9-84E7-2B91C2C1B26C}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.942447610130194"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.21096620296058"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>702399__ienba__generic-footsteps.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="577194249"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="702399__ienba__generic-footsteps" ID="{CC76984B-A018-46B9-84E7-2B91C2C1B26C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Step1" ID="{0DAA61D5-9AEE-4CC8-A342-128DEF34C3C9}" ShortID="68338635">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-300</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="702399__ienba__generic-footsteps" ID="{E7F47E27-3C62-496A-B84D-6ACEC60B1E8F}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.281681268949527"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>702399__ienba__generic-footsteps.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="463391168"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="702399__ienba__generic-footsteps" ID="{E7F47E27-3C62-496A-B84D-6ACEC60B1E8F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Step3" ID="{6AFED9E1-7855-4579-A0E8-FAA1A85ADD21}" ShortID="113714044">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-300</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="702399__ienba__generic-footsteps" ID="{4DCEC0B2-A990-4A1D-B105-7FFB0EDA9BE8}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.89805789637953"/>
+								<Property Name="TrimEnd" Type="Real64" Value="2.18237170055288"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>702399__ienba__generic-footsteps.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="390273905"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="702399__ienba__generic-footsteps" ID="{4DCEC0B2-A990-4A1D-B105-7FFB0EDA9BE8}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

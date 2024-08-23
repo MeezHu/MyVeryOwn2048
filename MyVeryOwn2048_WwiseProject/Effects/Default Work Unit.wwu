@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{6825680C-465D-49A0-9BFD-C5DAD96CAF9B}" SchemaVersion="119">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{6825680C-465D-49A0-9BFD-C5DAD96CAF9B}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{6825680C-465D-49A0-9BFD-C5DAD96CAF9B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="New_RoomVerb" ID="{8F4832BF-A673-404A-B867-3457B6B303CC}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+					<PropertyList>
+						<Property Name="DecayTime" Type="Real32" Value="3"/>
+						<Property Name="DryLevel" Type="Real32" Value="-5.3"/>
+						<Property Name="ERLevel" Type="Real32" Value="-15"/>
+						<Property Name="HFDamping" Type="Real32" Value="4.4"/>
+						<Property Name="ReverbLevel" Type="Real32" Value="-25"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="New_RoomVerb_01" ID="{37B76717-983D-440E-AEDE-9D46BBF98E44}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+					<PropertyList>
+						<Property Name="Density" Type="Real32" Value="66"/>
+						<Property Name="DryLevel" Type="Real32" Value="-5.3"/>
+						<Property Name="ERPattern" Type="int32" Value="22"/>
+						<Property Name="HFDamping" Type="Real32" Value="3.65"/>
+						<Property Name="RoomShape" Type="Real32" Value="0"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="New_Harmonizer" ID="{5A5A682A-80AA-4BF0-859C-332534129E92}" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3">
+					<PropertyList>
+						<Property Name="DryLevel" Type="Real32" Value="-3"/>
+						<Property Name="WetLevel" Type="Real32" Value="10"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

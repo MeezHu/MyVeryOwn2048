@@ -59,6 +59,10 @@ public class TileIdentifier : MonoBehaviour
             case "M_32":
                 Debug.Log("Tuile = " + for3DTile.matName + " appeared in " + gameObject.transform.position);
                 vfxFeedback.VfxDefaultFusion();
+                if (UniqueEventsManager.Instance != null && UniqueEventsManager.Instance.canStartFlicker)
+                {
+                    UniqueEventsManager.Instance.StartDoorNoiseSoft();
+                }
                 break;
             case "M_64":
                 Debug.Log("Tuile = " + for3DTile.matName + " appeared in " + gameObject.transform.position);
@@ -88,12 +92,18 @@ public class TileIdentifier : MonoBehaviour
                 if (UniqueEventsManager.Instance != null && UniqueEventsManager.Instance.canBecomeRed)
                 {
                     UniqueEventsManager.Instance.BecomeRed();
+                    UniqueEventsManager.Instance.StopDoorNoiseSoft();
+                    UniqueEventsManager.Instance.StartDoorNoiseHard();
                 }
                 vfxFeedback.Vfx1024Fusion();
                 soundFeedback.SfxSpecialFusion();
                 break;
             case "M_2048":
                 Debug.Log("Tuile = " + for3DTile.matName + " appeared in " + gameObject.transform.position);
+                if (UniqueEventsManager.Instance != null)
+                {
+                    UniqueEventsManager.Instance.StopDoorNoiseHard();
+                }
                 vfxFeedback.Vfx2048Fusion();
                 soundFeedback.SfxSpecialFusion();
                 break;

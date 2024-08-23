@@ -249,6 +249,116 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_RandomDoorNoiseSoft" ID="{367AA254-D535-44C3-BD94-84A7E7160808}">
+					<ChildrenList>
+						<Action Name="" ID="{9074F835-2139-4995-9567-87BE2688945F}" ShortID="73869375">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RandomDoorNoiseSoft" ID="{C5A2FFCD-8498-43FE-8197-57A42649E9CA}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_RandomDoorNoiseHard" ID="{CF6731A5-0F38-481E-80C6-4BE490733A08}">
+					<ChildrenList>
+						<Action Name="" ID="{1645A147-6427-45E4-9D10-CCDC07051AA5}" ShortID="611880056">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RandomDoorNoiseHard" ID="{F9E91452-B391-49A2-890F-B5B0F226F8CB}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FallSound1" ID="{03963C7E-106D-428F-A6F1-9DA52101A3BD}">
+					<ChildrenList>
+						<Action Name="" ID="{74A64C96-4EDE-4A5D-895F-70E17DC4D88C}" ShortID="702038434">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FallSound1" ID="{7961BF56-CECB-4878-B1DA-9FF39E47EBE6}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FallSound2" ID="{4289B002-41BE-4F19-AC6A-7B04A7ADD00C}">
+					<ChildrenList>
+						<Action Name="" ID="{C75BD992-2DD8-435B-815C-004369ED8977}" ShortID="535569418">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FallSound2" ID="{2D22EBF1-5E84-44D6-9DC9-26C201CBB73A}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FallSound3" ID="{6DA7E00E-DD2B-40C6-A77D-60FBD8146A15}">
+					<ChildrenList>
+						<Action Name="" ID="{2234774E-A34A-4E05-BB3E-9398CD364E6F}" ShortID="442862724">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FallSound3" ID="{F572D845-1331-458A-AA38-012981DD2D73}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FallSound4" ID="{25D76646-40DB-458C-B186-7DEC12C1523A}">
+					<ChildrenList>
+						<Action Name="" ID="{38893AC9-3960-4182-9177-A008B25997F6}" ShortID="927315849">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FallSound4" ID="{B8C33DDF-01FE-48B5-8E44-DD7615D0811E}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_WindFall" ID="{7BCFBC46-253E-4C58-9FA2-34BC8CC00308}">
+					<ChildrenList>
+						<Action Name="" ID="{9A673B12-AE60-4A51-AC89-85EB69F371EA}" ShortID="266959493">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WindFall" ID="{100FA3CE-7235-4960-9CEC-F1F987F7BC8E}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Step1" ID="{13758B57-B1FB-4F6A-8F9C-0E1AFA3D569B}">
+					<ChildrenList>
+						<Action Name="" ID="{AA84A964-0D8D-46C1-80EB-EDA5099B8467}" ShortID="104237992">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Step1" ID="{0DAA61D5-9AEE-4CC8-A342-128DEF34C3C9}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Step2" ID="{512E8D01-8840-4C7C-9072-7E028FC83604}">
+					<ChildrenList>
+						<Action Name="" ID="{47A0063D-BCDA-4EDF-80A3-0C8E9A64473D}" ShortID="859964452">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Step2" ID="{1B56B95F-92F8-4EE0-92C5-0D9722DCCA9D}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Step3" ID="{8226C123-D14D-4C3E-9408-7837CB10D99B}">
+					<ChildrenList>
+						<Action Name="" ID="{A218381A-0231-4622-BACC-3728144FF238}" ShortID="1064483767">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Step3" ID="{6AFED9E1-7855-4579-A0E8-FAA1A85ADD21}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

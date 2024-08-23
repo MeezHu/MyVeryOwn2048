@@ -70,7 +70,33 @@ public class UniqueEventsManager : MonoBehaviour
     public GameObject gameOverSound;
     public GameObject gameOverRiser;
 
+    public DoorNoiseSoftControl doorNoiseSoftControl;
+    public DoorNoiseHardControl doorNoiseHardControl;
 
+
+    [ContextMenu("StartDoorNoiseSoft")]
+    public void StartDoorNoiseSoft()
+    {
+        doorNoiseSoftControl.enabled = true;
+    }
+
+    [ContextMenu("StoptDoorNoiseSoft")]
+    public void StopDoorNoiseSoft()
+    {
+        doorNoiseSoftControl.enabled = false;
+    }
+
+    [ContextMenu("StartDoorNoiseHard")]
+    public void StartDoorNoiseHard()
+    {
+        doorNoiseHardControl.enabled = true;
+    }
+
+    [ContextMenu("StopDoorNoiseHard")]
+    public void StopDoorNoiseHard()
+    {
+        doorNoiseHardControl.enabled = false;
+    }
 
     [ContextMenu("BecomeRed()")]
     public void BecomeRed()
@@ -174,7 +200,8 @@ public class UniqueEventsManager : MonoBehaviour
 
     void Start()
     {
-        
+        doorNoiseSoftControl = GetComponent<DoorNoiseSoftControl>();
+        doorNoiseHardControl = GetComponent<DoorNoiseHardControl>();
     }
 
     void Update()
