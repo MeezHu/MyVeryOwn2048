@@ -40,11 +40,13 @@ public class StateManager : MonoBehaviour
     public bool canPovFps;
 
     public ControlGears controlGears;
+    public HeadBobController headBobController;
 
     private void Start()
     {
         canPovBoard = true;
         canPovFps = false;
+        headBobController = GetComponent<HeadBobController>();
     }
 
     void Update()
@@ -60,6 +62,8 @@ public class StateManager : MonoBehaviour
             {
                 StartCoroutine(CoroutineBoardView());
                 Debug.Log("Board View");
+                headBobController.enabled = false;
+                //headBobController.canStartPos = false;
                 controlGears.canRotateGears = true;
             }
 
@@ -67,6 +71,8 @@ public class StateManager : MonoBehaviour
             {
                 StartCoroutine(CoroutineFpsView());
                 Debug.Log("Fps View");
+                headBobController.enabled = true;
+                //headBobController.canStartPos = true;
                 controlGears.canRotateGears = false;
             }
         }
