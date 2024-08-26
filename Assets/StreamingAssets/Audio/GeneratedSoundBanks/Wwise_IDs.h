@@ -38,6 +38,7 @@ namespace AK
         static const AkUniqueID PLAY_STEP1 = 2600469397U;
         static const AkUniqueID PLAY_STEP2 = 2600469398U;
         static const AkUniqueID PLAY_STEP3 = 2600469399U;
+        static const AkUniqueID PLAY_STEP4 = 2600469392U;
         static const AkUniqueID PLAY_WINDFALL = 774940991U;
         static const AkUniqueID STOP_BUZZING_HIGH = 595744404U;
         static const AkUniqueID STOP_BUZZING_LOW = 1923114070U;

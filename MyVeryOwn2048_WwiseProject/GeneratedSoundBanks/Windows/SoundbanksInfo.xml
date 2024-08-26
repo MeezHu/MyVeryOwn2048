@@ -22,7 +22,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{0509BB04-2186-3FF5-5C33-DA181C6F0625}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{C24A60B8-80DC-3586-3A5F-0802477AE706}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -40,7 +40,7 @@
 				</File>
 				<File Id="259901580" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Scratching knife on metallic jagged surface 02.wav</ShortName>
-					<CachePath>SFX/Scratching knife on metallic jagged surface 02_FAAEE351.wem</CachePath>
+					<CachePath>SFX/Scratching knife on metallic jagged surface 02_76D5A231.wem</CachePath>
 				</File>
 				<File Id="280919856" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ResonantRustyDoor_scrape_short_05.wav</ShortName>
@@ -52,23 +52,15 @@
 				</File>
 				<File Id="313551885" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>656010__jacko4526__falling-human-bodies.wav</ShortName>
-					<CachePath>SFX/656010__jacko4526__falling-human-bodies_B6D46967.wem</CachePath>
+					<CachePath>SFX/656010__jacko4526__falling-human-bodies_EE79F624.wem</CachePath>
 				</File>
 				<File Id="381261979" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Steam Release Sound Effect.wav</ShortName>
 					<CachePath>SFX/Steam Release Sound Effect_DBB583A7.wem</CachePath>
 				</File>
-				<File Id="390273905" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>702399__ienba__generic-footsteps.wav</ShortName>
-					<CachePath>SFX/702399__ienba__generic-footsteps_57625BFB.wem</CachePath>
-				</File>
 				<File Id="442366620" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>424462__nicstage__heaterpipecontact.wav</ShortName>
 					<CachePath>SFX/424462__nicstage__heaterpipecontact_FBC78EF0.wem</CachePath>
-				</File>
-				<File Id="463391168" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>702399__ienba__generic-footsteps.wav</ShortName>
-					<CachePath>SFX/702399__ienba__generic-footsteps_17C40112.wem</CachePath>
 				</File>
 				<File Id="523999565" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ghostly Presence, Angelic, Vocal, Layer, Creepy, Horror 4.wav</ShortName>
@@ -76,11 +68,15 @@
 				</File>
 				<File Id="531780833" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>138968__huggy13ear__wind-4.wav</ShortName>
-					<CachePath>SFX/138968__huggy13ear__wind-4_C9439594.wem</CachePath>
+					<CachePath>SFX/138968__huggy13ear__wind-4_905EFF3D.wem</CachePath>
 				</File>
 				<File Id="538155986" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LFE Rumble 3.wav</ShortName>
 					<CachePath>SFX/LFE Rumble 3_6B2DB308.wem</CachePath>
+				</File>
+				<File Id="545125755" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>indoor-footsteps-6385.wav</ShortName>
+					<CachePath>SFX/indoor-footsteps-6385_BA1C1707.wem</CachePath>
 				</File>
 				<File Id="565729331" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>NOISE EMF Radiation, Constant Hum, LCD TV Screen Off.wav</ShortName>
@@ -92,15 +88,11 @@
 				</File>
 				<File Id="573959933" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>273327__arnaud-coutancier__fall-3-on-floor-cushion.wav</ShortName>
-					<CachePath>SFX/273327__arnaud-coutancier__fall-3-on-floor-cushion_9A52E12D.wem</CachePath>
+					<CachePath>SFX/273327__arnaud-coutancier__fall-3-on-floor-cushion_3E61CA61.wem</CachePath>
 				</File>
 				<File Id="575146921" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>656366__straynerd__falling-on-mattress-owi.wav</ShortName>
-					<CachePath>SFX/656366__straynerd__falling-on-mattress-owi_AB00412C.wem</CachePath>
-				</File>
-				<File Id="577194249" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>702399__ienba__generic-footsteps.wav</ShortName>
-					<CachePath>SFX/702399__ienba__generic-footsteps_ADA39B7B.wem</CachePath>
+					<CachePath>SFX/656366__straynerd__falling-on-mattress-owi_B90AE67C.wem</CachePath>
 				</File>
 				<File Id="637078363" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bluezone_BC0258_cinematic_metal_impact_069.wav</ShortName>
@@ -120,7 +112,7 @@
 				</File>
 				<File Id="734380864" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>575310__taure__fall.wav</ShortName>
-					<CachePath>SFX/575310__taure__fall_7F9F99EA.wem</CachePath>
+					<CachePath>SFX/575310__taure__fall_358420C3.wem</CachePath>
 				</File>
 				<File Id="786619384" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>719846__vekon__riser_06_140bpm.wav</ShortName>
@@ -130,13 +122,25 @@
 					<ShortName>Bluezone_BC0258_cinematic_metal_impact_050.wav</ShortName>
 					<CachePath>SFX/Bluezone_BC0258_cinematic_metal_impact_050_818F3B66.wem</CachePath>
 				</File>
+				<File Id="850009049" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>indoor-footsteps-6385.wav</ShortName>
+					<CachePath>SFX/indoor-footsteps-6385_85B763D5.wem</CachePath>
+				</File>
 				<File Id="952715998" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bluezone_BC0258_cinematic_metal_impact_052.wav</ShortName>
 					<CachePath>SFX/Bluezone_BC0258_cinematic_metal_impact_052_818F3B66.wem</CachePath>
 				</File>
+				<File Id="956015908" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>indoor-footsteps-6385.wav</ShortName>
+					<CachePath>SFX/indoor-footsteps-6385_5CEDF641.wem</CachePath>
+				</File>
 				<File Id="978887015" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Steam Release Sound Effect.wav</ShortName>
 					<CachePath>SFX/Steam Release Sound Effect_CADEBBB5.wem</CachePath>
+				</File>
+				<File Id="981938925" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>indoor-footsteps-6385.wav</ShortName>
+					<CachePath>SFX/indoor-footsteps-6385_5D1C4643.wem</CachePath>
 				</File>
 				<File Id="1029205145" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10.wav 07.wav</ShortName>
@@ -276,19 +280,24 @@
 						<MediaRef Id="978887015"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2600469397" Name="Play_Step1" DurationType="OneShot" DurationMin="0.33497736" DurationMax="0.33497736">
+				<Event Id="2600469397" Name="Play_Step1" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.4294902" DurationMax="0.4294902">
 					<MediaRefs>
-						<MediaRef Id="463391168"/>
+						<MediaRef Id="981938925"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2600469398" Name="Play_Step2" DurationType="OneShot" DurationMin="0.31932423" DurationMax="0.31932423">
+				<Event Id="2600469398" Name="Play_Step2" DurationType="OneShot" DurationMin="0.42175165" DurationMax="0.42175165">
 					<MediaRefs>
-						<MediaRef Id="577194249"/>
+						<MediaRef Id="850009049"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2600469399" Name="Play_Step3" DurationType="OneShot" DurationMin="0.33810797" DurationMax="0.33810797">
+				<Event Id="2600469399" Name="Play_Step3" DurationType="OneShot" DurationMin="0.4294902" DurationMax="0.4294902">
 					<MediaRefs>
-						<MediaRef Id="390273905"/>
+						<MediaRef Id="545125755"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2600469392" Name="Play_Step4" DurationType="OneShot" DurationMin="0.4527059" DurationMax="0.4527059">
+					<MediaRefs>
+						<MediaRef Id="956015908"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="774940991" Name="Play_WindFall" DurationType="OneShot" DurationMin="5.5529647" DurationMax="5.5529647">
@@ -304,5 +313,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{42959FCE-81E4-2EFF-4100-5634BC4FBAF2}</FileHash>
+	<FileHash>{F8477401-E317-C4FD-9245-9A2995A2EB8B}</FileHash>
 </SoundBanksInfo>

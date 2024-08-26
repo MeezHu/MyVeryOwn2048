@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0efe8e53a09e47b48a5098551e9f4a47, type: 3}
+  m_Name: 5B56702F-51E0-41FA-98A9-2D9E91F23486
+  m_EditorClassIdentifier: 
+  objectName: Play_Step2
+  id: 2600469398
+  guid: 5B56702F-51E0-41FA-98A9-2D9E91F23486

@@ -326,34 +326,45 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Step1" ID="{13758B57-B1FB-4F6A-8F9C-0E1AFA3D569B}">
+				<Event Name="Play_Step1" ID="{E4439B4C-E4EF-4B19-9AB7-0E83218DA3E1}">
 					<ChildrenList>
-						<Action Name="" ID="{AA84A964-0D8D-46C1-80EB-EDA5099B8467}" ShortID="104237992">
+						<Action Name="" ID="{8C04D859-B766-4B2A-801B-6A5146ED09EE}" ShortID="924925568">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Step1" ID="{0DAA61D5-9AEE-4CC8-A342-128DEF34C3C9}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+									<ObjectRef Name="Step1" ID="{3D69FDC4-2585-49FB-8257-784FD1831A65}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Step2" ID="{512E8D01-8840-4C7C-9072-7E028FC83604}">
+				<Event Name="Play_Step2" ID="{5B56702F-51E0-41FA-98A9-2D9E91F23486}">
 					<ChildrenList>
-						<Action Name="" ID="{47A0063D-BCDA-4EDF-80A3-0C8E9A64473D}" ShortID="859964452">
+						<Action Name="" ID="{83090400-EDCB-4A28-A53E-A438B582D038}" ShortID="782239758">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Step2" ID="{1B56B95F-92F8-4EE0-92C5-0D9722DCCA9D}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+									<ObjectRef Name="Step2" ID="{E38C9BB0-B07C-48D9-A5FD-E16E3FCC165C}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Step3" ID="{8226C123-D14D-4C3E-9408-7837CB10D99B}">
+				<Event Name="Play_Step3" ID="{8DDF86EC-9EBF-4A7C-ACDE-F106F95BEB5C}">
 					<ChildrenList>
-						<Action Name="" ID="{A218381A-0231-4622-BACC-3728144FF238}" ShortID="1064483767">
+						<Action Name="" ID="{9E5CFF6A-DF3C-461B-A74B-2519659504F4}" ShortID="97566133">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Step3" ID="{6AFED9E1-7855-4579-A0E8-FAA1A85ADD21}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+									<ObjectRef Name="Step3" ID="{64DFDC8A-222C-4214-AC9F-E5FDD052D681}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Step4" ID="{4FDCB634-53B4-41A9-A51F-FAB5BC443C38}">
+					<ChildrenList>
+						<Action Name="" ID="{A42267B6-235B-41BD-A7E2-447B37FFCE9D}" ShortID="22670506">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Step4" ID="{2446DD57-7A68-4E35-8C1F-961787D268A5}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

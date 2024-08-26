@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 3d0685fa3b76f6459c89a52f61e8cb44
     GuidInternal: 
-    m_lastTime: -8584775304965081737
+    m_lastTime: -8584771101075219642
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 05d0442fd1e6034a8f15f4ff9eedf763
     GuidInternal: 
-    m_lastTime: -8584775304965405643
+    m_lastTime: -8584771101090457151
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 52380ee722d02e4aa6dd06277ef97ae3
     GuidInternal: 
-    m_lastTime: -8584771878019858539
+    m_lastTime: -8584769353316283879
     List:
     - name: Main
       guid: cbfeb1857713eb4c88a1cc4eb8bd8322
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 6f2254b0ec43d949a24471b6a58e6080
     GuidInternal: 
-    m_lastTime: -8584771878482275151
+    m_lastTime: -8584769353877557225
     List:
     - name: Play_ANIMAL_WILD_Camel_D__Grunt__Groan__Roar__Gargle_x10_wav_07
       guid: 7fbf6f9dc8285841be75bae4ee70c499
@@ -471,7 +471,7 @@ MonoBehaviour:
       maxDuration: 2.5491846
       minDuration: 2.2710655
     - name: Play_Step1
-      guid: 578b7513fbb16a4f8f9c0e1afa3d569b
+      guid: 4c9b43e4efe4194b9ab70e83218da3e1
       id: 2600469397
       PathAndIcons:
       - ElementName: Events
@@ -482,13 +482,13 @@ MonoBehaviour:
         guid: 6f2254b0ec43d949a24471b6a58e6080
       - ElementName: Play_Step1
         ObjectType: 3
-        guid: 578b7513fbb16a4f8f9c0e1afa3d569b
+        guid: 4c9b43e4efe4194b9ab70e83218da3e1
       Path: Events\Default Work Unit\Play_Step1
-      maxAttenuation: 0
-      maxDuration: 0.33497736
-      minDuration: 0.33497736
+      maxAttenuation: 10
+      maxDuration: 0.4294902
+      minDuration: 0.4294902
     - name: Play_Step2
-      guid: 018d2e5140887c4c90727e028fc83604
+      guid: 2f70565be051fa4198a92d9e91f23486
       id: 2600469398
       PathAndIcons:
       - ElementName: Events
@@ -499,13 +499,13 @@ MonoBehaviour:
         guid: 6f2254b0ec43d949a24471b6a58e6080
       - ElementName: Play_Step2
         ObjectType: 3
-        guid: 018d2e5140887c4c90727e028fc83604
+        guid: 2f70565be051fa4198a92d9e91f23486
       Path: Events\Default Work Unit\Play_Step2
       maxAttenuation: 0
-      maxDuration: 0.31932423
-      minDuration: 0.31932423
+      maxDuration: 0.42175165
+      minDuration: 0.42175165
     - name: Play_Step3
-      guid: 23c126824dd13e4c94087837cb10d99b
+      guid: ec86df8dbf9e7c4aacdef106f95beb5c
       id: 2600469399
       PathAndIcons:
       - ElementName: Events
@@ -516,11 +516,28 @@ MonoBehaviour:
         guid: 6f2254b0ec43d949a24471b6a58e6080
       - ElementName: Play_Step3
         ObjectType: 3
-        guid: 23c126824dd13e4c94087837cb10d99b
+        guid: ec86df8dbf9e7c4aacdef106f95beb5c
       Path: Events\Default Work Unit\Play_Step3
       maxAttenuation: 0
-      maxDuration: 0.33810797
-      minDuration: 0.33810797
+      maxDuration: 0.4294902
+      minDuration: 0.4294902
+    - name: Play_Step4
+      guid: 34b6dc4fb453a941a51ffab5bc443c38
+      id: 2600469392
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_Step4
+        ObjectType: 3
+        guid: 34b6dc4fb453a941a51ffab5bc443c38
+      Path: Events\Default Work Unit\Play_Step4
+      maxAttenuation: 0
+      maxDuration: 0.4527059
+      minDuration: 0.4527059
     - name: Play_WindFall
       guid: 46bccf7b3e25584c9fa234bc8cc00308
       id: 774940991
@@ -635,7 +652,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: c64c9a4df7133c46ae1e9abc7bd1d428
     GuidInternal: 
-    m_lastTime: -8584775304965316021
+    m_lastTime: -8584771101094759493
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -649,7 +666,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: e61d15cc9bc3e14fbbc3797d51387829
     GuidInternal: 
-    m_lastTime: -8584775304965355910
+    m_lastTime: -8584771101075234697
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -663,7 +680,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 9388616f5b1d7047b0704ac8d1871c0e
     GuidInternal: 
-    m_lastTime: -8584775304965445686
+    m_lastTime: -8584771101075234697
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -677,10 +694,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 76b536bc7f2e3f4593201b9629121c31
     GuidInternal: 
-    m_lastTime: -8584775304965171560
+    m_lastTime: -8584771101075234697
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000500000006000000070000000a0000000b0000000c0000000d0000009b0000009c000000c0000000c1000000e7000000e8000000f7000000f8000000ff000000000100000101000003010000040100000601000007010000180100001901000021010000220100004d0100004e010000740100007501000083010000840100008501000087010000880100008f01000090010000a0010000a10100005b0200005c020000
+  ExpandedWaapiItemIds: 010000000500000006000000070000000a0000000b0000000c0000000d00000045000000460000009b0000009c000000c0000000c1000000e7000000e8000000f7000000f8000000ff000000000100000101000003010000040100000601000007010000180100001901000021010000220100004d0100004e010000740100007501000083010000840100008501000087010000880100008f01000090010000a0010000a10100005b0200005c020000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
