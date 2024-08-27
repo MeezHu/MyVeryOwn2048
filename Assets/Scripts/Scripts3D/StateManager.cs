@@ -41,6 +41,7 @@ public class StateManager : MonoBehaviour
 
     public ControlGears controlGears;
     public HeadBobController headBobController;
+    public StepSoundControl stepSoundControl;
 
     private void Start()
     {
@@ -63,7 +64,7 @@ public class StateManager : MonoBehaviour
                 StartCoroutine(CoroutineBoardView());
                 Debug.Log("Board View");
                 headBobController.enabled = false;
-                //headBobController.canStartPos = false;
+                stepSoundControl.enabled = false;
                 controlGears.canRotateGears = true;
             }
 
@@ -72,7 +73,7 @@ public class StateManager : MonoBehaviour
                 StartCoroutine(CoroutineFpsView());
                 Debug.Log("Fps View");
                 headBobController.enabled = true;
-                //headBobController.canStartPos = true;
+                stepSoundControl.enabled = true;
                 controlGears.canRotateGears = false;
             }
         }

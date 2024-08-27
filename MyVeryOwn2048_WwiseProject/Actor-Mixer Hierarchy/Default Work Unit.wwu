@@ -1695,6 +1695,220 @@
 						<ActiveSource Name="indoor-footsteps-6385" ID="{7C7E9A42-4D34-4CDD-AB94-D772EFB2FBA5}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Grid" ID="{D8263021-5703-4E2E-86AA-DDF53F36AEF0}" ShortID="22608611">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>40</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="GridAttenuation" ID="{8E0954A9-8044-4865-87DC-B5DA489718AF}" WorkUnitID="{597EC3F1-044B-4676-80BD-5B9B578810C0}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="207506__soundscape_leuphana__20131118_spoon-on-grid-fence_zoomh2nxy" ID="{BD3B4E7C-0C8B-4676-A063-8F0A33D608FB}">
+							<Language>SFX</Language>
+							<AudioFile>207506__soundscape_leuphana__20131118_spoon-on-grid-fence_zoomh2nxy.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="794043149"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="207506__soundscape_leuphana__20131118_spoon-on-grid-fence_zoomh2nxy" ID="{BD3B4E7C-0C8B-4676-A063-8F0A33D608FB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="LFE Rumble 3_01" ID="{E5DA88CF-84C7-4D41-AC27-1D5D30FC41ED}" ShortID="425655376">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>23</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>61</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="LFE Rumble 3" ID="{4DB44CEE-6166-47A0-A6C4-FCAB0D894CA4}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="15.1540041757444"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.01"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.0733766764766922"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>LFE Rumble 3.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="340654118"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="LFE Rumble 3" ID="{4DB44CEE-6166-47A0-A6C4-FCAB0D894CA4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="GetUp1" ID="{4516AA5E-ECFD-4554-A6E8-75A00C4D8B9B}" ShortID="880778757">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>35</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="575310__taure__fall" ID="{C3AA9D97-9253-4F75-B40D-A8508C08EBBA}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.2"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.6"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="23.2109501863584"/>
+								<Property Name="TrimEnd" Type="Real64" Value="24.199052093788"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>575310__taure__fall.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="942590437"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="575310__taure__fall" ID="{C3AA9D97-9253-4F75-B40D-A8508C08EBBA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="GetUp2" ID="{E23A694B-3A56-43CB-A625-6610F6CDD9B5}" ShortID="947830484">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>30</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>28</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="335171__jorgepotter__hand-touching" ID="{8C8C2FA4-F3C9-468F-8FFF-80513174527D}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.1"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.1"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="15.9868235294117"/>
+								<Property Name="TrimEnd" Type="Real64" Value="17.0619607843137"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>335171__jorgepotter__hand-touching.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="364078371"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="335171__jorgepotter__hand-touching" ID="{8C8C2FA4-F3C9-468F-8FFF-80513174527D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="GetUp3" ID="{97743619-19D6-41DB-8D7D-0829EC740311}" ShortID="991473797">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>30</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>28</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="335171__jorgepotter__hand-touching" ID="{BBC68567-2882-42D7-B215-327C556C6D30}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.1"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.1"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="17.108705882353"/>
+								<Property Name="TrimEnd" Type="Real64" Value="18.2773333333333"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>335171__jorgepotter__hand-touching.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="82235524"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="335171__jorgepotter__hand-touching" ID="{BBC68567-2882-42D7-B215-327C556C6D30}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

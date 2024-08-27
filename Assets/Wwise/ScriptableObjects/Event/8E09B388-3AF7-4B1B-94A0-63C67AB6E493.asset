@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0efe8e53a09e47b48a5098551e9f4a47, type: 3}
+  m_Name: 8E09B388-3AF7-4B1B-94A0-63C67AB6E493
+  m_EditorClassIdentifier: 
+  objectName: Play_GetUp3
+  id: 2903685820
+  guid: 8E09B388-3AF7-4B1B-94A0-63C67AB6E493

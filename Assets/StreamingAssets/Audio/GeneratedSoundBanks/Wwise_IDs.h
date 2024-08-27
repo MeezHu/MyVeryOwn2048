@@ -23,8 +23,13 @@ namespace AK
         static const AkUniqueID PLAY_GAMEOVERENDSOUND = 3634355598U;
         static const AkUniqueID PLAY_GAMEOVERRISER = 550428601U;
         static const AkUniqueID PLAY_GEARSPIN = 1269174159U;
+        static const AkUniqueID PLAY_GETUP1 = 2903685822U;
+        static const AkUniqueID PLAY_GETUP2 = 2903685821U;
+        static const AkUniqueID PLAY_GETUP3 = 2903685820U;
         static const AkUniqueID PLAY_GHOSTLY_PRESENCE__ANGELIC__VOCAL__LAYER__CREEPY__HORROR_4 = 2799706224U;
+        static const AkUniqueID PLAY_GRID = 151942042U;
         static const AkUniqueID PLAY_LFE_RUMBLE_3 = 1583694757U;
+        static const AkUniqueID PLAY_LFE_RUMBLE_3_01 = 143056513U;
         static const AkUniqueID PLAY_LIGHTSON = 275295778U;
         static const AkUniqueID PLAY_LIGHTSON_RED = 1144204686U;
         static const AkUniqueID PLAY_PLUMBERYSOUND = 2154670781U;

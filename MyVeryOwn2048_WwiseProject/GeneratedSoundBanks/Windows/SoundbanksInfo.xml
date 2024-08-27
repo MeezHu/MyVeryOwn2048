@@ -22,10 +22,14 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{C24A60B8-80DC-3586-3A5F-0802477AE706}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{737D17D7-2B97-E3CE-775A-7F0DD6B06887}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="82235524" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>335171__jorgepotter__hand-touching.wav</ShortName>
+					<CachePath>SFX/335171__jorgepotter__hand-touching_35530BF8.wem</CachePath>
+				</File>
 				<File Id="142810674" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>steamloopend.wav</ShortName>
 					<CachePath>SFX/steamloopend_0FE6E252.wem</CachePath>
@@ -54,6 +58,14 @@
 					<ShortName>656010__jacko4526__falling-human-bodies.wav</ShortName>
 					<CachePath>SFX/656010__jacko4526__falling-human-bodies_EE79F624.wem</CachePath>
 				</File>
+				<File Id="340654118" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LFE Rumble 3.wav</ShortName>
+					<CachePath>SFX/LFE Rumble 3_8DC70CA0.wem</CachePath>
+				</File>
+				<File Id="364078371" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>335171__jorgepotter__hand-touching.wav</ShortName>
+					<CachePath>SFX/335171__jorgepotter__hand-touching_A45F3D65.wem</CachePath>
+				</File>
 				<File Id="381261979" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Steam Release Sound Effect.wav</ShortName>
 					<CachePath>SFX/Steam Release Sound Effect_DBB583A7.wem</CachePath>
@@ -76,7 +88,7 @@
 				</File>
 				<File Id="545125755" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>indoor-footsteps-6385.wav</ShortName>
-					<CachePath>SFX/indoor-footsteps-6385_BA1C1707.wem</CachePath>
+					<CachePath>SFX/indoor-footsteps-6385_C1538F8C.wem</CachePath>
 				</File>
 				<File Id="565729331" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>NOISE EMF Radiation, Constant Hum, LCD TV Screen Off.wav</ShortName>
@@ -118,13 +130,21 @@
 					<ShortName>719846__vekon__riser_06_140bpm.wav</ShortName>
 					<CachePath>SFX/719846__vekon__riser_06_140bpm_E027E2DD.wem</CachePath>
 				</File>
+				<File Id="794043149" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>207506__soundscape_leuphana__20131118_spoon-on-grid-fence_zoomh2nxy.wav</ShortName>
+					<CachePath>SFX/207506__soundscape_leuphana__20131118_spoon-on-grid-fence_zoomh2nxy_818F3B66.wem</CachePath>
+				</File>
 				<File Id="817617945" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bluezone_BC0258_cinematic_metal_impact_050.wav</ShortName>
 					<CachePath>SFX/Bluezone_BC0258_cinematic_metal_impact_050_818F3B66.wem</CachePath>
 				</File>
 				<File Id="850009049" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>indoor-footsteps-6385.wav</ShortName>
-					<CachePath>SFX/indoor-footsteps-6385_85B763D5.wem</CachePath>
+					<CachePath>SFX/indoor-footsteps-6385_E72935E9.wem</CachePath>
+				</File>
+				<File Id="942590437" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>575310__taure__fall.wav</ShortName>
+					<CachePath>SFX/575310__taure__fall_17E54A08.wem</CachePath>
 				</File>
 				<File Id="952715998" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bluezone_BC0258_cinematic_metal_impact_052.wav</ShortName>
@@ -132,7 +152,7 @@
 				</File>
 				<File Id="956015908" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>indoor-footsteps-6385.wav</ShortName>
-					<CachePath>SFX/indoor-footsteps-6385_5CEDF641.wem</CachePath>
+					<CachePath>SFX/indoor-footsteps-6385_F76FDB30.wem</CachePath>
 				</File>
 				<File Id="978887015" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Steam Release Sound Effect.wav</ShortName>
@@ -140,7 +160,7 @@
 				</File>
 				<File Id="981938925" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>indoor-footsteps-6385.wav</ShortName>
-					<CachePath>SFX/indoor-footsteps-6385_5D1C4643.wem</CachePath>
+					<CachePath>SFX/indoor-footsteps-6385_451C25FE.wem</CachePath>
 				</File>
 				<File Id="1029205145" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10.wav 07.wav</ShortName>
@@ -209,14 +229,39 @@
 						<MediaRef Id="249526286"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2903685822" Name="Play_GetUp1" DurationType="OneShot" DurationMin="0.9881019" DurationMax="0.9881019">
+					<MediaRefs>
+						<MediaRef Id="942590437"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2903685821" Name="Play_GetUp2" DurationType="OneShot" DurationMin="1.0751373" DurationMax="1.0751373">
+					<MediaRefs>
+						<MediaRef Id="364078371"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2903685820" Name="Play_GetUp3" DurationType="OneShot" DurationMin="1.1686275" DurationMax="1.1686275">
+					<MediaRefs>
+						<MediaRef Id="82235524"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2799706224" Name="Play_Ghostly_Presence__Angelic__Vocal__Layer__Creepy__Horror_4" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="523999565"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="151942042" Name="Play_Grid" MaxAttenuation="10" DurationType="OneShot" DurationMin="4.3110657" DurationMax="4.3110657">
+					<MediaRefs>
+						<MediaRef Id="794043149"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1583694757" Name="Play_LFE_Rumble_3" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="538155986"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="143056513" Name="Play_LFE_Rumble_3_01" DurationType="OneShot" DurationMin="21.547457" DurationMax="21.547457">
+					<MediaRefs>
+						<MediaRef Id="340654118"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="275295778" Name="Play_LightsOn" DurationType="OneShot" DurationMin="1.7953105" DurationMax="1.7953105">
@@ -313,5 +358,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F8477401-E317-C4FD-9245-9A2995A2EB8B}</FileHash>
+	<FileHash>{C0AFD490-DFF5-C245-5EE7-D1DE06A9FBE8}</FileHash>
 </SoundBanksInfo>

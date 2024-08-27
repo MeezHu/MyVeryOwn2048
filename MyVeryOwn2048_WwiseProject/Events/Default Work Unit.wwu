@@ -370,6 +370,61 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Grid" ID="{1F28EE03-07FA-4696-B9BB-0026ABD919E7}">
+					<ChildrenList>
+						<Action Name="" ID="{B7C1A6E6-A020-48CD-A43A-1B75F3EFBA1A}" ShortID="79974199">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Grid" ID="{D8263021-5703-4E2E-86AA-DDF53F36AEF0}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_LFE_Rumble_3_01" ID="{7FAC6950-4FFF-4475-9FC7-7B0853312523}">
+					<ChildrenList>
+						<Action Name="" ID="{C4578297-A4D8-4492-99F7-AC064A44EEEE}" ShortID="555808067">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LFE Rumble 3_01" ID="{E5DA88CF-84C7-4D41-AC27-1D5D30FC41ED}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GetUp1" ID="{83A0A6BE-205C-4B9E-BD63-0F3274484B0E}">
+					<ChildrenList>
+						<Action Name="" ID="{DDF9AD58-3187-4317-BA09-A7C44C665C71}" ShortID="541905667">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GetUp1" ID="{4516AA5E-ECFD-4554-A6E8-75A00C4D8B9B}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GetUp2" ID="{4C924A6F-5422-4C99-8083-5DC708832653}">
+					<ChildrenList>
+						<Action Name="" ID="{170E2841-7C2E-4CDC-87DC-54D190A58F38}" ShortID="240694672">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GetUp2" ID="{E23A694B-3A56-43CB-A625-6610F6CDD9B5}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GetUp3" ID="{8E09B388-3AF7-4B1B-94A0-63C67AB6E493}">
+					<ChildrenList>
+						<Action Name="" ID="{FBAC00E9-511C-4BF4-84A0-696BC8EA4DAF}" ShortID="449266830">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GetUp3" ID="{97743619-19D6-41DB-8D7D-0829EC740311}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
