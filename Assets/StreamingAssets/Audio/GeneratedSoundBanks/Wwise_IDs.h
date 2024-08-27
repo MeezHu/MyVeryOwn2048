@@ -52,6 +52,11 @@ namespace AK
         static const AkUniqueID STOP_PLUMBERYSOUND = 1256843611U;
     } // namespace EVENTS
 
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID MASTERVOLUME = 2918011349U;
+    } // namespace GAME_PARAMETERS
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;

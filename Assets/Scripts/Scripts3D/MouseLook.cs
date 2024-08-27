@@ -1,17 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MouseLook : MonoBehaviour
 {
 
-    public float mouseSensitivity = 1000f;
+    public float mouseSensitivity;
 
     public Transform playerBody;
 
     float xRotation = 0f;
 
     public bool canMoveMouse;
+
+    public Slider sensitivitySlider;
 
     // Start is called before the first frame update
     void Start()
@@ -41,6 +44,8 @@ public class MouseLook : MonoBehaviour
             }
             catch { }
         }
+
+        mouseSensitivity = (sensitivitySlider.value *900);
         
     }
 }

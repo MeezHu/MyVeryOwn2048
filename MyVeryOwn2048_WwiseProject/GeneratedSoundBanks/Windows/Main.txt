@@ -42,7 +42,7 @@ Effect plug-ins	ID	Name	Type				Notes
 	1259256166	New_RoomVerb	Wwise RoomVerb			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	82235524	GetUp3	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\335171__jorgepotter__hand-touching_35530BF8.wem		\Actor-Mixer Hierarchy\Default Work Unit\GetUp3		224472
+	82235524	GetUp3	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\335171__jorgepotter__hand-touching_2276EE03.wem		\Actor-Mixer Hierarchy\Default Work Unit\GetUp3		224472
 	142810674	steamloopend	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\steamloopend_0FE6E252.wem		\Actor-Mixer Hierarchy\Default Work Unit\Random Steamloops\steamloopend		132444
 	185242006	Exterior Metal Door Gate Bolt Latch 7	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\Exterior Metal Door Gate Bolt Latch 7_EBDD341B.wem		\Actor-Mixer Hierarchy\Default Work Unit\RandomClong\Exterior Metal Door Gate Bolt Latch 7		275308
 	249526286	GearSpin_03	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\Ratchet Clicking, Spin Once To Slow, Spin Twice To Slow, Spin Intermittent_33081072.wem		\Actor-Mixer Hierarchy\Default Work Unit\RandomGearSpins\GearSpin_03		131616
@@ -50,8 +50,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	280919856	DoorNoiseSoft4	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\ResonantRustyDoor_scrape_short_05_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\RandomDoorNoiseSoft\DoorNoiseSoft4		798816
 	309407029	LightsOn Red	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\W_a_P_Cinematic_Whoosh_Hit_8_256877DA.wem		\Actor-Mixer Hierarchy\Default Work Unit\LightsOn Red		387008
 	313551885	FallSound3	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\656010__jacko4526__falling-human-bodies_EE79F624.wem		\Actor-Mixer Hierarchy\Default Work Unit\FallSound3		57292
-	340654118	LFE Rumble 3_01	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\LFE Rumble 3_8DC70CA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\LFE Rumble 3_01		4137208
-	364078371	GetUp2	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\335171__jorgepotter__hand-touching_A45F3D65.wem		\Actor-Mixer Hierarchy\Default Work Unit\GetUp2		206520
+	340654118	LFE Rumble 3_01	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\LFE Rumble 3_BDC09543.wem		\Actor-Mixer Hierarchy\Default Work Unit\LFE Rumble 3_01		4137208
+	364078371	GetUp2	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\335171__jorgepotter__hand-touching_E4040B60.wem		\Actor-Mixer Hierarchy\Default Work Unit\GetUp2		206520
 	381261979	Steam Release Sound Effect	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\Steam Release Sound Effect_DBB583A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\RandomSteamBlast\Steam Release Sound Effect		59580
 	442366620	PlumberySound	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\424462__nicstage__heaterpipecontact_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlumberySound		9747780
 	523999565	Ghostly Presence, Angelic, Vocal, Layer, Creepy, Horror 4	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\Ghostly Presence, Angelic, Vocal, Layer, Creepy, Horror 4_0CEBED97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ghostly Presence, Angelic, Vocal, Layer, Creepy, Horror 4		10869060
@@ -71,7 +71,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	794043149	Grid	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\207506__soundscape_leuphana__20131118_spoon-on-grid-fence_zoomh2nxy_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grid		760568
 	817617945	DoorNoiseHard3	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\Bluezone_BC0258_cinematic_metal_impact_050_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\RandomDoorNoiseHard\DoorNoiseHard3		1152008
 	850009049	Step2	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\indoor-footsteps-6385_E72935E9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Step2		40584
-	942590437	GetUp1	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\575310__taure__fall_17E54A08.wem		\Actor-Mixer Hierarchy\Default Work Unit\GetUp1		174396
+	942590437	GetUp1	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\575310__taure__fall_E9718497.wem		\Actor-Mixer Hierarchy\Default Work Unit\GetUp1		174396
 	952715998	DoorNoiseHard2	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\Bluezone_BC0258_cinematic_metal_impact_052_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\RandomDoorNoiseHard\DoorNoiseHard2		960096
 	956015908	Step4	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\indoor-footsteps-6385_F76FDB30.wem		\Actor-Mixer Hierarchy\Default Work Unit\Step4		43556
 	978887015	Steam Release Sound Effect	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\Steam Release Sound Effect_CADEBBB5.wem		\Actor-Mixer Hierarchy\Default Work Unit\RandomSteamBlastSpecial\Steam Release Sound Effect		378228

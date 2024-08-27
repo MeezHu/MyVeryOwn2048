@@ -9,6 +9,10 @@ public class FadeController : MonoBehaviour
     public GameObject openingAmbiance;
     public GameObject loopingAmbiance;
     public GameObject fallSounds;
+    public GameObject landLight1;
+    public GameObject landLight2;
+    public GameObject landLight3;
+    public GameObject landLight4;
 
     public PlayerMovement playerMovement;
     public MouseLook mouseLook;
@@ -22,6 +26,7 @@ public class FadeController : MonoBehaviour
         fadeAnimator = GetComponent<Animator>();
 
         Invoke("StartFallSound", 2);
+        Invoke("ActivateLights", 7);
         Invoke("OpeningFadeOut", 11);
         Invoke("GettingUp", 15);
         Invoke("ActivatePlayer", 21);
@@ -47,6 +52,14 @@ public class FadeController : MonoBehaviour
         headBobController.enabled = true;
         stepSoundControl.enabled = true;
         camGetUpAnimator.enabled = false;
+    }
+
+    public void ActivateLights()
+    {
+        landLight1.SetActive(true);
+        landLight2.SetActive(true);
+        landLight3.SetActive(true);
+        landLight4.SetActive(true);
     }
 
     public void GettingUp()

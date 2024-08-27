@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{E03E4BF2-21B2-B240-E71E-0E77F997D423}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{48E170E7-593E-A878-EBAC-04AA31C566D9}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -21,14 +21,17 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<GameParameters>
+				<GameParameter Id="2918011349" Name="MasterVolume"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{737D17D7-2B97-E3CE-775A-7F0DD6B06887}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{B701D0AE-9220-1956-2776-3D18AE3B40FB}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
 				<File Id="82235524" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>335171__jorgepotter__hand-touching.wav</ShortName>
-					<CachePath>SFX/335171__jorgepotter__hand-touching_35530BF8.wem</CachePath>
+					<CachePath>SFX/335171__jorgepotter__hand-touching_2276EE03.wem</CachePath>
 				</File>
 				<File Id="142810674" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>steamloopend.wav</ShortName>
@@ -60,11 +63,11 @@
 				</File>
 				<File Id="340654118" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LFE Rumble 3.wav</ShortName>
-					<CachePath>SFX/LFE Rumble 3_8DC70CA0.wem</CachePath>
+					<CachePath>SFX/LFE Rumble 3_BDC09543.wem</CachePath>
 				</File>
 				<File Id="364078371" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>335171__jorgepotter__hand-touching.wav</ShortName>
-					<CachePath>SFX/335171__jorgepotter__hand-touching_A45F3D65.wem</CachePath>
+					<CachePath>SFX/335171__jorgepotter__hand-touching_E4040B60.wem</CachePath>
 				</File>
 				<File Id="381261979" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Steam Release Sound Effect.wav</ShortName>
@@ -144,7 +147,7 @@
 				</File>
 				<File Id="942590437" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>575310__taure__fall.wav</ShortName>
-					<CachePath>SFX/575310__taure__fall_17E54A08.wem</CachePath>
+					<CachePath>SFX/575310__taure__fall_E9718497.wem</CachePath>
 				</File>
 				<File Id="952715998" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bluezone_BC0258_cinematic_metal_impact_052.wav</ShortName>
@@ -358,5 +361,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C0AFD490-DFF5-C245-5EE7-D1DE06A9FBE8}</FileHash>
+	<FileHash>{096EE49E-6F26-95BC-4886-97A50DB11FB9}</FileHash>
 </SoundBanksInfo>
