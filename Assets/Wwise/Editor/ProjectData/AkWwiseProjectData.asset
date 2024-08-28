@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 52380ee722d02e4aa6dd06277ef97ae3
     GuidInternal: 
-    m_lastTime: -8584768436786071481
+    m_lastTime: -8584767499163673761
     List:
     - name: Main
       guid: cbfeb1857713eb4c88a1cc4eb8bd8322
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 6f2254b0ec43d949a24471b6a58e6080
     GuidInternal: 
-    m_lastTime: -8584768436786168182
+    m_lastTime: -8584767499372724762
     List:
     - name: Play_ANIMAL_WILD_Camel_D__Grunt__Groan__Roar__Gargle_x10_wav_07
       guid: 7fbf6f9dc8285841be75bae4ee70c499
@@ -451,8 +451,8 @@ MonoBehaviour:
         guid: 865c4bb8e5f4124a8f518934177918d7
       Path: Events\Default Work Unit\Play_Random_Steamloops
       maxAttenuation: 15
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 9.124385
+      minDuration: 5.1208878
     - name: Play_RandomClong
       guid: 827a577f015cce4b8b7fd4cca67ac63d
       id: 3907246208

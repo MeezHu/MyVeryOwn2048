@@ -10,15 +10,26 @@ public class PauseMenuController : MonoBehaviour
     public MouseLook mouseLook;
     public VolumeSliderController volumeSliderController;
     public GameObject pauseMenuCanvas;
+    public bool canPause;
     public bool isPaused;
 
     public int MainMenuScene;
     public int RetryScene;
 
+    private void Start()
+    {
+        Invoke("CanPause", 20);
+    }
+
     public void ReturnToMainMenu()
     {
         Debug.Log("ReturnToMainMenu");
         SceneManager.LoadScene(MainMenuScene);
+    }
+
+    public void CanPause()
+    {
+        canPause = true;
     }
 
     public void ExitGame()
@@ -56,7 +67,7 @@ public class PauseMenuController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape) && isPaused == false)
+        if (Input.GetKeyDown(KeyCode.Escape) && isPaused == false && canPause)
         {
             StartCoroutine(CoroutinePauseOn());
         }

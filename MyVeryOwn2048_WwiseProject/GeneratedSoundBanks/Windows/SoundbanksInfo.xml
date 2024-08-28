@@ -25,7 +25,7 @@
 				<GameParameter Id="2918011349" Name="MasterVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{B701D0AE-9220-1956-2776-3D18AE3B40FB}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{C1271CF8-00BC-E67B-95CC-7EBEBA062957}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -282,7 +282,7 @@
 						<MediaRef Id="442366620"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3504215907" Name="Play_Random_Steamloops" MaxAttenuation="15" DurationType="Infinite">
+				<Event Id="3504215907" Name="Play_Random_Steamloops" MaxAttenuation="15" DurationType="OneShot" DurationMin="5.1208878" DurationMax="9.124385">
 					<MediaRefs>
 						<MediaRef Id="142810674"/>
 					</MediaRefs>
@@ -361,5 +361,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{096EE49E-6F26-95BC-4886-97A50DB11FB9}</FileHash>
+	<FileHash>{C064B14C-AA57-08D5-4E5D-2CC52D969591}</FileHash>
 </SoundBanksInfo>

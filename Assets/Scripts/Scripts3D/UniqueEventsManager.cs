@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UniqueEventsManager : MonoBehaviour
 {
@@ -69,9 +70,13 @@ public class UniqueEventsManager : MonoBehaviour
 
     public GameObject gameOverSound;
     public GameObject gameOverRiser;
+    public GameObject stopEverything;
 
     public DoorNoiseSoftControl doorNoiseSoftControl;
     public DoorNoiseHardControl doorNoiseHardControl;
+
+    public AK.Wwise.Event stopEverythingEvent;
+    public AkAmbient akStop;
 
 
     [ContextMenu("StartDoorNoiseSoft")]
@@ -144,6 +149,7 @@ public class UniqueEventsManager : MonoBehaviour
     {
         yield return new WaitForSeconds(3f);
         gameOverRiser.SetActive(true);
+
     }
 
     IEnumerator CoroutineGameOverSound()
@@ -164,6 +170,12 @@ public class UniqueEventsManager : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         vfxFinal1.SetActive(true);
         vfxFinal2.SetActive(true);
+
+        yield return new WaitForSeconds(3);
+        stopEverything.SetActive(true);
+
+        yield return new WaitForSeconds(0.1f);
+        SceneManager.LoadScene(1);
     }
 
     IEnumerator CoroutineTurningRed()

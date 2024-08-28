@@ -25,6 +25,7 @@ public class For3DGameManager : MonoBehaviour
     public void GameOver()
     {
         board.enabled = false;
+        UniqueEventsManager.Instance.GameOverEvent();
 
         Debug.Log("gameOver");
         //gameOver.interactable = true;
