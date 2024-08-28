@@ -15,7 +15,7 @@ public class DoorNoiseHardControl : MonoBehaviour
     IEnumerator CoroutineDoorNoiseHard()
     {
         randomWait = Random.Range(8, 15);
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(6);
         RandomDoorNoiseHard.SetActive(true);
         RandomDoorNoiseHard.SetActive(false);
         yield return new WaitForSeconds(randomWait);

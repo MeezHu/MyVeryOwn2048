@@ -69,6 +69,7 @@ public class StateManager : MonoBehaviour
                 }
                 Debug.Log("Board View");
                 headBobController.enabled = false;
+                stepSoundControl.stepSoundPlaying = false;
                 stepSoundControl.enabled = false;
                 controlGears.canRotateGears = true;
             }

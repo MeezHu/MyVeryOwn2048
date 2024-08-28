@@ -42,6 +42,87 @@ public class For3DTileBoard : MonoBehaviour
         tiles.Clear();
     }
 
+    public void Create1024()
+    {
+        For3DTile tile = Instantiate(tilePrefab, grid.transform);
+        tile.SetState(tileStates[9], 1024);
+        tile.Spawn(grid.GetRandomEmptyCell());
+        //tile.GetInfos(tileStates[0], grid.GetExactCell());
+        tiles.Add(tile);
+    }
+
+    public void Create512()
+    {
+        For3DTile tile = Instantiate(tilePrefab, grid.transform);
+        tile.SetState(tileStates[8], 512);
+        tile.Spawn(grid.GetRandomEmptyCell());
+        //tile.GetInfos(tileStates[0], grid.GetExactCell());
+        tiles.Add(tile);
+    }
+
+    public void Create256()
+    {
+        For3DTile tile = Instantiate(tilePrefab, grid.transform);
+        tile.SetState(tileStates[7], 256);
+        tile.Spawn(grid.GetRandomEmptyCell());
+        //tile.GetInfos(tileStates[0], grid.GetExactCell());
+        tiles.Add(tile);
+    }
+
+    public void Create128()
+    {
+        For3DTile tile = Instantiate(tilePrefab, grid.transform);
+        tile.SetState(tileStates[6], 128);
+        tile.Spawn(grid.GetRandomEmptyCell());
+        //tile.GetInfos(tileStates[0], grid.GetExactCell());
+        tiles.Add(tile);
+    }
+
+    public void Create64()
+    {
+        For3DTile tile = Instantiate(tilePrefab, grid.transform);
+        tile.SetState(tileStates[5], 64);
+        tile.Spawn(grid.GetRandomEmptyCell());
+        //tile.GetInfos(tileStates[0], grid.GetExactCell());
+        tiles.Add(tile);
+    }
+
+    public void Create32()
+    {
+        For3DTile tile = Instantiate(tilePrefab, grid.transform);
+        tile.SetState(tileStates[4], 32);
+        tile.Spawn(grid.GetRandomEmptyCell());
+        //tile.GetInfos(tileStates[0], grid.GetExactCell());
+        tiles.Add(tile);
+    }
+
+    public void Create16()
+    {
+        For3DTile tile = Instantiate(tilePrefab, grid.transform);
+        tile.SetState(tileStates[3], 16);
+        tile.Spawn(grid.GetRandomEmptyCell());
+        //tile.GetInfos(tileStates[0], grid.GetExactCell());
+        tiles.Add(tile);
+    }
+
+    public void Create8()
+    {
+        For3DTile tile = Instantiate(tilePrefab, grid.transform);
+        tile.SetState(tileStates[2], 8);
+        tile.Spawn(grid.GetRandomEmptyCell());
+        //tile.GetInfos(tileStates[0], grid.GetExactCell());
+        tiles.Add(tile);
+    }
+
+    public void Create4()
+    {
+        For3DTile tile = Instantiate(tilePrefab, grid.transform);
+        tile.SetState(tileStates[1], 4);
+        tile.Spawn(grid.GetRandomEmptyCell());
+        //tile.GetInfos(tileStates[0], grid.GetExactCell());
+        tiles.Add(tile);
+    }
+
     public void CreateTile()
     {
         For3DTile tile = Instantiate(tilePrefab, grid.transform);
@@ -53,6 +134,51 @@ public class For3DTileBoard : MonoBehaviour
 
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.F1))
+        {
+            Create4();
+        }
+
+        if (Input.GetKeyDown(KeyCode.F2))
+        {
+            Create8();
+        }
+
+        if (Input.GetKeyDown(KeyCode.F3))
+        {
+            Create16();
+        }
+
+        if (Input.GetKeyDown(KeyCode.F4))
+        {
+            Create32();
+        }
+
+        if (Input.GetKeyDown(KeyCode.F5))
+        {
+            Create64();
+        }
+
+        if (Input.GetKeyDown(KeyCode.F6))
+        {
+            Create128();
+        }
+
+        if (Input.GetKeyDown(KeyCode.F7))
+        {
+            Create256();
+        }
+
+        if (Input.GetKeyDown(KeyCode.F8))
+        {
+            Create512();
+        }
+
+        if (Input.GetKeyDown(KeyCode.F9))
+        {
+            Create1024();
+        }
+
         try
         {
             BoardState testState = (BoardState)StateManager.Instance.currentState;
