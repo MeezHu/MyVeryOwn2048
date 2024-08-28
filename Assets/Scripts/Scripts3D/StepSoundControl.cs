@@ -11,6 +11,9 @@ public class StepSoundControl : MonoBehaviour
     public bool canStepSound = true;
     public bool canContinueStepSound;
     public bool stepSoundPlaying = false;
+
+    public float toggleSpeed;
+    public CharacterController characterController;
     
 
     void Start()
@@ -18,9 +21,26 @@ public class StepSoundControl : MonoBehaviour
         InvokeRepeating("StepSound", 1, 1);
     }
 
+    public void StepSoundPlayingEnabler()
+    {
+        float speed = new Vector3(characterController.velocity.x, 0, characterController.velocity.z).magnitude;
+        if (speed < toggleSpeed) return;
+
+        stepSoundPlaying = true;
+    }
+
+    public void StepSoundPlayingDisabler()
+    {
+        float speed = new Vector3(characterController.velocity.x, 0, characterController.velocity.z).magnitude;
+        if (speed > toggleSpeed) return;
+
+        stepSoundPlaying = false;
+    }
+
     public void StepSound()
     {
         
+
         if (stepSoundPlaying)
         {
             int randomStep = Random.Range(0, stepSounds.Length);
@@ -31,13 +51,17 @@ public class StepSoundControl : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.Z) || Input.GetKey(KeyCode.Q) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
-        {
-            stepSoundPlaying = true;
-        }
-        else
-        {
-            stepSoundPlaying = false;
-        }
+        //if (Input.GetKey(KeyCode.Z) || Input.GetKey(KeyCode.Q) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
+        //{
+        //    stepSoundPlaying = true;
+        //}
+        //else
+        //{
+        //    stepSoundPlaying = false;
+        //}
+
+        StepSoundPlayingEnabler();
+
+        StepSoundPlayingDisabler();
     }
 }

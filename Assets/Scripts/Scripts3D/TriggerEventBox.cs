@@ -9,6 +9,7 @@ public class TriggerEventBox : MonoBehaviour
     public UnityEvent inBox;
     public UnityEvent outBox;
     public GameObject eCanvas;
+    public RetryCheck retryCheck;
 
     //public bool canPovBoard;
     //public bool canPovFps;
@@ -18,6 +19,10 @@ public class TriggerEventBox : MonoBehaviour
         if(eCanvas != null)
         {
             eCanvas.SetActive(true);
+        }
+        if (retryCheck != null)
+        {
+            retryCheck.canRetry = true;
         }
         //canPovBoard = true;
         //canPovFps = true;

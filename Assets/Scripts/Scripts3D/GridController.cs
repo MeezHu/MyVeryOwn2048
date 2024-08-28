@@ -11,7 +11,7 @@ public class GridController : MonoBehaviour
     {
         gridAnimator = GetComponent<Animator>();
 
-        Invoke("OpeningGrid", 40);
+        Invoke("OpeningGrid", 30);
     }
 
     public void OpeningGrid()

@@ -74,9 +74,7 @@ public class UniqueEventsManager : MonoBehaviour
 
     public DoorNoiseSoftControl doorNoiseSoftControl;
     public DoorNoiseHardControl doorNoiseHardControl;
-
-    public AK.Wwise.Event stopEverythingEvent;
-    public AkAmbient akStop;
+    public Animator whiteFadeAnimator;
 
 
     [ContextMenu("StartDoorNoiseSoft")]
@@ -154,7 +152,7 @@ public class UniqueEventsManager : MonoBehaviour
 
     IEnumerator CoroutineGameOverSound()
     {
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(6f);
         gameOverSound.SetActive(true);
     }
 
@@ -171,10 +169,10 @@ public class UniqueEventsManager : MonoBehaviour
         vfxFinal1.SetActive(true);
         vfxFinal2.SetActive(true);
 
-        yield return new WaitForSeconds(3);
-        stopEverything.SetActive(true);
+        yield return new WaitForSeconds(1.5f);
+        whiteFadeAnimator.SetTrigger("FadeIn");
 
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(3f);
         SceneManager.LoadScene(1);
     }
 

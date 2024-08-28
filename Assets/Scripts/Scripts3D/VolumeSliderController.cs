@@ -7,6 +7,9 @@ using UnityEngine.UI;
 
 public class VolumeSliderController : MonoBehaviour
 {
+    public RetryCheck retryCheck;
+    public PauseMenuController pauseMenuController;
+
     public Button phantomVolume;
     public Button phantomSensitivity;
     public Button phantomMainMenu;
@@ -31,6 +34,7 @@ public class VolumeSliderController : MonoBehaviour
     void Start()
     {
         phantomVolume.Select();
+        retryCheck = GetComponent<RetryCheck>();
     }
 
     void Update()
@@ -82,11 +86,23 @@ public class VolumeSliderController : MonoBehaviour
 
         if (EventSystem.current.currentSelectedGameObject == phantomRetry.gameObject)
         {
-            RetryImage.SetActive(true);
+            if (retryCheck.canRetry == false)
+            {
+                retryCheck.noRetryButton.SetActive(true);
+            }
+            if (retryCheck.canRetry == true)
+            {
+                if (Input.GetKeyDown(KeyCode.Return))
+                {
+                    pauseMenuController.Retry();
+                }
+                RetryImage.SetActive(true);
+            }
         }
         else
         {
             RetryImage.SetActive(false);
+            retryCheck.noRetryButton.SetActive(false);
         }
     }
 }
