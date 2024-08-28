@@ -42,6 +42,7 @@ public class StateManager : MonoBehaviour
     public ControlGears controlGears;
     public HeadBobController headBobController;
     public StepSoundControl stepSoundControl;
+    public GameObject eCanvas;
 
     private void Start()
     {
@@ -62,6 +63,10 @@ public class StateManager : MonoBehaviour
             if (canPovBoard)
             {
                 StartCoroutine(CoroutineBoardView());
+                if (eCanvas != null)
+                {
+                    Destroy(eCanvas);
+                }
                 Debug.Log("Board View");
                 headBobController.enabled = false;
                 stepSoundControl.enabled = false;
