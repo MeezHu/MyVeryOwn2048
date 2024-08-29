@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{48E170E7-593E-A878-EBAC-04AA31C566D9}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{C60DD2F4-D827-FE90-6E35-FC27A60EB3B1}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -25,10 +25,18 @@
 				<GameParameter Id="2918011349" Name="MasterVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{C1271CF8-00BC-E67B-95CC-7EBEBA062957}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{014B59C6-C858-0264-ABB0-222DC25F878A}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="47971958" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Metal, Movement, Bass Shakers, Container, Rattle, High To Low, Ramp Down, Long Static Medium High Tone, Mic 1 SND71742.wav</ShortName>
+					<CachePath>SFX/Metal, Movement, Bass Shakers, Container, Rattle, High To Low, Ramp Down, Long Static Medium High Tone, Mic 1 SND71742_F75C365F.wem</CachePath>
+				</File>
+				<File Id="50387362" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Swooshes, Whoosh, Classic, Cicada Flyby, Cinematic SND55541.wav</ShortName>
+					<CachePath>SFX/Swooshes, Whoosh, Classic, Cicada Flyby, Cinematic SND55541_CF435E8E.wem</CachePath>
+				</File>
 				<File Id="82235524" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>335171__jorgepotter__hand-touching.wav</ShortName>
 					<CachePath>SFX/335171__jorgepotter__hand-touching_2276EE03.wem</CachePath>
@@ -40,6 +48,10 @@
 				<File Id="185242006" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Exterior Metal Door Gate Bolt Latch 7.wav</ShortName>
 					<CachePath>SFX/Exterior Metal Door Gate Bolt Latch 7_EBDD341B.wem</CachePath>
+				</File>
+				<File Id="246866344" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Swooshes, Whoosh, Modulated, Bass Crunch, Normal 03 SND55240.wav</ShortName>
+					<CachePath>SFX/Swooshes, Whoosh, Modulated, Bass Crunch, Normal 03 SND55240_F6AC48AC.wem</CachePath>
 				</File>
 				<File Id="249526286" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ratchet Clicking, Spin Once To Slow, Spin Twice To Slow, Spin Intermittent.wav</ShortName>
@@ -76,6 +88,14 @@
 				<File Id="442366620" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>424462__nicstage__heaterpipecontact.wav</ShortName>
 					<CachePath>SFX/424462__nicstage__heaterpipecontact_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="481591402" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332.wav</ShortName>
+					<CachePath>SFX/Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332_9E95C55A.wem</CachePath>
+				</File>
+				<File Id="504394990" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Swooshes, Whoosh, Classic, Charcoal 01 SND55539.wav</ShortName>
+					<CachePath>SFX/Swooshes, Whoosh, Classic, Charcoal 01 SND55539_1407D9F1.wem</CachePath>
 				</File>
 				<File Id="523999565" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ghostly Presence, Angelic, Vocal, Layer, Creepy, Horror 4.wav</ShortName>
@@ -121,6 +141,14 @@
 					<ShortName>342224__newagesoup__electronic-noise-filtered-glitch-wall-of-sound03.wav</ShortName>
 					<CachePath>SFX/342224__newagesoup__electronic-noise-filtered-glitch-wall-of-sound03_D28F7BF7.wem</CachePath>
 				</File>
+				<File Id="676238632" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>whispering music.wav</ShortName>
+					<CachePath>SFX/whispering music_E8B779BD.wem</CachePath>
+				</File>
+				<File Id="686108002" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332.wav</ShortName>
+					<CachePath>SFX/Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332_6F130979.wem</CachePath>
+				</File>
 				<File Id="703197173" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ResonantRustyDoor_impact_soft_01.wav</ShortName>
 					<CachePath>SFX/ResonantRustyDoor_impact_soft_01_818F3B66.wem</CachePath>
@@ -128,6 +156,10 @@
 				<File Id="734380864" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>575310__taure__fall.wav</ShortName>
 					<CachePath>SFX/575310__taure__fall_358420C3.wem</CachePath>
+				</File>
+				<File Id="745667475" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332.wav</ShortName>
+					<CachePath>SFX/Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332_808E7051.wem</CachePath>
 				</File>
 				<File Id="786619384" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>719846__vekon__riser_06_140bpm.wav</ShortName>
@@ -144,6 +176,10 @@
 				<File Id="850009049" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>indoor-footsteps-6385.wav</ShortName>
 					<CachePath>SFX/indoor-footsteps-6385_E72935E9.wem</CachePath>
+				</File>
+				<File Id="917332138" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332.wav</ShortName>
+					<CachePath>SFX/Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332_EEC5FA55.wem</CachePath>
 				</File>
 				<File Id="942590437" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>575310__taure__fall.wav</ShortName>
@@ -165,6 +201,10 @@
 					<ShortName>indoor-footsteps-6385.wav</ShortName>
 					<CachePath>SFX/indoor-footsteps-6385_451C25FE.wem</CachePath>
 				</File>
+				<File Id="994786629" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332.wav</ShortName>
+					<CachePath>SFX/Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332_E67474B5.wem</CachePath>
+				</File>
 				<File Id="1029205145" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10.wav 07.wav</ShortName>
 					<CachePath>SFX/ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10.wav 07_818F3B66.wem</CachePath>
@@ -174,12 +214,19 @@
 				<ShareSets>
 					<Plugin Id="556305844" Name="New_RoomVerb_01" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="1259256166" Name="New_RoomVerb" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="3191103210" Name="New_Matrix_Reverb" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+					<Plugin Id="3872078032" Name="StartVerb" LibName="Wwise RoomVerb" LibId="7733251"/>
 				</ShareSets>
 			</Plugins>
 			<Events>
 				<Event Id="1157618425" Name="Play_ANIMAL_WILD_Camel_D__Grunt__Groan__Roar__Gargle_x10_wav_07" DurationType="OneShot" DurationMin="1.2242084" DurationMax="1.2242084">
 					<MediaRefs>
 						<MediaRef Id="1029205145"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="745834420" Name="Play_BeginBoom" DurationType="OneShot" DurationMin="10.8745575" DurationMax="10.8745575">
+					<MediaRefs>
+						<MediaRef Id="481591402"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2092580658" Name="Play_Buzzing_High" MaxAttenuation="10" DurationType="Infinite">
@@ -191,6 +238,16 @@
 					<MediaRefs>
 						<MediaRef Id="565729331"/>
 					</MediaRefs>
+				</Event>
+				<Event Id="34468666" Name="Play_EndStartBoom" DurationType="OneShot" DurationMin="0.90979874" DurationMax="0.90979874">
+					<MediaRefs>
+						<MediaRef Id="246866344"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3872078032"/>
+						</ShareSets>
+					</PluginRefs>
 				</Event>
 				<Event Id="1125683571" Name="Play_FallSound1" DurationType="OneShot" DurationMin="1.1584221" DurationMax="1.1584221">
 					<MediaRefs>
@@ -277,6 +334,11 @@
 						<MediaRef Id="309407029"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="4291005347" Name="Play_LightsOnMenu" MaxAttenuation="40" DurationType="OneShot" DurationMin="2.8498778" DurationMax="2.8498778">
+					<MediaRefs>
+						<MediaRef Id="309407029"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2154670781" Name="Play_PlumberySound" MaxAttenuation="4" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="442366620"/>
@@ -285,6 +347,29 @@
 				<Event Id="3504215907" Name="Play_Random_Steamloops" MaxAttenuation="15" DurationType="OneShot" DurationMin="5.1208878" DurationMax="9.124385">
 					<MediaRefs>
 						<MediaRef Id="142810674"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="327954570" Name="Play_RandomBoom" DurationType="OneShot" DurationMin="0.13345893" DurationMax="0.67479056">
+					<MediaRefs>
+						<MediaRef Id="917332138"/>
+						<MediaRef Id="994786629"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3191103210"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="2780087055" Name="Play_RandomBoomBack" DurationType="OneShot" DurationMin="0.96539444" DurationMax="1.7526504">
+					<MediaRefs>
+						<MediaRef Id="686108002"/>
+						<MediaRef Id="745667475"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1237019826" Name="Play_RandomCamWhoosh" DurationType="OneShot" DurationMin="2.4007285" DurationMax="4.6269283">
+					<MediaRefs>
+						<MediaRef Id="50387362"/>
+						<MediaRef Id="504394990"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3907246208" Name="Play_RandomClong" MaxAttenuation="12" DurationType="OneShot" DurationMin="1.3529552" DurationMax="1.8059788">
@@ -328,6 +413,16 @@
 						<MediaRef Id="978887015"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2626765055" Name="Play_StartBoom" DurationType="OneShot" DurationMin="6.850542" DurationMax="6.850542">
+					<MediaRefs>
+						<MediaRef Id="481591402"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3561394305" Name="Play_StartRiser" DurationType="OneShot" DurationMin="4.815775" DurationMax="4.815775">
+					<MediaRefs>
+						<MediaRef Id="47971958"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2600469397" Name="Play_Step1" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.4294902" DurationMax="0.4294902">
 					<MediaRefs>
 						<MediaRef Id="981938925"/>
@@ -348,6 +443,11 @@
 						<MediaRef Id="956015908"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="16777916" Name="Play_whispering_music" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="676238632"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="774940991" Name="Play_WindFall" DurationType="OneShot" DurationMin="5.5529647" DurationMax="5.5529647">
 					<MediaRefs>
 						<MediaRef Id="531780833"/>
@@ -358,8 +458,9 @@
 				<Event Id="3843945942" Name="Stop_Ghostly_Presence__Angelic__Vocal__Layer__Creepy__Horror_4" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2733305787" Name="Stop_LFE_Rumble_3" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1256843611" Name="Stop_PlumberySound" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1004893882" Name="Stop_whispering_music" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C064B14C-AA57-08D5-4E5D-2CC52D969591}</FileHash>
+	<FileHash>{1C66F090-258D-492F-8868-1404ED6D5C4E}</FileHash>
 </SoundBanksInfo>

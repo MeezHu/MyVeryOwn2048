@@ -1727,7 +1727,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 361
+  playingId: 4013
   soundEmitterObject: {fileID: 31502856}
   transitionDuration: 0
   eventIdInternal: 0
@@ -3114,7 +3114,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 362
+  playingId: 4014
   soundEmitterObject: {fileID: 74337165}
   transitionDuration: 0
   eventIdInternal: 0
@@ -3291,7 +3291,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 363
+  playingId: 4015
   soundEmitterObject: {fileID: 85633539}
   transitionDuration: 0
   eventIdInternal: 0
@@ -4368,7 +4368,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 364
+  playingId: 4016
   soundEmitterObject: {fileID: 100236110}
   transitionDuration: 0
   eventIdInternal: 0
@@ -6501,7 +6501,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 365
+  playingId: 4017
   soundEmitterObject: {fileID: 165638396}
   transitionDuration: 0
   eventIdInternal: 0
@@ -10163,7 +10163,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 366
+  playingId: 4018
   soundEmitterObject: {fileID: 256227229}
   transitionDuration: 0
   eventIdInternal: 0
@@ -10641,7 +10641,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 367
+  playingId: 4019
   soundEmitterObject: {fileID: 261864285}
   transitionDuration: 0
   eventIdInternal: 0
@@ -11901,7 +11901,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 368
+  playingId: 4020
   soundEmitterObject: {fileID: 293705980}
   transitionDuration: 0
   eventIdInternal: 0
@@ -12056,7 +12056,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 369
+  playingId: 4021
   soundEmitterObject: {fileID: 299410320}
   transitionDuration: 0
   eventIdInternal: 0
@@ -13289,7 +13289,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 370
+  playingId: 4022
   soundEmitterObject: {fileID: 335202199}
   transitionDuration: 0
   eventIdInternal: 0
@@ -13633,7 +13633,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 371
+  playingId: 4023
   soundEmitterObject: {fileID: 343354218}
   transitionDuration: 0
   eventIdInternal: 0
@@ -14583,6 +14583,7 @@ MonoBehaviour:
   RetryImage: {fileID: 1154727612}
   VolumeSlider: {fileID: 1110428257}
   SensitivitySlider: {fileID: 52371350}
+  rememberVolume: 0
   volumeLerpValue: 0
 --- !u!114 &360467145
 MonoBehaviour:
@@ -14957,7 +14958,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 372
+  playingId: 4024
   soundEmitterObject: {fileID: 366205080}
   transitionDuration: 0
   eventIdInternal: 0
@@ -16003,7 +16004,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 373
+  playingId: 4025
   soundEmitterObject: {fileID: 402837320}
   transitionDuration: 0
   eventIdInternal: 0
@@ -17282,7 +17283,7 @@ MonoBehaviour:
   pauseMenuCanvas: {fileID: 360467139}
   canPause: 0
   isPaused: 0
-  MainMenuScene: 0
+  MainMenuScene: 2
   RetryScene: 1
 --- !u!4 &434542990
 Transform:
@@ -18397,7 +18398,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 374
+  playingId: 4026
   soundEmitterObject: {fileID: 458856414}
   transitionDuration: 0
   eventIdInternal: 0
@@ -19654,7 +19655,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &494242594
 Transform:
   m_ObjectHideFlags: 0
@@ -20433,7 +20434,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 375
+  playingId: 4027
   soundEmitterObject: {fileID: 512145346}
   transitionDuration: 0
   eventIdInternal: 0
@@ -21290,7 +21291,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 376
+  playingId: 4028
   soundEmitterObject: {fileID: 535827498}
   transitionDuration: 0
   eventIdInternal: 0
@@ -23722,7 +23723,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 377
+  playingId: 4029
   soundEmitterObject: {fileID: 586466378}
   transitionDuration: 0
   eventIdInternal: 0
@@ -26142,7 +26143,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 378
+  playingId: 4030
   soundEmitterObject: {fileID: 668332066}
   transitionDuration: 0
   eventIdInternal: 0
@@ -26994,7 +26995,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 379
+  playingId: 4031
   soundEmitterObject: {fileID: 689185205}
   transitionDuration: 0
   eventIdInternal: 0
@@ -27545,7 +27546,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 380
+  playingId: 4032
   soundEmitterObject: {fileID: 694084249}
   transitionDuration: 0
   eventIdInternal: 0
@@ -27887,7 +27888,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 381
+  playingId: 4033
   soundEmitterObject: {fileID: 699621086}
   transitionDuration: 0
   eventIdInternal: 0
@@ -28835,7 +28836,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 382
+  playingId: 4034
   soundEmitterObject: {fileID: 733999356}
   transitionDuration: 0
   eventIdInternal: 0
@@ -29592,7 +29593,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 383
+  playingId: 4035
   soundEmitterObject: {fileID: 758274899}
   transitionDuration: 0
   eventIdInternal: 0
@@ -30060,7 +30061,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 384
+  playingId: 4036
   soundEmitterObject: {fileID: 764936389}
   transitionDuration: 0
   eventIdInternal: 0
@@ -30993,7 +30994,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 385
+  playingId: 4037
   soundEmitterObject: {fileID: 782628472}
   transitionDuration: 0
   eventIdInternal: 0
@@ -31821,7 +31822,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 386
+  playingId: 4038
   soundEmitterObject: {fileID: 805193979}
   transitionDuration: 0
   eventIdInternal: 0
@@ -32065,7 +32066,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 387
+  playingId: 4039
   soundEmitterObject: {fileID: 810807198}
   transitionDuration: 0
   eventIdInternal: 0
@@ -32527,7 +32528,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 388
+  playingId: 4040
   soundEmitterObject: {fileID: 815472061}
   transitionDuration: 0
   eventIdInternal: 0
@@ -32969,7 +32970,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 389
+  playingId: 4041
   soundEmitterObject: {fileID: 831705173}
   transitionDuration: 0
   eventIdInternal: 0
@@ -33754,7 +33755,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 390
+  playingId: 4042
   soundEmitterObject: {fileID: 860483375}
   transitionDuration: 0
   eventIdInternal: 0
@@ -34489,7 +34490,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 391
+  playingId: 4043
   soundEmitterObject: {fileID: 880496870}
   transitionDuration: 0
   eventIdInternal: 0
@@ -35346,7 +35347,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 392
+  playingId: 4044
   soundEmitterObject: {fileID: 914333303}
   transitionDuration: 0
   eventIdInternal: 0
@@ -37476,7 +37477,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 393
+  playingId: 4045
   soundEmitterObject: {fileID: 974047719}
   transitionDuration: 0
   eventIdInternal: 0
@@ -37708,7 +37709,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 394
+  playingId: 4046
   soundEmitterObject: {fileID: 979251363}
   transitionDuration: 0
   eventIdInternal: 0
@@ -39943,7 +39944,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 395
+  playingId: 4047
   soundEmitterObject: {fileID: 1023115185}
   transitionDuration: 0
   eventIdInternal: 0
@@ -41669,7 +41670,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 396
+  playingId: 4048
   soundEmitterObject: {fileID: 1060484197}
   transitionDuration: 0
   eventIdInternal: 0
@@ -42352,7 +42353,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 397
+  playingId: 4049
   soundEmitterObject: {fileID: 1076677066}
   transitionDuration: 0
   eventIdInternal: 0
@@ -42608,7 +42609,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 398
+  playingId: 4050
   soundEmitterObject: {fileID: 1085379165}
   transitionDuration: 0
   eventIdInternal: 0
@@ -43379,7 +43380,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 399
+  playingId: 4051
   soundEmitterObject: {fileID: 1101565488}
   transitionDuration: 0
   eventIdInternal: 0
@@ -44864,7 +44865,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 400
+  playingId: 4052
   soundEmitterObject: {fileID: 1150759944}
   transitionDuration: 0
   eventIdInternal: 0
@@ -47249,7 +47250,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 401
+  playingId: 4053
   soundEmitterObject: {fileID: 1208637307}
   transitionDuration: 0
   eventIdInternal: 0
@@ -51059,7 +51060,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 402
+  playingId: 4054
   soundEmitterObject: {fileID: 1323523930}
   transitionDuration: 0
   eventIdInternal: 0
@@ -51531,7 +51532,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 403
+  playingId: 4055
   soundEmitterObject: {fileID: 1327694651}
   transitionDuration: 0
   eventIdInternal: 0
@@ -51921,7 +51922,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 404
+  playingId: 4056
   soundEmitterObject: {fileID: 1340800869}
   transitionDuration: 0
   eventIdInternal: 0
@@ -52299,7 +52300,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 405
+  playingId: 4057
   soundEmitterObject: {fileID: 1360998116}
   transitionDuration: 0
   eventIdInternal: 0
@@ -52679,7 +52680,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 406
+  playingId: 4058
   soundEmitterObject: {fileID: 1368740637}
   transitionDuration: 0
   eventIdInternal: 0
@@ -53737,7 +53738,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 407
+  playingId: 4059
   soundEmitterObject: {fileID: 1387535992}
   transitionDuration: 0
   eventIdInternal: 0
@@ -54365,7 +54366,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 408
+  playingId: 4060
   soundEmitterObject: {fileID: 1394561358}
   transitionDuration: 0
   eventIdInternal: 0
@@ -54966,7 +54967,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 409
+  playingId: 4061
   soundEmitterObject: {fileID: 1408475194}
   transitionDuration: 0
   eventIdInternal: 0
@@ -59551,7 +59552,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 410
+  playingId: 4062
   soundEmitterObject: {fileID: 1527699987}
   transitionDuration: 0
   eventIdInternal: 0
@@ -60645,7 +60646,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 411
+  playingId: 4063
   soundEmitterObject: {fileID: 1562915458}
   transitionDuration: 0
   eventIdInternal: 0
@@ -61561,7 +61562,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 412
+  playingId: 4064
   soundEmitterObject: {fileID: 1581453999}
   transitionDuration: 0
   eventIdInternal: 0
@@ -63713,7 +63714,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 413
+  playingId: 4065
   soundEmitterObject: {fileID: 1654225609}
   transitionDuration: 0
   eventIdInternal: 0
@@ -63963,7 +63964,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 414
+  playingId: 4066
   soundEmitterObject: {fileID: 1658050505}
   transitionDuration: 0
   eventIdInternal: 0
@@ -66948,7 +66949,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 415
+  playingId: 4067
   soundEmitterObject: {fileID: 1742960941}
   transitionDuration: 0
   eventIdInternal: 0
@@ -67091,7 +67092,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 416
+  playingId: 4068
   soundEmitterObject: {fileID: 1748537657}
   transitionDuration: 0
   eventIdInternal: 0
@@ -68687,7 +68688,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 417
+  playingId: 4069
   soundEmitterObject: {fileID: 1768176365}
   transitionDuration: 0
   eventIdInternal: 0
@@ -68938,7 +68939,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 418
+  playingId: 4070
   soundEmitterObject: {fileID: 1772461424}
   transitionDuration: 0
   eventIdInternal: 0
@@ -69797,7 +69798,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 419
+  playingId: 4071
   soundEmitterObject: {fileID: 1786637404}
   transitionDuration: 0
   eventIdInternal: 0
@@ -71328,7 +71329,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 420
+  playingId: 4072
   soundEmitterObject: {fileID: 1814852139}
   transitionDuration: 0
   eventIdInternal: 0
@@ -71812,7 +71813,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 421
+  playingId: 4073
   soundEmitterObject: {fileID: 1824055364}
   transitionDuration: 0
   eventIdInternal: 0
@@ -72593,7 +72594,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 422
+  playingId: 4074
   soundEmitterObject: {fileID: 1837376763}
   transitionDuration: 0
   eventIdInternal: 0
@@ -73219,7 +73220,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 423
+  playingId: 4075
   soundEmitterObject: {fileID: 1865216334}
   transitionDuration: 0
   eventIdInternal: 0
@@ -73869,7 +73870,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 424
+  playingId: 4076
   soundEmitterObject: {fileID: 1880373396}
   transitionDuration: 0
   eventIdInternal: 0
@@ -74533,7 +74534,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 425
+  playingId: 4077
   soundEmitterObject: {fileID: 1899938825}
   transitionDuration: 0
   eventIdInternal: 0
@@ -75599,7 +75600,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 426
+  playingId: 4078
   soundEmitterObject: {fileID: 1926744793}
   transitionDuration: 0
   eventIdInternal: 0
@@ -77616,7 +77617,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 427
+  playingId: 4079
   soundEmitterObject: {fileID: 1983469249}
   transitionDuration: 0
   eventIdInternal: 0
@@ -77915,7 +77916,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 428
+  playingId: 4080
   soundEmitterObject: {fileID: 1985727712}
   transitionDuration: 0
   eventIdInternal: 0
@@ -80126,7 +80127,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 429
+  playingId: 4081
   soundEmitterObject: {fileID: 2038540547}
   transitionDuration: 0
   eventIdInternal: 0
@@ -81815,7 +81816,7 @@ MonoBehaviour:
       type: 2}
   useCallbacks: 0
   Callbacks: []
-  playingId: 430
+  playingId: 4082
   soundEmitterObject: {fileID: 2090759126}
   transitionDuration: 0
   eventIdInternal: 0

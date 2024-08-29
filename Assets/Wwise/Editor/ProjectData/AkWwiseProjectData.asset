@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 52380ee722d02e4aa6dd06277ef97ae3
     GuidInternal: 
-    m_lastTime: -8584767499163673761
+    m_lastTime: -8584766370606817239
     List:
     - name: Main
       guid: cbfeb1857713eb4c88a1cc4eb8bd8322
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 6f2254b0ec43d949a24471b6a58e6080
     GuidInternal: 
-    m_lastTime: -8584767499372724762
+    m_lastTime: -8584766366861356199
     List:
     - name: Play_ANIMAL_WILD_Camel_D__Grunt__Groan__Roar__Gargle_x10_wav_07
       guid: 7fbf6f9dc8285841be75bae4ee70c499
@@ -113,6 +113,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.2242084
       minDuration: 1.2242084
+    - name: Play_BeginBoom
+      guid: 4efd102114ec7647b56baec3ef43363c
+      id: 745834420
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_BeginBoom
+        ObjectType: 3
+        guid: 4efd102114ec7647b56baec3ef43363c
+      Path: Events\Default Work Unit\Play_BeginBoom
+      maxAttenuation: 0
+      maxDuration: 10.8745575
+      minDuration: 10.8745575
     - name: Play_Buzzing_High
       guid: 124522ae1c11094998177a4fd2d4d514
       id: 2092580658
@@ -147,6 +164,23 @@ MonoBehaviour:
       maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
+    - name: Play_EndStartBoom
+      guid: 28b4a9e5e8ec3a4ca657e2754d42dd4b
+      id: 34468666
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_EndStartBoom
+        ObjectType: 3
+        guid: 28b4a9e5e8ec3a4ca657e2754d42dd4b
+      Path: Events\Default Work Unit\Play_EndStartBoom
+      maxAttenuation: 0
+      maxDuration: 0.90979874
+      minDuration: 0.90979874
     - name: Play_FallSound1
       guid: 7e3c96036d108f42a6f19da52101a3bd
       id: 1125683571
@@ -419,6 +453,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 2.2619495
       minDuration: 2.2619495
+    - name: Play_LightsOnMenu
+      guid: 5e10c093126c54449c05f07accef0f03
+      id: 4291005347
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_LightsOnMenu
+        ObjectType: 3
+        guid: 5e10c093126c54449c05f07accef0f03
+      Path: Events\Default Work Unit\Play_LightsOnMenu
+      maxAttenuation: 40
+      maxDuration: 2.8498778
+      minDuration: 2.8498778
     - name: Play_PlumberySound
       guid: 697072c02b13a648b0b7766c3503d119
       id: 2154670781
@@ -453,6 +504,57 @@ MonoBehaviour:
       maxAttenuation: 15
       maxDuration: 9.124385
       minDuration: 5.1208878
+    - name: Play_RandomBoom
+      guid: 222d4c93aadc3d439113454f6e2dfdd8
+      id: 327954570
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_RandomBoom
+        ObjectType: 3
+        guid: 222d4c93aadc3d439113454f6e2dfdd8
+      Path: Events\Default Work Unit\Play_RandomBoom
+      maxAttenuation: 0
+      maxDuration: 0.67479056
+      minDuration: 0.13345893
+    - name: Play_RandomBoomBack
+      guid: 9a6e7ee3229e9249a2da15e1dbace888
+      id: 2780087055
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_RandomBoomBack
+        ObjectType: 3
+        guid: 9a6e7ee3229e9249a2da15e1dbace888
+      Path: Events\Default Work Unit\Play_RandomBoomBack
+      maxAttenuation: 0
+      maxDuration: 1.7526504
+      minDuration: 0.96539444
+    - name: Play_RandomCamWhoosh
+      guid: 1f25f9d2479c1e4ea990bf4908800198
+      id: 1237019826
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_RandomCamWhoosh
+        ObjectType: 3
+        guid: 1f25f9d2479c1e4ea990bf4908800198
+      Path: Events\Default Work Unit\Play_RandomCamWhoosh
+      maxAttenuation: 0
+      maxDuration: 4.6269283
+      minDuration: 2.4007285
     - name: Play_RandomClong
       guid: 827a577f015cce4b8b7fd4cca67ac63d
       id: 3907246208
@@ -555,6 +657,40 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 2.5491846
       minDuration: 2.2710655
+    - name: Play_StartBoom
+      guid: a7696b47bfde9046b51e09c54a69cb85
+      id: 2626765055
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_StartBoom
+        ObjectType: 3
+        guid: a7696b47bfde9046b51e09c54a69cb85
+      Path: Events\Default Work Unit\Play_StartBoom
+      maxAttenuation: 0
+      maxDuration: 6.850542
+      minDuration: 6.850542
+    - name: Play_StartRiser
+      guid: 9ffb5eaf807d9d4591ea2651d366ca47
+      id: 3561394305
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_StartRiser
+        ObjectType: 3
+        guid: 9ffb5eaf807d9d4591ea2651d366ca47
+      Path: Events\Default Work Unit\Play_StartRiser
+      maxAttenuation: 0
+      maxDuration: 4.815775
+      minDuration: 4.815775
     - name: Play_Step1
       guid: 4c9b43e4efe4194b9ab70e83218da3e1
       id: 2600469397
@@ -623,6 +759,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.4527059
       minDuration: 0.4527059
+    - name: Play_whispering_music
+      guid: 4fa7a3022aec814792b3d277c7a60d73
+      id: 16777916
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_whispering_music
+        ObjectType: 3
+        guid: 4fa7a3022aec814792b3d277c7a60d73
+      Path: Events\Default Work Unit\Play_whispering_music
+      maxAttenuation: 0
+      maxDuration: 66.666664
+      minDuration: 66.666664
     - name: Play_WindFall
       guid: 46bccf7b3e25584c9fa234bc8cc00308
       id: 774940991
@@ -725,6 +878,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Stop_whispering_music
+      guid: acc3572b08331345b80e4625aa8a1b85
+      id: 1004893882
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Stop_whispering_music
+        ObjectType: 3
+        guid: acc3572b08331345b80e4625aa8a1b85
+      Path: Events\Default Work Unit\Stop_whispering_music
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -796,7 +966,7 @@ MonoBehaviour:
     m_lastTime: -8584771101075234697
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000500000006000000070000000a0000000b0000000c0000000d000000310000003200000045000000460000009b0000009c000000c0000000c1000000c4000000c5000000e7000000e8000000f7000000f8000000ff000000000100000101000003010000040100000601000007010000180100001901000021010000220100004d0100004e010000740100007501000083010000840100008501000087010000880100008f01000090010000a0010000a10100005b0200005c020000
+  ExpandedWaapiItemIds: 010000000500000006000000070000000a0000000b0000000c0000000d0000002e0000002f000000310000003200000045000000460000009b0000009c000000c0000000c1000000c4000000c5000000e7000000e8000000f7000000f8000000ff000000000100000101000003010000040100000601000007010000180100001901000021010000220100004d0100004e010000740100007501000083010000840100008501000087010000880100008f01000090010000a0010000a10100005b0200005c020000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

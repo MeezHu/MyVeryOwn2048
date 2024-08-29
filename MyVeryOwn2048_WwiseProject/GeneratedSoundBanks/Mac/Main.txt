@@ -1,0 +1,80 @@
+Event	ID	Name			Wwise Object Path	Notes
+	143056513	Play_LFE_Rumble_3_01			\Default Work Unit\Play_LFE_Rumble_3_01	
+	151942042	Play_Grid			\Default Work Unit\Play_Grid	
+	275295778	Play_LightsOn			\Default Work Unit\Play_LightsOn	
+	550428601	Play_GameOverRiser			\Default Work Unit\Play_GameOverRiser	
+	595744404	Stop_Buzzing_High			\Default Work Unit\Stop_Buzzing_High	
+	774940991	Play_WindFall			\Default Work Unit\Play_WindFall	
+	976348315	Play_RandomDoorNoiseSoft			\Default Work Unit\Play_RandomDoorNoiseSoft	
+	1028622269	Play_RandomSteamBlast			\Default Work Unit\Play_RandomSteamBlast	
+	1125683568	Play_FallSound2			\Default Work Unit\Play_FallSound2	
+	1125683569	Play_FallSound3			\Default Work Unit\Play_FallSound3	
+	1125683571	Play_FallSound1			\Default Work Unit\Play_FallSound1	
+	1125683574	Play_FallSound4			\Default Work Unit\Play_FallSound4	
+	1144204686	Play_LightsOn_Red			\Default Work Unit\Play_LightsOn_Red	
+	1157618425	Play_ANIMAL_WILD_Camel_D__Grunt__Groan__Roar__Gargle_x10_wav_07			\Default Work Unit\Play_ANIMAL_WILD_Camel_D__Grunt__Groan__Roar__Gargle_x10_wav_07	
+	1256843611	Stop_PlumberySound			\Default Work Unit\Stop_PlumberySound	
+	1269174159	Play_GearSpin			\Default Work Unit\Play_GearSpin	
+	1550183220	Play_Buzzing_Low			\Default Work Unit\Play_Buzzing_Low	
+	1583694757	Play_LFE_Rumble_3			\Default Work Unit\Play_LFE_Rumble_3	
+	1923114070	Stop_Buzzing_Low			\Default Work Unit\Stop_Buzzing_Low	
+	2092580658	Play_Buzzing_High			\Default Work Unit\Play_Buzzing_High	
+	2154670781	Play_PlumberySound			\Default Work Unit\Play_PlumberySound	
+	2301217512	Play_RandomDoorNoiseHard			\Default Work Unit\Play_RandomDoorNoiseHard	
+	2485678993	Play_RandomGearSpins			\Default Work Unit\Play_RandomGearSpins	
+	2600469392	Play_Step4			\Default Work Unit\Play_Step4	
+	2600469397	Play_Step1			\Default Work Unit\Play_Step1	
+	2600469398	Play_Step2			\Default Work Unit\Play_Step2	
+	2600469399	Play_Step3			\Default Work Unit\Play_Step3	
+	2733305787	Stop_LFE_Rumble_3			\Default Work Unit\Stop_LFE_Rumble_3	
+	2799706224	Play_Ghostly_Presence__Angelic__Vocal__Layer__Creepy__Horror_4			\Default Work Unit\Play_Ghostly_Presence__Angelic__Vocal__Layer__Creepy__Horror_4	
+	2903685820	Play_GetUp3			\Default Work Unit\Play_GetUp3	
+	2903685821	Play_GetUp2			\Default Work Unit\Play_GetUp2	
+	2903685822	Play_GetUp1			\Default Work Unit\Play_GetUp1	
+	3504215907	Play_Random_Steamloops			\Default Work Unit\Play_Random_Steamloops	
+	3634355598	Play_GameOverEndSound			\Default Work Unit\Play_GameOverEndSound	
+	3770773282	Play_RandomSteamBlastSpecial			\Default Work Unit\Play_RandomSteamBlastSpecial	
+	3843945942	Stop_Ghostly_Presence__Angelic__Vocal__Layer__Creepy__Horror_4			\Default Work Unit\Stop_Ghostly_Presence__Angelic__Vocal__Layer__Creepy__Horror_4	
+	3907246208	Play_RandomClong			\Default Work Unit\Play_RandomClong	
+
+Effect plug-ins	ID	Name	Type				Notes
+	556305844	New_RoomVerb_01	Wwise RoomVerb			
+	1259256166	New_RoomVerb	Wwise RoomVerb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	82235524	GetUp3	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Mac\SFX\335171__jorgepotter__hand-touching_2276EE03.wem		\Actor-Mixer Hierarchy\Default Work Unit\GetUp3		224472
+	142810674	steamloopend	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Mac\SFX\steamloopend_0FE6E252.wem		\Actor-Mixer Hierarchy\Default Work Unit\Random Steamloops\steamloopend		132444
+	185242006	Exterior Metal Door Gate Bolt Latch 7	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Mac\SFX\Exterior Metal Door Gate Bolt Latch 7_EBDD341B.wem		\Actor-Mixer Hierarchy\Default Work Unit\RandomClong\Exterior Metal Door Gate Bolt Latch 7		275308
+	249526286	GearSpin_03	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Mac\SFX\Ratchet Clicking, Spin Once To Slow, Spin Twice To Slow, Spin Intermittent_33081072.wem		\Actor-Mixer Hierarchy\Default Work Unit\RandomGearSpins\GearSpin_03		131616
+	259901580	DoorNoiseSoft3	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Mac\SFX\Scratching knife on metallic jagged surface 02_76D5A231.wem		\Actor-Mixer Hierarchy\Default Work Unit\RandomDoorNoiseSoft\DoorNoiseSoft3		74572
+	280919856	DoorNoiseSoft4	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Mac\SFX\ResonantRustyDoor_scrape_short_05_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\RandomDoorNoiseSoft\DoorNoiseSoft4		798816
+	309407029	LightsOn Red	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Mac\SFX\W_a_P_Cinematic_Whoosh_Hit_8_256877DA.wem		\Actor-Mixer Hierarchy\Default Work Unit\LightsOn Red		387008
+	313551885	FallSound3	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Mac\SFX\656010__jacko4526__falling-human-bodies_EE79F624.wem		\Actor-Mixer Hierarchy\Default Work Unit\FallSound3		57292
+	340654118	LFE Rumble 3_01	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Mac\SFX\LFE Rumble 3_BDC09543.wem		\Actor-Mixer Hierarchy\Default Work Unit\LFE Rumble 3_01		4137208
+	364078371	GetUp2	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Mac\SFX\335171__jorgepotter__hand-touching_E4040B60.wem		\Actor-Mixer Hierarchy\Default Work Unit\GetUp2		206520
+	381261979	Steam Release Sound Effect	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Mac\SFX\Steam Release Sound Effect_DBB583A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\RandomSteamBlast\Steam Release Sound Effect		59580
+	442366620	PlumberySound	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Mac\SFX\424462__nicstage__heaterpipecontact_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlumberySound		9747780
+	523999565	Ghostly Presence, Angelic, Vocal, Layer, Creepy, Horror 4	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Mac\SFX\Ghostly Presence, Angelic, Vocal, Layer, Creepy, Horror 4_0CEBED97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ghostly Presence, Angelic, Vocal, Layer, Creepy, Horror 4		10869060
+	531780833	WindFall	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Mac\SFX\138968__huggy13ear__wind-4_905EFF3D.wem		\Actor-Mixer Hierarchy\Default Work Unit\WindFall		489868
+	538155986	LFE Rumble 3	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Mac\SFX\LFE Rumble 3_6B2DB308.wem		\Actor-Mixer Hierarchy\Default Work Unit\LFE Rumble 3		3943492
+	545125755	Step3	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Mac\SFX\indoor-footsteps-6385_C1538F8C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Step3		41328
+	565729331	Buzzing High	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Mac\SFX\NOISE EMF Radiation, Constant Hum, LCD TV Screen Off_22F29E06.wem		\Actor-Mixer Hierarchy\Default Work Unit\Buzzing High		12754348
+	573373979	DoorNoiseHard4	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Mac\SFX\Bluezone_BC0258_cinematic_metal_anvil_impact_005_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\RandomDoorNoiseHard\DoorNoiseHard4		744056
+	573959933	FallSound1	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Mac\SFX\273327__arnaud-coutancier__fall-3-on-floor-cushion_3E61CA61.wem		\Actor-Mixer Hierarchy\Default Work Unit\FallSound1		162284
+	575146921	FallSound2	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Mac\SFX\656366__straynerd__falling-on-mattress-owi_B90AE67C.wem		\Actor-Mixer Hierarchy\Default Work Unit\FallSound2		207812
+	637078363	DoorNoiseHard1	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Mac\SFX\Bluezone_BC0258_cinematic_metal_impact_069_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\RandomDoorNoiseHard\DoorNoiseHard1		528072
+	659181723	DoorNoiseSoft2	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Mac\SFX\ResonantRustyDoor_impact_hard_11_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\RandomDoorNoiseSoft\DoorNoiseSoft2		704608
+	672664792	GameOverEndSound	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Mac\SFX\342224__newagesoup__electronic-noise-filtered-glitch-wall-of-sound03_D28F7BF7.wem		\Actor-Mixer Hierarchy\Default Work Unit\GameOverEndSound		1948096
+	703197173	DoorNoiseSoft1	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Mac\SFX\ResonantRustyDoor_impact_soft_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\RandomDoorNoiseSoft\DoorNoiseSoft1		403540
+	734380864	FallSound4	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Mac\SFX\575310__taure__fall_358420C3.wem		\Actor-Mixer Hierarchy\Default Work Unit\FallSound4		349680
+	786619384	GameOverRiser	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Mac\SFX\719846__vekon__riser_06_140bpm_E027E2DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\GameOverRiser		1345236
+	794043149	Grid	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Mac\SFX\207506__soundscape_leuphana__20131118_spoon-on-grid-fence_zoomh2nxy_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grid		760568
+	817617945	DoorNoiseHard3	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Mac\SFX\Bluezone_BC0258_cinematic_metal_impact_050_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\RandomDoorNoiseHard\DoorNoiseHard3		1152008
+	850009049	Step2	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Mac\SFX\indoor-footsteps-6385_E72935E9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Step2		40584
+	942590437	GetUp1	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Mac\SFX\575310__taure__fall_E9718497.wem		\Actor-Mixer Hierarchy\Default Work Unit\GetUp1		174396
+	952715998	DoorNoiseHard2	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Mac\SFX\Bluezone_BC0258_cinematic_metal_impact_052_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\RandomDoorNoiseHard\DoorNoiseHard2		960096
+	956015908	Step4	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Mac\SFX\indoor-footsteps-6385_F76FDB30.wem		\Actor-Mixer Hierarchy\Default Work Unit\Step4		43556
+	978887015	Steam Release Sound Effect	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Mac\SFX\Steam Release Sound Effect_CADEBBB5.wem		\Actor-Mixer Hierarchy\Default Work Unit\RandomSteamBlastSpecial\Steam Release Sound Effect		378228
+	981938925	Step1	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Mac\SFX\indoor-footsteps-6385_451C25FE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Step1		41328
+	1029205145	ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10_wav 07	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Mac\SFX\ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10.wav 07_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10_wav 07		117620
+

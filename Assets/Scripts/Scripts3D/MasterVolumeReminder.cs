@@ -30,7 +30,6 @@ public class MasterVolumeReminder : MonoBehaviour
 
     public float volumeMaster;
 
-
     void Start()
     {
         
@@ -38,6 +37,6 @@ public class MasterVolumeReminder : MonoBehaviour
 
     void Update()
     {
-        
+        //PlayerPrefs.SetFloat("volume", volumeMaster);
     }
 }

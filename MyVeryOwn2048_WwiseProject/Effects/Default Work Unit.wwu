@@ -27,6 +27,27 @@
 						<Property Name="WetLevel" Type="Real32" Value="10"/>
 					</PropertyList>
 				</Effect>
+				<Effect Name="StartVerb" ID="{DF238E2A-27CA-4508-BDB3-D1E3E15FFE9C}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+					<PropertyList>
+						<Property Name="DecayTime" Type="Real32" Value="5.4"/>
+						<Property Name="Density" Type="Real32" Value="52"/>
+						<Property Name="DryLevel" Type="Real32" Value="-4.3"/>
+						<Property Name="ERLevel" Type="Real32" Value="-9"/>
+						<Property Name="HFDamping" Type="Real32" Value="4.55"/>
+						<Property Name="PreDelay" Type="Real32" Value="13"/>
+						<Property Name="Quality" Type="int32" Value="10"/>
+						<Property Name="ReverbLevel" Type="Real32" Value="-23"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="New_Matrix_Reverb" ID="{2FDC1B7C-798C-44F6-AFB6-1CCD0B19DBB7}" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+					<PropertyList>
+						<Property Name="DryLevel" Type="Real32" Value="-6.3"/>
+						<Property Name="HFRatio" Type="Real32" Value="3.9"/>
+						<Property Name="PreDelay" Type="Real32" Value="0.1"/>
+						<Property Name="ReverbTime" Type="Real32" Value="3"/>
+						<Property Name="WetLevel" Type="Real32" Value="-25"/>
+					</PropertyList>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>

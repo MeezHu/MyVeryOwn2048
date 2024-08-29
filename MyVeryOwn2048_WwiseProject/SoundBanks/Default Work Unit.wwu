@@ -12,19 +12,27 @@
 						<ObjectRef Name="Play_Step4" ID="{4FDCB634-53B4-41A9-A51F-FAB5BC443C38}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Step2" ID="{5B56702F-51E0-41FA-98A9-2D9E91F23486}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_FallSound1" ID="{03963C7E-106D-428F-A6F1-9DA52101A3BD}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_RandomBoom" ID="{934C2D22-DCAA-433D-9113-454F6E2DFDD8}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_LightsOnMenu" ID="{93C0105E-6C12-4454-9C05-F07ACCEF0F03}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_LFE_Rumble_3_01" ID="{7FAC6950-4FFF-4475-9FC7-7B0853312523}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_RandomDoorNoiseSoft" ID="{367AA254-D535-44C3-BD94-84A7E7160808}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_RandomGearSpins" ID="{0422FD22-7878-44D6-82E7-FDD1F13970F9}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_LFE_Rumble_3" ID="{BB92BB54-1834-44FD-9DFC-E6EDB19BB0C8}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_whispering_music" ID="{2B57C3AC-3308-4513-B80E-4625AA8A1B85}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_FallSound4" ID="{25D76646-40DB-458C-B186-7DEC12C1523A}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_StartRiser" ID="{AF5EFB9F-7D80-459D-91EA-2651D366CA47}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Buzzing_Low" ID="{54E0BF66-7A2B-4671-9F48-004A3A6FA38B}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_StartBoom" ID="{476B69A7-DEBF-4690-B51E-09C54A69CB85}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Grid" ID="{1F28EE03-07FA-4696-B9BB-0026ABD919E7}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_BeginBoom" ID="{2110FD4E-EC14-4776-B56B-AEC3EF43363C}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_whispering_music" ID="{02A3A74F-EC2A-4781-92B3-D277C7A60D73}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_RandomDoorNoiseHard" ID="{CF6731A5-0F38-481E-80C6-4BE490733A08}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_LightsOn" ID="{ACE30491-16A9-4832-9748-53C9D103C662}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Buzzing_Low" ID="{A1311328-F78F-4865-A969-5CBB771E5FF4}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_PlumberySound" ID="{C0727069-132B-48A6-B0B7-766C3503D119}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Buzzing_High" ID="{AE224512-111C-4909-9817-7A4FD2D4D514}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_RandomSteamBlast" ID="{EF9CD770-338A-4979-B17C-98CB8B8C7313}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_RandomBoomBack" ID="{E37E6E9A-9E22-4992-A2DA-15E1DBACE888}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Random_Steamloops" ID="{B84B5C86-F4E5-4A12-8F51-8934177918D7}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_LightsOn_Red" ID="{69F7B5D3-9933-4A74-BE67-3B79DB2430D1}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Step3" ID="{8DDF86EC-9EBF-4A7C-ACDE-F106F95BEB5C}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
@@ -35,9 +43,11 @@
 						<ObjectRef Name="Play_GetUp1" ID="{83A0A6BE-205C-4B9E-BD63-0F3274484B0E}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_RandomClong" ID="{7F577A82-5C01-4BCE-8B7F-D4CCA67AC63D}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GameOverRiser" ID="{45EC0C13-D38D-4C0A-9026-90066BC1BFB2}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_EndStartBoom" ID="{E5A9B428-ECE8-4C3A-A657-E2754D42DD4B}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_WindFall" ID="{7BCFBC46-253E-4C58-9FA2-34BC8CC00308}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GetUp2" ID="{4C924A6F-5422-4C99-8083-5DC708832653}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Buzzing_High" ID="{A5FC30EA-E993-4D4C-BBB7-15BB3B4E7548}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_RandomCamWhoosh" ID="{D2F9251F-9C47-4E1E-A990-BF4908800198}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="GameOverEndSound" ID="{73200159-DA93-4ED8-85B9-C792CE87561F}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_FallSound2" ID="{4289B002-41BE-4F19-AC6A-7B04A7ADD00C}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_LFE_Rumble_3" ID="{429803AE-1D71-4F77-9EE4-A6FF8F7C54BD}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>

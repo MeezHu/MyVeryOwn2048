@@ -425,6 +425,115 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_RandomBoom" ID="{934C2D22-DCAA-433D-9113-454F6E2DFDD8}">
+					<ChildrenList>
+						<Action Name="" ID="{5CBE674B-3E56-42BF-8771-C983667A5627}" ShortID="308779222">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RandomBoom" ID="{0E40B765-7532-4A74-806D-1E776DF2A8DB}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_RandomCamWhoosh" ID="{D2F9251F-9C47-4E1E-A990-BF4908800198}">
+					<ChildrenList>
+						<Action Name="" ID="{B04214EB-4663-4450-AB0B-12979F4DD0F0}" ShortID="189777304">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RandomCamWhoosh" ID="{DE6B4757-84E0-41B0-A250-95429ABA9DE2}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_EndStartBoom" ID="{E5A9B428-ECE8-4C3A-A657-E2754D42DD4B}">
+					<ChildrenList>
+						<Action Name="" ID="{8326FA1E-8ED3-4390-AD96-2BE92C8DFAA6}" ShortID="391682976">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="EndStartBoom" ID="{01767B7B-C9B7-4156-905B-76542293DE6C}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_StartBoom" ID="{476B69A7-DEBF-4690-B51E-09C54A69CB85}">
+					<ChildrenList>
+						<Action Name="" ID="{4AABF94B-B1F0-4CE7-8789-FB780D7500B2}" ShortID="408668573">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="StartBoom" ID="{D4BCE527-146B-4E86-9C04-E66EC0F56322}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_StartRiser" ID="{AF5EFB9F-7D80-459D-91EA-2651D366CA47}">
+					<ChildrenList>
+						<Action Name="" ID="{AC86CF68-3B93-4531-85EE-97AF5B25BF0C}" ShortID="458332080">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="StartRiser" ID="{6B1A83C6-B7D5-4E56-A67F-3C45EDF05289}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_RandomBoomBack" ID="{E37E6E9A-9E22-4992-A2DA-15E1DBACE888}">
+					<ChildrenList>
+						<Action Name="" ID="{E72A605D-13BA-4A43-B1C2-1887C04306A2}" ShortID="384275403">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RandomBoomBack" ID="{FA38717B-D37E-436C-83BD-41121289C737}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_LightsOnMenu" ID="{93C0105E-6C12-4454-9C05-F07ACCEF0F03}">
+					<ChildrenList>
+						<Action Name="" ID="{CCE1C10A-D4F3-49DE-9066-3CA796FCCC3F}" ShortID="448983282">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LightsOnMenu" ID="{D0CB5E10-7451-4906-80DC-D0E664E5F521}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BeginBoom" ID="{2110FD4E-EC14-4776-B56B-AEC3EF43363C}">
+					<ChildrenList>
+						<Action Name="" ID="{8FE155ED-7189-48E0-B4E2-A91383896A40}" ShortID="630590047">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BeginBoom" ID="{13B275CA-6B33-49A2-B5FA-21D9F2E56857}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_whispering_music" ID="{02A3A74F-EC2A-4781-92B3-D277C7A60D73}">
+					<ChildrenList>
+						<Action Name="" ID="{3F105362-B7C5-4154-84A0-DD7252232144}" ShortID="1000577306">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="whispering music" ID="{1EE3D7D1-9635-47E2-B85B-44AC15CE9B6C}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_whispering_music" ID="{2B57C3AC-3308-4513-B80E-4625AA8A1B85}">
+					<ChildrenList>
+						<Action Name="" ID="{65B94D0C-DCF3-4722-8A58-85D5ECEE6FB2}" ShortID="636804125">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

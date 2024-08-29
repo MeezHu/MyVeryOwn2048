@@ -14,8 +14,10 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_ANIMAL_WILD_CAMEL_D__GRUNT__GROAN__ROAR__GARGLE_X10_WAV_07 = 1157618425U;
+        static const AkUniqueID PLAY_BEGINBOOM = 745834420U;
         static const AkUniqueID PLAY_BUZZING_HIGH = 2092580658U;
         static const AkUniqueID PLAY_BUZZING_LOW = 1550183220U;
+        static const AkUniqueID PLAY_ENDSTARTBOOM = 34468666U;
         static const AkUniqueID PLAY_FALLSOUND1 = 1125683571U;
         static const AkUniqueID PLAY_FALLSOUND2 = 1125683568U;
         static const AkUniqueID PLAY_FALLSOUND3 = 1125683569U;
@@ -32,24 +34,32 @@ namespace AK
         static const AkUniqueID PLAY_LFE_RUMBLE_3_01 = 143056513U;
         static const AkUniqueID PLAY_LIGHTSON = 275295778U;
         static const AkUniqueID PLAY_LIGHTSON_RED = 1144204686U;
+        static const AkUniqueID PLAY_LIGHTSONMENU = 4291005347U;
         static const AkUniqueID PLAY_PLUMBERYSOUND = 2154670781U;
         static const AkUniqueID PLAY_RANDOM_STEAMLOOPS = 3504215907U;
+        static const AkUniqueID PLAY_RANDOMBOOM = 327954570U;
+        static const AkUniqueID PLAY_RANDOMBOOMBACK = 2780087055U;
+        static const AkUniqueID PLAY_RANDOMCAMWHOOSH = 1237019826U;
         static const AkUniqueID PLAY_RANDOMCLONG = 3907246208U;
         static const AkUniqueID PLAY_RANDOMDOORNOISEHARD = 2301217512U;
         static const AkUniqueID PLAY_RANDOMDOORNOISESOFT = 976348315U;
         static const AkUniqueID PLAY_RANDOMGEARSPINS = 2485678993U;
         static const AkUniqueID PLAY_RANDOMSTEAMBLAST = 1028622269U;
         static const AkUniqueID PLAY_RANDOMSTEAMBLASTSPECIAL = 3770773282U;
+        static const AkUniqueID PLAY_STARTBOOM = 2626765055U;
+        static const AkUniqueID PLAY_STARTRISER = 3561394305U;
         static const AkUniqueID PLAY_STEP1 = 2600469397U;
         static const AkUniqueID PLAY_STEP2 = 2600469398U;
         static const AkUniqueID PLAY_STEP3 = 2600469399U;
         static const AkUniqueID PLAY_STEP4 = 2600469392U;
+        static const AkUniqueID PLAY_WHISPERING_MUSIC = 16777916U;
         static const AkUniqueID PLAY_WINDFALL = 774940991U;
         static const AkUniqueID STOP_BUZZING_HIGH = 595744404U;
         static const AkUniqueID STOP_BUZZING_LOW = 1923114070U;
         static const AkUniqueID STOP_GHOSTLY_PRESENCE__ANGELIC__VOCAL__LAYER__CREEPY__HORROR_4 = 3843945942U;
         static const AkUniqueID STOP_LFE_RUMBLE_3 = 2733305787U;
         static const AkUniqueID STOP_PLUMBERYSOUND = 1256843611U;
+        static const AkUniqueID STOP_WHISPERING_MUSIC = 1004893882U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS

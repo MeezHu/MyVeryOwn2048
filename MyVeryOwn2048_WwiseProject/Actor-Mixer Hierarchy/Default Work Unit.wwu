@@ -1911,6 +1911,687 @@
 						<ActiveSource Name="335171__jorgepotter__hand-touching" ID="{BBC68567-2882-42D7-B215-327C556C6D30}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="EndStartBoom" ID="{01767B7B-C9B7-4156-905B-76542293DE6C}" ShortID="1038309318">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>40</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-800</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Swooshes, Whoosh, Modulated, Bass Crunch, Normal 03 SND55240" ID="{41C8B632-7AC8-41AD-92E2-32366162670B}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.1"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.1"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.90686274509804"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.48"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Swooshes, Whoosh, Modulated, Bass Crunch, Normal 03 SND55240.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="246866344"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{C9E70DB9-25EF-4314-B575-0E09DEE5896B}" ShortID="756086275">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+												<ObjectRef Name="StartVerb" ID="{DF238E2A-27CA-4508-BDB3-D1E3E15FFE9C}" WorkUnitID="{6825680C-465D-49A0-9BFD-C5DAD96CAF9B}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="Swooshes, Whoosh, Modulated, Bass Crunch, Normal 03 SND55240" ID="{41C8B632-7AC8-41AD-92E2-32366162670B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="StartRiser" ID="{6B1A83C6-B7D5-4E56-A67F-3C45EDF05289}" ShortID="351141501">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>42</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-600</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Metal, Movement, Bass Shakers, Container, Rattle, High To Low, Ramp Down, Long Static Medium High Tone, Mic 1 SND71742" ID="{ACEDE519-5855-4551-8186-D34CECD464E8}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.1"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.71099340731663"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Metal, Movement, Bass Shakers, Container, Rattle, High To Low, Ramp Down, Long Static Medium High Tone, Mic 1 SND71742.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="47971958"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Metal, Movement, Bass Shakers, Container, Rattle, High To Low, Ramp Down, Long Static Medium High Tone, Mic 1 SND71742" ID="{ACEDE519-5855-4551-8186-D34CECD464E8}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="StartBoom" ID="{D4BCE527-146B-4E86-9C04-E66EC0F56322}" ShortID="117732823">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-1200</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332" ID="{B9136E29-9221-4874-8C00-1A663CC2601C}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.01"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="4.040421875"/>
+								<Property Name="TrimEnd" Type="Real64" Value="7.46569301470586"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="481591402"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332" ID="{B9136E29-9221-4874-8C00-1A663CC2601C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="RandomBoom" ID="{0E40B765-7532-4A74-806D-1E776DF2A8DB}" ShortID="376478010">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{43535DFB-1C2E-4A95-835D-2602C66D1A19}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="2000"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Boom1" ID="{787D2479-A15C-4958-8CFC-F8013F90FFD2}" ShortID="188602482">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>60</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-200</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{A4FDFA30-312E-4745-AA32-C0F2D0284530}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332" ID="{F3BC4F38-2925-4B92-8F90-01A323DCD0D4}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.01"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.01"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.377478860294096"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="917332138"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{640DBE73-0D5E-4E46-AD6E-47E0E3FB264D}" ShortID="627171613">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+														<ObjectRef Name="New_Matrix_Reverb" ID="{2FDC1B7C-798C-44F6-AFB6-1CCD0B19DBB7}" WorkUnitID="{6825680C-465D-49A0-9BFD-C5DAD96CAF9B}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332" ID="{F3BC4F38-2925-4B92-8F90-01A323DCD0D4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Boom2" ID="{7A7E12BB-9F90-496C-8A09-54CAE9B9038D}" ShortID="193290737">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>60</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-200</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332" ID="{7317E9C0-E45C-4DE7-8491-B4D0FC10BAC5}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.01"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.01"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="8.9057049632353"/>
+										<Property Name="TrimEnd" Type="Real64" Value="9.50687500000002"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="994786629"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{A6752C37-20A8-498E-A962-19BA7E261083}" ShortID="995545074">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+														<ObjectRef Name="New_Matrix_Reverb" ID="{2FDC1B7C-798C-44F6-AFB6-1CCD0B19DBB7}" WorkUnitID="{6825680C-465D-49A0-9BFD-C5DAD96CAF9B}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332" ID="{7317E9C0-E45C-4DE7-8491-B4D0FC10BAC5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="RandomCamWhoosh" ID="{DE6B4757-84E0-41B0-A250-95429ABA9DE2}" ShortID="504953593">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{46A76C84-A806-48B7-98AA-FA99A60725C6}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-600"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="CamWhoosh2" ID="{C9605210-5521-4812-B425-110B0A0134C5}" ShortID="458724912">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>60</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-600</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Swooshes, Whoosh, Classic, Charcoal 01 SND55539" ID="{80947790-0696-4078-A0A9-5072DF02B925}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.5"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.887661378903414"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.58523277505447"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Swooshes, Whoosh, Classic, Charcoal 01 SND55539.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="504394990"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Swooshes, Whoosh, Classic, Charcoal 01 SND55539" ID="{80947790-0696-4078-A0A9-5072DF02B925}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CamWhoosh1" ID="{1F13CD7E-C4F9-42F0-A854-F47F43FA78A5}" ShortID="158758516">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>55</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-800</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Swooshes, Whoosh, Classic, Cicada Flyby, Cinematic SND55541" ID="{45994898-5222-4882-9B97-4A70606CB0AF}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.5"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.69302096949891"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Swooshes, Whoosh, Classic, Cicada Flyby, Cinematic SND55541.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="50387362"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Swooshes, Whoosh, Classic, Cicada Flyby, Cinematic SND55541" ID="{45994898-5222-4882-9B97-4A70606CB0AF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="RandomBoomBack" ID="{FA38717B-D37E-436C-83BD-41121289C737}" ShortID="719443116">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{BB54424C-7C27-4F58-8BF8-EB8CB545B54D}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="800"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="BoomBack2" ID="{5FB70BE4-746F-45C2-99F7-F46519D33BC8}" ShortID="827572302">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>25</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>55</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>800</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{4DC63466-A148-412B-BF43-F774194F9FBB}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332" ID="{E3344E57-5818-4944-A4BB-A84BFED09125}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.01"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.01"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="4.3899393382353"/>
+										<Property Name="TrimEnd" Type="Real64" Value="7.17209834558822"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="686108002"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332" ID="{E3344E57-5818-4944-A4BB-A84BFED09125}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BoomBack1" ID="{F1CD36F3-A76D-4569-AA73-60294311E388}" ShortID="109080419">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>25</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>55</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>800</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{C7E7638F-47F5-40D7-9A53-2DAB0278B98A}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332" ID="{0425483D-57BA-4AF3-B9A6-EABD33E24D59}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.01"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.01"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.55922794117647"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.9918694852941"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="745667475"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332" ID="{0425483D-57BA-4AF3-B9A6-EABD33E24D59}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="LightsOnMenu" ID="{D0CB5E10-7451-4906-80DC-D0E664E5F521}" ShortID="98330842">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>30</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-600</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-15</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="LightsOnMenuAttenuation" ID="{ADBA66CD-9651-4CBD-928D-2FF25FFC5A6E}" WorkUnitID="{597EC3F1-044B-4676-80BD-5B9B578810C0}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="W_a_P_Cinematic_Whoosh_Hit_8" ID="{29B1F692-50D9-41F8-A1D7-468594A6F949}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.01"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.544725738396626"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="3.02280663465736"/>
+								<Property Name="TrimEnd" Type="Real64" Value="5.03797468354431"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>W_a_P_Cinematic_Whoosh_Hit_8.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="309407029"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="W_a_P_Cinematic_Whoosh_Hit_8" ID="{29B1F692-50D9-41F8-A1D7-468594A6F949}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="BeginBoom" ID="{13B275CA-6B33-49A2-B5FA-21D9F2E56857}" ShortID="753066443">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-2000</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332" ID="{A1451E4E-7137-4BFA-A011-2217522A9A47}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.01"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="4.040421875"/>
+								<Property Name="TrimEnd" Type="Real64" Value="7.46569301470586"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="481591402"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332" ID="{A1451E4E-7137-4BFA-A011-2217522A9A47}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="whispering music" ID="{1EE3D7D1-9635-47E2-B85B-44AC15CE9B6C}" ShortID="161274786">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="whispering music" ID="{A1434C82-73F9-447A-959E-81B655740B43}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="1.49019607843137"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.313725490196077"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.64705882352941"/>
+								<Property Name="TrimEnd" Type="Real64" Value="68.3137254901961"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>whispering music.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="676238632"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="whispering music" ID="{A1434C82-73F9-447A-959E-81B655740B43}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -28,6 +28,7 @@ public class VolumeSliderController : MonoBehaviour
 
     public Slider VolumeSlider;
     public Slider SensitivitySlider;
+    public float rememberVolume;
 
     [Range(0, 1f)] public float volumeLerpValue;
 
@@ -35,14 +36,27 @@ public class VolumeSliderController : MonoBehaviour
     {
         phantomVolume.Select();
         retryCheck = GetComponent<RetryCheck>();
+
+        rememberVolume = PlayerPrefs.GetFloat("volume");
+        VolumeSlider.value = rememberVolume;
+
+        //rememberVolume = PlayerPrefs.GetFloat("volume");
+        //VolumeSlider.value = rememberVolume;
+
+        //VolumeSlider.value = MasterVolumeReminder.Instance.volumeMaster / 100;
+        
     }
 
     void Update()
     {
+        Debug.Log(PlayerPrefs.GetFloat("volume"));
+        rememberVolume = VolumeSlider.value;
+        PlayerPrefs.SetFloat("volume", rememberVolume);
+
         volumeBar.transform.position = Vector3.Lerp(startPosVolume.transform.position, endPosVolume.transform.position, VolumeSlider.value);
         sensitivityBar.transform.position = Vector3.Lerp(startPosSensitivity.transform.position, endPosSensitivity.transform.position, SensitivitySlider.value);
         MasterVolumeReminder.Instance.volumeMaster = VolumeSlider.value * 100;
-        AkSoundEngine.SetRTPCValue("MasterVolume", MasterVolumeReminder.Instance.volumeMaster);
+        AkSoundEngine.SetRTPCValue("MasterVolume", VolumeSlider.value * 100);
 
 
         if ((EventSystem.current.currentSelectedGameObject == phantomVolume.gameObject))
