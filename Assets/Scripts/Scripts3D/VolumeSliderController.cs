@@ -94,6 +94,11 @@ public class VolumeSliderController : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.Return))
                 {
+                    if (StateManager.Instance.canPovFps)
+                    {
+                        FpsState.isInBoard = !FpsState.isInBoard;
+                        BoardState.canMove = !BoardState.canMove;
+                    }
                     pauseMenuController.Retry();
                 }
                 RetryImage.SetActive(true);
