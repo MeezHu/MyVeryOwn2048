@@ -173,7 +173,7 @@ public class UniqueEventsManager : MonoBehaviour
         whiteFadeAnimator.SetTrigger("FadeIn");
 
         yield return new WaitForSeconds(3f);
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 
     IEnumerator CoroutineTurningRed()

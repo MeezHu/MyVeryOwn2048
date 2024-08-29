@@ -181,7 +181,7 @@ public class MainMenu : MonoBehaviour
     {
         yield return new WaitForSeconds(tpsStarting);
         
-        SceneManager.LoadSceneAsync(0);
+        SceneManager.LoadSceneAsync(1);
     }
 
     IEnumerator CoroutineStartingSounds()
