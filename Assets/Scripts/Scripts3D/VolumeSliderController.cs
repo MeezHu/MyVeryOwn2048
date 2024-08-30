@@ -29,6 +29,7 @@ public class VolumeSliderController : MonoBehaviour
     public Slider VolumeSlider;
     public Slider SensitivitySlider;
     public float rememberVolume;
+    public float rememberSensitivity;
 
     [Range(0, 1f)] public float volumeLerpValue;
 
@@ -38,7 +39,9 @@ public class VolumeSliderController : MonoBehaviour
         retryCheck = GetComponent<RetryCheck>();
 
         rememberVolume = PlayerPrefs.GetFloat("volume");
+        rememberSensitivity = PlayerPrefs.GetFloat("sensitivity");
         VolumeSlider.value = rememberVolume;
+        SensitivitySlider.value = rememberSensitivity;
 
         //rememberVolume = PlayerPrefs.GetFloat("volume");
         //VolumeSlider.value = rememberVolume;
@@ -52,6 +55,13 @@ public class VolumeSliderController : MonoBehaviour
         Debug.Log(PlayerPrefs.GetFloat("volume"));
         rememberVolume = VolumeSlider.value;
         PlayerPrefs.SetFloat("volume", rememberVolume);
+        rememberSensitivity = SensitivitySlider.value;
+        PlayerPrefs.SetFloat("sensitivity", rememberSensitivity);
+
+        if (SensitivitySlider.value == 0)
+        {
+            SensitivitySlider.value = 0.1f;
+        }
 
         volumeBar.transform.position = Vector3.Lerp(startPosVolume.transform.position, endPosVolume.transform.position, VolumeSlider.value);
         sensitivityBar.transform.position = Vector3.Lerp(startPosSensitivity.transform.position, endPosSensitivity.transform.position, SensitivitySlider.value);
@@ -122,6 +132,11 @@ public class VolumeSliderController : MonoBehaviour
         {
             RetryImage.SetActive(false);
             retryCheck.noRetryButton.SetActive(false);
+        }
+
+        if (EventSystem.current.currentSelectedGameObject == null && Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            phantomVolume.Select();
         }
     }
 }
