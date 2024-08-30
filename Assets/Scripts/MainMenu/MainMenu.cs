@@ -28,6 +28,7 @@ public class MainMenu : MonoBehaviour
 
     public GameObject detectBoxOptions;
     public GameObject detectBoxQuit;
+    public GameObject detectBoxStart;
     public GameObject RandomBoom;
     public GameObject RandomBoomBack;
     public GameObject RandomCamWhoosh;
@@ -41,6 +42,8 @@ public class MainMenu : MonoBehaviour
     public GameObject OpeningSound3;
     public GameObject OpeningSound4;
     public GameObject OpeningSound5;
+
+    public StartMouseDetect startMouseDetect;
 
     // public void PU_Go2048scene()
     // {
@@ -61,7 +64,8 @@ public class MainMenu : MonoBehaviour
     }
 
     public void ToStartPanel()
-    {
+    {   
+        startMouseDetect.GoAway();
         detectBoxOptions.SetActive(false);
         detectBoxQuit.SetActive(false);
         StartCoroutine(EnableStart());
@@ -70,6 +74,7 @@ public class MainMenu : MonoBehaviour
     
     public void ToStartPanelOut()
     {
+        startMouseDetect.GoBack();
         detectBoxOptions.SetActive(true);
         detectBoxQuit.SetActive(true);
         StartCoroutine(DisableStart());
