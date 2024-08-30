@@ -46,7 +46,7 @@ public class HardFlickerControl : MonoBehaviour
         renderer.material.EnableKeyword("_EMISSION");
         BuzzSoundEmitter.gameObject.SetActive(true);
         //this.gameObject.GetComponentInChildren<Light>().enabled = true;
-        timeDelay = Random.Range(0.01f, 0.1f);
+        timeDelay = Random.Range(0.01f, 1f);
         yield return new WaitForSeconds(timeDelay);
         isFlickering = false;
     }
