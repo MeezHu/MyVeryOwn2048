@@ -54,6 +54,14 @@ public class MainMenu : MonoBehaviour
     private void Start()
     {
         Cursor.lockState = CursorLockMode.None;
+        if (PlayerPrefs.GetInt("knowspassword") == 1)
+        {
+            PlayerPrefs.SetInt("knowspassword", 1);
+        }
+        else
+        {
+            PlayerPrefs.SetInt("knowspassword", 0);
+        }
 
         Open();
     }
