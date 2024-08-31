@@ -7,6 +7,7 @@ public class SecretManager : MonoBehaviour
     public GameObject canvasYouDont;
     public GameObject canvasYouCan;
     public GameObject canvasPasswordEntered;
+    //public GameObject boxPasswordSpawn;
     public GameObject boxInCompRange;
 
     void Start()
@@ -32,6 +33,6 @@ public class SecretManager : MonoBehaviour
             PlayerPrefs.SetInt("knowspassword", 1);
         }
 
-        Debug.Log(PlayerPrefs.GetInt("knowspassword"));
+        //Debug.Log(PlayerPrefs.GetInt("knowspassword"));
     }
 }

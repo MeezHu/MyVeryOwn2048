@@ -12,7 +12,9 @@ public class Typer : MonoBehaviour
     private string remainingWord = string.Empty;
     private string currentWord = "celingmasi";
     public bool canEnter;
-    public GameObject mdpCanvas;
+    public GameObject passwordEnteredCanvas;
+    public GameObject triggerSecretEnding;
+    public Animator secretAnimator;
 
     public GameObject cLetter;
     public GameObject eLetter;
@@ -64,7 +66,9 @@ public class Typer : MonoBehaviour
         {
             //SetCurrentWord();
             //PlayerPrefs.SetInt("knowspassword", 1);
-            mdpCanvas.SetActive(false);
+            passwordEnteredCanvas.SetActive(true);
+            secretAnimator.SetTrigger("Go");
+            triggerSecretEnding.SetActive(true);
             
         }
 

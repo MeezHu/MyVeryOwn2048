@@ -94,6 +94,7 @@ public class TileIdentifier : MonoBehaviour
                     UniqueEventsManager.Instance.BecomeRed();
                     UniqueEventsManager.Instance.StopDoorNoiseSoft();
                     UniqueEventsManager.Instance.StartDoorNoiseHard();
+                    UniqueEventsManager.Instance.boxPasswordSpawn.SetActive(true);
                 }
                 vfxFeedback.Vfx1024Fusion();
                 soundFeedback.SfxSpecialFusion();

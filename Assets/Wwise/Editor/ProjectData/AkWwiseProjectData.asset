@@ -586,7 +586,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: a53167cf380f1e4880c64be490733a08
       Path: Events\Default Work Unit\Play_RandomDoorNoiseHard
-      maxAttenuation: 20
+      maxAttenuation: 40
       maxDuration: 11.9991045
       minDuration: 2.7498853
     - name: Play_RandomDoorNoiseSoft
@@ -603,7 +603,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 54a27a3635d5c344bd9484a7e7160808
       Path: Events\Default Work Unit\Play_RandomDoorNoiseSoft
-      maxAttenuation: 20
+      maxAttenuation: 40
       maxDuration: 8.32
       minDuration: 1.2314988
     - name: Play_RandomGearSpins

@@ -33,7 +33,8 @@ public class UniqueEventsManager : MonoBehaviour
     public bool canStartFlicker = true;
     public bool canBecomeRed = true;
 
-    
+
+    public GameObject boxPasswordSpawn;
     public GameObject landLight1;
     public GameObject landLight2;
     public GameObject landLight3;

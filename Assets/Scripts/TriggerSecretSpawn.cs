@@ -5,6 +5,7 @@ using UnityEngine;
 public class TriggerSecretSpawn : MonoBehaviour
 {
     public Animator secretAnimator;
+    public GameObject boxPasswordRange;
     public bool canSecret;
 
     public void OnTriggerEnter(Collider other)
@@ -25,7 +26,11 @@ public class TriggerSecretSpawn : MonoBehaviour
 
     private void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.E) && canSecret)
+        {
+            secretAnimator.SetTrigger("Come");
+            gameObject.SetActive(false);
+        }
     }
 
 }

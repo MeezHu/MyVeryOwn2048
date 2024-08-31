@@ -25,17 +25,17 @@
 				<GameParameter Id="2918011349" Name="MasterVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{014B59C6-C858-0264-ABB0-222DC25F878A}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{54E102D4-761D-90A5-8979-660D99FC0D95}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
 				<File Id="47971958" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Metal, Movement, Bass Shakers, Container, Rattle, High To Low, Ramp Down, Long Static Medium High Tone, Mic 1 SND71742.wav</ShortName>
-					<CachePath>SFX/Metal, Movement, Bass Shakers, Container, Rattle, High To Low, Ramp Down, Long Static Medium High Tone, Mic 1 SND71742_F75C365F.wem</CachePath>
+					<CachePath>SFX/Metal, Movement, Bass Shakers, Container, Rattle, High To Low, Ramp Down, Long Static Medium High Tone, Mic 1 SND71742_31F9FC66.wem</CachePath>
 				</File>
 				<File Id="50387362" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Swooshes, Whoosh, Classic, Cicada Flyby, Cinematic SND55541.wav</ShortName>
-					<CachePath>SFX/Swooshes, Whoosh, Classic, Cicada Flyby, Cinematic SND55541_CF435E8E.wem</CachePath>
+					<CachePath>SFX/Swooshes, Whoosh, Classic, Cicada Flyby, Cinematic SND55541_FAEA5D1A.wem</CachePath>
 				</File>
 				<File Id="82235524" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>335171__jorgepotter__hand-touching.wav</ShortName>
@@ -51,7 +51,7 @@
 				</File>
 				<File Id="246866344" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Swooshes, Whoosh, Modulated, Bass Crunch, Normal 03 SND55240.wav</ShortName>
-					<CachePath>SFX/Swooshes, Whoosh, Modulated, Bass Crunch, Normal 03 SND55240_F6AC48AC.wem</CachePath>
+					<CachePath>SFX/Swooshes, Whoosh, Modulated, Bass Crunch, Normal 03 SND55240_04AFAC73.wem</CachePath>
 				</File>
 				<File Id="249526286" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ratchet Clicking, Spin Once To Slow, Spin Twice To Slow, Spin Intermittent.wav</ShortName>
@@ -91,11 +91,11 @@
 				</File>
 				<File Id="481591402" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332.wav</ShortName>
-					<CachePath>SFX/Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332_9E95C55A.wem</CachePath>
+					<CachePath>SFX/Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332_52D91264.wem</CachePath>
 				</File>
 				<File Id="504394990" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Swooshes, Whoosh, Classic, Charcoal 01 SND55539.wav</ShortName>
-					<CachePath>SFX/Swooshes, Whoosh, Classic, Charcoal 01 SND55539_1407D9F1.wem</CachePath>
+					<CachePath>SFX/Swooshes, Whoosh, Classic, Charcoal 01 SND55539_15236203.wem</CachePath>
 				</File>
 				<File Id="523999565" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ghostly Presence, Angelic, Vocal, Layer, Creepy, Horror 4.wav</ShortName>
@@ -143,11 +143,11 @@
 				</File>
 				<File Id="676238632" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>whispering music.wav</ShortName>
-					<CachePath>SFX/whispering music_E8B779BD.wem</CachePath>
+					<CachePath>SFX/whispering music_61C80A47.wem</CachePath>
 				</File>
 				<File Id="686108002" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332.wav</ShortName>
-					<CachePath>SFX/Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332_6F130979.wem</CachePath>
+					<CachePath>SFX/Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332_67F09A95.wem</CachePath>
 				</File>
 				<File Id="703197173" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ResonantRustyDoor_impact_soft_01.wav</ShortName>
@@ -159,7 +159,7 @@
 				</File>
 				<File Id="745667475" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332.wav</ShortName>
-					<CachePath>SFX/Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332_808E7051.wem</CachePath>
+					<CachePath>SFX/Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332_9BD45232.wem</CachePath>
 				</File>
 				<File Id="786619384" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>719846__vekon__riser_06_140bpm.wav</ShortName>
@@ -179,7 +179,7 @@
 				</File>
 				<File Id="917332138" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332.wav</ShortName>
-					<CachePath>SFX/Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332_EEC5FA55.wem</CachePath>
+					<CachePath>SFX/Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332_64771494.wem</CachePath>
 				</File>
 				<File Id="942590437" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>575310__taure__fall.wav</ShortName>
@@ -203,7 +203,7 @@
 				</File>
 				<File Id="994786629" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332.wav</ShortName>
-					<CachePath>SFX/Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332_E67474B5.wem</CachePath>
+					<CachePath>SFX/Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332_57F847A3.wem</CachePath>
 				</File>
 				<File Id="1029205145" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10.wav 07.wav</ShortName>
@@ -377,7 +377,7 @@
 						<MediaRef Id="185242006"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2301217512" Name="Play_RandomDoorNoiseHard" MaxAttenuation="20" DurationType="OneShot" DurationMin="2.7498853" DurationMax="11.9991045">
+				<Event Id="2301217512" Name="Play_RandomDoorNoiseHard" MaxAttenuation="40" DurationType="OneShot" DurationMin="2.7498853" DurationMax="11.9991045">
 					<MediaRefs>
 						<MediaRef Id="573373979"/>
 						<MediaRef Id="637078363"/>
@@ -385,7 +385,7 @@
 						<MediaRef Id="952715998"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="976348315" Name="Play_RandomDoorNoiseSoft" MaxAttenuation="20" DurationType="OneShot" DurationMin="1.2314988" DurationMax="8.32">
+				<Event Id="976348315" Name="Play_RandomDoorNoiseSoft" MaxAttenuation="40" DurationType="OneShot" DurationMin="1.2314988" DurationMax="8.32">
 					<MediaRefs>
 						<MediaRef Id="259901580"/>
 						<MediaRef Id="280919856"/>
@@ -462,5 +462,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1C66F090-258D-492F-8868-1404ED6D5C4E}</FileHash>
+	<FileHash>{CF059836-8FEE-A505-3890-1E5DAC0AC69E}</FileHash>
 </SoundBanksInfo>

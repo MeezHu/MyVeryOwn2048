@@ -15,24 +15,30 @@ public class TriggerEventBox : MonoBehaviour
     //public bool canPovFps;
     
     public void OnTriggerEnter(Collider other){
-        inBox.Invoke();
-        if(eCanvas != null)
+        if (other.tag == "Player")
         {
-            eCanvas.SetActive(true);
-        }
-        if (retryCheck != null)
-        {
-            retryCheck.canRetry = true;
+            inBox.Invoke();
+            if(eCanvas != null)
+            {
+                eCanvas.SetActive(true);
+            }
+            if (retryCheck != null)
+            {
+                retryCheck.canRetry = true;
+            }
         }
         //canPovBoard = true;
         //canPovFps = true;
     }
 
     public void OnTriggerExit(Collider other){
-        outBox.Invoke();
-        if(eCanvas != null)
+        if (other.tag == "Player")
         {
-            eCanvas.SetActive(false);
+            outBox.Invoke();
+            if(eCanvas != null)
+            {
+                eCanvas.SetActive(false);
+            }
         }
         //canPovBoard = false;
         //canPovFps = false;
