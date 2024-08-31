@@ -17,10 +17,14 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10_wav 07" ID="{AEE47D78-BC77-440E-9051-2EC9BB7C5685}">
+							<PropertyList>
+								<Property Name="LoopEnd" Type="Real64" Value="1.13485979484386"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10.wav 07.wav</AudioFile>
 							<MediaIDList>
-								<MediaID ID="1029205145"/>
+								<MediaID ID="211591136"/>
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
@@ -2590,6 +2594,405 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="whispering music" ID="{A1434C82-73F9-447A-959E-81B655740B43}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SecretLocationHint" ID="{E60BBA7C-AB27-42E3-8C28-0712BEC4D9C6}" ShortID="438484496">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>65</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-2400</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="PlumberyAttenuation" ID="{7C3C7DCA-4617-401F-9466-DD45A3F6267F}" WorkUnitID="{597EC3F1-044B-4676-80BD-5B9B578810C0}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10_wav 07" ID="{51597828-BEFC-485B-A725-4CBB96ADD4C8}">
+							<PropertyList>
+								<Property Name="LoopEnd" Type="Real64" Value="1.13485979484386"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10.wav 07.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1029205145"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10_wav 07" ID="{51597828-BEFC-485B-A725-4CBB96ADD4C8}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SecretCome" ID="{D8262E65-D402-4EC4-8D53-1B3E78F74D0F}" ShortID="288865833">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>42</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-600</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-13</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Wood, Friction, Drag Chair, Scary Creak, Heavy Reverb, Long Decay, Dark x4 02 SND42052" ID="{A6D342D2-A8AD-48AA-A3DD-5F1CB6F509EE}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="3.1647494553377"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Wood, Friction, Drag Chair, Scary Creak, Heavy Reverb, Long Decay, Dark x4 02 SND42052.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="476420375"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Wood, Friction, Drag Chair, Scary Creak, Heavy Reverb, Long Decay, Dark x4 02 SND42052" ID="{A6D342D2-A8AD-48AA-A3DD-5F1CB6F509EE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SecretGo" ID="{7CCDA7EC-F963-46D1-9277-3E6AC6403926}" ShortID="85551556">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>42</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-600</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Wood, Friction, Drag Chair, Scary Creak, Heavy Reverb, Long Decay, Dark x4 02 SND42052" ID="{5BB2D413-ED64-4C8A-A926-C17DF4ADC85F}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="14.901568627451"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Wood, Friction, Drag Chair, Scary Creak, Heavy Reverb, Long Decay, Dark x4 02 SND42052.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="697642938"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Wood, Friction, Drag Chair, Scary Creak, Heavy Reverb, Long Decay, Dark x4 02 SND42052" ID="{5BB2D413-ED64-4C8A-A926-C17DF4ADC85F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="RandomKeyboardKeys" ID="{2D98EF6C-0511-4B09-BF82-B0B244FB5394}" ShortID="468960137">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="KeyboardKey7" ID="{4B9D97BE-36AF-4B51-A21D-393551C26353}" ShortID="435450976">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178" ID="{0278F6D3-9113-400C-8BC8-286DD3CEEFD4}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.05"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="2.05224661437698"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.35929866216477"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="398490186"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178" ID="{0278F6D3-9113-400C-8BC8-286DD3CEEFD4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="KeyboardKey6" ID="{58AC8F0F-C0BA-4B9B-8CBB-925D642E794E}" ShortID="1008938279">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178" ID="{B583B4D9-E530-4807-8804-EC1FE856908D}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.05"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.76373181596853"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.03695799083947"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="489305196"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178" ID="{B583B4D9-E530-4807-8804-EC1FE856908D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="KeyboardKey5" ID="{04B2BD20-4E8A-4174-A33B-E318C6FBEA28}" ShortID="257434659">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178" ID="{11DB349A-999D-454E-9C5F-E37F57D31CC1}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.05"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.50660315809525"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.7858090691958"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="540191336"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178" ID="{11DB349A-999D-454E-9C5F-E37F57D31CC1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="KeyboardKey4" ID="{6455FACB-7732-4F9B-8B6E-E3E44C965EAF}" ShortID="672166394">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178" ID="{14F22E2B-095C-4B6E-80B0-0A0FE675A953}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.05"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.20698017184299"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.53906072757629"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="499484540"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178" ID="{14F22E2B-095C-4B6E-80B0-0A0FE675A953}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="KeyboardKey2" ID="{34E637A9-77BA-4213-8493-ACE21F98D6BC}" ShortID="236627664">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178" ID="{7BBC8905-5F96-4563-B259-EB083F2F17D9}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.05"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.378650800945713"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.677706904320024"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="856340383"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178" ID="{7BBC8905-5F96-4563-B259-EB083F2F17D9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="KeyboardKey1" ID="{BB9A2EBA-09F2-489B-B225-D35DE77F0041}" ShortID="1025883959">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178" ID="{EA805E20-3FF8-4BDC-BE00-CAC1B75C4418}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.05"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.290301171560536"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1056272272"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178" ID="{EA805E20-3FF8-4BDC-BE00-CAC1B75C4418}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="KeyboardKey3" ID="{9253F88D-905E-4DB8-AF5E-4B4A5548F5D5}" ShortID="53286355">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178" ID="{418BAD11-3E16-4CD4-9CD7-DBECB14CDE40}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.05"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.691227922039024"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.973975653878031"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="578226454"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178" ID="{418BAD11-3E16-4CD4-9CD7-DBECB14CDE40}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="KeyboardKey8" ID="{B398FB70-63F3-4E8F-9351-C40B35A9BEC1}" ShortID="547269868">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178" ID="{CD2A1F57-10E8-40DA-9E9D-B4E054B1FD11}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.05"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="2.42849161794412"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.65776224672524"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="909255023"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178" ID="{CD2A1F57-10E8-40DA-9E9D-B4E054B1FD11}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="SecretValidation" ID="{2D4AB36F-E35F-4656-AEA6-4762EDC8A28D}" ShortID="771601354">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="User Interface, Alert, Notification, Attention, Short, Positive, Thin SND113038" ID="{FB921311-4C97-4315-AB13-E4C5AF29B10F}">
+							<Language>SFX</Language>
+							<AudioFile>User Interface, Alert, Notification, Attention, Short, Positive, Thin SND113038.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="333862779"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="User Interface, Alert, Notification, Attention, Short, Positive, Thin SND113038" ID="{FB921311-4C97-4315-AB13-E4C5AF29B10F}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

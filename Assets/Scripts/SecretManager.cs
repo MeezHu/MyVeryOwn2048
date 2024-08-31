@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class SecretManager : MonoBehaviour
 {
+    public TriggerPasswordSpawn triggerPasswordSpawn;
     public GameObject canvasYouDont;
     public GameObject canvasYouCan;
     public GameObject canvasPasswordEntered;
     //public GameObject boxPasswordSpawn;
     public GameObject boxInCompRange;
 
+    public bool isCanvasYouCan;
+
     void Start()
     {
-        PlayerPrefs.SetInt("knowspassword", 0);
+        //PlayerPrefs.SetInt("knowspassword", 0);
     }
 
     void Update()
@@ -26,6 +29,12 @@ public class SecretManager : MonoBehaviour
         {
             canvasYouDont.SetActive(false);
             canvasYouCan.SetActive(true);
+            isCanvasYouCan = true;
+        }
+
+        if (isCanvasYouCan)
+        {
+            triggerPasswordSpawn.canType = true;
         }
 
         if (Input.GetKeyDown(KeyCode.Space))

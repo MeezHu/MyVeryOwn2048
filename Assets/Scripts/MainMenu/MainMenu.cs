@@ -8,6 +8,8 @@ using UnityEngine.UI;
 public class MainMenu : MonoBehaviour
 {
     public MusicManager musicManager;
+    public OptionsMouseDetect optionsMouseDetect;
+    public QuitMouseDetect quitMouseDetect;
 
     public Canvas menuBase;
     public Canvas startCanvas;
@@ -102,6 +104,7 @@ public class MainMenu : MonoBehaviour
     
     public void ToOptionsPanel()
     {
+        optionsMouseDetect.stayHovered = true;
         RandomBoom.SetActive(true);
         RandomBoom.SetActive(false);
         StartCoroutine(CoroutineCamWhoosh());
@@ -111,6 +114,8 @@ public class MainMenu : MonoBehaviour
 
     public void ToOptionsPanelOut()
     {
+        optionsMouseDetect.stayHovered = false;
+        optionsMouseDetect.emissiveDefault.SetColor("_EmissionColor", Color.Lerp(Color.blue, optionsMouseDetect.defaultColor, 1f));
         RandomBoomBack.SetActive(true);
         RandomBoomBack.SetActive(false);
         StartCoroutine(DisableOptions());
@@ -119,6 +124,7 @@ public class MainMenu : MonoBehaviour
     
     public void ToQuitPanel()
     {
+        quitMouseDetect.stayHovered = true;
         RandomBoom.SetActive(true);
         RandomBoom.SetActive(false);
         StartCoroutine(CoroutineCamWhoosh());
@@ -128,6 +134,8 @@ public class MainMenu : MonoBehaviour
     
     public void ToQuitPanelOut()
     {
+        quitMouseDetect.stayHovered = false;
+        optionsMouseDetect.emissiveDefault.SetColor("_EmissionColor", Color.Lerp(Color.red, optionsMouseDetect.defaultColor, 1f));
         RandomBoomBack.SetActive(true);
         RandomBoomBack.SetActive(false);
         StartCoroutine(DisableQuit());

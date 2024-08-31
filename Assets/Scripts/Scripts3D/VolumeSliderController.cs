@@ -39,9 +39,9 @@ public class VolumeSliderController : MonoBehaviour
         retryCheck = GetComponent<RetryCheck>();
 
         rememberVolume = PlayerPrefs.GetFloat("volume");
-        rememberSensitivity = PlayerPrefs.GetFloat("sensitivity");
+        //rememberSensitivity = PlayerPrefs.GetFloat("sensitivity");
         VolumeSlider.value = rememberVolume;
-        SensitivitySlider.value = rememberSensitivity;
+        //SensitivitySlider.value = rememberSensitivity;
 
         //rememberVolume = PlayerPrefs.GetFloat("volume");
         //VolumeSlider.value = rememberVolume;
@@ -55,8 +55,9 @@ public class VolumeSliderController : MonoBehaviour
         Debug.Log(PlayerPrefs.GetFloat("volume"));
         rememberVolume = VolumeSlider.value;
         PlayerPrefs.SetFloat("volume", rememberVolume);
-        rememberSensitivity = SensitivitySlider.value;
-        PlayerPrefs.SetFloat("sensitivity", rememberSensitivity);
+        PlayerPrefs.SetFloat("sensitivity", SensitivitySlider.value);
+        //rememberSensitivity = SensitivitySlider.value;
+        //PlayerPrefs.SetFloat("sensitivity", rememberSensitivity);
 
         if (SensitivitySlider.value == 0)
         {

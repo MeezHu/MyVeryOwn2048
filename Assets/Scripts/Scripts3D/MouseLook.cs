@@ -21,6 +21,7 @@ public class MouseLook : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
         canMoveMouse = true;
+        //enabled = false;
     }
 
     // Update is called once per frame
@@ -46,6 +47,8 @@ public class MouseLook : MonoBehaviour
         }
 
         mouseSensitivity = (sensitivitySlider.value *900);
+
+        //PlayerPrefs.SetFloat("sensitivity", mouseSensitivity);
         
     }
 }

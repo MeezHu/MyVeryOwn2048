@@ -534,6 +534,61 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_SecretLocationHint" ID="{7DF6E00F-22A0-4BA8-9E7F-F29EBBF821BC}">
+					<ChildrenList>
+						<Action Name="" ID="{28504ACA-EB3A-4CD3-9029-EA16C49F7F64}" ShortID="743391070">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SecretLocationHint" ID="{E60BBA7C-AB27-42E3-8C28-0712BEC4D9C6}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SecretCome" ID="{C9C8AABF-DFD4-4836-BC19-4C34DD593FD2}">
+					<ChildrenList>
+						<Action Name="" ID="{77A83010-5E3D-4AF6-A593-2C7D9ECECD8F}" ShortID="579714758">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SecretCome" ID="{D8262E65-D402-4EC4-8D53-1B3E78F74D0F}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SecretGo" ID="{C217D9CD-9F0D-406B-B699-07DC11B8A8F9}">
+					<ChildrenList>
+						<Action Name="" ID="{A63D47A8-3245-4411-A901-76F5C7182B02}" ShortID="822237905">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SecretGo" ID="{7CCDA7EC-F963-46D1-9277-3E6AC6403926}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_RandomKeyboardKeys" ID="{4B3B5D75-0C80-453C-9E87-869BB1433A2F}">
+					<ChildrenList>
+						<Action Name="" ID="{C57A2394-614E-4E5A-8102-C68906241007}" ShortID="380207783">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RandomKeyboardKeys" ID="{2D98EF6C-0511-4B09-BF82-B0B244FB5394}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SecretValidation" ID="{1B7AEEAE-CFF8-495E-998D-514BFB5258B9}">
+					<ChildrenList>
+						<Action Name="" ID="{9E6109E6-BCBE-4EA0-BE1C-265AE6C259AD}" ShortID="718797487">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SecretValidation" ID="{2D4AB36F-E35F-4656-AEA6-4762EDC8A28D}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -14,6 +14,9 @@ public class Typer : MonoBehaviour
     public bool canEnter;
     public GameObject passwordEnteredCanvas;
     public GameObject triggerSecretEnding;
+    public GameObject secretGoSound;
+    public GameObject randomKeyboardKeysSound;
+    public GameObject secretValidationSound;
     public Animator secretAnimator;
 
     public GameObject cLetter;
@@ -64,11 +67,14 @@ public class Typer : MonoBehaviour
 
         if (canEnter && Input.GetKeyDown(KeyCode.Return))
         {
+            StartCoroutine(CoroutinePasswordEntered());
+
             //SetCurrentWord();
             //PlayerPrefs.SetInt("knowspassword", 1);
-            passwordEnteredCanvas.SetActive(true);
-            secretAnimator.SetTrigger("Go");
-            triggerSecretEnding.SetActive(true);
+            //passwordEnteredCanvas.SetActive(true);
+            //secretGoSound.SetActive(true);
+            //secretAnimator.SetTrigger("Go");
+            //triggerSecretEnding.SetActive(true);
             
         }
 
@@ -115,6 +121,17 @@ public class Typer : MonoBehaviour
 
     }
 
+    IEnumerator CoroutinePasswordEntered()
+    {
+        passwordEnteredCanvas.SetActive(true);
+        secretValidationSound.SetActive(true);
+        triggerSecretEnding.SetActive(true);
+
+        yield return new WaitForSeconds(1);
+        secretAnimator.SetTrigger("Go");
+        secretGoSound.SetActive(true);
+    }
+
     private void CheckInput()
     {
         if (Input.anyKeyDown)
@@ -146,6 +163,9 @@ public class Typer : MonoBehaviour
 
     private void RemoveLetter()
     {
+        randomKeyboardKeysSound.SetActive(true);
+        randomKeyboardKeysSound.SetActive(false);
+
         string newString = remainingWord.Remove(0, 1);
         if (isC == false)
         {

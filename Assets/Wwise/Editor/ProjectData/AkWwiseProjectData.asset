@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 52380ee722d02e4aa6dd06277ef97ae3
     GuidInternal: 
-    m_lastTime: -8584766370606817239
+    m_lastTime: -8584765033262261513
     List:
     - name: Main
       guid: cbfeb1857713eb4c88a1cc4eb8bd8322
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 6f2254b0ec43d949a24471b6a58e6080
     GuidInternal: 
-    m_lastTime: -8584766366861356199
+    m_lastTime: -8584765033289613185
     List:
     - name: Play_ANIMAL_WILD_Camel_D__Grunt__Groan__Roar__Gargle_x10_wav_07
       guid: 7fbf6f9dc8285841be75bae4ee70c499
@@ -623,6 +623,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.2205358
       minDuration: 1.0263442
+    - name: Play_RandomKeyboardKeys
+      guid: 755d3b4b800c3c459e87869bb1433a2f
+      id: 2180969364
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_RandomKeyboardKeys
+        ObjectType: 3
+        guid: 755d3b4b800c3c459e87869bb1433a2f
+      Path: Events\Default Work Unit\Play_RandomKeyboardKeys
+      maxAttenuation: 0
+      maxDuration: 0.33208054
+      minDuration: 0.22927062
     - name: Play_RandomSteamBlast
       guid: 70d79cef8a337949b17c98cb8b8c7313
       id: 1028622269
@@ -657,6 +674,74 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 2.5491846
       minDuration: 2.2710655
+    - name: Play_SecretCome
+      guid: bfaac8c9d4df3648bc194c34dd593fd2
+      id: 3932204058
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_SecretCome
+        ObjectType: 3
+        guid: bfaac8c9d4df3648bc194c34dd593fd2
+      Path: Events\Default Work Unit\Play_SecretCome
+      maxAttenuation: 0
+      maxDuration: 4.475631
+      minDuration: 4.475631
+    - name: Play_SecretGo
+      guid: cdd917c20d9f6b40b69907dc11b8a8f9
+      id: 131665796
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_SecretGo
+        ObjectType: 3
+        guid: cdd917c20d9f6b40b69907dc11b8a8f9
+      Path: Events\Default Work Unit\Play_SecretGo
+      maxAttenuation: 0
+      maxDuration: 6.1354685
+      minDuration: 6.1354685
+    - name: Play_SecretLocationHint
+      guid: 0fe0f67da022a84b9e7ff29ebbf821bc
+      id: 1917130952
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_SecretLocationHint
+        ObjectType: 3
+        guid: 0fe0f67da022a84b9e7ff29ebbf821bc
+      Path: Events\Default Work Unit\Play_SecretLocationHint
+      maxAttenuation: 4
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_SecretValidation
+      guid: aeee7a1bf8cf5e49998d514bfb5258b9
+      id: 409343711
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_SecretValidation
+        ObjectType: 3
+        guid: aeee7a1bf8cf5e49998d514bfb5258b9
+      Path: Events\Default Work Unit\Play_SecretValidation
+      maxAttenuation: 0
+      maxDuration: 0.6709167
+      minDuration: 0.6709167
     - name: Play_StartBoom
       guid: a7696b47bfde9046b51e09c54a69cb85
       id: 2626765055
@@ -774,8 +859,8 @@ MonoBehaviour:
         guid: 4fa7a3022aec814792b3d277c7a60d73
       Path: Events\Default Work Unit\Play_whispering_music
       maxAttenuation: 0
-      maxDuration: 66.666664
-      minDuration: 66.666664
+      maxDuration: -1
+      minDuration: -1
     - name: Play_WindFall
       guid: 46bccf7b3e25584c9fa234bc8cc00308
       id: 774940991

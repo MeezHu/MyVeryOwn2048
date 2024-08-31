@@ -6,6 +6,7 @@ public class DoorNoiseHardControl : MonoBehaviour
 {
     public GameObject RandomDoorNoiseHard;
     public float randomWait;
+    public bool canNoise = true;
 
     void Start()
     {
@@ -14,11 +15,14 @@ public class DoorNoiseHardControl : MonoBehaviour
 
     IEnumerator CoroutineDoorNoiseHard()
     {
-        randomWait = Random.Range(8, 15);
-        yield return new WaitForSeconds(6);
-        RandomDoorNoiseHard.SetActive(true);
-        RandomDoorNoiseHard.SetActive(false);
-        yield return new WaitForSeconds(randomWait);
-        StartCoroutine(CoroutineDoorNoiseHard());
+        if (canNoise)
+        {
+            randomWait = Random.Range(8, 15);
+            yield return new WaitForSeconds(6);
+            RandomDoorNoiseHard.SetActive(true);
+            RandomDoorNoiseHard.SetActive(false);
+            yield return new WaitForSeconds(randomWait);
+            StartCoroutine(CoroutineDoorNoiseHard());
+        }
     }
 }

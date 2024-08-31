@@ -44,8 +44,13 @@ namespace AK
         static const AkUniqueID PLAY_RANDOMDOORNOISEHARD = 2301217512U;
         static const AkUniqueID PLAY_RANDOMDOORNOISESOFT = 976348315U;
         static const AkUniqueID PLAY_RANDOMGEARSPINS = 2485678993U;
+        static const AkUniqueID PLAY_RANDOMKEYBOARDKEYS = 2180969364U;
         static const AkUniqueID PLAY_RANDOMSTEAMBLAST = 1028622269U;
         static const AkUniqueID PLAY_RANDOMSTEAMBLASTSPECIAL = 3770773282U;
+        static const AkUniqueID PLAY_SECRETCOME = 3932204058U;
+        static const AkUniqueID PLAY_SECRETGO = 131665796U;
+        static const AkUniqueID PLAY_SECRETLOCATIONHINT = 1917130952U;
+        static const AkUniqueID PLAY_SECRETVALIDATION = 409343711U;
         static const AkUniqueID PLAY_STARTBOOM = 2626765055U;
         static const AkUniqueID PLAY_STARTRISER = 3561394305U;
         static const AkUniqueID PLAY_STEP1 = 2600469397U;

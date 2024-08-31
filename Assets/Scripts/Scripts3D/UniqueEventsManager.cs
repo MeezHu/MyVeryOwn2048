@@ -35,6 +35,7 @@ public class UniqueEventsManager : MonoBehaviour
 
 
     public GameObject boxPasswordSpawn;
+    public GameObject secretLocationHintHard;
     public GameObject landLight1;
     public GameObject landLight2;
     public GameObject landLight3;
@@ -199,6 +200,7 @@ public class UniqueEventsManager : MonoBehaviour
         gvRed.SetActive(true);
 
         yield return new WaitForSeconds(4);
+        secretLocationHintHard.SetActive(true);
         landLightR1.SetActive(true);
         landLightR2.SetActive(true);
         landLightR3.SetActive(true);

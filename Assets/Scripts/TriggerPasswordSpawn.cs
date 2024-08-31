@@ -17,7 +17,7 @@ public class TriggerPasswordSpawn : MonoBehaviour
             password.SetActive(true);
             PlayerPrefs.SetInt("knowspassword", 1);
             gameObject.SetActive(false);
-            canType = true;
+            //canType = true;
             landLight.SetActive(true);
             landLightSound.SetActive(true);
         }

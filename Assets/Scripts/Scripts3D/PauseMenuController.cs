@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class PauseMenuController : MonoBehaviour
 {
     public PlayerMovement playerMovement;
+    public RememberSensitivity rememberSensitivity;
     public MouseLook mouseLook;
     public VolumeSliderController volumeSliderController;
     public GameObject pauseMenuCanvas;
@@ -69,11 +70,13 @@ public class PauseMenuController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape) && isPaused == false && canPause)
         {
+            rememberSensitivity.lockSliderSensi = false;
             StartCoroutine(CoroutinePauseOn());
         }
 
         if (Input.GetKeyDown(KeyCode.Escape) && isPaused == true)
         {
+            rememberSensitivity.lockSliderSensi = true;
             StartCoroutine(CoroutinePauseOff());
         }
     }

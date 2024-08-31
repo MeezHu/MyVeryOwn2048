@@ -25,7 +25,7 @@
 				<GameParameter Id="2918011349" Name="MasterVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{54E102D4-761D-90A5-8979-660D99FC0D95}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{5D5D1FEC-878A-9B8E-0128-BC39FF5D7B4C}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -48,6 +48,10 @@
 				<File Id="185242006" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Exterior Metal Door Gate Bolt Latch 7.wav</ShortName>
 					<CachePath>SFX/Exterior Metal Door Gate Bolt Latch 7_EBDD341B.wem</CachePath>
+				</File>
+				<File Id="211591136" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10.wav 07.wav</ShortName>
+					<CachePath>SFX/ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10.wav 07_818F3B66.wem</CachePath>
 				</File>
 				<File Id="246866344" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Swooshes, Whoosh, Modulated, Bass Crunch, Normal 03 SND55240.wav</ShortName>
@@ -73,6 +77,10 @@
 					<ShortName>656010__jacko4526__falling-human-bodies.wav</ShortName>
 					<CachePath>SFX/656010__jacko4526__falling-human-bodies_EE79F624.wem</CachePath>
 				</File>
+				<File Id="333862779" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>User Interface, Alert, Notification, Attention, Short, Positive, Thin SND113038.wav</ShortName>
+					<CachePath>SFX/User Interface, Alert, Notification, Attention, Short, Positive, Thin SND113038_818F3B66.wem</CachePath>
+				</File>
 				<File Id="340654118" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LFE Rumble 3.wav</ShortName>
 					<CachePath>SFX/LFE Rumble 3_BDC09543.wem</CachePath>
@@ -85,13 +93,29 @@
 					<ShortName>Steam Release Sound Effect.wav</ShortName>
 					<CachePath>SFX/Steam Release Sound Effect_DBB583A7.wem</CachePath>
 				</File>
+				<File Id="398490186" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178.wav</ShortName>
+					<CachePath>SFX/Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178_1EA3BADB.wem</CachePath>
+				</File>
 				<File Id="442366620" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>424462__nicstage__heaterpipecontact.wav</ShortName>
 					<CachePath>SFX/424462__nicstage__heaterpipecontact_FBC78EF0.wem</CachePath>
 				</File>
+				<File Id="476420375" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wood, Friction, Drag Chair, Scary Creak, Heavy Reverb, Long Decay, Dark x4 02 SND42052.wav</ShortName>
+					<CachePath>SFX/Wood, Friction, Drag Chair, Scary Creak, Heavy Reverb, Long Decay, Dark x4 02 SND42052_7BD5A048.wem</CachePath>
+				</File>
 				<File Id="481591402" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332.wav</ShortName>
 					<CachePath>SFX/Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332_52D91264.wem</CachePath>
+				</File>
+				<File Id="489305196" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178.wav</ShortName>
+					<CachePath>SFX/Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178_62E65435.wem</CachePath>
+				</File>
+				<File Id="499484540" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178.wav</ShortName>
+					<CachePath>SFX/Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178_461A94A7.wem</CachePath>
 				</File>
 				<File Id="504394990" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Swooshes, Whoosh, Classic, Charcoal 01 SND55539.wav</ShortName>
@@ -108,6 +132,10 @@
 				<File Id="538155986" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>LFE Rumble 3.wav</ShortName>
 					<CachePath>SFX/LFE Rumble 3_6B2DB308.wem</CachePath>
+				</File>
+				<File Id="540191336" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178.wav</ShortName>
+					<CachePath>SFX/Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178_CBB16E4E.wem</CachePath>
 				</File>
 				<File Id="545125755" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>indoor-footsteps-6385.wav</ShortName>
@@ -129,6 +157,10 @@
 					<ShortName>656366__straynerd__falling-on-mattress-owi.wav</ShortName>
 					<CachePath>SFX/656366__straynerd__falling-on-mattress-owi_B90AE67C.wem</CachePath>
 				</File>
+				<File Id="578226454" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178.wav</ShortName>
+					<CachePath>SFX/Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178_0048045C.wem</CachePath>
+				</File>
 				<File Id="637078363" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bluezone_BC0258_cinematic_metal_impact_069.wav</ShortName>
 					<CachePath>SFX/Bluezone_BC0258_cinematic_metal_impact_069_818F3B66.wem</CachePath>
@@ -148,6 +180,10 @@
 				<File Id="686108002" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332.wav</ShortName>
 					<CachePath>SFX/Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332_67F09A95.wem</CachePath>
+				</File>
+				<File Id="697642938" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wood, Friction, Drag Chair, Scary Creak, Heavy Reverb, Long Decay, Dark x4 02 SND42052.wav</ShortName>
+					<CachePath>SFX/Wood, Friction, Drag Chair, Scary Creak, Heavy Reverb, Long Decay, Dark x4 02 SND42052_97D094D7.wem</CachePath>
 				</File>
 				<File Id="703197173" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ResonantRustyDoor_impact_soft_01.wav</ShortName>
@@ -176,6 +212,14 @@
 				<File Id="850009049" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>indoor-footsteps-6385.wav</ShortName>
 					<CachePath>SFX/indoor-footsteps-6385_E72935E9.wem</CachePath>
+				</File>
+				<File Id="856340383" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178.wav</ShortName>
+					<CachePath>SFX/Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178_5E284736.wem</CachePath>
+				</File>
+				<File Id="909255023" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178.wav</ShortName>
+					<CachePath>SFX/Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178_4137050B.wem</CachePath>
 				</File>
 				<File Id="917332138" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332.wav</ShortName>
@@ -207,7 +251,11 @@
 				</File>
 				<File Id="1029205145" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10.wav 07.wav</ShortName>
-					<CachePath>SFX/ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10.wav 07_818F3B66.wem</CachePath>
+					<CachePath>SFX/ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10.wav 07_82DEFC56.wem</CachePath>
+				</File>
+				<File Id="1056272272" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178.wav</ShortName>
+					<CachePath>SFX/Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178_850B9924.wem</CachePath>
 				</File>
 			</Media>
 			<Plugins>
@@ -221,7 +269,7 @@
 			<Events>
 				<Event Id="1157618425" Name="Play_ANIMAL_WILD_Camel_D__Grunt__Groan__Roar__Gargle_x10_wav_07" DurationType="OneShot" DurationMin="1.2242084" DurationMax="1.2242084">
 					<MediaRefs>
-						<MediaRef Id="1029205145"/>
+						<MediaRef Id="211591136"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="745834420" Name="Play_BeginBoom" DurationType="OneShot" DurationMin="10.8745575" DurationMax="10.8745575">
@@ -403,6 +451,18 @@
 						<MediaRef Id="249526286"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2180969364" Name="Play_RandomKeyboardKeys" DurationType="OneShot" DurationMin="0.22927062" DurationMax="0.33208054">
+					<MediaRefs>
+						<MediaRef Id="398490186"/>
+						<MediaRef Id="489305196"/>
+						<MediaRef Id="499484540"/>
+						<MediaRef Id="540191336"/>
+						<MediaRef Id="578226454"/>
+						<MediaRef Id="856340383"/>
+						<MediaRef Id="909255023"/>
+						<MediaRef Id="1056272272"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1028622269" Name="Play_RandomSteamBlast" DurationType="OneShot" DurationMin="0.30040708" DurationMax="0.35724625">
 					<MediaRefs>
 						<MediaRef Id="381261979"/>
@@ -411,6 +471,26 @@
 				<Event Id="3770773282" Name="Play_RandomSteamBlastSpecial" DurationType="OneShot" DurationMin="2.2710655" DurationMax="2.5491846">
 					<MediaRefs>
 						<MediaRef Id="978887015"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3932204058" Name="Play_SecretCome" DurationType="OneShot" DurationMin="4.475631" DurationMax="4.475631">
+					<MediaRefs>
+						<MediaRef Id="476420375"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="131665796" Name="Play_SecretGo" DurationType="OneShot" DurationMin="6.1354685" DurationMax="6.1354685">
+					<MediaRefs>
+						<MediaRef Id="697642938"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1917130952" Name="Play_SecretLocationHint" MaxAttenuation="4" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="1029205145"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="409343711" Name="Play_SecretValidation" DurationType="OneShot" DurationMin="0.6709167" DurationMax="0.6709167">
+					<MediaRefs>
+						<MediaRef Id="333862779"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2626765055" Name="Play_StartBoom" DurationType="OneShot" DurationMin="6.850542" DurationMax="6.850542">
@@ -462,5 +542,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{CF059836-8FEE-A505-3890-1E5DAC0AC69E}</FileHash>
+	<FileHash>{5EED7E57-A653-0061-F78B-8456487F7B67}</FileHash>
 </SoundBanksInfo>
