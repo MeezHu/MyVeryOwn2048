@@ -9,6 +9,7 @@
 						<ObjectRef Name="Play_FallSound3" ID="{6DA7E00E-DD2B-40C6-A77D-60FBD8146A15}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Ghostly_Presence__Angelic__Vocal__Layer__Creepy__Horror_4" ID="{A491AF60-439F-40DA-AD37-D60BCAD5B819}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Ghostly_Presence__Angelic__Vocal__Layer__Creepy__Horror_4" ID="{B13C3D85-A8AB-411E-85C4-B7443EF5F4E0}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_SecretMusicStart" ID="{19DFBB9D-6203-4152-82AF-A10541927F24}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_ANIMAL_WILD_Camel_D__Grunt__Groan__Roar__Gargle_x10_wav_07" ID="{9D6FBF7F-28C8-4158-BE75-BAE4EE70C499}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Step4" ID="{4FDCB634-53B4-41A9-A51F-FAB5BC443C38}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Step2" ID="{5B56702F-51E0-41FA-98A9-2D9E91F23486}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
@@ -40,6 +41,7 @@
 						<ObjectRef Name="Play_Random_Steamloops" ID="{B84B5C86-F4E5-4A12-8F51-8934177918D7}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_LightsOn_Red" ID="{69F7B5D3-9933-4A74-BE67-3B79DB2430D1}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Step3" ID="{8DDF86EC-9EBF-4A7C-ACDE-F106F95BEB5C}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SecretMusicContinue" ID="{50E952F2-19DD-4AAC-96C2-B1D8CAD9A018}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_PlumberySound" ID="{E3B1B97E-5752-4AC4-B877-A1645E34A5BE}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Step1" ID="{E4439B4C-E4EF-4B19-9AB7-0E83218DA3E1}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GetUp3" ID="{8E09B388-3AF7-4B1B-94A0-63C67AB6E493}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
@@ -51,8 +53,10 @@
 						<ObjectRef Name="Play_EndStartBoom" ID="{E5A9B428-ECE8-4C3A-A657-E2754D42DD4B}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_WindFall" ID="{7BCFBC46-253E-4C58-9FA2-34BC8CC00308}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GetUp2" ID="{4C924A6F-5422-4C99-8083-5DC708832653}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_SecretMusicContinue" ID="{E1F9A53B-0E78-4D0A-8657-019253E2FACD}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Buzzing_High" ID="{A5FC30EA-E993-4D4C-BBB7-15BB3B4E7548}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_RandomCamWhoosh" ID="{D2F9251F-9C47-4E1E-A990-BF4908800198}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SecretMusicStart" ID="{1E1A9D89-27E5-4E5C-8E2B-E928F96CF4B3}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="GameOverEndSound" ID="{73200159-DA93-4ED8-85B9-C792CE87561F}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_FallSound2" ID="{4289B002-41BE-4F19-AC6A-7B04A7ADD00C}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_LFE_Rumble_3" ID="{429803AE-1D71-4F77-9EE4-A6FF8F7C54BD}" WorkUnitID="{B054226F-43EC-49D9-A244-71B6A58E6080}" Origin="Manual" Filter="7"/>

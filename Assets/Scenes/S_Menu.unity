@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.048970103, g: 0.051594287, b: 0.046568677, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1268,6 +1268,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Hovered: 0
+  stayHovered: 0
   optionsLight1: {fileID: 1530514277}
   optionsLight2: {fileID: 1897591356}
   optionsLight3: {fileID: 1530972156}
@@ -5046,7 +5047,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 605288736}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ca89f44801a3d2446911bc34ed772371, type: 3}
   m_Name: 
@@ -9710,6 +9711,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Hovered: 0
+  stayHovered: 0
   optionsLight1: {fileID: 1898396175}
   optionsLight2: {fileID: 1050383507}
   optionsLight3: {fileID: 728512583}

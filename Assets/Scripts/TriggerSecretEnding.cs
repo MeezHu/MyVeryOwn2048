@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class TriggerSecretEnding : MonoBehaviour
 {
-    public uint Ambiant1;
-
+    public Animator secretWolfAnimator;
+    public Animator secretBoardAnimator;
     public LightRainbowSolo rainbowSolo1;
     public LightRainbowSolo rainbowSolo2;
     public LightRainbowSolo rainbowSolo3;
@@ -15,6 +15,8 @@ public class TriggerSecretEnding : MonoBehaviour
     public LightRainbowSolo rainbowSoloR3;
     public LightRainbowSolo rainbowSoloR4;
     public ClongControl clongControl;
+    public GameObject gridBoard;
+    public GameObject engrenages;
     public GameObject boxRangeBoard;
     public GameObject landLight1;
     public GameObject landLight2;
@@ -32,6 +34,8 @@ public class TriggerSecretEnding : MonoBehaviour
     public GameObject rainbowLight4;
     public GameObject ambiantSound;
     public GameObject ambiantSound2;
+    public GameObject secretMusicStart;
+    public GameObject secretMusicContinue;
     public GameObject triggerLightsNormal;
     public DoorNoiseSoftControl softDoorSounds;
     public DoorNoiseHardControl hardDoorSounds;
@@ -57,6 +61,9 @@ public class TriggerSecretEnding : MonoBehaviour
             StateManager.Instance.canSwitch = false;
         }
 
+        secretBoardAnimator.SetTrigger("Go");
+        engrenages.SetActive(false);
+        gridBoard.SetActive(false);
         landLight1.SetActive(false);
         landLight2.SetActive(false);
         landLight3.SetActive(false);
@@ -76,8 +83,16 @@ public class TriggerSecretEnding : MonoBehaviour
         boxRangeBoard.SetActive(false);
         triggerLightsNormal.SetActive(false);
 
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(2f);
+        secretWolfAnimator.SetTrigger("Arise");
 
+        yield return new WaitForSeconds(6f);
+
+        //musique
+        secretMusicStart.SetActive(true);
+        yield return new WaitForSeconds(2f);
+
+        secretWolfAnimator.SetTrigger("Spin");
         globalvolumeRed.SetActive(false);
         globalVolumeNormal.SetActive(true);
         rainbowLight1.SetActive(true);
@@ -93,5 +108,8 @@ public class TriggerSecretEnding : MonoBehaviour
         rainbowSoloR2.enabled = true;
         rainbowSoloR3.enabled = true;
         rainbowSoloR4.enabled = true;
+
+        yield return new WaitForSeconds(42);
+        secretMusicContinue.SetActive(true);
     }
 }

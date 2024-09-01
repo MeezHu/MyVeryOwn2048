@@ -15,7 +15,7 @@ public class SecretManager : MonoBehaviour
 
     void Start()
     {
-        //PlayerPrefs.SetInt("knowspassword", 0);
+        PlayerPrefs.SetInt("knowspassword", 0);
     }
 
     void Update()

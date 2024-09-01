@@ -2995,6 +2995,77 @@
 						<ActiveSource Name="User Interface, Alert, Notification, Attention, Short, Positive, Thin SND113038" ID="{FB921311-4C97-4315-AB13-E4C5AF29B10F}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="SecretMusicStart" ID="{10559C74-3DD7-4522-AE4C-341ACE7F58BC}" ShortID="886454435">
+					<PropertyList>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-15</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Maroon 5 - Animals (Lyrics)" ID="{D67D3711-F1E2-465C-A91B-1DE6FDB9BB1B}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="183.849614756193"/>
+								<Property Name="TrimEnd" Type="Real64" Value="227.015646143364"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Maroon 5 - Animals (Lyrics).wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="295536663"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Maroon 5 - Animals (Lyrics)" ID="{D67D3711-F1E2-465C-A91B-1DE6FDB9BB1B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SecretMusicContinue" ID="{DB845760-8C2B-41BB-9EC2-2754D656771A}" ShortID="413546677">
+					<PropertyList>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-15</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Maroon 5 - Animals (Lyrics)" ID="{C21B71FA-774C-496B-A368-9984EE6E17C4}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="61.2454212763313"/>
+								<Property Name="TrimEnd" Type="Real64" Value="227.015646143364"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Maroon 5 - Animals (Lyrics).wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="126807842"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Maroon 5 - Animals (Lyrics)" ID="{C21B71FA-774C-496B-A368-9984EE6E17C4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

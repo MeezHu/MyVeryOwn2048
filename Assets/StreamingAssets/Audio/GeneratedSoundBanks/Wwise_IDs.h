@@ -50,6 +50,8 @@ namespace AK
         static const AkUniqueID PLAY_SECRETCOME = 3932204058U;
         static const AkUniqueID PLAY_SECRETGO = 131665796U;
         static const AkUniqueID PLAY_SECRETLOCATIONHINT = 1917130952U;
+        static const AkUniqueID PLAY_SECRETMUSICCONTINUE = 854349084U;
+        static const AkUniqueID PLAY_SECRETMUSICSTART = 4192258133U;
         static const AkUniqueID PLAY_SECRETVALIDATION = 409343711U;
         static const AkUniqueID PLAY_STARTBOOM = 2626765055U;
         static const AkUniqueID PLAY_STARTRISER = 3561394305U;
@@ -64,6 +66,8 @@ namespace AK
         static const AkUniqueID STOP_GHOSTLY_PRESENCE__ANGELIC__VOCAL__LAYER__CREEPY__HORROR_4 = 3843945942U;
         static const AkUniqueID STOP_LFE_RUMBLE_3 = 2733305787U;
         static const AkUniqueID STOP_PLUMBERYSOUND = 1256843611U;
+        static const AkUniqueID STOP_SECRETMUSICCONTINUE = 2284581250U;
+        static const AkUniqueID STOP_SECRETMUSICSTART = 2539874087U;
         static const AkUniqueID STOP_WHISPERING_MUSIC = 1004893882U;
     } // namespace EVENTS
 

@@ -25,7 +25,7 @@
 				<GameParameter Id="2918011349" Name="MasterVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{5D5D1FEC-878A-9B8E-0128-BC39FF5D7B4C}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{0AB99FCD-7E13-8D4E-9115-CD272D283E9C}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -40,6 +40,10 @@
 				<File Id="82235524" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>335171__jorgepotter__hand-touching.wav</ShortName>
 					<CachePath>SFX/335171__jorgepotter__hand-touching_2276EE03.wem</CachePath>
+				</File>
+				<File Id="126807842" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Maroon 5 - Animals (Lyrics).wav</ShortName>
+					<CachePath>SFX/Maroon 5 - Animals (Lyrics)_F857B3C4.wem</CachePath>
 				</File>
 				<File Id="142810674" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>steamloopend.wav</ShortName>
@@ -69,6 +73,10 @@
 					<ShortName>ResonantRustyDoor_scrape_short_05.wav</ShortName>
 					<CachePath>SFX/ResonantRustyDoor_scrape_short_05_818F3B66.wem</CachePath>
 				</File>
+				<File Id="295536663" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Maroon 5 - Animals (Lyrics).wav</ShortName>
+					<CachePath>SFX/Maroon 5 - Animals (Lyrics)_9D8E8EDB.wem</CachePath>
+				</File>
 				<File Id="309407029" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>W_a_P_Cinematic_Whoosh_Hit_8.wav</ShortName>
 					<CachePath>SFX/W_a_P_Cinematic_Whoosh_Hit_8_256877DA.wem</CachePath>
@@ -95,7 +103,7 @@
 				</File>
 				<File Id="398490186" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178.wav</ShortName>
-					<CachePath>SFX/Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178_1EA3BADB.wem</CachePath>
+					<CachePath>SFX/Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178_14A20A70.wem</CachePath>
 				</File>
 				<File Id="442366620" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>424462__nicstage__heaterpipecontact.wav</ShortName>
@@ -103,7 +111,7 @@
 				</File>
 				<File Id="476420375" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Wood, Friction, Drag Chair, Scary Creak, Heavy Reverb, Long Decay, Dark x4 02 SND42052.wav</ShortName>
-					<CachePath>SFX/Wood, Friction, Drag Chair, Scary Creak, Heavy Reverb, Long Decay, Dark x4 02 SND42052_7BD5A048.wem</CachePath>
+					<CachePath>SFX/Wood, Friction, Drag Chair, Scary Creak, Heavy Reverb, Long Decay, Dark x4 02 SND42052_4E51B37D.wem</CachePath>
 				</File>
 				<File Id="481591402" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332.wav</ShortName>
@@ -111,11 +119,11 @@
 				</File>
 				<File Id="489305196" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178.wav</ShortName>
-					<CachePath>SFX/Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178_62E65435.wem</CachePath>
+					<CachePath>SFX/Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178_8737686F.wem</CachePath>
 				</File>
 				<File Id="499484540" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178.wav</ShortName>
-					<CachePath>SFX/Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178_461A94A7.wem</CachePath>
+					<CachePath>SFX/Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178_F746638E.wem</CachePath>
 				</File>
 				<File Id="504394990" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Swooshes, Whoosh, Classic, Charcoal 01 SND55539.wav</ShortName>
@@ -135,7 +143,7 @@
 				</File>
 				<File Id="540191336" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178.wav</ShortName>
-					<CachePath>SFX/Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178_CBB16E4E.wem</CachePath>
+					<CachePath>SFX/Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178_69D69431.wem</CachePath>
 				</File>
 				<File Id="545125755" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>indoor-footsteps-6385.wav</ShortName>
@@ -159,7 +167,7 @@
 				</File>
 				<File Id="578226454" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178.wav</ShortName>
-					<CachePath>SFX/Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178_0048045C.wem</CachePath>
+					<CachePath>SFX/Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178_A61E1C2F.wem</CachePath>
 				</File>
 				<File Id="637078363" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bluezone_BC0258_cinematic_metal_impact_069.wav</ShortName>
@@ -183,7 +191,7 @@
 				</File>
 				<File Id="697642938" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Wood, Friction, Drag Chair, Scary Creak, Heavy Reverb, Long Decay, Dark x4 02 SND42052.wav</ShortName>
-					<CachePath>SFX/Wood, Friction, Drag Chair, Scary Creak, Heavy Reverb, Long Decay, Dark x4 02 SND42052_97D094D7.wem</CachePath>
+					<CachePath>SFX/Wood, Friction, Drag Chair, Scary Creak, Heavy Reverb, Long Decay, Dark x4 02 SND42052_42367760.wem</CachePath>
 				</File>
 				<File Id="703197173" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ResonantRustyDoor_impact_soft_01.wav</ShortName>
@@ -215,11 +223,11 @@
 				</File>
 				<File Id="856340383" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178.wav</ShortName>
-					<CachePath>SFX/Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178_5E284736.wem</CachePath>
+					<CachePath>SFX/Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178_D5D2A667.wem</CachePath>
 				</File>
 				<File Id="909255023" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178.wav</ShortName>
-					<CachePath>SFX/Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178_4137050B.wem</CachePath>
+					<CachePath>SFX/Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178_28352CDE.wem</CachePath>
 				</File>
 				<File Id="917332138" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332.wav</ShortName>
@@ -251,11 +259,11 @@
 				</File>
 				<File Id="1029205145" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10.wav 07.wav</ShortName>
-					<CachePath>SFX/ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10.wav 07_82DEFC56.wem</CachePath>
+					<CachePath>SFX/ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10.wav 07_4F0EA6CA.wem</CachePath>
 				</File>
 				<File Id="1056272272" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178.wav</ShortName>
-					<CachePath>SFX/Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178_850B9924.wem</CachePath>
+					<CachePath>SFX/Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178_5F93F99D.wem</CachePath>
 				</File>
 			</Media>
 			<Plugins>
@@ -488,6 +496,16 @@
 						<MediaRef Id="1029205145"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="854349084" Name="Play_SecretMusicContinue" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="126807842"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4192258133" Name="Play_SecretMusicStart" DurationType="OneShot" DurationMin="43.16603" DurationMax="43.16603">
+					<MediaRefs>
+						<MediaRef Id="295536663"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="409343711" Name="Play_SecretValidation" DurationType="OneShot" DurationMin="0.6709167" DurationMax="0.6709167">
 					<MediaRefs>
 						<MediaRef Id="333862779"/>
@@ -538,9 +556,11 @@
 				<Event Id="3843945942" Name="Stop_Ghostly_Presence__Angelic__Vocal__Layer__Creepy__Horror_4" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2733305787" Name="Stop_LFE_Rumble_3" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1256843611" Name="Stop_PlumberySound" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2284581250" Name="Stop_SecretMusicContinue" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2539874087" Name="Stop_SecretMusicStart" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1004893882" Name="Stop_whispering_music" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{5EED7E57-A653-0061-F78B-8456487F7B67}</FileHash>
+	<FileHash>{1BE55B0C-7E81-36CB-07D8-4988FEF57F31}</FileHash>
 </SoundBanksInfo>

@@ -38,6 +38,7 @@ public class StateManager : MonoBehaviour
 
     public bool canPovBoard;
     public bool canPovFps;
+    
 
     public ControlGears controlGears;
     public HeadBobController headBobController;
@@ -62,6 +63,8 @@ public class StateManager : MonoBehaviour
 
             if (canPovBoard)
             {
+                //StartCoroutine(CoroutineCanSwitchSecure());
+                StartCoroutine(CoroutineCanSwitchSecureIn());
                 StartCoroutine(CoroutineBoardView());
                 if (eCanvas != null)
                 {
@@ -76,6 +79,8 @@ public class StateManager : MonoBehaviour
 
             if (canPovFps)
             {
+                //StartCoroutine(CoroutineCanSwitchSecure());
+                StartCoroutine(CoroutineCanSwitchSecureOut());
                 StartCoroutine(CoroutineFpsView());
                 Debug.Log("Fps View");
                 headBobController.enabled = true;
@@ -84,6 +89,19 @@ public class StateManager : MonoBehaviour
             }
         }
 
+    }
+
+    IEnumerator CoroutineCanSwitchSecureIn()
+    {
+        canSwitch = false;
+        yield return new WaitForSeconds(1.5f);
+        canSwitch = true;
+    }
+
+    IEnumerator CoroutineCanSwitchSecureOut()
+    {
+        canSwitch = false;
+        yield return new WaitForSeconds(1.5f);
     }
 
     public void ChangeCanSwitch(bool newState){

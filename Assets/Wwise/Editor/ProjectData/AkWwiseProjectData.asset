@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 52380ee722d02e4aa6dd06277ef97ae3
     GuidInternal: 
-    m_lastTime: -8584765033262261513
+    m_lastTime: -8584764140393308979
     List:
     - name: Main
       guid: cbfeb1857713eb4c88a1cc4eb8bd8322
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 6f2254b0ec43d949a24471b6a58e6080
     GuidInternal: 
-    m_lastTime: -8584765033289613185
+    m_lastTime: -8584764148420336269
     List:
     - name: Play_ANIMAL_WILD_Camel_D__Grunt__Groan__Roar__Gargle_x10_wav_07
       guid: 7fbf6f9dc8285841be75bae4ee70c499
@@ -725,6 +725,40 @@ MonoBehaviour:
       maxAttenuation: 4
       maxDuration: -1
       minDuration: -1
+    - name: Play_SecretMusicContinue
+      guid: f252e950dd19ac4a96c2b1d8cad9a018
+      id: 854349084
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_SecretMusicContinue
+        ObjectType: 3
+        guid: f252e950dd19ac4a96c2b1d8cad9a018
+      Path: Events\Default Work Unit\Play_SecretMusicContinue
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_SecretMusicStart
+      guid: 899d1a1ee5275c4e8e2be928f96cf4b3
+      id: 4192258133
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_SecretMusicStart
+        ObjectType: 3
+        guid: 899d1a1ee5275c4e8e2be928f96cf4b3
+      Path: Events\Default Work Unit\Play_SecretMusicStart
+      maxAttenuation: 0
+      maxDuration: 43.16603
+      minDuration: 43.16603
     - name: Play_SecretValidation
       guid: aeee7a1bf8cf5e49998d514bfb5258b9
       id: 409343711
@@ -960,6 +994,40 @@ MonoBehaviour:
         ObjectType: 3
         guid: 7eb9b1e35257c44ab877a1645e34a5be
       Path: Events\Default Work Unit\Stop_PlumberySound
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_SecretMusicContinue
+      guid: 3ba5f9e1780e0a4d8657019253e2facd
+      id: 2284581250
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Stop_SecretMusicContinue
+        ObjectType: 3
+        guid: 3ba5f9e1780e0a4d8657019253e2facd
+      Path: Events\Default Work Unit\Stop_SecretMusicContinue
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_SecretMusicStart
+      guid: 9dbbdf190362524182afa10541927f24
+      id: 2539874087
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Stop_SecretMusicStart
+        ObjectType: 3
+        guid: 9dbbdf190362524182afa10541927f24
+      Path: Events\Default Work Unit\Stop_SecretMusicStart
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0

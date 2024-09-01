@@ -589,6 +589,56 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_SecretMusicStart" ID="{1E1A9D89-27E5-4E5C-8E2B-E928F96CF4B3}">
+					<ChildrenList>
+						<Action Name="" ID="{EC944DA7-C65A-42B2-B149-40600FEE7BCF}" ShortID="555052750">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SecretMusicStart" ID="{10559C74-3DD7-4522-AE4C-341ACE7F58BC}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SecretMusicContinue" ID="{50E952F2-19DD-4AAC-96C2-B1D8CAD9A018}">
+					<ChildrenList>
+						<Action Name="" ID="{9E70008E-F28A-4763-8F87-F24143094498}" ShortID="408457742">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SecretMusicContinue" ID="{DB845760-8C2B-41BB-9EC2-2754D656771A}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_SecretMusicContinue" ID="{E1F9A53B-0E78-4D0A-8657-019253E2FACD}">
+					<ChildrenList>
+						<Action Name="" ID="{47F7C7FF-C9A8-44AB-9BFB-3368F8EE8232}" ShortID="382153096">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SecretMusicContinue" ID="{DB845760-8C2B-41BB-9EC2-2754D656771A}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_SecretMusicStart" ID="{19DFBB9D-6203-4152-82AF-A10541927F24}">
+					<ChildrenList>
+						<Action Name="" ID="{5FFCE513-14F6-4BE2-8616-C0482AC225B9}" ShortID="549804938">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SecretMusicStart" ID="{10559C74-3DD7-4522-AE4C-341ACE7F58BC}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
