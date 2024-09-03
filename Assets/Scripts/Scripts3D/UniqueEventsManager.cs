@@ -73,6 +73,7 @@ public class UniqueEventsManager : MonoBehaviour
     public GameObject gameOverSound;
     public GameObject gameOverRiser;
     public GameObject stopEverything;
+    public GameObject blockingPipes;
 
     public DoorNoiseSoftControl doorNoiseSoftControl;
     public DoorNoiseHardControl doorNoiseHardControl;
@@ -133,6 +134,7 @@ public class UniqueEventsManager : MonoBehaviour
     [ContextMenu("GameOverEvent")]
     public void GameOverEvent()
     {
+        blockingPipes.SetActive(true);
         StartCoroutine(CoroutineGameOverEvent());
         StartCoroutine(CoroutineGameOverSound());
         StartCoroutine(CoroutineGameOverRiser());

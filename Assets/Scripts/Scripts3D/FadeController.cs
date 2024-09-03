@@ -31,6 +31,16 @@ public class FadeController : MonoBehaviour
         Invoke("GettingUp", 15);
         Invoke("ActivatePlayer", 21);
         Invoke("LoopingAmbiance", 32); //21
+
+        if (PlayerPrefs.GetFloat("sensitivity") == 0)
+        {
+            PlayerPrefs.SetFloat("sensitivity", 0.5f);
+        }
+
+        if (PlayerPrefs.GetFloat("volume") == 0)
+        {
+            PlayerPrefs.SetFloat("volume", 0.5f);
+        }
     }
 
     public void StartFallSound()

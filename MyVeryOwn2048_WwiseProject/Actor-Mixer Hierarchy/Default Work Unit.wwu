@@ -2602,7 +2602,7 @@
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Lowpass" Type="int16">
 							<ValueList>
-								<Value>65</Value>
+								<Value>24</Value>
 							</ValueList>
 						</Property>
 						<Property Name="Pitch" Type="int32">
@@ -2612,7 +2612,7 @@
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-10</Value>
+								<Value>-5</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -2630,7 +2630,7 @@
 					<ChildrenList>
 						<AudioFileSource Name="ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10_wav 07" ID="{51597828-BEFC-485B-A725-4CBB96ADD4C8}">
 							<PropertyList>
-								<Property Name="LoopEnd" Type="Real64" Value="1.13485979484386"/>
+								<Property Name="LoopEnd" Type="Real64" Value="0.909488108206242"/>
 								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 							</PropertyList>
 							<Language>SFX</Language>

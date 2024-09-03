@@ -25,7 +25,7 @@
 				<GameParameter Id="2918011349" Name="MasterVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{0AB99FCD-7E13-8D4E-9115-CD272D283E9C}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{49262930-5470-0F30-433D-F0D3BA4A84E6}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -43,7 +43,7 @@
 				</File>
 				<File Id="126807842" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Maroon 5 - Animals (Lyrics).wav</ShortName>
-					<CachePath>SFX/Maroon 5 - Animals (Lyrics)_F857B3C4.wem</CachePath>
+					<CachePath>SFX/Maroon 5 - Animals (Lyrics)_FBE2AAD5.wem</CachePath>
 				</File>
 				<File Id="142810674" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>steamloopend.wav</ShortName>
@@ -75,7 +75,7 @@
 				</File>
 				<File Id="295536663" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Maroon 5 - Animals (Lyrics).wav</ShortName>
-					<CachePath>SFX/Maroon 5 - Animals (Lyrics)_9D8E8EDB.wem</CachePath>
+					<CachePath>SFX/Maroon 5 - Animals (Lyrics)_ADEB6CA7.wem</CachePath>
 				</File>
 				<File Id="309407029" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>W_a_P_Cinematic_Whoosh_Hit_8.wav</ShortName>
@@ -259,7 +259,7 @@
 				</File>
 				<File Id="1029205145" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10.wav 07.wav</ShortName>
-					<CachePath>SFX/ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10.wav 07_4F0EA6CA.wem</CachePath>
+					<CachePath>SFX/ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10.wav 07_66C17D42.wem</CachePath>
 				</File>
 				<File Id="1056272272" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178.wav</ShortName>
@@ -562,5 +562,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1BE55B0C-7E81-36CB-07D8-4988FEF57F31}</FileHash>
+	<FileHash>{6A8F7096-67EA-6972-7EF0-8303DFA097CB}</FileHash>
 </SoundBanksInfo>

@@ -5000,7 +5000,7 @@ MonoBehaviour:
   tpsEnaMenu: 2
   tpsEnaQuit: 1
   tpsDisQuit: 0.7
-  tpsEnaStart: 1.5
+  tpsEnaStart: 2.5
   tpsDisStart: 1
   tpsStarting: 8
   detectBoxOptions: {fileID: 1677445107}
