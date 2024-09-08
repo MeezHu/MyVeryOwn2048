@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 52380ee722d02e4aa6dd06277ef97ae3
     GuidInternal: 
-    m_lastTime: -8584764140393308979
+    m_lastTime: -8584757981674744521
     List:
     - name: Main
       guid: cbfeb1857713eb4c88a1cc4eb8bd8322
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 6f2254b0ec43d949a24471b6a58e6080
     GuidInternal: 
-    m_lastTime: -8584764148420336269
+    m_lastTime: -8584757982364714291
     List:
     - name: Play_ANIMAL_WILD_Camel_D__Grunt__Groan__Roar__Gargle_x10_wav_07
       guid: 7fbf6f9dc8285841be75bae4ee70c499
@@ -470,6 +470,295 @@ MonoBehaviour:
       maxAttenuation: 40
       maxDuration: 2.8498778
       minDuration: 2.8498778
+    - name: Play_MechaEndClickHeavy1
+      guid: 5a18c7de935e814296536c5e679a2172
+      id: 2536142413
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_MechaEndClickHeavy1
+        ObjectType: 3
+        guid: 5a18c7de935e814296536c5e679a2172
+      Path: Events\Default Work Unit\Play_MechaEndClickHeavy1
+      maxAttenuation: 40
+      maxDuration: 2.6898565
+      minDuration: 2.6898565
+    - name: Play_MechaEndClickHeavy2
+      guid: ebfa9e046957704aa82db951b38f632b
+      id: 2536142414
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_MechaEndClickHeavy2
+        ObjectType: 3
+        guid: ebfa9e046957704aa82db951b38f632b
+      Path: Events\Default Work Unit\Play_MechaEndClickHeavy2
+      maxAttenuation: 40
+      maxDuration: 2.213173
+      minDuration: 2.213173
+    - name: Play_MechaEndClickLight1
+      guid: 72e395fb45f6cf448cb4602d9a580f4d
+      id: 3001280594
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_MechaEndClickLight1
+        ObjectType: 3
+        guid: 72e395fb45f6cf448cb4602d9a580f4d
+      Path: Events\Default Work Unit\Play_MechaEndClickLight1
+      maxAttenuation: 40
+      maxDuration: 1.244812
+      minDuration: 1.244812
+    - name: Play_MechaEndClickLight2
+      guid: 1de17716bc244c40ab12b711c72f55c0
+      id: 3001280593
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_MechaEndClickLight2
+        ObjectType: 3
+        guid: 1de17716bc244c40ab12b711c72f55c0
+      Path: Events\Default Work Unit\Play_MechaEndClickLight2
+      maxAttenuation: 40
+      maxDuration: 1.3653535
+      minDuration: 1.3653535
+    - name: Play_MechaEndClickLight3
+      guid: 638488e93941bd458582837d79046c55
+      id: 3001280592
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_MechaEndClickLight3
+        ObjectType: 3
+        guid: 638488e93941bd458582837d79046c55
+      Path: Events\Default Work Unit\Play_MechaEndClickLight3
+      maxAttenuation: 40
+      maxDuration: 2.1294053
+      minDuration: 2.1294053
+    - name: Play_MechaPreparing1
+      guid: 8de66c5fab17ab4e9f7a2656a35d52f6
+      id: 579792291
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_MechaPreparing1
+        ObjectType: 3
+        guid: 8de66c5fab17ab4e9f7a2656a35d52f6
+      Path: Events\Default Work Unit\Play_MechaPreparing1
+      maxAttenuation: 40
+      maxDuration: 1.4439796
+      minDuration: 1.4439796
+    - name: Play_MechaPreparing2
+      guid: 34ac70804c282448a02c2f241aa72717
+      id: 579792288
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_MechaPreparing2
+        ObjectType: 3
+        guid: 34ac70804c282448a02c2f241aa72717
+      Path: Events\Default Work Unit\Play_MechaPreparing2
+      maxAttenuation: 40
+      maxDuration: 0.56871825
+      minDuration: 0.56871825
+    - name: Play_MechaUnlock1
+      guid: 2e18c4d086c945438f8f0531397f00a4
+      id: 471853287
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_MechaUnlock1
+        ObjectType: 3
+        guid: 2e18c4d086c945438f8f0531397f00a4
+      Path: Events\Default Work Unit\Play_MechaUnlock1
+      maxAttenuation: 40
+      maxDuration: 0.87526745
+      minDuration: 0.87526745
+    - name: Play_MechaUnlock2
+      guid: fc7f344f8c60ac459dd3a8e0b45a0751
+      id: 471853284
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_MechaUnlock2
+        ObjectType: 3
+        guid: fc7f344f8c60ac459dd3a8e0b45a0751
+      Path: Events\Default Work Unit\Play_MechaUnlock2
+      maxAttenuation: 40
+      maxDuration: 1.2748461
+      minDuration: 1.2748461
+    - name: Play_MechaUnlockSteamy1
+      guid: 1e2d60d52b55044ab1e6d0854ceef53a
+      id: 4032807060
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_MechaUnlockSteamy1
+        ObjectType: 3
+        guid: 1e2d60d52b55044ab1e6d0854ceef53a
+      Path: Events\Default Work Unit\Play_MechaUnlockSteamy1
+      maxAttenuation: 40
+      maxDuration: 1.0440571
+      minDuration: 1.0440571
+    - name: Play_MechaUnlockSteamy2
+      guid: ff3596451c2d9348ba02b97e4b1ca7fd
+      id: 4032807063
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_MechaUnlockSteamy2
+        ObjectType: 3
+        guid: ff3596451c2d9348ba02b97e4b1ca7fd
+      Path: Events\Default Work Unit\Play_MechaUnlockSteamy2
+      maxAttenuation: 40
+      maxDuration: 1.1396881
+      minDuration: 1.1396881
+    - name: Play_MechaUnlockSteamy3
+      guid: 9fb19710bf128a469b96270c349f147b
+      id: 4032807062
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_MechaUnlockSteamy3
+        ObjectType: 3
+        guid: 9fb19710bf128a469b96270c349f147b
+      Path: Events\Default Work Unit\Play_MechaUnlockSteamy3
+      maxAttenuation: 40
+      maxDuration: 3.3157415
+      minDuration: 3.3157415
+    - name: Play_MechaWorkingHeavy1
+      guid: 0fb9149df36c804ea148d1892f9b9fb6
+      id: 2495575421
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_MechaWorkingHeavy1
+        ObjectType: 3
+        guid: 0fb9149df36c804ea148d1892f9b9fb6
+      Path: Events\Default Work Unit\Play_MechaWorkingHeavy1
+      maxAttenuation: 40
+      maxDuration: 5.4658685
+      minDuration: 5.4658685
+    - name: Play_MechaWorkingHeavy2
+      guid: cfbe12d4b4a4564eb4895baf190a76d0
+      id: 2495575422
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_MechaWorkingHeavy2
+        ObjectType: 3
+        guid: cfbe12d4b4a4564eb4895baf190a76d0
+      Path: Events\Default Work Unit\Play_MechaWorkingHeavy2
+      maxAttenuation: 40
+      maxDuration: 5.321916
+      minDuration: 5.321916
+    - name: Play_MechaWorkingLight1
+      guid: b78f2bdd7b29444bafa29bb7c59c9c94
+      id: 3749740578
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_MechaWorkingLight1
+        ObjectType: 3
+        guid: b78f2bdd7b29444bafa29bb7c59c9c94
+      Path: Events\Default Work Unit\Play_MechaWorkingLight1
+      maxAttenuation: 40
+      maxDuration: 3.492628
+      minDuration: 3.492628
+    - name: Play_MechaWorkingLight2
+      guid: 3ac4c1bc06ca2546a3be5fe57e1dddfa
+      id: 3749740577
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_MechaWorkingLight2
+        ObjectType: 3
+        guid: 3ac4c1bc06ca2546a3be5fe57e1dddfa
+      Path: Events\Default Work Unit\Play_MechaWorkingLight2
+      maxAttenuation: 40
+      maxDuration: 3.7206295
+      minDuration: 3.7206295
+    - name: Play_MechaWorkingLight3
+      guid: b2d02e7b81d9ae43ae01ed648708127c
+      id: 3749740576
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_MechaWorkingLight3
+        ObjectType: 3
+        guid: b2d02e7b81d9ae43ae01ed648708127c
+      Path: Events\Default Work Unit\Play_MechaWorkingLight3
+      maxAttenuation: 40
+      maxDuration: 3.5682292
+      minDuration: 3.5682292
     - name: Play_PlumberySound
       guid: 697072c02b13a648b0b7766c3503d119
       id: 2154670781

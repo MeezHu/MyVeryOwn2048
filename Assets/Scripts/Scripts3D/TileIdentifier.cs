@@ -55,6 +55,10 @@ public class TileIdentifier : MonoBehaviour
                 vfxFeedback.Vfx16Fusion();
                 //soundFeedback.RandomSteamBlastSpecial.transform.position = gameObject.transform.position;
                 soundFeedback.SfxSpecialFusion();
+                if (UniqueEventsManager.Instance != null)
+                {
+                    UniqueEventsManager.Instance.Unlock1();
+                }
                 break;
             case "M_32":
                 Debug.Log("Tuile = " + for3DTile.matName + " appeared in " + gameObject.transform.position);
@@ -68,29 +72,42 @@ public class TileIdentifier : MonoBehaviour
                 Debug.Log("Tuile = " + for3DTile.matName + " appeared in " + gameObject.transform.position);
                 vfxFeedback.Vfx64Fusion();
                 soundFeedback.SfxSpecialFusion();
+                if (UniqueEventsManager.Instance != null)
+                {
+                    UniqueEventsManager.Instance.Unlock2();
+                }
                 break;
             case "M_128":
                 Debug.Log("Tuile = " + for3DTile.matName + " appeared in " + gameObject.transform.position);
                 vfxFeedback.VfxDefaultFusion();
-                break;
-            case "M_256":
-                Debug.Log("Tuile = " + for3DTile.matName + " appeared in " + gameObject.transform.position);
                 if (UniqueEventsManager.Instance != null && UniqueEventsManager.Instance.canStartFlicker)
                 {
                     UniqueEventsManager.Instance.StartFlickeringLight();
                 }
+                break;
+            case "M_256":
+                Debug.Log("Tuile = " + for3DTile.matName + " appeared in " + gameObject.transform.position);
                 vfxFeedback.Vfx256Fusion();
                 soundFeedback.SfxSpecialFusion();
+                if (UniqueEventsManager.Instance != null)
+                {
+                    UniqueEventsManager.Instance.Unlock3();
+                }
                 break;
             case "M_512":
                 Debug.Log("Tuile = " + for3DTile.matName + " appeared in " + gameObject.transform.position);
                 vfxFeedback.Vfx512Fusion();
                 soundFeedback.SfxSpecialFusion();
+                if (UniqueEventsManager.Instance != null)
+                {
+                    UniqueEventsManager.Instance.Unlock4();
+                }
                 break;
             case "M_1024":
                 Debug.Log("Tuile = " + for3DTile.matName + " appeared in " + gameObject.transform.position);
                 if (UniqueEventsManager.Instance != null && UniqueEventsManager.Instance.canBecomeRed)
                 {
+                    //UniqueEventsManager.Instance.Unlock5();
                     UniqueEventsManager.Instance.BecomeRed();
                     UniqueEventsManager.Instance.StopDoorNoiseSoft();
                     UniqueEventsManager.Instance.StartDoorNoiseHard();

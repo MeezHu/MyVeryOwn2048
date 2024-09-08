@@ -48,6 +48,17 @@
 						<Property Name="WetLevel" Type="Real32" Value="-25"/>
 					</PropertyList>
 				</Effect>
+				<Effect Name="New_RoomVerb_02" ID="{051AA7CF-9222-49F5-8D2C-933B15120243}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3"/>
+				<Effect Name="New_Matrix_Reverb_01" ID="{B3BDF74E-1A54-4326-88AB-DBA737ADD3E3}" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3"/>
+				<Effect Name="New_RoomVerb_03" ID="{6F235A9A-6C42-4603-96C2-EE3534393500}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+					<PropertyList>
+						<Property Name="DecayTime" Type="Real32" Value="1.5"/>
+						<Property Name="Density" Type="Real32" Value="88"/>
+						<Property Name="DryLevel" Type="Real32" Value="-2.3"/>
+						<Property Name="ERLevel" Type="Real32" Value="-21"/>
+						<Property Name="HFDamping" Type="Real32" Value="3.55"/>
+					</PropertyList>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>

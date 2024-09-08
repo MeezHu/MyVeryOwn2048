@@ -79,6 +79,134 @@ public class UniqueEventsManager : MonoBehaviour
     public DoorNoiseHardControl doorNoiseHardControl;
     public Animator whiteFadeAnimator;
 
+    [Header("Lock Animators")]
+    public Animator verrou1Animator;
+    public Animator verrou2Animator;
+    public Animator verrou3Animator;
+    public Animator verrou4Animator;
+    public Animator verrou5Animator;
+
+    [Header("Lock Sounds")]
+    public GameObject mechaPreparing1;
+    public GameObject mechaWorking1;
+    public GameObject mechaEndClick1;
+    public GameObject mechaPreparing2;
+    public GameObject mechaWorking2;
+    public GameObject mechaEndClick2;
+    public GameObject mechaUnlock1;
+    public GameObject mechaUnlockSteamy1;
+    public GameObject mechaWorkingLight1;
+    public GameObject mechaEndClickLight1;
+    public GameObject mechaUnlock2;
+    public GameObject mechaUnlockSteamy2;
+    public GameObject mechaWorkingLight2;
+    public GameObject mechaEndClickLight2;
+    public GameObject mechaUnlockSteamy3;
+    public GameObject mechaWorkingLight3;
+    public GameObject mechaEndClickLight3;
+
+    public void Unlock1()
+    {
+        StartCoroutine(CoroutineUnlock1());
+    }
+
+    IEnumerator CoroutineUnlock1()
+    {
+        yield return new WaitForSeconds(1);
+        mechaPreparing1.SetActive(true);
+        mechaPreparing1.SetActive(false);
+
+        yield return new WaitForSeconds(0.3f);
+        mechaWorking1.SetActive(true);
+        mechaWorking1.SetActive(false);
+        verrou1Animator.SetTrigger("Go");
+
+        yield return new WaitForSeconds(5);
+        mechaEndClick1.SetActive(true);
+        mechaEndClick1.SetActive(false);
+    }
+
+    public void Unlock2()
+    {
+        StartCoroutine(CoroutineUnlock2());
+    }
+
+    IEnumerator CoroutineUnlock2()
+    {
+        yield return new WaitForSeconds(1);
+        mechaPreparing2.SetActive(true);
+        mechaPreparing2.SetActive(false);
+
+        yield return new WaitForSeconds(0.3f);
+        mechaWorking2.SetActive(true);
+        mechaWorking2.SetActive(false);
+        verrou2Animator.SetTrigger("Go");
+
+        yield return new WaitForSeconds(5);
+        mechaEndClick2.SetActive(true);
+        mechaEndClick2.SetActive(false);
+    }
+
+    public void Unlock3()
+    {
+        StartCoroutine(CoroutineUnlock3());
+    }
+
+    IEnumerator CoroutineUnlock3()
+    {
+        yield return new WaitForSeconds(1);
+        mechaUnlock1.SetActive(true);
+        mechaUnlock1.SetActive(false);
+        verrou3Animator.SetTrigger("Go");
+
+        yield return new WaitForSeconds(1.2f);
+        mechaUnlockSteamy1.SetActive(true);
+        mechaUnlockSteamy1.SetActive(false);
+
+        yield return new WaitForSeconds(1.3f);
+        mechaWorkingLight1.SetActive(true);
+        mechaWorkingLight1.SetActive(false);
+
+        yield return new WaitForSeconds(3f);
+        mechaEndClickLight1.SetActive(true);
+        mechaEndClickLight1.SetActive(false);
+    }
+
+    public void Unlock4()
+    {
+        StartCoroutine(CoroutineUnlock4());
+    }
+
+    IEnumerator CoroutineUnlock4()
+    {
+        yield return new WaitForSeconds(1);
+        mechaUnlock2.SetActive(true);
+        mechaUnlock2.SetActive(false);
+        verrou4Animator.SetTrigger("Go");
+
+        yield return new WaitForSeconds(1.2f);
+        mechaUnlockSteamy2.SetActive(true);
+        mechaUnlockSteamy2.SetActive(false);
+
+        yield return new WaitForSeconds(1.3f);
+        mechaWorkingLight2.SetActive(true);
+        mechaWorkingLight2.SetActive(false);
+
+        yield return new WaitForSeconds(3f);
+        mechaEndClickLight2.SetActive(true);
+        mechaEndClickLight2.SetActive(false);
+    }
+
+    //public void Unlock5()
+    //{
+    //    StartCoroutine(CoroutineUnlock5());
+    //}
+
+    //IEnumerator CoroutineUnlock5()
+    //{
+    //    yield return new WaitForSeconds(1);
+    //    verrou5Animator.SetTrigger("Go");
+    //}
 
     [ContextMenu("StartDoorNoiseSoft")]
     public void StartDoorNoiseSoft()
@@ -95,6 +223,12 @@ public class UniqueEventsManager : MonoBehaviour
     [ContextMenu("StartDoorNoiseHard")]
     public void StartDoorNoiseHard()
     {
+        StartCoroutine(CoroutineStartDoorNoiseHard());
+    }
+
+    IEnumerator CoroutineStartDoorNoiseHard()
+    {
+        yield return new WaitForSeconds(1.7f);
         doorNoiseHardControl.enabled = true;
     }
 
@@ -201,7 +335,20 @@ public class UniqueEventsManager : MonoBehaviour
         doorLightR4.SetActive(true);
         gvRed.SetActive(true);
 
-        yield return new WaitForSeconds(4);
+        yield return new WaitForSeconds(1.3f);
+        verrou5Animator.SetTrigger("Go");
+        mechaUnlockSteamy3.SetActive(true);
+        mechaUnlockSteamy3.SetActive(false);
+
+        yield return new WaitForSeconds(1f);
+        mechaWorkingLight3.SetActive(true);
+        mechaWorkingLight3.SetActive(false);
+
+        yield return new WaitForSeconds(3);
+        mechaEndClickLight3.SetActive(true);
+        mechaEndClickLight3.SetActive(false);
+
+        yield return new WaitForSeconds(4.5f);
         secretLocationHintHard.SetActive(true);
         landLightR1.SetActive(true);
         landLightR2.SetActive(true);

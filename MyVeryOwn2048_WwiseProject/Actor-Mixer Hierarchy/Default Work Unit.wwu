@@ -3066,6 +3066,762 @@
 						<ActiveSource Name="Maroon 5 - Animals (Lyrics)" ID="{C21B71FA-774C-496B-A368-9984EE6E17C4}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="MechaEndClickHeavy1" ID="{112553E8-8657-456A-91F8-401804775794}" ShortID="362141266">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="DoorNoisesAttenuation" ID="{CF255327-6A8A-4CE1-8861-7174BB6A37FA}" WorkUnitID="{597EC3F1-044B-4676-80BD-5B9B578810C0}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Clocks, Tick, Peculier Clock, Big Impacts, Variations SND116989" ID="{85854CDE-8362-4981-A406-1BB68384F826}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="12.9385498366013"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Clocks, Tick, Peculier Clock, Big Impacts, Variations SND116989.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="211646135"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Clocks, Tick, Peculier Clock, Big Impacts, Variations SND116989" ID="{85854CDE-8362-4981-A406-1BB68384F826}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="MechaWorkingHeavy1" ID="{250B1F8D-B354-44F0-B6A1-6C22EBD74396}" ShortID="964295847">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>25</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-500</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="DoorNoisesAttenuation" ID="{CF255327-6A8A-4CE1-8861-7174BB6A37FA}" WorkUnitID="{597EC3F1-044B-4676-80BD-5B9B578810C0}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Machines, Hvac, Radiator, Rattle, Metal Ticks, Dripping SND0638" ID="{0F661004-419F-4C0E-B9BB-02F2FA812165}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="3.86444378631082"/>
+								<Property Name="TrimEnd" Type="Real64" Value="7.95921865922295"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Machines, Hvac, Radiator, Rattle, Metal Ticks, Dripping SND0638.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="149415068"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Machines, Hvac, Radiator, Rattle, Metal Ticks, Dripping SND0638" ID="{0F661004-419F-4C0E-B9BB-02F2FA812165}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="MechaEndClickLight1" ID="{C3D28694-1355-463E-B230-93BBCF1F6072}" ShortID="1020443841">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="DoorNoisesAttenuation" ID="{CF255327-6A8A-4CE1-8861-7174BB6A37FA}" WorkUnitID="{597EC3F1-044B-4676-80BD-5B9B578810C0}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Mechanical, Gears, Mechanical Reload, Metal Impact, Smooth, Ding, Variations SND117050" ID="{A1D27FC5-A41B-473B-8827-C73691D490F1}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.24481202342048"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Mechanical, Gears, Mechanical Reload, Metal Impact, Smooth, Ding, Variations SND117050.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="578000251"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Mechanical, Gears, Mechanical Reload, Metal Impact, Smooth, Ding, Variations SND117050" ID="{A1D27FC5-A41B-473B-8827-C73691D490F1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="MechaUnlockSteamy1" ID="{0A2C0991-E098-4342-952F-DB51E2D6786D}" ShortID="607864985">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>400</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="DoorNoisesAttenuation" ID="{CF255327-6A8A-4CE1-8861-7174BB6A37FA}" WorkUnitID="{597EC3F1-044B-4676-80BD-5B9B578810C0}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Mechanical, Gears, Mechanical Texture, Air Release, Burst, Hiss 02 SND117046" ID="{9C4CFECD-E2E5-4BB2-B532-8DBD4622151D}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.556527879901961"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.87195741421568"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Mechanical, Gears, Mechanical Texture, Air Release, Burst, Hiss 02 SND117046.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="711241306"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Mechanical, Gears, Mechanical Texture, Air Release, Burst, Hiss 02 SND117046" ID="{9C4CFECD-E2E5-4BB2-B532-8DBD4622151D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="MechaPreparing1" ID="{C743571D-A57D-4656-B873-7A5AB7477EEA}" ShortID="461531903">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="DoorNoisesAttenuation" ID="{CF255327-6A8A-4CE1-8861-7174BB6A37FA}" WorkUnitID="{597EC3F1-044B-4676-80BD-5B9B578810C0}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Mechanical, Lever, Mechanical Lever, Pull Huge, Powerful, Metallic Impact 01 SND117041" ID="{CCC4827A-2F83-4A4B-9538-0FBCBFE9F5A6}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.621153254357297"/>
+								<Property Name="TrimEnd" Type="Real64" Value="2.06513289760349"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Mechanical, Lever, Mechanical Lever, Pull Huge, Powerful, Metallic Impact 01 SND117041.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="268441074"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Mechanical, Lever, Mechanical Lever, Pull Huge, Powerful, Metallic Impact 01 SND117041" ID="{CCC4827A-2F83-4A4B-9538-0FBCBFE9F5A6}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="MechaUnlock1" ID="{51EFD6E5-6E83-4690-963A-BAC5A225C07A}" ShortID="486938247">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>30</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>200</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="DoorNoisesAttenuation" ID="{CF255327-6A8A-4CE1-8861-7174BB6A37FA}" WorkUnitID="{597EC3F1-044B-4676-80BD-5B9B578810C0}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Mechanical, Lever, Mechanical Lever, Pull Huge, Powerful, Metallic Impact 02 SND117152" ID="{0ED544A1-59AD-4665-B43C-94B4BB486CE0}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.519704202977487"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.50215872367465"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Mechanical, Lever, Mechanical Lever, Pull Huge, Powerful, Metallic Impact 02 SND117152.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="745221077"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Mechanical, Lever, Mechanical Lever, Pull Huge, Powerful, Metallic Impact 02 SND117152" ID="{0ED544A1-59AD-4665-B43C-94B4BB486CE0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="MechaWorkingLight" ID="{22DC0E5B-308E-4E57-9178-4464F585E509}" ShortID="436701574">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>24</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-1200</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Mechanical, Roller, Wheel Spin, Wheel Of Fortune Style 04 SND31121" ID="{1E67BA8A-08C0-4FBA-8101-1CB8A3F4B92B}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="2.68799160312273"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Mechanical, Roller, Wheel Spin, Wheel Of Fortune Style 04 SND31121.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="417200406"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Mechanical, Roller, Wheel Spin, Wheel Of Fortune Style 04 SND31121" ID="{1E67BA8A-08C0-4FBA-8101-1CB8A3F4B92B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="MechaPreparing2" ID="{4DFCB330-B8F9-4E92-9AE8-12DB01599413}" ShortID="222262746">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="DoorNoisesAttenuation" ID="{CF255327-6A8A-4CE1-8861-7174BB6A37FA}" WorkUnitID="{597EC3F1-044B-4676-80BD-5B9B578810C0}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Mechanical, Lever, Mechanical Lever, Pull Huge, Powerful, Metallic Impact 01 SND117041" ID="{67B70861-9BCD-4D35-92F1-08B5D281515D}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="3.13400051062091"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Mechanical, Lever, Mechanical Lever, Pull Huge, Powerful, Metallic Impact 01 SND117041.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="309948034"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{2C2E86A8-B803-4B9B-84A4-5B62E3E65797}" ShortID="680210687">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+												<ObjectRef Name="New_RoomVerb_03" ID="{6F235A9A-6C42-4603-96C2-EE3534393500}" WorkUnitID="{6825680C-465D-49A0-9BFD-C5DAD96CAF9B}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="Mechanical, Lever, Mechanical Lever, Pull Huge, Powerful, Metallic Impact 01 SND117041" ID="{67B70861-9BCD-4D35-92F1-08B5D281515D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="MechaWorkingHeavy2" ID="{088EF905-18DC-40CA-8913-AA152AC5E007}" ShortID="557956892">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>25</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-800</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="DoorNoisesAttenuation" ID="{CF255327-6A8A-4CE1-8861-7174BB6A37FA}" WorkUnitID="{597EC3F1-044B-4676-80BD-5B9B578810C0}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Machines, Hvac, Radiator, Rattle, Metal Ticks, Dripping SND0638" ID="{46339778-CA57-48FA-A54C-259D50D1F82D}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="3.86444378631082"/>
+								<Property Name="TrimEnd" Type="Real64" Value="7.21704071350763"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Machines, Hvac, Radiator, Rattle, Metal Ticks, Dripping SND0638.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="297344828"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Machines, Hvac, Radiator, Rattle, Metal Ticks, Dripping SND0638" ID="{46339778-CA57-48FA-A54C-259D50D1F82D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="MechaEndClickHeavy2" ID="{D119B378-A593-4098-A51B-E04FD0EAEC41}" ShortID="184012163">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="DoorNoisesAttenuation" ID="{CF255327-6A8A-4CE1-8861-7174BB6A37FA}" WorkUnitID="{597EC3F1-044B-4676-80BD-5B9B578810C0}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Clocks, Tick, Peculier Clock, Big Impacts, Variations SND116989" ID="{29909120-1717-4EB3-B357-D45311DDEEC5}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="2.75795404411765"/>
+								<Property Name="TrimEnd" Type="Real64" Value="4.97112704248367"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Clocks, Tick, Peculier Clock, Big Impacts, Variations SND116989.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="6316444"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Clocks, Tick, Peculier Clock, Big Impacts, Variations SND116989" ID="{29909120-1717-4EB3-B357-D45311DDEEC5}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="MechaUnlock2" ID="{95E2D8BF-3ED7-444A-AEEE-B3E898ECD9E3}" ShortID="309832922">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>20</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>200</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="DoorNoisesAttenuation" ID="{CF255327-6A8A-4CE1-8861-7174BB6A37FA}" WorkUnitID="{597EC3F1-044B-4676-80BD-5B9B578810C0}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Mechanical, Lever, Mechanical Lever, Pull Huge, Powerful, Metallic Impact 02 SND117152" ID="{9E44E5C5-D47B-44E7-9216-35370661FB36}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="3.07550980392157"/>
+								<Property Name="TrimEnd" Type="Real64" Value="4.50647617102396"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Mechanical, Lever, Mechanical Lever, Pull Huge, Powerful, Metallic Impact 02 SND117152.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="884202451"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Mechanical, Lever, Mechanical Lever, Pull Huge, Powerful, Metallic Impact 02 SND117152" ID="{9E44E5C5-D47B-44E7-9216-35370661FB36}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="MechaWorkingLight1" ID="{DED9F947-7524-447A-82D9-FE83AF434DE1}" ShortID="370861252">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>30</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>600</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="DoorNoisesAttenuation" ID="{CF255327-6A8A-4CE1-8861-7174BB6A37FA}" WorkUnitID="{597EC3F1-044B-4676-80BD-5B9B578810C0}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Machines, Hvac, Radiator, Rattle, Metal Ticks, Dripping SND0638" ID="{124F8674-5DCF-4DB6-A701-404D1F39C394}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.90662955019971"/>
+								<Property Name="TrimEnd" Type="Real64" Value="6.84595174064996"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Machines, Hvac, Radiator, Rattle, Metal Ticks, Dripping SND0638.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="109572347"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Machines, Hvac, Radiator, Rattle, Metal Ticks, Dripping SND0638" ID="{124F8674-5DCF-4DB6-A701-404D1F39C394}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="MechaWorkingLight2" ID="{6D5C9633-7775-4790-B0FA-8DD12DC5F213}" ShortID="886846056">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>30</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>900</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="DoorNoisesAttenuation" ID="{CF255327-6A8A-4CE1-8861-7174BB6A37FA}" WorkUnitID="{597EC3F1-044B-4676-80BD-5B9B578810C0}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Machines, Hvac, Radiator, Rattle, Metal Ticks, Dripping SND0638" ID="{D8C746A2-E719-40A2-BB4B-6CAC324C0A44}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.90662955019971"/>
+								<Property Name="TrimEnd" Type="Real64" Value="8.16395740286855"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Machines, Hvac, Radiator, Rattle, Metal Ticks, Dripping SND0638.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="979025036"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Machines, Hvac, Radiator, Rattle, Metal Ticks, Dripping SND0638" ID="{D8C746A2-E719-40A2-BB4B-6CAC324C0A44}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="MechaWorkingLight3" ID="{4D615A76-A63C-4E7B-B722-B255AC200AC1}" ShortID="688029067">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>30</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>200</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="DoorNoisesAttenuation" ID="{CF255327-6A8A-4CE1-8861-7174BB6A37FA}" WorkUnitID="{597EC3F1-044B-4676-80BD-5B9B578810C0}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Machines, Hvac, Radiator, Rattle, Metal Ticks, Dripping SND0638" ID="{4B6CA39E-7676-439E-9477-399A4A0B7290}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.90662955019971"/>
+								<Property Name="TrimEnd" Type="Real64" Value="5.91183122276688"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Machines, Hvac, Radiator, Rattle, Metal Ticks, Dripping SND0638.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="278198217"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Machines, Hvac, Radiator, Rattle, Metal Ticks, Dripping SND0638" ID="{4B6CA39E-7676-439E-9477-399A4A0B7290}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="MechaEndClickLight2" ID="{CA2ECE1B-A437-4D45-BEF7-35D5352A2618}" ShortID="968578827">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>20</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-200</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="DoorNoisesAttenuation" ID="{CF255327-6A8A-4CE1-8861-7174BB6A37FA}" WorkUnitID="{597EC3F1-044B-4676-80BD-5B9B578810C0}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Mechanical, Gears, Mechanical Reload, Metal Impact, Smooth, Ding, Variations SND117050" ID="{57CC10A3-DFD1-4E6F-AE5F-3CB4AB0DEF6E}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.49491124273784"/>
+								<Property Name="TrimEnd" Type="Real64" Value="2.7113029003268"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Mechanical, Gears, Mechanical Reload, Metal Impact, Smooth, Ding, Variations SND117050.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="330262165"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Mechanical, Gears, Mechanical Reload, Metal Impact, Smooth, Ding, Variations SND117050" ID="{57CC10A3-DFD1-4E6F-AE5F-3CB4AB0DEF6E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="MechaEndClickLight3" ID="{F4831D5C-2035-4952-BBE2-B0B1B418AEA5}" ShortID="412653274">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>20</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-800</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="DoorNoisesAttenuation" ID="{CF255327-6A8A-4CE1-8861-7174BB6A37FA}" WorkUnitID="{597EC3F1-044B-4676-80BD-5B9B578810C0}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Mechanical, Gears, Mechanical Reload, Metal Impact, Smooth, Ding, Variations SND117050" ID="{76B4D665-A277-44B9-924C-8B96370A16D8}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="3.87653789941903"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Mechanical, Gears, Mechanical Reload, Metal Impact, Smooth, Ding, Variations SND117050.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="468357414"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Mechanical, Gears, Mechanical Reload, Metal Impact, Smooth, Ding, Variations SND117050" ID="{76B4D665-A277-44B9-924C-8B96370A16D8}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="MechaUnlockSteamy2" ID="{A734CDB9-F614-4C5D-BC5C-A78E24C269E2}" ShortID="798810031">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>600</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="DoorNoisesAttenuation" ID="{CF255327-6A8A-4CE1-8861-7174BB6A37FA}" WorkUnitID="{597EC3F1-044B-4676-80BD-5B9B578810C0}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Mechanical, Gears, Mechanical Texture, Air Release, Burst, Hiss 02 SND117046" ID="{93C564A6-6849-4530-A2AC-CA236E2BBDC4}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.99482720588235"/>
+								<Property Name="TrimEnd" Type="Real64" Value="3.60658976715686"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Mechanical, Gears, Mechanical Texture, Air Release, Burst, Hiss 02 SND117046.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="229625513"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Mechanical, Gears, Mechanical Texture, Air Release, Burst, Hiss 02 SND117046" ID="{93C564A6-6849-4530-A2AC-CA236E2BBDC4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="MechaUnlockSteamy3" ID="{0D9B01FF-EA64-4290-BCDC-056BE726BE85}" ShortID="847534348">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-800</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="DoorNoisesAttenuation" ID="{CF255327-6A8A-4CE1-8861-7174BB6A37FA}" WorkUnitID="{597EC3F1-044B-4676-80BD-5B9B578810C0}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Mechanical, Gears, Mechanical Texture, Air Release, Burst, Hiss 02 SND117046" ID="{BF904452-02BE-49B3-A3DF-B0F24CCD2E22}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="4.06915839460784"/>
+								<Property Name="TrimEnd" Type="Real64" Value="6.15794485294118"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Mechanical, Gears, Mechanical Texture, Air Release, Burst, Hiss 02 SND117046.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="159877759"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Mechanical, Gears, Mechanical Texture, Air Release, Burst, Hiss 02 SND117046" ID="{BF904452-02BE-49B3-A3DF-B0F24CCD2E22}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

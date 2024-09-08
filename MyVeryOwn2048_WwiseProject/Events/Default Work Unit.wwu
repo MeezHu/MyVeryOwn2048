@@ -639,6 +639,193 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_MechaEndClickHeavy1" ID="{DEC7185A-5E93-4281-9653-6C5E679A2172}">
+					<ChildrenList>
+						<Action Name="" ID="{70BA69D1-676A-4F37-B47C-E01F4B740A50}" ShortID="725219042">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MechaEndClickHeavy1" ID="{112553E8-8657-456A-91F8-401804775794}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MechaPreparing1" ID="{5F6CE68D-17AB-4EAB-9F7A-2656A35D52F6}">
+					<ChildrenList>
+						<Action Name="" ID="{11F8BE65-033F-41B7-970A-9189E59F10D3}" ShortID="601322048">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MechaPreparing1" ID="{C743571D-A57D-4656-B873-7A5AB7477EEA}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MechaWorkingHeavy1" ID="{9D14B90F-6CF3-4E80-A148-D1892F9B9FB6}">
+					<ChildrenList>
+						<Action Name="" ID="{B7759582-2F75-4030-84A3-933FDA24DE79}" ShortID="897858250">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MechaWorkingHeavy1" ID="{250B1F8D-B354-44F0-B6A1-6C22EBD74396}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MechaEndClickHeavy2" ID="{049EFAEB-5769-4A70-A82D-B951B38F632B}">
+					<ChildrenList>
+						<Action Name="" ID="{AB91F2C9-F46E-4765-A28F-B34DAB2684C5}" ShortID="16978138">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MechaEndClickHeavy2" ID="{D119B378-A593-4098-A51B-E04FD0EAEC41}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MechaPreparing2" ID="{8070AC34-284C-4824-A02C-2F241AA72717}">
+					<ChildrenList>
+						<Action Name="" ID="{EF7EDEA5-7292-44C9-86A0-786D5E5D1A82}" ShortID="977354884">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MechaPreparing2" ID="{4DFCB330-B8F9-4E92-9AE8-12DB01599413}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MechaWorkingHeavy2" ID="{D412BECF-A4B4-4E56-B489-5BAF190A76D0}">
+					<ChildrenList>
+						<Action Name="" ID="{0C7E57DD-E72F-4D0A-8F41-44C7C3C06990}" ShortID="969070523">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MechaWorkingHeavy2" ID="{088EF905-18DC-40CA-8913-AA152AC5E007}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MechaEndClickLight1" ID="{FB95E372-F645-44CF-8CB4-602D9A580F4D}">
+					<ChildrenList>
+						<Action Name="" ID="{048B8DF8-0323-4F9C-A33B-2D7BDB73820F}" ShortID="542879385">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MechaEndClickLight1" ID="{C3D28694-1355-463E-B230-93BBCF1F6072}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MechaUnlock1" ID="{D0C4182E-C986-4345-8F8F-0531397F00A4}">
+					<ChildrenList>
+						<Action Name="" ID="{1268E3C0-CA91-482F-A1D9-FC34FF95E720}" ShortID="203884150">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MechaUnlock1" ID="{51EFD6E5-6E83-4690-963A-BAC5A225C07A}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MechaUnlockSteamy1" ID="{D5602D1E-552B-4A04-B1E6-D0854CEEF53A}">
+					<ChildrenList>
+						<Action Name="" ID="{4FA18864-E7C2-4541-AB7B-1EC4BB4496DA}" ShortID="930635340">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MechaUnlockSteamy1" ID="{0A2C0991-E098-4342-952F-DB51E2D6786D}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MechaWorkingLight1" ID="{DD2B8FB7-297B-4B44-AFA2-9BB7C59C9C94}">
+					<ChildrenList>
+						<Action Name="" ID="{D2728C93-67D6-4D3E-826B-34CD3CC168F8}" ShortID="385345553">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MechaWorkingLight1" ID="{DED9F947-7524-447A-82D9-FE83AF434DE1}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MechaEndClickLight2" ID="{1677E11D-24BC-404C-AB12-B711C72F55C0}">
+					<ChildrenList>
+						<Action Name="" ID="{4320C605-04C1-4D77-B967-900D924D5A48}" ShortID="948003437">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MechaEndClickLight2" ID="{CA2ECE1B-A437-4D45-BEF7-35D5352A2618}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MechaUnlock2" ID="{4F347FFC-608C-45AC-9DD3-A8E0B45A0751}">
+					<ChildrenList>
+						<Action Name="" ID="{F5DD0863-D91A-4FFB-9E7F-F9915E53FF34}" ShortID="516490827">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MechaUnlock2" ID="{95E2D8BF-3ED7-444A-AEEE-B3E898ECD9E3}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MechaUnlockSteamy2" ID="{459635FF-2D1C-4893-BA02-B97E4B1CA7FD}">
+					<ChildrenList>
+						<Action Name="" ID="{48B31BE7-B04A-41E7-98FA-12E20B1AA91B}" ShortID="1020729433">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MechaUnlockSteamy2" ID="{A734CDB9-F614-4C5D-BC5C-A78E24C269E2}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MechaWorkingLight2" ID="{BCC1C43A-CA06-4625-A3BE-5FE57E1DDDFA}">
+					<ChildrenList>
+						<Action Name="" ID="{17C68DCB-0F87-48FC-9A86-7618213CF852}" ShortID="70320787">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MechaWorkingLight2" ID="{6D5C9633-7775-4790-B0FA-8DD12DC5F213}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MechaEndClickLight3" ID="{E9888463-4139-45BD-8582-837D79046C55}">
+					<ChildrenList>
+						<Action Name="" ID="{F105C0B7-0AF1-47C6-A07D-719158F06A23}" ShortID="187233110">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MechaEndClickLight3" ID="{F4831D5C-2035-4952-BBE2-B0B1B418AEA5}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MechaUnlockSteamy3" ID="{1097B19F-12BF-468A-9B96-270C349F147B}">
+					<ChildrenList>
+						<Action Name="" ID="{0342E193-C241-400D-9CF7-6831D40B065C}" ShortID="852908248">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MechaUnlockSteamy3" ID="{0D9B01FF-EA64-4290-BCDC-056BE726BE85}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MechaWorkingLight3" ID="{7B2ED0B2-D981-43AE-AE01-ED648708127C}">
+					<ChildrenList>
+						<Action Name="" ID="{89372A13-7D45-409A-8137-6B95539588FE}" ShortID="28056186">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MechaWorkingLight3" ID="{4D615A76-A63C-4E7B-B722-B255AC200AC1}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

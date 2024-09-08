@@ -41,7 +41,16 @@ public class TriggerSecretEnding : MonoBehaviour
     public DoorNoiseHardControl hardDoorSounds;
     public GameObject globalVolumeNormal;
     public GameObject globalvolumeRed;
+    public GameObject phareNormal;
+    public GameObject phareRainbow;
     public bool canSecretEnding = true;
+
+    [Header("Lock Animators")]
+    public Animator verrou1Animator;
+    public Animator verrou2Animator;
+    public Animator verrou3Animator;
+    public Animator verrou4Animator;
+    public Animator verrou5Animator;
 
     public void OnTriggerEnter(Collider other)
     {
@@ -62,6 +71,11 @@ public class TriggerSecretEnding : MonoBehaviour
         }
 
         secretBoardAnimator.SetTrigger("Go");
+        verrou1Animator.SetTrigger("Go");
+        verrou2Animator.SetTrigger("Go");
+        verrou3Animator.SetTrigger("Go");
+        verrou4Animator.SetTrigger("Go");
+        verrou5Animator.SetTrigger("Go");
         engrenages.SetActive(false);
         gridBoard.SetActive(false);
         landLight1.SetActive(false);
@@ -83,7 +97,7 @@ public class TriggerSecretEnding : MonoBehaviour
         boxRangeBoard.SetActive(false);
         triggerLightsNormal.SetActive(false);
 
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(5f);
         secretWolfAnimator.SetTrigger("Arise");
 
         yield return new WaitForSeconds(6f);
@@ -93,6 +107,8 @@ public class TriggerSecretEnding : MonoBehaviour
         yield return new WaitForSeconds(2f);
 
         secretWolfAnimator.SetTrigger("Spin");
+        phareNormal.SetActive(false);
+        phareRainbow.SetActive(true);
         globalvolumeRed.SetActive(false);
         globalVolumeNormal.SetActive(true);
         rainbowLight1.SetActive(true);
