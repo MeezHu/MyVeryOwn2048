@@ -33,6 +33,9 @@ public class UniqueEventsManager : MonoBehaviour
     public bool canStartFlicker = true;
     public bool canBecomeRed = true;
 
+    public HeadBobController headBobController;
+    public StepSoundControl stepSoundControl;
+    public CharacterController characterController;
 
     public GameObject boxPasswordSpawn;
     public GameObject secretLocationHintHard;
@@ -79,14 +82,29 @@ public class UniqueEventsManager : MonoBehaviour
     public DoorNoiseHardControl doorNoiseHardControl;
     public Animator whiteFadeAnimator;
 
+    public HardFlickerControl redFlicker1;
+    public HardFlickerControl redFlicker2;
+    public HardFlickerControl redFlicker3;
+    public HardFlickerControl redFlicker4;
+    public GameObject gridBoard;
+    public GameObject blockerPipes;
+    public GameObject boardGears;
+    public GameObject endCanvas;
+
     [Header("Lock Animators")]
     public Animator verrou1Animator;
     public Animator verrou2Animator;
     public Animator verrou3Animator;
     public Animator verrou4Animator;
     public Animator verrou5Animator;
+    public Animator doorAnimator;
+    public Animator boardAnimator;
 
     [Header("Lock Sounds")]
+    public bool canVerrou1 = true;
+    public bool canVerrou2 = true;
+    public bool canVerrou3 = true;
+    public bool canVerrou4 = true;
     public GameObject mechaPreparing1;
     public GameObject mechaWorking1;
     public GameObject mechaEndClick1;
@@ -104,10 +122,84 @@ public class UniqueEventsManager : MonoBehaviour
     public GameObject mechaUnlockSteamy3;
     public GameObject mechaWorkingLight3;
     public GameObject mechaEndClickLight3;
+    public GameObject DoorOpen1;
+    public GameObject DoorOpen2;
+    public GameObject DoorOpen3;
+    public GameObject DoorOpen4;
+    public GameObject winRiser;
+    public GameObject winEndSound;
+
+    public void WinEvent()
+    {
+        headBobController.enabled = true;
+        stepSoundControl.enabled = true;
+        triggerBoxRange.SetActive(false);
+        stateManager.canSwitch = false;
+        controlGears.canRotateGears = false;
+        FpsState.isInBoard = !FpsState.isInBoard;
+        BoardState.canMove = !BoardState.canMove;
+        StartCoroutine(stateManager.CoroutineFpsView());
+        StartCoroutine(CoroutineWinEvent());
+        blockerPipes.SetActive(true);
+    }
+
+    IEnumerator CoroutineWinEvent()
+    {
+        Ambiance2.SetActive(false);
+        yield return new WaitForSeconds(2);
+        boardAnimator.SetTrigger("Go");
+        boardGears.SetActive(false);
+        gridBoard.SetActive(false);
+
+        yield return new WaitForSeconds(3f);
+        doorAnimator.SetTrigger("Open");
+        DoorOpen1.SetActive(true);
+        DoorOpen1.SetActive(false);
+        DoorOpen2.SetActive(true);
+        DoorOpen2.SetActive(false);
+        DoorOpen3.SetActive(true);
+        DoorOpen3.SetActive(false);
+
+        yield return new WaitForSeconds(3);
+        DoorOpen4.SetActive(true);
+        DoorOpen4.SetActive(false);
+
+        yield return new WaitForSeconds(9);
+        redFlicker1.enabled = true;
+        redFlicker2.enabled = true;
+        redFlicker3.enabled = true;
+        redFlicker4.enabled = true;
+
+        yield return new WaitForSeconds(3);
+        winRiser.SetActive(true);
+        winRiser.SetActive(false);
+        characterController.enabled = false;
+        headBobController.enabled = false;
+        stepSoundControl.stepSoundPlaying = false;
+        //stepSoundControl.enabled = false;
+
+        yield return new WaitForSeconds(3.5f);
+        winEndSound.SetActive(true);
+        winEndSound.SetActive(false);
+
+        yield return new WaitForSeconds(1.3f);
+        //characterController.enabled = false;
+        //headBobController.enabled = false;
+        //stepSoundControl.enabled = false;
+        endCanvas.SetActive(true);
+
+        yield return new WaitForSeconds(0.4f);
+        SceneManager.LoadScene(0);
+
+    }
 
     public void Unlock1()
     {
-        StartCoroutine(CoroutineUnlock1());
+        if (canVerrou1)
+        {
+            canVerrou1 = false;
+            StartCoroutine(CoroutineUnlock1());
+        }
     }
 
     IEnumerator CoroutineUnlock1()
@@ -128,7 +220,11 @@ public class UniqueEventsManager : MonoBehaviour
 
     public void Unlock2()
     {
-        StartCoroutine(CoroutineUnlock2());
+        if (canVerrou2)
+        {
+            canVerrou2 = false;
+            StartCoroutine(CoroutineUnlock2());
+        }
     }
 
     IEnumerator CoroutineUnlock2()
@@ -149,7 +245,11 @@ public class UniqueEventsManager : MonoBehaviour
 
     public void Unlock3()
     {
-        StartCoroutine(CoroutineUnlock3());
+        if (canVerrou3)
+        {
+            canVerrou3 = false;
+            StartCoroutine(CoroutineUnlock3());
+        }
     }
 
     IEnumerator CoroutineUnlock3()
@@ -174,7 +274,11 @@ public class UniqueEventsManager : MonoBehaviour
 
     public void Unlock4()
     {
-        StartCoroutine(CoroutineUnlock4());
+        if (canVerrou4)
+        {
+            canVerrou4 = false;
+            StartCoroutine(CoroutineUnlock4());
+        }
     }
 
     IEnumerator CoroutineUnlock4()
@@ -268,6 +372,8 @@ public class UniqueEventsManager : MonoBehaviour
     [ContextMenu("GameOverEvent")]
     public void GameOverEvent()
     {
+        headBobController.enabled = true;
+        stepSoundControl.enabled = true;
         blockingPipes.SetActive(true);
         StartCoroutine(CoroutineGameOverEvent());
         StartCoroutine(CoroutineGameOverSound());

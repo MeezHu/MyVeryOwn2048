@@ -25,7 +25,7 @@
 				<GameParameter Id="2918011349" Name="MasterVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{643722A1-AC1B-95A6-EFBB-51D790A6D616}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{817B408C-CC83-B214-8E0F-A800952E6051}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -68,6 +68,10 @@
 				<File Id="185242006" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Exterior Metal Door Gate Bolt Latch 7.wav</ShortName>
 					<CachePath>SFX/Exterior Metal Door Gate Bolt Latch 7_EBDD341B.wem</CachePath>
+				</File>
+				<File Id="203116363" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Metal, Friction, Large, Scrape, Rattle, Movements, Screech SND19835.wav</ShortName>
+					<CachePath>SFX/Metal, Friction, Large, Scrape, Rattle, Movements, Screech SND19835_7EBFE9CD.wem</CachePath>
 				</File>
 				<File Id="211591136" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10.wav 07.wav</ShortName>
@@ -221,6 +225,10 @@
 					<ShortName>Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178.wav</ShortName>
 					<CachePath>SFX/Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178_A61E1C2F.wem</CachePath>
 				</File>
+				<File Id="614311471" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Metal, Friction, Object Scratch Rusty Metal, Friction Surface SND19852.wav</ShortName>
+					<CachePath>SFX/Metal, Friction, Object Scratch Rusty Metal, Friction Surface SND19852_D82C8E3F.wem</CachePath>
+				</File>
 				<File Id="637078363" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bluezone_BC0258_cinematic_metal_impact_069.wav</ShortName>
 					<CachePath>SFX/Bluezone_BC0258_cinematic_metal_impact_069_818F3B66.wem</CachePath>
@@ -264,6 +272,10 @@
 				<File Id="745667475" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332.wav</ShortName>
 					<CachePath>SFX/Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332_9BD45232.wem</CachePath>
+				</File>
+				<File Id="786496940" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Machines, Mechanism, Mechanical Transition, Building Up, Movement SND113052.wav</ShortName>
+					<CachePath>SFX/Machines, Mechanism, Mechanical Transition, Building Up, Movement SND113052_FF3910E4.wem</CachePath>
 				</File>
 				<File Id="786619384" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>719846__vekon__riser_06_140bpm.wav</ShortName>
@@ -325,9 +337,17 @@
 					<ShortName>Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332.wav</ShortName>
 					<CachePath>SFX/Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332_57F847A3.wem</CachePath>
 				</File>
+				<File Id="1005788427" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Metal, Friction, Scrape, Shrill, Horror SND20028.wav</ShortName>
+					<CachePath>SFX/Metal, Friction, Scrape, Shrill, Horror SND20028_B8BC6A70.wem</CachePath>
+				</File>
 				<File Id="1029205145" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10.wav 07.wav</ShortName>
 					<CachePath>SFX/ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10.wav 07_21137113.wem</CachePath>
+				</File>
+				<File Id="1054016354" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Metal, Friction, Squeak, Groan, Gate Open, Long 01 SND27110.wav</ShortName>
+					<CachePath>SFX/Metal, Friction, Squeak, Groan, Gate Open, Long 01 SND27110_818F3B66.wem</CachePath>
 				</File>
 				<File Id="1056272272" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178.wav</ShortName>
@@ -336,6 +356,7 @@
 			</Media>
 			<Plugins>
 				<ShareSets>
+					<Plugin Id="556305841" Name="New_RoomVerb_04" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="556305844" Name="New_RoomVerb_01" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="556305846" Name="New_RoomVerb_03" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="1259256166" Name="New_RoomVerb" LibName="Wwise RoomVerb" LibId="7733251"/>
@@ -362,6 +383,26 @@
 				<Event Id="1550183220" Name="Play_Buzzing_Low" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="565729331"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1196441091" Name="Play_DoorOpen1" MaxAttenuation="40" DurationType="OneShot" DurationMin="7.873974" DurationMax="7.873974">
+					<MediaRefs>
+						<MediaRef Id="203116363"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1196441088" Name="Play_DoorOpen2" MaxAttenuation="40" DurationType="OneShot" DurationMin="8.122226" DurationMax="8.122226">
+					<MediaRefs>
+						<MediaRef Id="614311471"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1196441089" Name="Play_DoorOpen3" MaxAttenuation="40" DurationType="OneShot" DurationMin="7.5255146" DurationMax="7.5255146">
+					<MediaRefs>
+						<MediaRef Id="1005788427"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1196441094" Name="Play_DoorOpen4" MaxAttenuation="40" DurationType="OneShot" DurationMin="5.4132857" DurationMax="5.4132857">
+					<MediaRefs>
+						<MediaRef Id="1054016354"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="34468666" Name="Play_EndStartBoom" DurationType="OneShot" DurationMin="0.90979874" DurationMax="0.90979874">
@@ -710,6 +751,16 @@
 						<MediaRef Id="531780833"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3461201628" Name="Play_WinEndSound" MaxAttenuation="40" DurationType="OneShot" DurationMin="1.2133354" DurationMax="1.2133354">
+					<MediaRefs>
+						<MediaRef Id="786496940"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="556305841"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
 				<Event Id="595744404" Name="Stop_Buzzing_High" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1923114070" Name="Stop_Buzzing_Low" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3843945942" Name="Stop_Ghostly_Presence__Angelic__Vocal__Layer__Creepy__Horror_4" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -721,5 +772,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{28BDBFC7-87D1-DAE2-6AD6-786977ADCA15}</FileHash>
+	<FileHash>{D6640524-EE5E-2109-6876-6E9CC6F4DEA3}</FileHash>
 </SoundBanksInfo>

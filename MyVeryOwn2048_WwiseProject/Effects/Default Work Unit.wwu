@@ -59,6 +59,14 @@
 						<Property Name="HFDamping" Type="Real32" Value="3.55"/>
 					</PropertyList>
 				</Effect>
+				<Effect Name="New_RoomVerb_04" ID="{2481C3FE-6101-486D-A6ED-51E12AD287F8}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+					<PropertyList>
+						<Property Name="DecayTime" Type="Real32" Value="2.4"/>
+						<Property Name="DryLevel" Type="Real32" Value="-9.3"/>
+						<Property Name="HFDamping" Type="Real32" Value="3.35"/>
+						<Property Name="PreDelay" Type="Real32" Value="100"/>
+					</PropertyList>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>

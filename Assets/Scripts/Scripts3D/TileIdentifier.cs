@@ -121,6 +121,7 @@ public class TileIdentifier : MonoBehaviour
                 if (UniqueEventsManager.Instance != null)
                 {
                     UniqueEventsManager.Instance.StopDoorNoiseHard();
+                    UniqueEventsManager.Instance.WinEvent();
                 }
                 vfxFeedback.Vfx2048Fusion();
                 soundFeedback.SfxSpecialFusion();

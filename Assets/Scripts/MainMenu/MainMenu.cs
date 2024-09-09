@@ -18,6 +18,7 @@ public class MainMenu : MonoBehaviour
     public GameObject blockScreen;
     public Animator textStartAnimator;
     public Animator fadeScreenAnimator;
+    public Animator headphoneAnimator;
 
     public float tpsEnaOptions;
     public float tpsDisOptions;
@@ -44,6 +45,7 @@ public class MainMenu : MonoBehaviour
     public GameObject OpeningSound3;
     public GameObject OpeningSound4;
     public GameObject OpeningSound5;
+    public GameObject heaphoneCanvas;
 
     public StartMouseDetect startMouseDetect;
 
@@ -65,11 +67,36 @@ public class MainMenu : MonoBehaviour
             PlayerPrefs.SetInt("knowspassword", 0);
         }
 
-        Open();
+        //PlayerPrefs.SetInt("rememberPassword", )
+        PlayerPrefs.SetInt("knowspassword", 0);
+
+        //if (PlayerPrefs.GetInt("rememberPassword") != 1)
+        //{
+        //}
+
+        Invoke("Open", 5f);
+        HeadphoneCanvas();
+
+        //Open();
+    }
+
+    public void HeadphoneCanvas()
+    {
+        StartCoroutine(CoroutineHeadphoneCanvas());
+    }
+
+    IEnumerator CoroutineHeadphoneCanvas()
+    {
+        yield return new WaitForSeconds(1.5f);
+        headphoneAnimator.SetTrigger("fadeIN");
+
+        yield return new WaitForSeconds(2);
+        headphoneAnimator.SetTrigger("fadeOUT");
     }
 
     public void Open()
     {
+        heaphoneCanvas.SetActive(false);
         StartCoroutine(CoroutineSoundOpening());
     }
 

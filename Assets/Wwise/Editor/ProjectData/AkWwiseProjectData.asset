@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 52380ee722d02e4aa6dd06277ef97ae3
     GuidInternal: 
-    m_lastTime: -8584757981674744521
+    m_lastTime: -8584757848762631600
     List:
     - name: Main
       guid: cbfeb1857713eb4c88a1cc4eb8bd8322
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 6f2254b0ec43d949a24471b6a58e6080
     GuidInternal: 
-    m_lastTime: -8584757982364714291
+    m_lastTime: -8584757848945988846
     List:
     - name: Play_ANIMAL_WILD_Camel_D__Grunt__Groan__Roar__Gargle_x10_wav_07
       guid: 7fbf6f9dc8285841be75bae4ee70c499
@@ -164,6 +164,74 @@ MonoBehaviour:
       maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
+    - name: Play_DoorOpen1
+      guid: 2e82346e54c02a4d90c2d584c806136f
+      id: 1196441091
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_DoorOpen1
+        ObjectType: 3
+        guid: 2e82346e54c02a4d90c2d584c806136f
+      Path: Events\Default Work Unit\Play_DoorOpen1
+      maxAttenuation: 40
+      maxDuration: 7.873974
+      minDuration: 7.873974
+    - name: Play_DoorOpen2
+      guid: 73dd1b00c0953848a2aad4d3b79885f8
+      id: 1196441088
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_DoorOpen2
+        ObjectType: 3
+        guid: 73dd1b00c0953848a2aad4d3b79885f8
+      Path: Events\Default Work Unit\Play_DoorOpen2
+      maxAttenuation: 40
+      maxDuration: 8.122226
+      minDuration: 8.122226
+    - name: Play_DoorOpen3
+      guid: d371747233c73e41934d53a2c134e91e
+      id: 1196441089
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_DoorOpen3
+        ObjectType: 3
+        guid: d371747233c73e41934d53a2c134e91e
+      Path: Events\Default Work Unit\Play_DoorOpen3
+      maxAttenuation: 40
+      maxDuration: 7.5255146
+      minDuration: 7.5255146
+    - name: Play_DoorOpen4
+      guid: 9ce2f57b2bdd344cb40f3bbad8667a4e
+      id: 1196441094
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_DoorOpen4
+        ObjectType: 3
+        guid: 9ce2f57b2bdd344cb40f3bbad8667a4e
+      Path: Events\Default Work Unit\Play_DoorOpen4
+      maxAttenuation: 40
+      maxDuration: 5.4132857
+      minDuration: 5.4132857
     - name: Play_EndStartBoom
       guid: 28b4a9e5e8ec3a4ca657e2754d42dd4b
       id: 34468666
@@ -1201,6 +1269,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 5.5529647
       minDuration: 5.5529647
+    - name: Play_WinEndSound
+      guid: 5f983617b9361447b056d11929989a50
+      id: 3461201628
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_WinEndSound
+        ObjectType: 3
+        guid: 5f983617b9361447b056d11929989a50
+      Path: Events\Default Work Unit\Play_WinEndSound
+      maxAttenuation: 40
+      maxDuration: 1.2133354
+      minDuration: 1.2133354
     - name: Stop_Buzzing_High
       guid: ea30fca593e94c4dbbb715bb3b4e7548
       id: 595744404

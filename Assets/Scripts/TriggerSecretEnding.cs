@@ -44,6 +44,10 @@ public class TriggerSecretEnding : MonoBehaviour
     public GameObject phareNormal;
     public GameObject phareRainbow;
     public bool canSecretEnding = true;
+    public GameObject DoorOpen1;
+    public GameObject DoorOpen2;
+    public GameObject DoorOpen3;
+    public GameObject DoorOpen4;
 
     [Header("Lock Animators")]
     public Animator verrou1Animator;
@@ -51,6 +55,7 @@ public class TriggerSecretEnding : MonoBehaviour
     public Animator verrou3Animator;
     public Animator verrou4Animator;
     public Animator verrou5Animator;
+    public Animator doorAnimator;
 
     public void OnTriggerEnter(Collider other)
     {
@@ -96,6 +101,16 @@ public class TriggerSecretEnding : MonoBehaviour
         ambiantSound2.SetActive(false);
         boxRangeBoard.SetActive(false);
         triggerLightsNormal.SetActive(false);
+
+        yield return new WaitForSeconds(3f);
+        doorAnimator.SetTrigger("Open");
+        DoorOpen1.SetActive(true);
+        DoorOpen2.SetActive(true);
+        DoorOpen3.SetActive(true);
+
+        yield return new WaitForSeconds(3f);
+        DoorOpen4.SetActive(true);
+        DoorOpen4.SetActive(false);
 
         yield return new WaitForSeconds(5f);
         secretWolfAnimator.SetTrigger("Arise");

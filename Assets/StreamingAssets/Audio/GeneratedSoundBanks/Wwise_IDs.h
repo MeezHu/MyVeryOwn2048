@@ -17,6 +17,10 @@ namespace AK
         static const AkUniqueID PLAY_BEGINBOOM = 745834420U;
         static const AkUniqueID PLAY_BUZZING_HIGH = 2092580658U;
         static const AkUniqueID PLAY_BUZZING_LOW = 1550183220U;
+        static const AkUniqueID PLAY_DOOROPEN1 = 1196441091U;
+        static const AkUniqueID PLAY_DOOROPEN2 = 1196441088U;
+        static const AkUniqueID PLAY_DOOROPEN3 = 1196441089U;
+        static const AkUniqueID PLAY_DOOROPEN4 = 1196441094U;
         static const AkUniqueID PLAY_ENDSTARTBOOM = 34468666U;
         static const AkUniqueID PLAY_FALLSOUND1 = 1125683571U;
         static const AkUniqueID PLAY_FALLSOUND2 = 1125683568U;
@@ -78,6 +82,7 @@ namespace AK
         static const AkUniqueID PLAY_STEP4 = 2600469392U;
         static const AkUniqueID PLAY_WHISPERING_MUSIC = 16777916U;
         static const AkUniqueID PLAY_WINDFALL = 774940991U;
+        static const AkUniqueID PLAY_WINENDSOUND = 3461201628U;
         static const AkUniqueID STOP_BUZZING_HIGH = 595744404U;
         static const AkUniqueID STOP_BUZZING_LOW = 1923114070U;
         static const AkUniqueID STOP_GHOSTLY_PRESENCE__ANGELIC__VOCAL__LAYER__CREEPY__HORROR_4 = 3843945942U;

@@ -25,6 +25,10 @@ Event	ID	Name			Wwise Object Path	Notes
 	1125683574	Play_FallSound4			\Default Work Unit\Play_FallSound4	
 	1144204686	Play_LightsOn_Red			\Default Work Unit\Play_LightsOn_Red	
 	1157618425	Play_ANIMAL_WILD_Camel_D__Grunt__Groan__Roar__Gargle_x10_wav_07			\Default Work Unit\Play_ANIMAL_WILD_Camel_D__Grunt__Groan__Roar__Gargle_x10_wav_07	
+	1196441088	Play_DoorOpen2			\Default Work Unit\Play_DoorOpen2	
+	1196441089	Play_DoorOpen3			\Default Work Unit\Play_DoorOpen3	
+	1196441091	Play_DoorOpen1			\Default Work Unit\Play_DoorOpen1	
+	1196441094	Play_DoorOpen4			\Default Work Unit\Play_DoorOpen4	
 	1237019826	Play_RandomCamWhoosh			\Default Work Unit\Play_RandomCamWhoosh	
 	1256843611	Stop_PlumberySound			\Default Work Unit\Stop_PlumberySound	
 	1269174159	Play_GearSpin			\Default Work Unit\Play_GearSpin	
@@ -57,6 +61,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3001280592	Play_MechaEndClickLight3			\Default Work Unit\Play_MechaEndClickLight3	
 	3001280593	Play_MechaEndClickLight2			\Default Work Unit\Play_MechaEndClickLight2	
 	3001280594	Play_MechaEndClickLight1			\Default Work Unit\Play_MechaEndClickLight1	
+	3461201628	Play_WinEndSound			\Default Work Unit\Play_WinEndSound	
 	3504215907	Play_Random_Steamloops			\Default Work Unit\Play_Random_Steamloops	
 	3561394305	Play_StartRiser			\Default Work Unit\Play_StartRiser	
 	3634355598	Play_GameOverEndSound			\Default Work Unit\Play_GameOverEndSound	
@@ -74,6 +79,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	4291005347	Play_LightsOnMenu			\Default Work Unit\Play_LightsOnMenu	
 
 Effect plug-ins	ID	Name	Type				Notes
+	556305841	New_RoomVerb_04	Wwise RoomVerb			
 	556305844	New_RoomVerb_01	Wwise RoomVerb			
 	556305846	New_RoomVerb_03	Wwise RoomVerb			
 	1259256166	New_RoomVerb	Wwise RoomVerb			
@@ -91,6 +97,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	149415068	MechaWorkingHeavy1	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\Machines, Hvac, Radiator, Rattle, Metal Ticks, Dripping SND0638_E9D625C8.wem		\Actor-Mixer Hierarchy\Default Work Unit\MechaWorkingHeavy1		786292
 	159877759	MechaUnlockSteamy3	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\Mechanical, Gears, Mechanical Texture, Air Release, Burst, Hiss 02 SND117046_6BBCFBD4.wem		\Actor-Mixer Hierarchy\Default Work Unit\MechaUnlockSteamy3		401144
 	185242006	Exterior Metal Door Gate Bolt Latch 7	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\Exterior Metal Door Gate Bolt Latch 7_EBDD341B.wem		\Actor-Mixer Hierarchy\Default Work Unit\RandomClong\Exterior Metal Door Gate Bolt Latch 7		275308
+	203116363	DoorOpen1	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\Metal, Friction, Large, Scrape, Rattle, Movements, Screech SND19835_7EBFE9CD.wem		\Actor-Mixer Hierarchy\Default Work Unit\DoorOpen1		952472
 	211591136	ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10_wav 07	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10.wav 07_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10_wav 07		117620
 	211646135	MechaEndClickHeavy1	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\Clocks, Tick, Peculier Clock, Big Impacts, Variations SND116989_F14EECE1.wem		\Actor-Mixer Hierarchy\Default Work Unit\MechaEndClickHeavy1		516548
 	229625513	MechaUnlockSteamy2	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\Mechanical, Gears, Mechanical Texture, Air Release, Burst, Hiss 02 SND117046_8CAF8D53.wem		\Actor-Mixer Hierarchy\Default Work Unit\MechaUnlockSteamy2		309556
@@ -129,6 +136,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	575146921	FallSound2	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\656366__straynerd__falling-on-mattress-owi_B90AE67C.wem		\Actor-Mixer Hierarchy\Default Work Unit\FallSound2		207812
 	578000251	MechaEndClickLight1	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\Mechanical, Gears, Mechanical Reload, Metal Impact, Smooth, Ding, Variations SND117050_AE12759A.wem		\Actor-Mixer Hierarchy\Default Work Unit\MechaEndClickLight1		239100
 	578226454	KeyboardKey3	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178_A61E1C2F.wem		\Actor-Mixer Hierarchy\Default Work Unit\RandomKeyboardKeys\KeyboardKey3		27238
+	614311471	DoorOpen2	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\Metal, Friction, Object Scratch Rusty Metal, Friction Surface SND19852_D82C8E3F.wem		\Actor-Mixer Hierarchy\Default Work Unit\DoorOpen2		1311448
 	637078363	DoorNoiseHard1	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\Bluezone_BC0258_cinematic_metal_impact_069_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\RandomDoorNoiseHard\DoorNoiseHard1		528072
 	659181723	DoorNoiseSoft2	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\ResonantRustyDoor_impact_hard_11_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\RandomDoorNoiseSoft\DoorNoiseSoft2		704608
 	672664792	GameOverEndSound	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\342224__newagesoup__electronic-noise-filtered-glitch-wall-of-sound03_D28F7BF7.wem		\Actor-Mixer Hierarchy\Default Work Unit\GameOverEndSound		1948096
@@ -140,6 +148,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	734380864	FallSound4	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\575310__taure__fall_358420C3.wem		\Actor-Mixer Hierarchy\Default Work Unit\FallSound4		349680
 	745221077	MechaUnlock1	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\Mechanical, Lever, Mechanical Lever, Pull Huge, Powerful, Metallic Impact 02 SND117152_9F2DAEF9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MechaUnlock1		188724
 	745667475	BoomBack1	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332_9BD45232.wem		\Actor-Mixer Hierarchy\Default Work Unit\RandomBoomBack\BoomBack1		467160
+	786496940	WinEndSound	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\Machines, Mechanism, Mechanical Transition, Building Up, Movement SND113052_FF3910E4.wem		\Actor-Mixer Hierarchy\Default Work Unit\WinEndSound		233056
 	786619384	GameOverRiser	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\719846__vekon__riser_06_140bpm_E027E2DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\GameOverRiser		1345236
 	794043149	Grid	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\207506__soundscape_leuphana__20131118_spoon-on-grid-fence_zoomh2nxy_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grid		760568
 	817617945	DoorNoiseHard3	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\Bluezone_BC0258_cinematic_metal_impact_050_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\RandomDoorNoiseHard\DoorNoiseHard3		1152008
@@ -155,6 +164,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	979025036	MechaWorkingLight2	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\Machines, Hvac, Radiator, Rattle, Metal Ticks, Dripping SND0638_239C4A77.wem		\Actor-Mixer Hierarchy\Default Work Unit\MechaWorkingLight2		1201504
 	981938925	Step1	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\indoor-footsteps-6385_451C25FE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Step1		41328
 	994786629	Boom2	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332_57F847A3.wem		\Actor-Mixer Hierarchy\Default Work Unit\RandomBoom\Boom2		115520
+	1005788427	DoorOpen3	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\Metal, Friction, Scrape, Shrill, Horror SND20028_B8BC6A70.wem		\Actor-Mixer Hierarchy\Default Work Unit\DoorOpen3		1146912
 	1029205145	SecretLocationHint	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10.wav 07_21137113.wem		\Actor-Mixer Hierarchy\Default Work Unit\SecretLocationHint		117668
+	1054016354	DoorOpen4	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\Metal, Friction, Squeak, Groan, Gate Open, Long 01 SND27110_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\DoorOpen4		654844
 	1056272272	KeyboardKey1	C:\UnityProjects\MyVeryOwn2048\MyVeryOwn2048_WwiseProject\.cache\Windows\SFX\Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178_5F93F99D.wem		\Actor-Mixer Hierarchy\Default Work Unit\RandomKeyboardKeys\KeyboardKey1		27964
 

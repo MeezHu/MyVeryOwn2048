@@ -826,6 +826,61 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_DoorOpen1" ID="{6E34822E-C054-4D2A-90C2-D584C806136F}">
+					<ChildrenList>
+						<Action Name="" ID="{8322043F-4834-4B8A-94AD-0C1DB76F2B98}" ShortID="900900345">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DoorOpen1" ID="{4ED73CB1-7722-406D-B186-0760AB7D9585}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DoorOpen2" ID="{001BDD73-95C0-4838-A2AA-D4D3B79885F8}">
+					<ChildrenList>
+						<Action Name="" ID="{4B31693A-8575-4CD2-940B-467ED5B24783}" ShortID="438851654">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DoorOpen2" ID="{70825174-3CEC-41F7-8830-B3A29F9875EE}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DoorOpen3" ID="{727471D3-C733-413E-934D-53A2C134E91E}">
+					<ChildrenList>
+						<Action Name="" ID="{6BCEA7E6-9509-44ED-9C9F-3367F197AB4F}" ShortID="145855256">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DoorOpen3" ID="{83241F54-5720-4055-954F-7300D40900D4}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DoorOpen4" ID="{7BF5E29C-DD2B-4C34-B40F-3BBAD8667A4E}">
+					<ChildrenList>
+						<Action Name="" ID="{1A8CCE62-C5FE-4A25-85C6-521BA59B9286}" ShortID="769802471">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DoorOpen4" ID="{19ABEDC1-2F46-45F2-BF72-4E2E3EE04F53}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_WinEndSound" ID="{1736985F-36B9-4714-B056-D11929989A50}">
+					<ChildrenList>
+						<Action Name="" ID="{C0A6D11A-805D-45C2-B19D-161A9531913F}" ShortID="48912981">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WinEndSound" ID="{A37E3B99-FD38-4F9F-8021-5B04132A1CFD}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
