@@ -120,6 +120,7 @@ public class MainMenu : MonoBehaviour
     
     public void Starting()
     {
+        Cursor.lockState = CursorLockMode.Locked;
         detectBoxOptions.SetActive(false);
         detectBoxQuit.SetActive(false);
         StartBoom.SetActive(true);

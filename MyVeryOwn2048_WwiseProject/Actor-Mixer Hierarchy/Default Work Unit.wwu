@@ -4000,7 +4000,7 @@
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>25</Value>
+								<Value>10</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -4045,6 +4045,351 @@
 					</ObjectLists>
 					<ActiveSourceList>
 						<ActiveSource Name="Machines, Mechanism, Mechanical Transition, Building Up, Movement SND113052" ID="{C920396B-F2C1-4821-8585-363FCE2AD379}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="LightsOn End1" ID="{E4BD8668-CA8E-4224-BEC0-0710E72DDB5B}" ShortID="499089330">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>40</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>800</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-13</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="DoorNoisesAttenuation" ID="{CF255327-6A8A-4CE1-8861-7174BB6A37FA}" WorkUnitID="{597EC3F1-044B-4676-80BD-5B9B578810C0}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="W_a_P_Cinematic_Whoosh_Hit_8" ID="{939D7F4B-2737-48CB-84A2-97855D70EC34}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.01"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.544725738396626"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="3.02280663465736"/>
+								<Property Name="TrimEnd" Type="Real64" Value="5.03797468354431"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>W_a_P_Cinematic_Whoosh_Hit_8.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="309407029"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="W_a_P_Cinematic_Whoosh_Hit_8" ID="{939D7F4B-2737-48CB-84A2-97855D70EC34}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="LightsOn End2" ID="{27C05A88-1565-4E24-972A-53BE80DB0488}" ShortID="367469283">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>10</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-200</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-13</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="DoorNoisesAttenuation" ID="{CF255327-6A8A-4CE1-8861-7174BB6A37FA}" WorkUnitID="{597EC3F1-044B-4676-80BD-5B9B578810C0}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="W_a_P_Cinematic_Whoosh_Hit_8" ID="{AD100B0A-1401-4A52-8105-8A0941BC231B}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.01"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.544725738396626"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="3.02280663465736"/>
+								<Property Name="TrimEnd" Type="Real64" Value="5.03797468354431"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>W_a_P_Cinematic_Whoosh_Hit_8.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="309407029"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="W_a_P_Cinematic_Whoosh_Hit_8" ID="{AD100B0A-1401-4A52-8105-8A0941BC231B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Step1 END" ID="{5C501D0D-D704-4E9D-9C2E-82FC200AD256}" ShortID="675744974">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>30</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>36</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>20</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="BuzzAttenuation" ID="{0EF76D7B-9B91-4D70-ABC2-B794ED64B909}" WorkUnitID="{597EC3F1-044B-4676-80BD-5B9B578810C0}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="indoor-footsteps-6385" ID="{EBEF9992-6B25-46B2-824F-9B9D7CDA0EFF}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.42949019607843"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>indoor-footsteps-6385.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="981938925"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{11BBAE98-8F2A-45E9-8815-6253FEA7F190}" ShortID="993922765">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+												<ObjectRef Name="StepEndReverb" ID="{834F6877-DC6C-447F-B264-C5CEC047E0B9}" WorkUnitID="{6825680C-465D-49A0-9BFD-C5DAD96CAF9B}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="indoor-footsteps-6385" ID="{EBEF9992-6B25-46B2-824F-9B9D7CDA0EFF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Step2 END" ID="{39CA91F4-FAAA-41F2-B618-3C2B8EF32466}" ShortID="804449294">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>29</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>40</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="indoor-footsteps-6385" ID="{2B02F132-0A08-4B65-A980-EE9E6370840D}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.723555555555557"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.14530718954248"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>indoor-footsteps-6385.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="850009049"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{689416DE-CB3A-48A7-BEC1-0718A9AA0AC6}" ShortID="284932195">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+												<ObjectRef Name="StepEndReverb" ID="{834F6877-DC6C-447F-B264-C5CEC047E0B9}" WorkUnitID="{6825680C-465D-49A0-9BFD-C5DAD96CAF9B}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="indoor-footsteps-6385" ID="{2B02F132-0A08-4B65-A980-EE9E6370840D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Step3 END" ID="{E778204E-838F-4A9C-B697-B4C26E3FC021}" ShortID="188808573">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>40</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>200</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="indoor-footsteps-6385" ID="{55DAC974-1DDF-428D-8441-D4BBE1DDC30F}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.32716339869281"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.75665359477124"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>indoor-footsteps-6385.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="545125755"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{CFAD930E-7305-4C4D-89CA-2BA75689DB9B}" ShortID="27306874">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+												<ObjectRef Name="StepEndReverb" ID="{834F6877-DC6C-447F-B264-C5CEC047E0B9}" WorkUnitID="{6825680C-465D-49A0-9BFD-C5DAD96CAF9B}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="indoor-footsteps-6385" ID="{55DAC974-1DDF-428D-8441-D4BBE1DDC30F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Step4 END" ID="{7B46B191-2193-40AF-8E44-825C338E5D56}" ShortID="207472598">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>31</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>40</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F99C34D1-FF72-4984-8BD8-AB54C743232B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2F44D005-E6D1-4A03-8F15-F4FF9EEDF763}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="indoor-footsteps-6385" ID="{E5B783B7-FC6C-45C5-B287-B038AA0C1FEC}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.170248366013072"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="2.56146405228759"/>
+								<Property Name="TrimEnd" Type="Real64" Value="3.01416993464052"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>indoor-footsteps-6385.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="956015908"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{58F1E56F-1BD5-424F-A5AB-AA7795B643BD}" ShortID="611685353">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+												<ObjectRef Name="StepEndReverb" ID="{834F6877-DC6C-447F-B264-C5CEC047E0B9}" WorkUnitID="{6825680C-465D-49A0-9BFD-C5DAD96CAF9B}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="indoor-footsteps-6385" ID="{E5B783B7-FC6C-45C5-B287-B038AA0C1FEC}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

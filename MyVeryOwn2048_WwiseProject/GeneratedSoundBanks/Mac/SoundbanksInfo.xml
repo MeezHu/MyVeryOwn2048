@@ -25,10 +25,14 @@
 				<GameParameter Id="2918011349" Name="MasterVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{4BF93D7C-5A49-F709-7BF8-91DE100C8732}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{ED1D59CA-C956-8F03-8ACD-1BA6FA853845}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="6316444" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Clocks, Tick, Peculier Clock, Big Impacts, Variations SND116989.wav</ShortName>
+					<CachePath>SFX/Clocks, Tick, Peculier Clock, Big Impacts, Variations SND116989_D543C492.wem</CachePath>
+				</File>
 				<File Id="47971958" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Metal, Movement, Bass Shakers, Container, Rattle, High To Low, Ramp Down, Long Static Medium High Tone, Mic 1 SND71742.wav</ShortName>
 					<CachePath>SFX/Metal, Movement, Bass Shakers, Container, Rattle, High To Low, Ramp Down, Long Static Medium High Tone, Mic 1 SND71742_31F9FC66.wem</CachePath>
@@ -41,17 +45,45 @@
 					<ShortName>335171__jorgepotter__hand-touching.wav</ShortName>
 					<CachePath>SFX/335171__jorgepotter__hand-touching_2276EE03.wem</CachePath>
 				</File>
+				<File Id="109572347" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Machines, Hvac, Radiator, Rattle, Metal Ticks, Dripping SND0638.wav</ShortName>
+					<CachePath>SFX/Machines, Hvac, Radiator, Rattle, Metal Ticks, Dripping SND0638_7B2AB265.wem</CachePath>
+				</File>
+				<File Id="126807842" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Maroon 5 - Animals (Lyrics).wav</ShortName>
+					<CachePath>SFX/Maroon 5 - Animals (Lyrics)_FBE2AAD5.wem</CachePath>
+				</File>
 				<File Id="142810674" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>steamloopend.wav</ShortName>
 					<CachePath>SFX/steamloopend_0FE6E252.wem</CachePath>
+				</File>
+				<File Id="149415068" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Machines, Hvac, Radiator, Rattle, Metal Ticks, Dripping SND0638.wav</ShortName>
+					<CachePath>SFX/Machines, Hvac, Radiator, Rattle, Metal Ticks, Dripping SND0638_AA75FA1B.wem</CachePath>
+				</File>
+				<File Id="159877759" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mechanical, Gears, Mechanical Texture, Air Release, Burst, Hiss 02 SND117046.wav</ShortName>
+					<CachePath>SFX/Mechanical, Gears, Mechanical Texture, Air Release, Burst, Hiss 02 SND117046_97E60DE2.wem</CachePath>
 				</File>
 				<File Id="185242006" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Exterior Metal Door Gate Bolt Latch 7.wav</ShortName>
 					<CachePath>SFX/Exterior Metal Door Gate Bolt Latch 7_EBDD341B.wem</CachePath>
 				</File>
+				<File Id="203116363" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Metal, Friction, Large, Scrape, Rattle, Movements, Screech SND19835.wav</ShortName>
+					<CachePath>SFX/Metal, Friction, Large, Scrape, Rattle, Movements, Screech SND19835_D9A34AD8.wem</CachePath>
+				</File>
 				<File Id="211591136" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10.wav 07.wav</ShortName>
 					<CachePath>SFX/ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10.wav 07_818F3B66.wem</CachePath>
+				</File>
+				<File Id="211646135" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Clocks, Tick, Peculier Clock, Big Impacts, Variations SND116989.wav</ShortName>
+					<CachePath>SFX/Clocks, Tick, Peculier Clock, Big Impacts, Variations SND116989_D2D16555.wem</CachePath>
+				</File>
+				<File Id="229625513" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mechanical, Gears, Mechanical Texture, Air Release, Burst, Hiss 02 SND117046.wav</ShortName>
+					<CachePath>SFX/Mechanical, Gears, Mechanical Texture, Air Release, Burst, Hiss 02 SND117046_EFDDF5F7.wem</CachePath>
 				</File>
 				<File Id="246866344" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Swooshes, Whoosh, Modulated, Bass Crunch, Normal 03 SND55240.wav</ShortName>
@@ -65,17 +97,41 @@
 					<ShortName>Scratching knife on metallic jagged surface 02.wav</ShortName>
 					<CachePath>SFX/Scratching knife on metallic jagged surface 02_76D5A231.wem</CachePath>
 				</File>
+				<File Id="268441074" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mechanical, Lever, Mechanical Lever, Pull Huge, Powerful, Metallic Impact 01 SND117041.wav</ShortName>
+					<CachePath>SFX/Mechanical, Lever, Mechanical Lever, Pull Huge, Powerful, Metallic Impact 01 SND117041_BC70C768.wem</CachePath>
+				</File>
+				<File Id="278198217" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Machines, Hvac, Radiator, Rattle, Metal Ticks, Dripping SND0638.wav</ShortName>
+					<CachePath>SFX/Machines, Hvac, Radiator, Rattle, Metal Ticks, Dripping SND0638_CAA410A8.wem</CachePath>
+				</File>
 				<File Id="280919856" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ResonantRustyDoor_scrape_short_05.wav</ShortName>
 					<CachePath>SFX/ResonantRustyDoor_scrape_short_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="295536663" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Maroon 5 - Animals (Lyrics).wav</ShortName>
+					<CachePath>SFX/Maroon 5 - Animals (Lyrics)_ADEB6CA7.wem</CachePath>
+				</File>
+				<File Id="297344828" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Machines, Hvac, Radiator, Rattle, Metal Ticks, Dripping SND0638.wav</ShortName>
+					<CachePath>SFX/Machines, Hvac, Radiator, Rattle, Metal Ticks, Dripping SND0638_105E2507.wem</CachePath>
 				</File>
 				<File Id="309407029" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>W_a_P_Cinematic_Whoosh_Hit_8.wav</ShortName>
 					<CachePath>SFX/W_a_P_Cinematic_Whoosh_Hit_8_256877DA.wem</CachePath>
 				</File>
+				<File Id="309948034" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mechanical, Lever, Mechanical Lever, Pull Huge, Powerful, Metallic Impact 01 SND117041.wav</ShortName>
+					<CachePath>SFX/Mechanical, Lever, Mechanical Lever, Pull Huge, Powerful, Metallic Impact 01 SND117041_1FF0F116.wem</CachePath>
+				</File>
 				<File Id="313551885" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>656010__jacko4526__falling-human-bodies.wav</ShortName>
 					<CachePath>SFX/656010__jacko4526__falling-human-bodies_EE79F624.wem</CachePath>
+				</File>
+				<File Id="330262165" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mechanical, Gears, Mechanical Reload, Metal Impact, Smooth, Ding, Variations SND117050.wav</ShortName>
+					<CachePath>SFX/Mechanical, Gears, Mechanical Reload, Metal Impact, Smooth, Ding, Variations SND117050_46AFA49A.wem</CachePath>
 				</File>
 				<File Id="333862779" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>User Interface, Alert, Notification, Attention, Short, Positive, Thin SND113038.wav</ShortName>
@@ -100,6 +156,10 @@
 				<File Id="442366620" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>424462__nicstage__heaterpipecontact.wav</ShortName>
 					<CachePath>SFX/424462__nicstage__heaterpipecontact_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="468357414" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mechanical, Gears, Mechanical Reload, Metal Impact, Smooth, Ding, Variations SND117050.wav</ShortName>
+					<CachePath>SFX/Mechanical, Gears, Mechanical Reload, Metal Impact, Smooth, Ding, Variations SND117050_998F1168.wem</CachePath>
 				</File>
 				<File Id="476420375" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Wood, Friction, Drag Chair, Scary Creak, Heavy Reverb, Long Decay, Dark x4 02 SND42052.wav</ShortName>
@@ -157,9 +217,17 @@
 					<ShortName>656366__straynerd__falling-on-mattress-owi.wav</ShortName>
 					<CachePath>SFX/656366__straynerd__falling-on-mattress-owi_B90AE67C.wem</CachePath>
 				</File>
+				<File Id="578000251" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mechanical, Gears, Mechanical Reload, Metal Impact, Smooth, Ding, Variations SND117050.wav</ShortName>
+					<CachePath>SFX/Mechanical, Gears, Mechanical Reload, Metal Impact, Smooth, Ding, Variations SND117050_6EF2A3C1.wem</CachePath>
+				</File>
 				<File Id="578226454" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178.wav</ShortName>
 					<CachePath>SFX/Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178_A61E1C2F.wem</CachePath>
+				</File>
+				<File Id="614311471" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Metal, Friction, Object Scratch Rusty Metal, Friction Surface SND19852.wav</ShortName>
+					<CachePath>SFX/Metal, Friction, Object Scratch Rusty Metal, Friction Surface SND19852_BFB5A9BD.wem</CachePath>
 				</File>
 				<File Id="637078363" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bluezone_BC0258_cinematic_metal_impact_069.wav</ShortName>
@@ -189,13 +257,25 @@
 					<ShortName>ResonantRustyDoor_impact_soft_01.wav</ShortName>
 					<CachePath>SFX/ResonantRustyDoor_impact_soft_01_818F3B66.wem</CachePath>
 				</File>
+				<File Id="711241306" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mechanical, Gears, Mechanical Texture, Air Release, Burst, Hiss 02 SND117046.wav</ShortName>
+					<CachePath>SFX/Mechanical, Gears, Mechanical Texture, Air Release, Burst, Hiss 02 SND117046_ED0FBB2B.wem</CachePath>
+				</File>
 				<File Id="734380864" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>575310__taure__fall.wav</ShortName>
 					<CachePath>SFX/575310__taure__fall_358420C3.wem</CachePath>
 				</File>
+				<File Id="745221077" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mechanical, Lever, Mechanical Lever, Pull Huge, Powerful, Metallic Impact 02 SND117152.wav</ShortName>
+					<CachePath>SFX/Mechanical, Lever, Mechanical Lever, Pull Huge, Powerful, Metallic Impact 02 SND117152_94226B68.wem</CachePath>
+				</File>
 				<File Id="745667475" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332.wav</ShortName>
 					<CachePath>SFX/Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332_9BD45232.wem</CachePath>
+				</File>
+				<File Id="786496940" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Machines, Mechanism, Mechanical Transition, Building Up, Movement SND113052.wav</ShortName>
+					<CachePath>SFX/Machines, Mechanism, Mechanical Transition, Building Up, Movement SND113052_8B7B9446.wem</CachePath>
 				</File>
 				<File Id="786619384" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>719846__vekon__riser_06_140bpm.wav</ShortName>
@@ -216,6 +296,10 @@
 				<File Id="856340383" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178.wav</ShortName>
 					<CachePath>SFX/Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178_D5D2A667.wem</CachePath>
+				</File>
+				<File Id="884202451" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mechanical, Lever, Mechanical Lever, Pull Huge, Powerful, Metallic Impact 02 SND117152.wav</ShortName>
+					<CachePath>SFX/Mechanical, Lever, Mechanical Lever, Pull Huge, Powerful, Metallic Impact 02 SND117152_D970F6D5.wem</CachePath>
 				</File>
 				<File Id="909255023" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178.wav</ShortName>
@@ -241,6 +325,10 @@
 					<ShortName>Steam Release Sound Effect.wav</ShortName>
 					<CachePath>SFX/Steam Release Sound Effect_CADEBBB5.wem</CachePath>
 				</File>
+				<File Id="979025036" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Machines, Hvac, Radiator, Rattle, Metal Ticks, Dripping SND0638.wav</ShortName>
+					<CachePath>SFX/Machines, Hvac, Radiator, Rattle, Metal Ticks, Dripping SND0638_B8E8086B.wem</CachePath>
+				</File>
 				<File Id="981938925" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>indoor-footsteps-6385.wav</ShortName>
 					<CachePath>SFX/indoor-footsteps-6385_451C25FE.wem</CachePath>
@@ -249,9 +337,17 @@
 					<ShortName>Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332.wav</ShortName>
 					<CachePath>SFX/Explosions, Real, Boom, Distant Explosion, Low, Muffled 01 SND46332_57F847A3.wem</CachePath>
 				</File>
+				<File Id="1005788427" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Metal, Friction, Scrape, Shrill, Horror SND20028.wav</ShortName>
+					<CachePath>SFX/Metal, Friction, Scrape, Shrill, Horror SND20028_5846ED4B.wem</CachePath>
+				</File>
 				<File Id="1029205145" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10.wav 07.wav</ShortName>
-					<CachePath>SFX/ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10.wav 07_4F0EA6CA.wem</CachePath>
+					<CachePath>SFX/ANIMAL WILD Camel D, Grunt, Groan, Roar, Gargle x10.wav 07_21137113.wem</CachePath>
+				</File>
+				<File Id="1054016354" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Metal, Friction, Squeak, Groan, Gate Open, Long 01 SND27110.wav</ShortName>
+					<CachePath>SFX/Metal, Friction, Squeak, Groan, Gate Open, Long 01 SND27110_818F3B66.wem</CachePath>
 				</File>
 				<File Id="1056272272" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Computers, Keyboard   Mouse, Keyboard, Dell, Typing, Slow SND12178.wav</ShortName>
@@ -260,8 +356,11 @@
 			</Media>
 			<Plugins>
 				<ShareSets>
+					<Plugin Id="556305841" Name="New_RoomVerb_04" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="556305844" Name="New_RoomVerb_01" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="556305846" Name="New_RoomVerb_03" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="1259256166" Name="New_RoomVerb" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="2178200586" Name="StepEndReverb" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="3191103210" Name="New_Matrix_Reverb" LibName="Wwise Matrix Reverb" LibId="7536643"/>
 					<Plugin Id="3872078032" Name="StartVerb" LibName="Wwise RoomVerb" LibId="7733251"/>
 				</ShareSets>
@@ -285,6 +384,26 @@
 				<Event Id="1550183220" Name="Play_Buzzing_Low" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="565729331"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1196441091" Name="Play_DoorOpen1" MaxAttenuation="40" DurationType="OneShot" DurationMin="7.873974" DurationMax="7.873974">
+					<MediaRefs>
+						<MediaRef Id="203116363"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1196441088" Name="Play_DoorOpen2" MaxAttenuation="40" DurationType="OneShot" DurationMin="8.122226" DurationMax="8.122226">
+					<MediaRefs>
+						<MediaRef Id="614311471"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1196441089" Name="Play_DoorOpen3" MaxAttenuation="40" DurationType="OneShot" DurationMin="7.5255146" DurationMax="7.5255146">
+					<MediaRefs>
+						<MediaRef Id="1005788427"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1196441094" Name="Play_DoorOpen4" MaxAttenuation="40" DurationType="OneShot" DurationMin="5.4132857" DurationMax="5.4132857">
+					<MediaRefs>
+						<MediaRef Id="1054016354"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="34468666" Name="Play_EndStartBoom" DurationType="OneShot" DurationMin="0.90979874" DurationMax="0.90979874">
@@ -377,6 +496,16 @@
 						<MediaRef Id="309407029"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="4117198361" Name="Play_LightsOn_End1" MaxAttenuation="40" DurationType="OneShot" DurationMin="1.2694763" DurationMax="1.2694763">
+					<MediaRefs>
+						<MediaRef Id="309407029"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4117198362" Name="Play_LightsOn_End2" MaxAttenuation="40" DurationType="OneShot" DurationMin="2.2619495" DurationMax="2.2619495">
+					<MediaRefs>
+						<MediaRef Id="309407029"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1144204686" Name="Play_LightsOn_Red" DurationType="OneShot" DurationMin="2.2619495" DurationMax="2.2619495">
 					<MediaRefs>
 						<MediaRef Id="309407029"/>
@@ -385,6 +514,96 @@
 				<Event Id="4291005347" Name="Play_LightsOnMenu" MaxAttenuation="40" DurationType="OneShot" DurationMin="2.8498778" DurationMax="2.8498778">
 					<MediaRefs>
 						<MediaRef Id="309407029"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2536142413" Name="Play_MechaEndClickHeavy1" MaxAttenuation="40" DurationType="OneShot" DurationMin="2.6898565" DurationMax="2.6898565">
+					<MediaRefs>
+						<MediaRef Id="211646135"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2536142414" Name="Play_MechaEndClickHeavy2" MaxAttenuation="40" DurationType="OneShot" DurationMin="2.213173" DurationMax="2.213173">
+					<MediaRefs>
+						<MediaRef Id="6316444"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3001280594" Name="Play_MechaEndClickLight1" MaxAttenuation="40" DurationType="OneShot" DurationMin="1.244812" DurationMax="1.244812">
+					<MediaRefs>
+						<MediaRef Id="578000251"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3001280593" Name="Play_MechaEndClickLight2" MaxAttenuation="40" DurationType="OneShot" DurationMin="1.3653535" DurationMax="1.3653535">
+					<MediaRefs>
+						<MediaRef Id="330262165"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3001280592" Name="Play_MechaEndClickLight3" MaxAttenuation="40" DurationType="OneShot" DurationMin="2.1294053" DurationMax="2.1294053">
+					<MediaRefs>
+						<MediaRef Id="468357414"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="579792291" Name="Play_MechaPreparing1" MaxAttenuation="40" DurationType="OneShot" DurationMin="1.4439796" DurationMax="1.4439796">
+					<MediaRefs>
+						<MediaRef Id="268441074"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="579792288" Name="Play_MechaPreparing2" MaxAttenuation="40" DurationType="OneShot" DurationMin="0.56871825" DurationMax="0.56871825">
+					<MediaRefs>
+						<MediaRef Id="309948034"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="556305846"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="471853287" Name="Play_MechaUnlock1" MaxAttenuation="40" DurationType="OneShot" DurationMin="0.87526745" DurationMax="0.87526745">
+					<MediaRefs>
+						<MediaRef Id="745221077"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="471853284" Name="Play_MechaUnlock2" MaxAttenuation="40" DurationType="OneShot" DurationMin="1.2748461" DurationMax="1.2748461">
+					<MediaRefs>
+						<MediaRef Id="884202451"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4032807060" Name="Play_MechaUnlockSteamy1" MaxAttenuation="40" DurationType="OneShot" DurationMin="1.0440571" DurationMax="1.0440571">
+					<MediaRefs>
+						<MediaRef Id="711241306"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4032807063" Name="Play_MechaUnlockSteamy2" MaxAttenuation="40" DurationType="OneShot" DurationMin="1.1396881" DurationMax="1.1396881">
+					<MediaRefs>
+						<MediaRef Id="229625513"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4032807062" Name="Play_MechaUnlockSteamy3" MaxAttenuation="40" DurationType="OneShot" DurationMin="3.3157415" DurationMax="3.3157415">
+					<MediaRefs>
+						<MediaRef Id="159877759"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2495575421" Name="Play_MechaWorkingHeavy1" MaxAttenuation="40" DurationType="OneShot" DurationMin="5.4658685" DurationMax="5.4658685">
+					<MediaRefs>
+						<MediaRef Id="149415068"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2495575422" Name="Play_MechaWorkingHeavy2" MaxAttenuation="40" DurationType="OneShot" DurationMin="5.321916" DurationMax="5.321916">
+					<MediaRefs>
+						<MediaRef Id="297344828"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3749740578" Name="Play_MechaWorkingLight1" MaxAttenuation="40" DurationType="OneShot" DurationMin="3.492628" DurationMax="3.492628">
+					<MediaRefs>
+						<MediaRef Id="109572347"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3749740577" Name="Play_MechaWorkingLight2" MaxAttenuation="40" DurationType="OneShot" DurationMin="3.7206295" DurationMax="3.7206295">
+					<MediaRefs>
+						<MediaRef Id="979025036"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3749740576" Name="Play_MechaWorkingLight3" MaxAttenuation="40" DurationType="OneShot" DurationMin="3.5682292" DurationMax="3.5682292">
+					<MediaRefs>
+						<MediaRef Id="278198217"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2154670781" Name="Play_PlumberySound" MaxAttenuation="4" DurationType="Infinite">
@@ -488,6 +707,16 @@
 						<MediaRef Id="1029205145"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="854349084" Name="Play_SecretMusicContinue" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="126807842"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4192258133" Name="Play_SecretMusicStart" DurationType="OneShot" DurationMin="43.16603" DurationMax="43.16603">
+					<MediaRefs>
+						<MediaRef Id="295536663"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="409343711" Name="Play_SecretValidation" DurationType="OneShot" DurationMin="0.6709167" DurationMax="0.6709167">
 					<MediaRefs>
 						<MediaRef Id="333862779"/>
@@ -508,20 +737,60 @@
 						<MediaRef Id="981938925"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1093692375" Name="Play_Step1_END" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.4294902" DurationMax="0.4294902">
+					<MediaRefs>
+						<MediaRef Id="981938925"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2178200586"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
 				<Event Id="2600469398" Name="Play_Step2" DurationType="OneShot" DurationMin="0.42175165" DurationMax="0.42175165">
 					<MediaRefs>
 						<MediaRef Id="850009049"/>
 					</MediaRefs>
+				</Event>
+				<Event Id="156290012" Name="Play_Step2_END" DurationType="OneShot" DurationMin="0.42175165" DurationMax="0.42175165">
+					<MediaRefs>
+						<MediaRef Id="850009049"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2178200586"/>
+						</ShareSets>
+					</PluginRefs>
 				</Event>
 				<Event Id="2600469399" Name="Play_Step3" DurationType="OneShot" DurationMin="0.4294902" DurationMax="0.4294902">
 					<MediaRefs>
 						<MediaRef Id="545125755"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2604812153" Name="Play_Step3_END" DurationType="OneShot" DurationMin="0.3826323" DurationMax="0.3826323">
+					<MediaRefs>
+						<MediaRef Id="545125755"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2178200586"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
 				<Event Id="2600469392" Name="Play_Step4" DurationType="OneShot" DurationMin="0.4527059" DurationMax="0.4527059">
 					<MediaRefs>
 						<MediaRef Id="956015908"/>
 					</MediaRefs>
+				</Event>
+				<Event Id="3282717046" Name="Play_Step4_END" DurationType="OneShot" DurationMin="0.4527059" DurationMax="0.4527059">
+					<MediaRefs>
+						<MediaRef Id="956015908"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2178200586"/>
+						</ShareSets>
+					</PluginRefs>
 				</Event>
 				<Event Id="16777916" Name="Play_whispering_music" DurationType="Infinite">
 					<MediaRefs>
@@ -533,14 +802,27 @@
 						<MediaRef Id="531780833"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3461201628" Name="Play_WinEndSound" MaxAttenuation="40" DurationType="OneShot" DurationMin="1.2133354" DurationMax="1.2133354">
+					<MediaRefs>
+						<MediaRef Id="786496940"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="556305841"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
 				<Event Id="595744404" Name="Stop_Buzzing_High" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1923114070" Name="Stop_Buzzing_Low" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3843945942" Name="Stop_Ghostly_Presence__Angelic__Vocal__Layer__Creepy__Horror_4" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2733305787" Name="Stop_LFE_Rumble_3" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1256843611" Name="Stop_PlumberySound" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2284581250" Name="Stop_SecretMusicContinue" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2539874087" Name="Stop_SecretMusicStart" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1004893882" Name="Stop_whispering_music" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1583528054" Name="Stop_WinEndSound" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{80D89644-C692-D95C-2370-61B3AB9ECA47}</FileHash>
+	<FileHash>{4046F0F2-A8E6-FA0A-D44C-DF87C66E7DCA}</FileHash>
 </SoundBanksInfo>

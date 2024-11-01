@@ -10,6 +10,9 @@ public class PauseMenuController : MonoBehaviour
     public RememberSensitivity rememberSensitivity;
     public MouseLook mouseLook;
     public VolumeSliderController volumeSliderController;
+    public HeadBobController headBobController;
+    public StepSoundControl stepSoundControl;
+    public ControlGears controlGears;
     public GameObject pauseMenuCanvas;
     public bool canPause;
     public bool isPaused;
@@ -78,6 +81,17 @@ public class PauseMenuController : MonoBehaviour
         {
             rememberSensitivity.lockSliderSensi = true;
             StartCoroutine(CoroutinePauseOff());
+        }
+        
+        if (Input.GetKeyDown(KeyCode.Escape) && isPaused == false && canPause && StateManager.Instance.canPovFps)
+        {
+            FpsState.isInBoard = !FpsState.isInBoard;
+            BoardState.canMove = !BoardState.canMove;
+
+            StartCoroutine(StateManager.Instance.CoroutineFpsView());
+            headBobController.enabled = true;
+            stepSoundControl.enabled = true;
+            controlGears.canRotateGears = false;
         }
     }
 }

@@ -61,10 +61,16 @@
 				</Effect>
 				<Effect Name="New_RoomVerb_04" ID="{2481C3FE-6101-486D-A6ED-51E12AD287F8}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 					<PropertyList>
-						<Property Name="DecayTime" Type="Real32" Value="2.4"/>
+						<Property Name="DecayTime" Type="Real32" Value="1.5"/>
 						<Property Name="DryLevel" Type="Real32" Value="-9.3"/>
 						<Property Name="HFDamping" Type="Real32" Value="3.35"/>
 						<Property Name="PreDelay" Type="Real32" Value="100"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="StepEndReverb" ID="{834F6877-DC6C-447F-B264-C5CEC047E0B9}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+					<PropertyList>
+						<Property Name="DecayTime" Type="Real32" Value="2.2"/>
+						<Property Name="DryLevel" Type="Real32" Value="-16.3"/>
 					</PropertyList>
 				</Effect>
 			</ChildrenList>

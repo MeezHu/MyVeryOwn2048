@@ -10,13 +10,15 @@ public class Typer : MonoBehaviour
     public Text wordOutput = null;
 
     private string remainingWord = string.Empty;
-    private string currentWord = "celingmasi";
+    private string currentWord = "FulLmOoN";
     public bool canEnter;
     public GameObject passwordEnteredCanvas;
     public GameObject triggerSecretEnding;
     public GameObject secretGoSound;
     public GameObject randomKeyboardKeysSound;
     public GameObject secretValidationSound;
+    public GameObject camoVFX1;
+    public GameObject camoVFX2;
     public Animator secretAnimator;
 
     public GameObject cLetter;
@@ -130,6 +132,10 @@ public class Typer : MonoBehaviour
         yield return new WaitForSeconds(1);
         secretAnimator.SetTrigger("Go");
         secretGoSound.SetActive(true);
+
+        yield return new WaitForSeconds(.33f);
+        camoVFX1.SetActive(true);
+        camoVFX1.SetActive(true);
     }
 
     private void CheckInput()
@@ -201,14 +207,14 @@ public class Typer : MonoBehaviour
         {
             isA = true;
         }
-        else if (isC == true && isE == true && isL == true && isI == true && isN == true && isG == true && isM == true && isA == true && isS == false)
-        {
-            isS = true;
-        }
-        else if (isC == true && isE == true && isL == true && isI == true && isN == true && isG == true && isM == true && isA == true && isS == true && isI2 == false)
-        {
-            isI2 = true;
-        }
+        //else if (isC == true && isE == true && isL == true && isI == true && isN == true && isG == true && isM == true && isA == true && isS == false)
+        //{
+        //    isS = true;
+        //}
+        //else if (isC == true && isE == true && isL == true && isI == true && isN == true && isG == true && isM == true && isA == true && isS == true && isI2 == false)
+        //{
+        //    isI2 = true;
+        //}
 
         SetRemainingWord(newString);
     }

@@ -134,50 +134,50 @@ public class For3DTileBoard : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F1))
-        {
-            Create4();
-        }
+        //if (Input.GetKeyDown(KeyCode.F1))
+        //{
+        //    Create4();
+        //}
 
-        if (Input.GetKeyDown(KeyCode.F2))
-        {
-            Create8();
-        }
+        //if (Input.GetKeyDown(KeyCode.F2))
+        //{
+        //    Create8();
+        //}
 
-        if (Input.GetKeyDown(KeyCode.F3))
-        {
-            Create16();
-        }
+        //if (Input.GetKeyDown(KeyCode.F3))
+        //{
+        //    Create16();
+        //}
 
-        if (Input.GetKeyDown(KeyCode.F4))
-        {
-            Create32();
-        }
+        //if (Input.GetKeyDown(KeyCode.F4))
+        //{
+        //    Create32();
+        //}
 
-        if (Input.GetKeyDown(KeyCode.F5))
-        {
-            Create64();
-        }
+        //if (Input.GetKeyDown(KeyCode.F5))
+        //{
+        //    Create64();
+        //}
 
-        if (Input.GetKeyDown(KeyCode.F6))
-        {
-            Create128();
-        }
+        //if (Input.GetKeyDown(KeyCode.F6))
+        //{
+        //    Create128();
+        //}
 
-        if (Input.GetKeyDown(KeyCode.F7))
-        {
-            Create256();
-        }
+        //if (Input.GetKeyDown(KeyCode.F7))
+        //{
+        //    Create256();
+        //}
 
-        if (Input.GetKeyDown(KeyCode.F8))
-        {
-            Create512();
-        }
+        //if (Input.GetKeyDown(KeyCode.F8))
+        //{
+        //    Create512();
+        //}
 
-        if (Input.GetKeyDown(KeyCode.F9))
-        {
-            Create1024();
-        }
+        //if (Input.GetKeyDown(KeyCode.F9))
+        //{
+        //    Create1024();
+        //}
 
         try
         {

@@ -9,7 +9,7 @@ public class Discord_Controller : MonoBehaviour
     public string details = "Unlocking something";
     [Space]
     public string largeImage = "2048PAAD";
-    public string largeText = "2048 Pipes and a Door";
+    public string largeText = "ConfinemenT";
 
     //private Rigidbody rb;
     private long time;

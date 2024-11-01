@@ -48,6 +48,11 @@ public class TriggerSecretEnding : MonoBehaviour
     public GameObject DoorOpen2;
     public GameObject DoorOpen3;
     public GameObject DoorOpen4;
+    public GameObject wolfCanvas;
+    public GameObject hahaCanvas;
+    public GameObject werewolfImage;
+    public GameObject werewolfCanvas;
+    //public WolfCanvasController wolfCanvasController;
 
     [Header("Lock Animators")]
     public Animator verrou1Animator;
@@ -64,8 +69,35 @@ public class TriggerSecretEnding : MonoBehaviour
             canSecretEnding = false;
             Debug.Log("SECRET ENDING!");
             StartCoroutine(CouroutineSecretEndingLights());
+            Invoke("LaunchWolfCanvas", 60f);
+            Invoke("LaunchHahaCanvas", 184f);
+            Invoke("LaunchWerewolfCanvas", 320f); 
+            StartCoroutine(CoroutineWerewolf());
             //gameObject.SetActive(false);
         }
+    }
+
+    public void LaunchWolfCanvas()
+    {
+        wolfCanvas.SetActive(true);
+        //StartCoroutine(CoroutineWerewolf());
+    }
+
+    public void LaunchWerewolfCanvas()
+    {
+        werewolfCanvas.SetActive(true);
+        //StartCoroutine(CoroutineWerewolf());
+    }
+
+    IEnumerator CoroutineWerewolf()
+    {
+        yield return new WaitForSeconds(104.4f);
+        werewolfImage.SetActive(false);
+    }
+
+    public void LaunchHahaCanvas()
+    {
+        hahaCanvas.SetActive(true);
     }
 
     IEnumerator CouroutineSecretEndingLights()

@@ -37,6 +37,8 @@ namespace AK
         static const AkUniqueID PLAY_LFE_RUMBLE_3 = 1583694757U;
         static const AkUniqueID PLAY_LFE_RUMBLE_3_01 = 143056513U;
         static const AkUniqueID PLAY_LIGHTSON = 275295778U;
+        static const AkUniqueID PLAY_LIGHTSON_END1 = 4117198361U;
+        static const AkUniqueID PLAY_LIGHTSON_END2 = 4117198362U;
         static const AkUniqueID PLAY_LIGHTSON_RED = 1144204686U;
         static const AkUniqueID PLAY_LIGHTSONMENU = 4291005347U;
         static const AkUniqueID PLAY_MECHAENDCLICKHEAVY1 = 2536142413U;
@@ -77,9 +79,13 @@ namespace AK
         static const AkUniqueID PLAY_STARTBOOM = 2626765055U;
         static const AkUniqueID PLAY_STARTRISER = 3561394305U;
         static const AkUniqueID PLAY_STEP1 = 2600469397U;
+        static const AkUniqueID PLAY_STEP1_END = 1093692375U;
         static const AkUniqueID PLAY_STEP2 = 2600469398U;
+        static const AkUniqueID PLAY_STEP2_END = 156290012U;
         static const AkUniqueID PLAY_STEP3 = 2600469399U;
+        static const AkUniqueID PLAY_STEP3_END = 2604812153U;
         static const AkUniqueID PLAY_STEP4 = 2600469392U;
+        static const AkUniqueID PLAY_STEP4_END = 3282717046U;
         static const AkUniqueID PLAY_WHISPERING_MUSIC = 16777916U;
         static const AkUniqueID PLAY_WINDFALL = 774940991U;
         static const AkUniqueID PLAY_WINENDSOUND = 3461201628U;
@@ -91,6 +97,7 @@ namespace AK
         static const AkUniqueID STOP_SECRETMUSICCONTINUE = 2284581250U;
         static const AkUniqueID STOP_SECRETMUSICSTART = 2539874087U;
         static const AkUniqueID STOP_WHISPERING_MUSIC = 1004893882U;
+        static const AkUniqueID STOP_WINENDSOUND = 1583528054U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS

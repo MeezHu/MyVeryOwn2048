@@ -8,6 +8,8 @@ public class TriggerPasswordSpawn : MonoBehaviour
     public GameObject landLight;
     public GameObject landLightSound;
     public GameObject spotPath;
+    //public GameObject lightHintSoft;
+    public GameObject lightHintHard;
     public SecretManager secretManager;
     public bool canType;
 
@@ -15,7 +17,8 @@ public class TriggerPasswordSpawn : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            spotPath.SetActive(true);
+            spotPath.SetActive(false);
+            lightHintHard.SetActive(true);
             password.SetActive(true);
             //PlayerPrefs.SetInt("rememberPassword", 1);
             PlayerPrefs.SetInt("knowspassword", 1);

@@ -11,7 +11,7 @@ public class TileIdentifier : MonoBehaviour
 
     public For3DTile for3DTile;
     public vfxFeedback vfxFeedback;
-    public AnimationFeedback animationFeedback;
+    //public AnimationFeedback animationFeedback;
     public SoundFeedback soundFeedback;
     //public LightsFeedback lightsFeedback;
 
@@ -109,7 +109,7 @@ public class TileIdentifier : MonoBehaviour
                 {
                     //UniqueEventsManager.Instance.Unlock5();
                     UniqueEventsManager.Instance.BecomeRed();
-                    UniqueEventsManager.Instance.StopDoorNoiseSoft();
+                    //UniqueEventsManager.Instance.StopDoorNoiseSoft();
                     UniqueEventsManager.Instance.StartDoorNoiseHard();
                     UniqueEventsManager.Instance.boxPasswordSpawn.SetActive(true);
                 }
@@ -120,7 +120,7 @@ public class TileIdentifier : MonoBehaviour
                 Debug.Log("Tuile = " + for3DTile.matName + " appeared in " + gameObject.transform.position);
                 if (UniqueEventsManager.Instance != null)
                 {
-                    UniqueEventsManager.Instance.StopDoorNoiseHard();
+                    //UniqueEventsManager.Instance.StopDoorNoiseHard();
                     UniqueEventsManager.Instance.WinEvent();
                 }
                 vfxFeedback.Vfx2048Fusion();

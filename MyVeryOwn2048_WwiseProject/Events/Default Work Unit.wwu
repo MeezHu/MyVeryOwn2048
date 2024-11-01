@@ -881,6 +881,86 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Stop_WinEndSound" ID="{38AEE2E9-5901-4370-8322-3A264D7A64B2}">
+					<ChildrenList>
+						<Action Name="" ID="{A65569BB-D8B5-4441-B128-0F18D96630B8}" ShortID="918049224">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WinEndSound" ID="{A37E3B99-FD38-4F9F-8021-5B04132A1CFD}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_LightsOn_End1" ID="{160CD4B3-A5AF-48F3-95EE-C6F0E050D026}">
+					<ChildrenList>
+						<Action Name="" ID="{68290136-FACD-496F-A879-F4D6A2E7E8D0}" ShortID="795962652">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LightsOn End1" ID="{E4BD8668-CA8E-4224-BEC0-0710E72DDB5B}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_LightsOn_End2" ID="{2BD09930-9570-4993-97C5-BC400E8986DD}">
+					<ChildrenList>
+						<Action Name="" ID="{E0E87492-CCBC-487D-9011-8AC1EAAEE68C}" ShortID="864440603">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LightsOn End2" ID="{27C05A88-1565-4E24-972A-53BE80DB0488}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Step1_END" ID="{8D6A7E81-B831-461C-8F80-BB0C23FB74D5}">
+					<ChildrenList>
+						<Action Name="" ID="{8D17DE62-3158-4904-B6C1-01EE1CF0E85B}" ShortID="1047940700">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Step1 END" ID="{5C501D0D-D704-4E9D-9C2E-82FC200AD256}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Step2_END" ID="{4511BD5B-FF4B-4E75-896F-9ED4373A9284}">
+					<ChildrenList>
+						<Action Name="" ID="{905CADC5-FA79-4488-8EA1-268B823865C4}" ShortID="80227246">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Step2 END" ID="{39CA91F4-FAAA-41F2-B618-3C2B8EF32466}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Step3_END" ID="{01E9BCE9-6DB2-4AC2-BEE1-CA9B2E192CD3}">
+					<ChildrenList>
+						<Action Name="" ID="{04D1547D-DA98-47B9-926E-3166E008585A}" ShortID="919297668">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Step3 END" ID="{E778204E-838F-4A9C-B697-B4C26E3FC021}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Step4_END" ID="{7CC8A157-3C7A-410C-AFA1-5C6BBBC0255D}">
+					<ChildrenList>
+						<Action Name="" ID="{630C1E64-4A25-4781-861E-871E5C73F07F}" ShortID="295979318">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Step4 END" ID="{7B46B191-2193-40AF-8E44-825C338E5D56}" WorkUnitID="{C950FC7E-BB80-4676-80A7-3CF84E6B25B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

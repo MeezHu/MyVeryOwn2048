@@ -90,6 +90,9 @@ public class UniqueEventsManager : MonoBehaviour
     public GameObject blockerPipes;
     public GameObject boardGears;
     public GameObject endCanvas;
+    public GameObject lightHintSoft;
+    public GameObject secretWolf;
+    public GameObject blocker;
 
     [Header("Lock Animators")]
     public Animator verrou1Animator;
@@ -128,6 +131,10 @@ public class UniqueEventsManager : MonoBehaviour
     public GameObject DoorOpen4;
     public GameObject winRiser;
     public GameObject winEndSound;
+    public GameObject endDoorLight1;
+    public GameObject endDoorLight2;
+    public GameObject lightsOnEnd1;
+    public GameObject lightsOnEnd2;
 
     public void WinEvent()
     {
@@ -146,10 +153,13 @@ public class UniqueEventsManager : MonoBehaviour
     IEnumerator CoroutineWinEvent()
     {
         Ambiance2.SetActive(false);
+        secretWolf.SetActive(false);
         yield return new WaitForSeconds(2);
         boardAnimator.SetTrigger("Go");
         boardGears.SetActive(false);
         gridBoard.SetActive(false);
+        doorNoiseSoftControl.canNoise = false;
+        doorNoiseHardControl.canNoise = false;
 
         yield return new WaitForSeconds(3f);
         doorAnimator.SetTrigger("Open");
@@ -173,23 +183,36 @@ public class UniqueEventsManager : MonoBehaviour
         yield return new WaitForSeconds(3);
         winRiser.SetActive(true);
         winRiser.SetActive(false);
-        characterController.enabled = false;
-        headBobController.enabled = false;
-        stepSoundControl.stepSoundPlaying = false;
+        //characterController.enabled = false;
+        //headBobController.enabled = false;
+        //stepSoundControl.stepSoundPlaying = false;
         //stepSoundControl.enabled = false;
 
-        yield return new WaitForSeconds(3.5f);
+        yield return new WaitForSeconds(3.8f);
         winEndSound.SetActive(true);
-        winEndSound.SetActive(false);
+        //winEndSound.SetActive(false);
 
         yield return new WaitForSeconds(1.3f);
+        landLightR1.SetActive(false);
+        landLightR2.SetActive(false);
+        landLightR3.SetActive(false);
+        landLightR4.SetActive(false);
         //characterController.enabled = false;
         //headBobController.enabled = false;
         //stepSoundControl.enabled = false;
-        endCanvas.SetActive(true);
+        //endCanvas.SetActive(true);
 
-        yield return new WaitForSeconds(0.4f);
-        SceneManager.LoadScene(0);
+        yield return new WaitForSeconds(2f);
+        lightsOnEnd1.SetActive(true);
+        gvRed.SetActive(false);
+        gvYellow.SetActive(true);
+
+        yield return new WaitForSeconds(.7f);
+        blocker.SetActive(false);
+        lightsOnEnd2.SetActive(true);
+        endDoorLight1.SetActive(true);
+        endDoorLight2.SetActive(true);
+        //SceneManager.LoadScene(0);
 
     }
 
@@ -464,6 +487,7 @@ public class UniqueEventsManager : MonoBehaviour
         LightsOnRed.SetActive(true);
         reflecProb2.SetActive(true);
         Ambiance2.SetActive(true);
+        lightHintSoft.SetActive(true);
     }
 
     void Start()

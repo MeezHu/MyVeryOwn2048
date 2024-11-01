@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 52380ee722d02e4aa6dd06277ef97ae3
     GuidInternal: 
-    m_lastTime: -8584757848762631600
+    m_lastTime: -8584739793425868130
     List:
     - name: Main
       guid: cbfeb1857713eb4c88a1cc4eb8bd8322
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 6f2254b0ec43d949a24471b6a58e6080
     GuidInternal: 
-    m_lastTime: -8584757848945988846
+    m_lastTime: -8584739793542697206
     List:
     - name: Play_ANIMAL_WILD_Camel_D__Grunt__Groan__Roar__Gargle_x10_wav_07
       guid: 7fbf6f9dc8285841be75bae4ee70c499
@@ -504,6 +504,40 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.7953105
       minDuration: 1.7953105
+    - name: Play_LightsOn_End1
+      guid: b3d40c16afa5f34895eec6f0e050d026
+      id: 4117198361
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_LightsOn_End1
+        ObjectType: 3
+        guid: b3d40c16afa5f34895eec6f0e050d026
+      Path: Events\Default Work Unit\Play_LightsOn_End1
+      maxAttenuation: 40
+      maxDuration: 1.2694763
+      minDuration: 1.2694763
+    - name: Play_LightsOn_End2
+      guid: 3099d02b7095934997c5bc400e8986dd
+      id: 4117198362
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_LightsOn_End2
+        ObjectType: 3
+        guid: 3099d02b7095934997c5bc400e8986dd
+      Path: Events\Default Work Unit\Play_LightsOn_End2
+      maxAttenuation: 40
+      maxDuration: 2.2619495
+      minDuration: 2.2619495
     - name: Play_LightsOn_Red
       guid: d3b5f7693399744abe673b79db2430d1
       id: 1144204686
@@ -1184,6 +1218,23 @@ MonoBehaviour:
       maxAttenuation: 10
       maxDuration: 0.4294902
       minDuration: 0.4294902
+    - name: Play_Step1_END
+      guid: 817e6a8d31b81c468f80bb0c23fb74d5
+      id: 1093692375
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_Step1_END
+        ObjectType: 3
+        guid: 817e6a8d31b81c468f80bb0c23fb74d5
+      Path: Events\Default Work Unit\Play_Step1_END
+      maxAttenuation: 10
+      maxDuration: 0.4294902
+      minDuration: 0.4294902
     - name: Play_Step2
       guid: 2f70565be051fa4198a92d9e91f23486
       id: 2600469398
@@ -1198,6 +1249,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: 2f70565be051fa4198a92d9e91f23486
       Path: Events\Default Work Unit\Play_Step2
+      maxAttenuation: 0
+      maxDuration: 0.42175165
+      minDuration: 0.42175165
+    - name: Play_Step2_END
+      guid: 5bbd11454bff754e896f9ed4373a9284
+      id: 156290012
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_Step2_END
+        ObjectType: 3
+        guid: 5bbd11454bff754e896f9ed4373a9284
+      Path: Events\Default Work Unit\Play_Step2_END
       maxAttenuation: 0
       maxDuration: 0.42175165
       minDuration: 0.42175165
@@ -1218,6 +1286,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.4294902
       minDuration: 0.4294902
+    - name: Play_Step3_END
+      guid: e9bce901b26dc24abee1ca9b2e192cd3
+      id: 2604812153
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_Step3_END
+        ObjectType: 3
+        guid: e9bce901b26dc24abee1ca9b2e192cd3
+      Path: Events\Default Work Unit\Play_Step3_END
+      maxAttenuation: 0
+      maxDuration: 0.3826323
+      minDuration: 0.3826323
     - name: Play_Step4
       guid: 34b6dc4fb453a941a51ffab5bc443c38
       id: 2600469392
@@ -1232,6 +1317,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: 34b6dc4fb453a941a51ffab5bc443c38
       Path: Events\Default Work Unit\Play_Step4
+      maxAttenuation: 0
+      maxDuration: 0.4527059
+      minDuration: 0.4527059
+    - name: Play_Step4_END
+      guid: 57a1c87c7a3c0c41afa15c6bbbc0255d
+      id: 3282717046
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Play_Step4_END
+        ObjectType: 3
+        guid: 57a1c87c7a3c0c41afa15c6bbbc0255d
+      Path: Events\Default Work Unit\Play_Step4_END
       maxAttenuation: 0
       maxDuration: 0.4527059
       minDuration: 0.4527059
@@ -1422,6 +1524,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Stop_WinEndSound
+      guid: e9e2ae380159704383223a264d7a64b2
+      id: 1583528054
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6f2254b0ec43d949a24471b6a58e6080
+      - ElementName: Stop_WinEndSound
+        ObjectType: 3
+        guid: e9e2ae380159704383223a264d7a64b2
+      Path: Events\Default Work Unit\Stop_WinEndSound
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -1493,7 +1612,7 @@ MonoBehaviour:
     m_lastTime: -8584771101075234697
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000500000006000000070000000a0000000b0000000c0000000d0000002e0000002f000000310000003200000045000000460000009b0000009c000000c0000000c1000000c4000000c5000000e7000000e8000000f7000000f8000000ff000000000100000101000003010000040100000601000007010000180100001901000021010000220100004d0100004e010000740100007501000083010000840100008501000087010000880100008f01000090010000a0010000a10100005b0200005c020000
+  ExpandedWaapiItemIds: 010000000500000006000000070000000a0000000b0000000c0000000d0000002e0000002f000000310000003200000045000000460000005a0000005b0000009b0000009c000000c0000000c1000000c4000000c5000000e7000000e8000000f7000000f8000000ff000000000100000101000003010000040100000601000007010000180100001901000021010000220100004d0100004e010000740100007501000083010000840100008501000087010000880100008f01000090010000a0010000a10100005b0200005c020000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

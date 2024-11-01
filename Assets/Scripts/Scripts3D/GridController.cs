@@ -18,5 +18,6 @@ public class GridController : MonoBehaviour
     {
         gridAnimator.SetTrigger("Open");
         gridSound.SetActive(true);
+        gridSound.SetActive(false);
     }
 }
